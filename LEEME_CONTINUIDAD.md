@@ -2,7 +2,7 @@
 
 11 de septiembre de 2026 · Índice, no maestro
 
-Las mejoras autorizadas están construidas y revisadas documentalmente; la publicación de la mejora actual está preparada. La rama actual, mejora/arranque-y-lectura, depende de mejora/modelo-economico-portable; el Plan localiza su revisión e integración. La base inicial está conservada en main y en la etiqueta base-fundacional-v0.1. La construcción sigue teórica, sin clientes ni pruebas de la metodología. Carlos revisa producto y arquitectura; el asistente produce las piezas.
+Las mejoras autorizadas están construidas, revisadas documentalmente y publicadas. La [solicitud 3](https://github.com/RevOps-Studio/Go2Rev/pull/3) recoge la mejora actual. Su rama, mejora/arranque-y-lectura, depende de mejora/modelo-economico-portable; el Plan localiza su revisión e integración. La base inicial está conservada en main y en la etiqueta base-fundacional-v0.1. La construcción sigue teórica, sin clientes ni pruebas de la metodología. Carlos revisa producto y arquitectura; el asistente produce las piezas.
 
 ## Tres documentos vivos
 

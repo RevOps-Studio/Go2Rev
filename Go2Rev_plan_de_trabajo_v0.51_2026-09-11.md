@@ -8,7 +8,7 @@
 
 Mantener una primera metodología completa, lista para implementar en el primer cliente dentro del alcance declarado. La base v0.1 cerró su construcción documental. El [conjunto 0.4](producto/paquete_fundacional/v0.4/LEEME.md) incorpora las mejoras autorizadas sobre esa base. Go2Rev sigue teórico y sin clientes; esta revisión no ejecuta protocolos de prestación ni acredita resultados comerciales.
 
-La mejora actual se construye en `mejora/arranque-y-lectura`, desde el commit a6f1d97 de `mejora/modelo-economico-portable`. La puesta en marcha está en la [solicitud 1](https://github.com/RevOps-Studio/Go2Rev/pull/1) y el modelo portable en la [solicitud 2](https://github.com/RevOps-Studio/Go2Rev/pull/2). La tercera mejora depende de la segunda. Publicación de la rama actual y revisión de integración pendientes. `main` y la etiqueta `base-fundacional-v0.1` conservan la base inicial.
+La mejora actual está publicada en `mejora/arranque-y-lectura`, desde el commit a6f1d97 de `mejora/modelo-economico-portable`. La puesta en marcha está en la [solicitud 1](https://github.com/RevOps-Studio/Go2Rev/pull/1), el modelo portable en la [solicitud 2](https://github.com/RevOps-Studio/Go2Rev/pull/2) y el arranque/lectura en la [solicitud 3](https://github.com/RevOps-Studio/Go2Rev/pull/3). La tercera mejora depende de la segunda y contiene la implementación a557569. Revisión y decisión de integración pendientes. `main` y la etiqueta `base-fundacional-v0.1` conservan la base inicial.
 
 ## Componentes conservados
 
@@ -33,7 +33,7 @@ La mejora actual se construye en `mejora/arranque-y-lectura`, desde el commit a6
 | Diagnostic | Hipótesis y conversación breve conectadas desde N04/N06; patrón de fuentes por geografía con semillas reales de España/Portugal | Construido; sin investigación de una empresa ni conexiones instaladas |
 | Higiene y mantenimiento | Gobierno de construcción retirado de instrucciones operativas, nombre personal retirado de Word, dependencias, vigencia de entornos e historial del conjunto | Construido |
 | Renderizado alternativo | Conversor con LibreOffice y guía de dependencias | Implementado; ejecución Linux/LibreOffice pendiente de un entorno disponible |
-| Integración estable | Fuentes, derivados y maestros preparados en la rama dependiente | Carlos revisa el resultado antes de integrar; no se ha modificado main |
+| Integración estable | Fuentes, derivados y maestros publicados en la rama dependiente | Carlos revisa el resultado antes de integrar; no se ha modificado main |
 
 ## Siguiente decisión y límites
 
