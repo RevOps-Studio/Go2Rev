@@ -1,6 +1,6 @@
 # Guía del modelo económico editable
 
-Versión 0.1 · Uso futuro del [libro vacío](modelo/Go2Rev_modelo_economico_v0.1.xlsx)
+Libro y guía v0.2 · Uso futuro del [libro vacío](modelo/Go2Rev_modelo_economico_v0.2.xlsx)
 
 ## Contrato de uso
 
@@ -10,7 +10,24 @@ Las celdas amarillas de entrada permanecen vacías en el producto. Los números 
 
 Una celda de entrada desconocida se mantiene vacía en el libro y se identifica como desconocida/HUE en K12. Las fórmulas devuelven No calculable o conservan vacía una fila no utilizada; no sustituyen la ausencia por cero. Un cero conocido se introduce como número con fundamento. Los textos No calculable, Revisar entradas y Calculable expresan condiciones del cálculo, no evidencia ni autorización. Las fórmulas no pueden detectar por sí solas una partida omitida del alcance.
 
-El libro no contiene macros, conexiones, datos externos ni una integración obligatoria. Se dirige a un motor compatible con XLSX y funciones escalares comunes. Se ha revisado el documento y recalculado el formato vacío con el motor documental; **no se ha verificado su comportamiento con parámetros en Excel u otro motor de prestación**. Esa comprobación se realizará en el medio efectivo de la prestación. Una exportación correcta y una fórmula visible no la sustituyen.
+El libro no contiene macros, conexiones, datos externos ni una integración obligatoria. Se dirige a un motor compatible con XLSX y funciones escalares comunes. Su generador escribe fórmulas y solicita recálculo al abrir; no calcula resultados. Abrir y recalcular la copia de trabajo en el motor efectivo de la prestación antes de interpretar resultados. Una exportación correcta y una fórmula visible no sustituyen esa comprobación.
+
+## Orientación dentro del libro
+
+La hoja **Guia** explica preparación, significado de las entradas, cobertura, relaciones, comparación y conservación. Se añade a las seis hojas de cálculo existentes y no alimenta sus fórmulas. Los ceros numéricos se muestran como 0,00 según la configuración regional; los vacíos siguen representando ausencia de dato. Los avisos de estado tienen formato condicional y las explicaciones aparecen en celdas de fondo azul claro.
+
+| Dónde leer | Qué ayuda a resolver |
+|---|---|
+| Economia G11:G15 | Identidad, periodo, moneda, contrato y condición pendiente de cada resumen |
+| Economia O26:O37 y J44:J51 | Identificación, entradas, dominio y cobertura de ofertas y fijos |
+| Umbrales G20:G23 | Parámetros y dominio de cada relación |
+| Capacidad G8/G10, O14:O21 y L27:L58 | Factibilidad, factor de escala y condiciones de recursos y tareas |
+| Caja G9:G11 y N16:N47 | Condiciones de saldos/brecha y continuidad de cada evento |
+| Existencias N11:N26 y Recurrencia Q11:Q26 | Identidad, cortes, unidades, movimientos y cobertura de cada fila |
+
+La explicación muestra la primera condición pendiente; resolverla puede revelar otra. Las fórmulas de negocio y sus estados siguen gobernando el resultado. Una referencia AF escrita no acredita por sí sola evidencia suficiente, y una explicación favorable no detecta partidas omitidas ni concede autorización. La cobertura completa del perímetro E7 es necesaria para el resultado agregado; debe justificarse, incluso cuando existan resultados parciales calculables.
+
+Caja, Existencias y Recurrencia muestran en E4 la combinación de Economia. Mantienen su propio horizonte, cortes o periodo: conciliar su correspondencia en K12, sin exigir fechas idénticas. Caja incorpora en M16:M47 una lista de clasificación general; si se elige Otra documentada, explicar su regla. La clasificación no asigna automáticamente tratamiento contable, moneda ni obligaciones.
 
 ## Qué calcula y cómo se conecta
 
@@ -45,4 +62,4 @@ Para ampliar en una prestación: insertar filas dentro del bloque, extender fór
 
 El núcleo no optimiza mezcla, planifica fechas, elige tramos ni valora inventario. Tampoco infiere adquisición, abandono, aceptación de precio o valor futuro. Las [fórmulas generales](04_formulas_y_dominio.md) y [variantes](05_variantes_de_oferta_y_operacion.md) establecen cómo resolver las relaciones adicionales pertinentes. Si falta una adaptación material, la conclusión dependiente permanece limitada.
 
-Las fuentes generales son esta especificación y la [definición editable del libro](modelo/definicion_modelo.mjs), ambas dentro del producto. El generador documental utiliza esas fuentes actuales. No requiere originales históricos ni el archivo de referencia visual para regenerar el libro.
+Las fuentes generales son esta especificación y la [definición editable del libro](modelo/definicion_modelo.json), ambas dentro del producto. La [herramienta de generación](../../../../herramientas/modelo_economico/LEEME.md) utiliza esa definición actual con Python y openpyxl. No requiere originales históricos ni un libro anterior para regenerar el original vacío.

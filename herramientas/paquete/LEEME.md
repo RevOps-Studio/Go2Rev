@@ -1,6 +1,6 @@
 # Construcción de la distribución fundacional
 
-`construir_paquete.py` crea el inventario y manifiesto del [paquete vigente](../../producto/paquete_fundacional/v0.2/LEEME.md) y una distribución ZIP en `entregables/`. Utiliza solo las carpetas de versiones actuales enumeradas en el propio constructor y las herramientas documentales expresamente incluidas. Requiere Python y su biblioteca estándar; no ejecuta la metodología, el modelo económico ni los renderizadores.
+`construir_paquete.py` crea el inventario y manifiesto del [paquete vigente](../../producto/paquete_fundacional/v0.3/LEEME.md) y una distribución ZIP en `entregables/`. Utiliza solo las carpetas de versiones actuales enumeradas en el propio constructor y las herramientas documentales expresamente incluidas. Requiere Python y su biblioteca estándar; no ejecuta la metodología, el modelo económico ni los renderizadores.
 
 El constructor comprueba archivos y enlaces antes de distribuir, añade una entrada `INICIO.md` dentro del ZIP y conserva rutas relativas. Las vistas Word y el libro deben existir previamente; se incluyen tal como están, sin atribuir comprobación de comportamiento. El manifiesto fija todos los contenidos salvo su propia huella; el ZIP tiene una huella externa junto a él.
 

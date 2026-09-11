@@ -1,5 +1,7 @@
 param([Parameter(Mandatory=$true)][string]$InputDoc,[Parameter(Mandatory=$true)][string]$OutputPdf)
 $ErrorActionPreference='Stop'
+$InputDoc=[IO.Path]::GetFullPath($InputDoc)
+$OutputPdf=[IO.Path]::GetFullPath($OutputPdf)
 $taskWord=$null
 $taskDoc=$null
 try {

@@ -9,7 +9,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[2]
 OP = ROOT / 'producto/metodo/operacion_conversacional/v0.2'
-PACKAGE = ROOT / 'producto/paquete_fundacional/v0.2'
+PACKAGE = ROOT / 'producto/paquete_fundacional/v0.3'
 OUT = PACKAGE / 'lecturas'
 
 
@@ -42,7 +42,8 @@ def bundle(name, title, paths, first=''):
             path = (base.parent / rel).resolve() if rel else base.resolve()
             if path in aliases:
                 return f'[{label}](#{aliases[path]})'
-            path.relative_to(ROOT / 'producto')
+            if path != ROOT / 'herramientas/modelo_economico/LEEME.md':
+                path.relative_to(ROOT / 'producto')
             if not path.is_file():
                 raise FileNotFoundError(f'{base}: {target}')
             extra.add(path.relative_to(ROOT).as_posix())
@@ -54,7 +55,7 @@ def bundle(name, title, paths, first=''):
     for p in paths:
         raw = p.read_bytes()
         blocks += [f'<a id="{aliases[p]}"></a>\n\n## Fuente: {p.relative_to(ROOT).as_posix()}\n\nSHA256: {sha(raw)}\n\n' + links(raw.decode('utf-8-sig'), p)]
-    header = f'# {title}\n\nConjunto 0.2 · Compilación derivada; editar los originales identificados, no esta lectura.\n\nLeer la entrada común CARGA_INICIO junto a la tarea. Esta carga reúne instrucción, contrato y recursos de la capacidad. Un enlace a un archivo adicional no acredita su lectura. Abrirlo cuando su condición o dependencia sea necesaria; si no está disponible, delimitar el uso dependiente.\n\n'
+    header = f'# {title}\n\nConjunto 0.3 · Compilación derivada; editar los originales identificados, no esta lectura.\n\nLeer la entrada común CARGA_INICIO junto a la tarea. Esta carga reúne instrucción, contrato y recursos de la capacidad. Un enlace a un archivo adicional no acredita su lectura. Abrirlo cuando su condición o dependencia sea necesaria; si no está disponible, delimitar el uso dependiente.\n\n'
     if extra:
         header += '## Archivos adicionales localizables\n\n' + '\n'.join('- ' + s for s in sorted(extra)) + '\n\n'
     write(OUT / name, header + '\n\n'.join(blocks))
@@ -87,8 +88,8 @@ def main():
     folders = ['00 Sistema', '01 Entregables', '01 Entregables/Diagnostic', '01 Entregables/Design', '01 Entregables/Economia', '01 Entregables/Despliegue', '02 Anexos', '02 Anexos/Material del cliente', '02 Anexos/Investigacion externa', '02 Anexos/Actas y transcripciones', '03 QA', '04 Archivo', '05 Operacion']
     items = {p + '/': b'' for p in folders}
     items['00 Sistema/Indice del encargo.md'] = (OP / 'plantillas/04_indice_del_encargo.md').read_bytes()
-    items['INICIO.md'] = ('# Estructura vacía del encargo\n\nExtraer dentro de la raíz acordada de un nuevo encargo, separada de la biblioteca Go2Rev. Si existe trabajo previo, recuperar su índice y conciliar la correspondencia de carpetas antes de incorporar esta estructura; no sobrescribir archivos existentes.\n\nCompletar el índice cuando exista mandato y contenido. Crear Fuentes y Lectura en los conjuntos de Entregables y en Operacion al producir la primera pieza de ese tipo. Seguir carpetas y guardado en el paquete Go2Rev 0.2. Esta estructura contiene instrucciones y campos vacíos.\n').encode('utf-8')
-    with zipfile.ZipFile(PACKAGE / 'Go2Rev_estructura_vacia_v0.2.zip', 'w', compression=zipfile.ZIP_DEFLATED) as z:
+    items['INICIO.md'] = ('# Estructura vacía del encargo\n\nExtraer dentro de la raíz acordada de un nuevo encargo, separada de la biblioteca Go2Rev. Si existe trabajo previo, recuperar su índice y conciliar la correspondencia de carpetas antes de incorporar esta estructura; no sobrescribir archivos existentes.\n\nCompletar el índice cuando exista mandato y contenido. Crear Fuentes y Lectura en los conjuntos de Entregables y en Operacion al producir la primera pieza de ese tipo. Seguir carpetas y guardado en el paquete Go2Rev 0.3. Esta estructura contiene instrucciones y campos vacíos.\n').encode('utf-8')
+    with zipfile.ZipFile(PACKAGE / 'Go2Rev_estructura_vacia_v0.3.zip', 'w', compression=zipfile.ZIP_DEFLATED) as z:
         for name, data in sorted(items.items()):
             info = zipfile.ZipInfo(name, (2026, 9, 11, 0, 0, 0))
             info.create_system = 3

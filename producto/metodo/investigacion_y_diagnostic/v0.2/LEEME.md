@@ -1,6 +1,6 @@
 # Investigación y recomendación Diagnostic
 
-Versión base 0.2 · Integración del conjunto 0.2
+Versión base 0.2 · Integración del conjunto 0.3
 
 Para empezar, consultar [primera pasada y núcleo por resultado](../../operacion_conversacional/v0.2/10_primera_pasada.md), [glosario](../../operacion_conversacional/v0.2/00_glosario.md) y [carpetas y guardado](../../operacion_conversacional/v0.2/08_carpetas_y_guardado.md). Aplicar las instrucciones de la tarea y conservar las referencias a sus fuentes.
 

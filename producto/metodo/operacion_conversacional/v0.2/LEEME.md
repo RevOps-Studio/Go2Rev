@@ -1,6 +1,6 @@
 # Operación conversacional y capacidades del entorno
 
-Versión base 0.2 · Integración del conjunto 0.2
+Versión base 0.2 · Integración del conjunto 0.3
 
 Para empezar, consultar [primera pasada y núcleo por resultado](10_primera_pasada.md), [glosario](00_glosario.md) y [carpetas y guardado](08_carpetas_y_guardado.md). Aplicar las instrucciones de la tarea y conservar las referencias a sus fuentes.
 

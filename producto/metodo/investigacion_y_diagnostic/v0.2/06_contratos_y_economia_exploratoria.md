@@ -104,4 +104,4 @@ Aplicar CAM al campo material y recorrer relaciones efectivas de consumo, no tod
 
 ## Cierre documental del componente
 
-investigación y Diagnostic queda construido por la existencia de instrucciones sustantivas N03–N06, investigación común, contratos y plantillas vacías con significado y consumidores. La integración con oferta, entrega y economía–operación conversacional se conserva en el [paquete fundacional](../../../paquete_fundacional/v0.2/LEEME.md), que identifica alcance, versión e instrucciones de implementación. La revisión actual es documental; no utiliza recorridos de negocio ni ejecuta protocolos.
+investigación y Diagnostic queda construido por la existencia de instrucciones sustantivas N03–N06, investigación común, contratos y plantillas vacías con significado y consumidores. La integración con oferta, entrega y economía–operación conversacional se conserva en el [paquete fundacional](../../../paquete_fundacional/v0.3/LEEME.md), que identifica alcance, versión e instrucciones de implementación. La revisión actual es documental; no utiliza recorridos de negocio ni ejecuta protocolos.
