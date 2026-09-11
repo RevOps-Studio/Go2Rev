@@ -2,17 +2,19 @@
 
 11 de septiembre de 2026 · Índice, no maestro
 
-Go2Rev v0.5 incorpora el intake operativo en la rama mejora/intake-diagnostic, autorizado por Carlos el 11 de septiembre de 2026. La [solicitud 4](https://github.com/RevOps-Studio/Go2Rev/pull/4) conserva la mejora para revisión de integración. Main y la etiqueta base-fundacional-v0.4 mantienen la base estable anterior; las etiquetas y versiones previas se conservan. El método sigue teórico, sin clientes ni pruebas de aplicación. Carlos revisa producto y arquitectura; el asistente produce las piezas.
+Carlos autoriza integrar en main el intake y la propuesta de clasificación el 11 de septiembre de 2026. Este corte reúne Go2Rev v0.5 con intake operativo y el análisis de entregables, consumo y proceso. Las [solicitudes 4](https://github.com/RevOps-Studio/Go2Rev/pull/4) y [5](https://github.com/RevOps-Studio/Go2Rev/pull/5) conservan la integración y su orden. El método sigue teórico, sin clientes ni pruebas de aplicación; ramas, etiquetas y distribuciones anteriores se preservan.
 
 ## Tres documentos vivos
 
-- [Plan v0.54](Go2Rev_plan_de_trabajo_v0.54_2026-09-11.md): incorporación completada y límites pendientes.
-- [Producto v0.43](Go2Rev_producto_y_metodo_v0.43_2026-09-11.md): definición vigente e intake operativo.
-- [Evidencias v0.50](Go2Rev_evidencias_y_pruebas_v0.50_2026-09-11.md): autoridad, fuentes y revisión documental.
+- [Plan v0.56](Go2Rev_plan_de_trabajo_v0.56_2026-09-11.md): corte integrado y siguiente desarrollo de clasificación/formatos.
+- [Producto v0.45](Go2Rev_producto_y_metodo_v0.45_2026-09-11.md): definición operativa v0.5 y análisis para el siguiente trabajo.
+- [Evidencias v0.52](Go2Rev_evidencias_y_pruebas_v0.52_2026-09-11.md): autorización, procedencia y revisión de integración.
 
 ## Trabajo actual
 
-La rama `mejora/intake-diagnostic` parte de main `15d2cebd08cb53073a8b5a67f11ba065ef41bd4a` y continúa la propuesta publicada en a6d37a4. La [guía de intake](producto/metodo/encargo_y_conocimiento/v0.1/04_intake_diagnostic.md), [catálogo](producto/metodo/encargo_y_conocimiento/v0.1/05_catalogo_de_informacion.md) y comunicación de SOL ya están conectados a instrucciones, contratos y lecturas. Se regeneró y revisó v0.5. La propuesta está archivada como procedencia. Si se pide un ajuste, continuar esta rama; la siguiente decisión de repositorio es su integración en main.
+La [clasificación](producto/propuestas/entregables_y_consumo/v0.1/01_clasificacion_y_criterios.md) distingue interno de proceso, interno de consumo y externo entregable, con circulación separada y checkpoints como momentos de decisión. El [anexo de 37 plantillas](producto/propuestas/entregables_y_consumo/v0.1/02_correspondencia_de_plantillas.md) localiza la correspondencia sin cambiar contratos.
+
+La propuesta se incorpora como base documental; todavía hay que trasladar el criterio a instrucciones operativas y construir formatos por lector y tarea. La siguiente mejora partirá de main actualizado en una rama propia. La guía, catálogo y comunicación del intake, así como todos los componentes de v0.5, conservan su revisión. Los maestros previos a esta integración se guardan en [procedencia](procedencia/maestros_preintegracion_v0.5/LEEME.md).
 
 ## Entrada del producto
 

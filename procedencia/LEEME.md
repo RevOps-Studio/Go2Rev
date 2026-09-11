@@ -17,3 +17,7 @@ Las fuentes metodológicas actuales permanecen en `producto/`. Los tres maestros
 
 - [Propuesta de intake incorporada](intake/v0.1/LEEME.md): propuesta original y correspondencia con las fuentes operativas.
 - [Maestros de la propuesta de intake](maestros_propuesta_intake/LEEME.md): copias exactas anteriores a la incorporación autorizada.
+
+- [Maestros del intake operativo](maestros_intake_operativo/LEEME.md): copias exactas anteriores a la revisión de entregables y consumo.
+
+- [Maestros anteriores a integrar v0.5](maestros_preintegracion_v0.5/LEEME.md): copias exactas anteriores a la integración autorizada del intake y la propuesta de clasificación.
