@@ -8,7 +8,7 @@
 
 Construir y mantener una primera metodología completa, lista para implementar en un primer cliente dentro del alcance declarado. La base v0.1 cerró su construcción documental; esta continuación incorpora mejoras autorizadas tras la revisión externa. Go2Rev sigue teórico y sin clientes. La revisión de archivos no ejecuta los protocolos de prestación ni valida resultados comerciales.
 
-El [paquete v0.3](producto/paquete_fundacional/v0.3/LEEME.md) integra las mejoras autorizadas de puesta en marcha y modelo económico. La primera tiene su [solicitud de integración](https://github.com/RevOps-Studio/Go2Rev/pull/1); la segunda está construida en `mejora/modelo-economico-portable`, dependiente del commit publicado 272e830 de `mejora/puesta-en-marcha`. La revisión del segundo cambio se dirige a esa rama. Integrar primero la puesta en marcha y después el modelo requiere revisión y autorización de Carlos. `main` y la etiqueta `base-fundacional-v0.1` conservan la base inicial.
+El [paquete v0.3](producto/paquete_fundacional/v0.3/LEEME.md) integra las mejoras autorizadas de puesta en marcha y modelo económico. Ambas están publicadas: [puesta en marcha, solicitud 1](https://github.com/RevOps-Studio/Go2Rev/pull/1) y [modelo económico, solicitud 2](https://github.com/RevOps-Studio/Go2Rev/pull/2). La segunda usa `mejora/modelo-economico-portable`, dependiente del commit publicado 272e830 de `mejora/puesta-en-marcha`, y se dirige a esa rama. Integrar primero la puesta en marcha y después el modelo requiere revisión y autorización de Carlos. `main` y la etiqueta `base-fundacional-v0.1` conservan la base inicial.
 
 ## Componentes fundacionales conservados
 
@@ -31,7 +31,7 @@ El [paquete v0.3](producto/paquete_fundacional/v0.3/LEEME.md) integra las mejora
 | Claridad del análisis | Suficiencia por uso, hipótesis fundadas, fuente interna/externa, atributos→valor→segmento, precio, seguimiento, registros/CRM, recepción E/O | Integrado sin sustituir contratos ni imponer umbrales universales |
 | Fuentes candidatas | Catálogo inicial fechado, selección por pregunta y decisión sobre acceso/MCP | Construido; no conexiones instaladas ni investigación empresarial ejecutada |
 | Libro y generación | Generador accesible, cero visible, diagnóstico de entradas/cobertura, orientación dentro del libro y generación documentada | Construido y revisado documentalmente en la rama dependiente |
-| Integración estable | Solicitudes de integración con fuentes, derivados, maestros y límites consistentes | Preparar y publicar la segunda solicitud; decisión de integración pendiente de revisión de Carlos |
+| Integración estable | Dos solicitudes publicadas con fuentes, derivados, maestros y límites consistentes | Revisión y decisión de integración pendientes de Carlos |
 
 ## Cierre documental y siguiente decisión
 
