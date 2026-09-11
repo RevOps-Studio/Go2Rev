@@ -1,0 +1,61 @@
+# Plantilla de actividad, coste y cohorte
+
+Versión 0.1 · Campos K09/K10 para K12/K13 · Campos empresariales vacíos
+
+Usar con [costes, cohortes y capacidad](../04_costes_cohortes_y_capacidad.md). Este bloque vincula trabajo comercial y población a las [partidas y recursos de K12](../../../oferta_entrega_y_economia/v0.1/plantillas/03_partidas_y_recursos.md). Referenciar la misma partida fuente: el reparto para analizar una ruta no crea un coste adicional.
+
+## Perímetro de población y medida
+
+| Campo | Regla | Valor |
+|---|---|---|
+| Referencia | K09/K10, sección/revisión, autor, fecha y estado | |
+| Encargo y uso | K01/revisión, E/O y combinación; moneda, impuestos, periodo y unidad económica | |
+| Cohorte | Regla de inclusión, origen de entrada y corte; identificar sin crear otro maestro | |
+| Unidad e identidad | Persona, cuenta, ocasión, pedido o unidad vendida; enlace entre objetos y deduplicación | |
+| Observación | Ventana, fecha del evento, tiempo de seguimiento y tratamiento de entradas inmaduras | |
+| Población al corte | Definiciones mutuamente excluyentes de avance, cierre sin avance, pendiente y resultado desconocido | |
+| Resultado medido | Evento, condición, fuente y unidad; adquisición nueva distinta de renovación o segunda compra | |
+| Numerador y denominador | Definiciones, cobertura y compatibilidad; rutas que saltan pasos se separan | |
+| Naturaleza y fundamento | AF/FUE por cantidad/tasa/tiempo; observado, inferido, hipotético o desconocido | |
+| Transferibilidad | Origen/destino, comparabilidad, sesgo, límites y razonamiento para cada dato externo o histórico | |
+| Solapamiento y atribución | Ventana, regla, identidad y parte sin atribuir; atribuir no demuestra causalidad | |
+
+## Actividad y recurso — bloque repetible
+
+| Campo | Regla | Valor |
+|---|---|---|
+| Actividad y frontera | Preparación o tarea repetida; K09/K10 productor y consumidor, evitando doble registro | |
+| Impulsor | Qué genera trabajo: preparación, intentos, exposiciones, respuestas, revisiones u otro evento definido | |
+| Cantidad de ejecuciones | Todas las ejecuciones pertinentes, incluso sin resultado; fuente/hipótesis y periodo | |
+| Recurso | Unidad no intercambiable, competencia y CAP; no usar dedicación de Carlos al desarrollo como capacidad de servicio | |
+| Preparación y carga fija | S por recurso/cohorte, cobertura y motivo de no proporcionalidad a repeticiones | |
+| Consumo por ejecución | h por recurso/actividad, unidad, fuente y variación material | |
+| Carga y calendario | Relación S + suma de ejecuciones por consumo, periodo y distribución necesaria para compromisos de respuesta | |
+| Disponibilidad neta | A menos otros compromisos B, unidad y franjas; referencia común con K11/K12 | |
+| Restricción y respuesta | Cuello de botella, capacidad por habilitar o límite de emisión/compromiso | |
+
+## Partida y representación económica — bloque repetible
+
+| Campo | Regla | Valor |
+|---|---|---|
+| Partida fuente | Identificador/localización/revisión de K12; conservar una sola contabilización | |
+| Componentes y cobertura | Trabajo, terceros, medios, datos, incentivos u otros costes pertinentes; ausencias materiales visibles | |
+| Cantidad y tarifa | Referencia de fuente, unidad, moneda/impuestos y regla de cálculo de la partida | |
+| Perímetro de coste | Incremental, reconocido o valoración de recurso ya remunerado; relación con salario/coste común | |
+| Compartición | Rutas y tareas consumidoras, regla de reparto y conciliación con total de origen | |
+| Reconocimiento y pago | Periodo de reconocimiento separado de fecha/condición de pago; enlace a evento de caja | |
+| Comportamiento | Fijo en rango, variable por unidad o función de actividad/tramo; dominio que lo justifica | |
+| Representación K12 | Total del periodo, variable por unidad sustentado o relación adicional; no introducir CAC automáticamente como variable | |
+| Conciliación | Cómo el total de partidas se conserva sin sumar de nuevo coste por resultado o atribuciones | |
+| Relación coste/resultado | C hasta resultado definido dividido por su cantidad positiva compatible; cero o desconocido no autorizan cociente | |
+
+## Conclusión y entrega
+
+| Campo | Regla | Valor |
+|---|---|---|
+| Resultado utilizable | Calculable, parcial o no calculable; límite y decisión que permite | |
+| Dependencia sensible | Premisa, efectos conjuntos y umbral sustentado o relación simbólica; no inventar extremos | |
+| Carencia material | HUE/CON, productor y qué compromiso queda limitado | |
+| Consumidores y revisión | N06/N12/N13 pertinentes, campo/revisión, recepción y condición CAM | |
+
+La fórmula vacía expresa una relación general. Durante esta construcción no se completan cantidades, tasas, tarifas, importes ni resultados.

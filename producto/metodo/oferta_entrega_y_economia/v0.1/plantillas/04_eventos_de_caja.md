@@ -1,0 +1,24 @@
+# Plantilla · Eventos de cobro y pago
+
+Versión 0.1 · [Entrega y cobro](../02_entrega_y_cobro.md) · [Fórmulas](../04_formulas_y_dominio.md)
+
+Repetir por obligación/evento. Mantener separados evento previsto, condición acordada y movimiento observado.
+
+| Campo | Regla | Valor |
+|---|---|---|
+| Cabecera | K11/K12, revisión, combinación, horizonte, moneda y escala | |
+| Saldo inicial | Importe, fecha, procedencia y disponibilidad efectiva | |
+| Reserva mínima | Regla/importe, horizonte y autoridad; no porcentaje universal | |
+| Evento | ID, obligación, contraparte y vínculo con oferta/tarea | |
+| Naturaleza | Cobro, pago, devolución, inversión, tributo o financiación pertinente | |
+| Importe y base | Valor o desconocido, moneda/impuestos y fórmula de la obligación | |
+| Condición | Qué habilita el evento y quién tiene autoridad | |
+| Fecha y orden | Fecha/regla, evento de origen, calendario y secuencia intradía | |
+| Fundamento | AF/FUE, naturaleza de afirmación, revisión y límites | |
+| Reconocimiento económico | Relación con ingreso/coste, inversión u otra clasificación | |
+| Financiación | Disponibilidad/condiciones acreditadas, vencimiento y pagos asociados | |
+| Incidencia | Retraso, disputa, impago/devolución y efecto sobre saldo/plazo | |
+| Movimiento observado | Comprobante/importe/fecha/aplicación solo cuando exista | |
+| Cobertura del calendario | Obligaciones incluidas, ausentes y conclusión que limitan | |
+| Resultado y brecha | Saldos, mínimo incluyendo inicio y financiación adicional necesaria | |
+| Consumo y revisión | Campos/revisiones consumidores, admisión/límite y CAM | |

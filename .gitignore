@@ -1,0 +1,22 @@
+# Archivo local de procedencia y versiones sustituidas.
+/Back to the plan/
+
+# Dependencias, salidas de revisión y cachés locales.
+node_modules/
+/herramientas/**/salida/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Configuración privada y archivos temporales del entorno.
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+.DS_Store
+Thumbs.db
+~$*
+*.tmp

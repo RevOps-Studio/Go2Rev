@@ -1,0 +1,44 @@
+# Plantilla · Intercambio exploratorio con N08–N12
+
+Versión de plantilla 0.2 · Campos de prestación vacíos
+
+Usar con [contratos y economía exploratoria](../06_contratos_y_economia_exploratoria.md). Es una sección agrupable de solicitud/recepción por combinación de K06. El asistente organiza las entradas; cada nodo mantiene su salida K y el registro compartido de FND02. No es un nuevo modelo económico ni un plan de prestación.
+
+Los campos materiales para el compromiso son obligatorios; se admite desconocido con causa y efecto sobre el uso. Esta plantilla no precarga supuestos, parámetros ni resultados. E conserva su significado exploratorio y no acredita condiciones de operación.
+
+## Identificación y comparabilidad
+
+| Campo | Regla | Valor |
+|---|---|---|
+| Combinación y revisión | K06/sección estable, ámbito de K01 y fecha | |
+| Pregunta de decisión | Compromiso y premisa que necesita resolver el intercambio | |
+| Unidad y actores | Comprador contractual, usuario, pagador, intermediario; unidad de venta y entrega y relación entre ellas | |
+| Perímetro económico | Iniciativa evaluada, separado de honorarios/condiciones de prestar Go2Rev | |
+| Periodo, moneda y condiciones | Ventana, impuestos, calendario y alcance comparables | |
+| Responsables y entradas de contexto | Productores N08–N12; K02–K05/TRA/CAP pertinentes con revisiones | |
+
+## Recepción por productor · Repetir únicamente los campos pertinentes
+
+| Campo | Regla | Valor |
+|---|---|---|
+| Oferta/precio N08 E | Unidad, contenido, promesa controlable, exclusiones, alternativa de precio/condiciones, soporte y carencias | |
+| Acceso N09 E | Mecanismo, insumos, permisos, actividad, coste de intentos, cohorte/población y respuesta con su naturaleza | |
+| Compra N10 E | Decisiones/transiciones, esfuerzo/tiempo por rol, intentos sin venta, aceptación y requisitos de inicio | |
+| Entrega/cobro N11 E | Preparación, repetición/retrabajo, recursos, aceptación, costes y eventos de pagos/cobros con condiciones | |
+| Economía N12 E | Modelo editable, dominio, entradas/fórmulas, cobertura, resultados calculables y no calculables | |
+| Fundamento por campo | AF/FUE y K/revisión; observado/declarado/inferido/hipotético según registro, desconocidos explícitos | |
+| Condición externa y capacidad propia | Cruce que justifica precio/coste/requisito/volumen o límite, con ámbito y revisión; previsión o referencia externa no se convierten en parámetro propio cierto | |
+| Magnitudes de decisión | Contribución, resultado/fijos, equilibrio cuando exista, capacidad y caja con límites | |
+| Comparación y variación | Premisa material, cambio aislado/combinado justificable, efecto y umbral cuando calculable | |
+
+## Revisión de recepción y devolución
+
+| Campo | Regla | Valor |
+|---|---|---|
+| Compatibilidad revisada | Ámbito, unidad, periodo, mezcla y actores compatibles o transformación explícita | |
+| Cobertura y doble imputación | Costes/trabajo incluidos, omitidos o repetidos; roles y disponibilidades no intercambiables | |
+| Dominio y desconocidos | Denominadores, unidades y restricciones; lo que no puede calcularse y por qué | |
+| Juicio sobre el uso solicitado | Qué resultado basta para la decisión y qué no permite concluir | |
+| Disposición por campo | Admitido, admitido con límites o devuelto; productor, corrección/evidencia y evento necesario | |
+| Consecuencia para K06 | Mantener, limitar o revisar combinación; siguiente pregunta o ajuste | |
+| Relación de consumo y cambios | Versiones incorporadas, consumidores y premisa que reabre el análisis | |
