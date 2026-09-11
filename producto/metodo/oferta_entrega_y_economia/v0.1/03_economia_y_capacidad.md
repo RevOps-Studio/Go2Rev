@@ -28,7 +28,7 @@ La cobertura se juzga para el compromiso. E puede servir para descartar una comb
 
 El consultor responde del modelo y razonamiento. Finanzas, operación y propietarios aportan datos exclusivos y confirman su significado; el patrocinador decide riesgo e inversión. Si un parámetro queda pendiente, identificar HUE, fuente alternativa, responsable y uso detenido. No exigir reconstruir toda la economía de una organización para una decisión acotada.
 
-El [modelo editable](modelo/Go2Rev_modelo_economico_v0.1.xlsx) implementa un núcleo explícito y extensiones de stock/recurrencia; su [guía](08_guia_del_modelo.md) delimita capacidades. Las fórmulas generales incluyen relaciones que pueden precisar adaptación documentada de la fuente de cálculo. No se denomina calculadora universal ni se presenta el resultado parcial como resultado contable completo.
+El [modelo editable](modelo/Go2Rev_modelo_economico_v0.2.xlsx) implementa un núcleo explícito y extensiones de stock/recurrencia; su [guía](08_guia_del_modelo.md) delimita capacidades. Las fórmulas generales incluyen relaciones que pueden precisar adaptación documentada de la fuente de cálculo. No se denomina calculadora universal ni se presenta el resultado parcial como resultado contable completo.
 
 ## Revisión ante cambios
 

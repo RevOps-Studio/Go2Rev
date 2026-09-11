@@ -8,7 +8,7 @@ Go2Rev se organiza como un sistema de decisiones sobre una iniciativa y su merca
 
 La promesa aceptada exige resolver la conexión entre comprador, oferta, acceso, venta, entrega y cobro, y comprobar la preparación del recorrido contratado. Para conseguirlo hay que diseñar también conocimiento interno, investigación externa, posicionamiento, precio, medición y criterios de decisión. Cada capacidad aporta contenido necesario para esa promesa.
 
- La primera base es enteramente teórica y no ha habido clientes. Las instrucciones, plantillas, modelos y protocolos que desarrollan esta arquitectura se localizan en el [paquete fundacional](../../paquete_fundacional/v0.2/LEEME.md). Los nodos siguientes describen la prestación.
+ La primera base es enteramente teórica y no ha habido clientes. Las instrucciones, plantillas, modelos y protocolos que desarrollan esta arquitectura se localizan en el [paquete fundacional](../../paquete_fundacional/v0.3/LEEME.md). Los nodos siguientes describen la prestación.
 
 ## Decisiones de arquitectura aceptadas
 

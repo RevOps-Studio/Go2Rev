@@ -4,5 +4,7 @@ Estos archivos conservan correspondencia con originales leídos y decisiones de 
 
 - Arquitectura: `arquitectura/05_reutilizacion_y_fuentes.md` y `arquitectura/06_construccion_y_revision.md`.
 - Componentes: correspondencias en `metodo/`, ordenadas por capacidad.
+- [Modelo v0.1 sustituido](modelo_base_v0.1/LEEME.md): definición, libro y herramienta originales.
+- [Maestros de integración v0.2](maestros_integracion_v0.2/LEEME.md): copias exactas anteriores a la mejora del modelo.
 
 Las fuentes metodológicas actuales permanecen en `producto/`. Los tres maestros de la raíz mantienen tareas, definición y evidencias. La base anterior está identificada por la etiqueta Git `base-fundacional-v0.1`; el archivo histórico local conserva los originales excluidos de Git.

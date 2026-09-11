@@ -29,7 +29,7 @@ Dentro de cada conjunto de Entregables y de Operacion usar `Fuentes` para editar
 3. Si hay una estructura previa que debe respetarse, registrar una tabla de correspondencia entre estas funciones y sus ubicaciones reales en el índice. Mantener esa correspondencia en todos los guardados. Una carpeta inaccesible queda pendiente; no se declara creada.
 4. En una continuación, abrir el índice, las decisiones y el contenido de la tarea. Completar solo las ubicaciones necesarias que falten. Conservar los archivos existentes y conciliar revisiones incompatibles antes de sustituirlas.
 
-La [estructura vacía](../../../paquete_fundacional/v0.2/LEEME.md) se distribuye como ZIP independiente, con instrucciones y una plantilla de índice. Prepararla es una operación documental; no habilita contratación, contacto ni actuación comercial por sí sola.
+La [estructura vacía](../../../paquete_fundacional/v0.3/LEEME.md) se distribuye como ZIP independiente, con instrucciones y una plantilla de índice. Prepararla es una operación documental; no habilita contratación, contacto ni actuación comercial por sí sola.
 
 ## Regla de destino por resultado
 
