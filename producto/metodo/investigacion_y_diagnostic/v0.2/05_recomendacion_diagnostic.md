@@ -2,13 +2,15 @@
 
 Versión 0.2 · Procedimiento de futura prestación
 
+Empezar con la [primera pasada de N06](../../operacion_conversacional/v0.2/10_primera_pasada.md#n06) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
 ## Decisión, responsabilidad y salida
 
 Recomendar qué compromiso conviene asumir con la información disponible: continuar, continuar con condiciones, obtener evidencia adicional, ajustar, aplazar o cerrar. La decisión se refiere al alcance concreto de K01. Diagnostic puede terminar en una evaluación recibida sin construir el sistema comercial.
 
 El asistente integra, compara y recomienda; el consultor responde del análisis. El patrocinador dispone recursos y continuidad dentro de su autoridad, registrada en DEC. La aceptación no transforma hipótesis en hechos ni declara preparación operativa.
 
-Entradas: K01–K05 y representaciones exploratorias de K08 oferta/precio, K09 acceso, K10 compra, K11 entrega/cobro y K12 economía/capacidad. K14–K16 aportan protocolo y evidencia cuando una actuación sea necesaria y se haya realizado durante la futura prestación. El [contrato exploratorio](06_contratos_y_economia_exploratoria.md) determina campos, productores y límites. La salida K06 se recoge en la [plantilla de recomendación](plantillas/05_recomendacion_diagnostic.md).
+Entradas: K01–K05 y representaciones exploratorias de K08 oferta/precio, K09 acceso, K10 compra, K11 entrega/cobro y K12 economía/capacidad. K14–K16 aportan protocolo y evidencia cuando una actuación sea necesaria y se haya realizado durante la prestación. El [contrato exploratorio](06_contratos_y_economia_exploratoria.md) determina campos, productores y límites. La salida K06 se recoge en la [plantilla de recomendación](plantillas/05_recomendacion_diagnostic.md).
 
 ## 1. Fijar el compromiso que se decide
 
@@ -64,7 +66,7 @@ Examinar contribución por unidad comparable, resultado tras costes fijos pertin
 
 Solicitar análisis diferencial de una premisa material y de combinaciones justificadas. Examinar el cambio que podría invertir la recomendación: respuesta comercial, precio/condiciones, coste de adquisición y de intentos sin venta, trabajo, retrabajo, disponibilidad o calendario de cobro/pago. Conservar relaciones entre variables; no reducir una conversión y mantener por inercia un coste de adquisición favorable.
 
-Una variación solo es defendible si tiene fundamento o si se presenta expresamente como pregunta de umbral, con dominio y límite. Los valores ausentes no se completan con valores plausibles. Si no se puede calcular, explicar qué depende de la incógnita y qué evidencia resolvería el compromiso. FND03 define este intercambio; el modelo y sus fórmulas completas pertenecen a N12.
+Una variación solo es defendible si tiene fundamento o si se presenta expresamente como pregunta de umbral, con dominio y límite. Los valores ausentes no se completan con valores plausibles. Si no se puede calcular, explicar qué depende de la incógnita y qué evidencia resolvería el compromiso. investigación y Diagnostic define este intercambio; el modelo y sus fórmulas completas pertenecen a N12.
 
 La recomendación es robusta para el uso indicado cuando la mejor opción no cambia bajo variaciones justificadas pertinentes, o cuando el compromiso puede limitarse de manera que la incertidumbre pendiente no lo invalide. Si no se cumple, proponer evidencia adicional, ajuste, aplazamiento o cierre según la causa. No atribuir una probabilidad de éxito sin fundamento.
 
@@ -79,7 +81,7 @@ La recomendación es robusta para el uso indicado cuando la mejor opción no cam
 | Aplazar | Una condición temporal o incertidumbre indispensable impide el compromiso actual y existe una condición de reanudación identificable | Qué se entrega ahora, qué cesa o permanece, fundamento, responsable y disparador para revisar vigencia |
 | Cerrar | El trabajo no debe continuar bajo el ámbito y condiciones evaluados, o no hay una vía proporcionada y autorizable para resolver la carencia | Evaluación recibible, alcance de la conclusión, límites, liquidación pactada y finalización del acompañamiento |
 
-La preparación de una prueba reversible de la arquitectura se concreta como obtención de evidencia adicional o continuación con condiciones según el trabajo habilitado. Se conservan las opciones de FND02; no se añade otra fase ni se exige una prueba como salida universal.
+La preparación de una prueba reversible de la arquitectura se concreta como obtención de evidencia adicional o continuación con condiciones según el trabajo habilitado. Se conservan las opciones de encargo y conocimiento; no se añade otra fase ni se exige una prueba como salida universal.
 
 Una condición no separable de la promesa impide recomendar continuación de esa promesa como si estuviera satisfecha. Cerrar el encargo no equivale a demostrar que una oportunidad nunca será viable. Continuar el diseño no equivale a afirmar demanda o autorizar gasto y comunicaciones fuera de K01.
 
@@ -99,6 +101,6 @@ DEC conserva disposición, decisor, fecha, rastro, alcance habilitado y condicio
 
 N07–N15 reciben la combinación y el alcance efectivamente habilitados, versiones de entradas, restricciones y condiciones que no pueden tratar como cumplidas. N17 recibe evaluación, decisión, obligaciones de entrega, condiciones económicas de salida y límites de continuidad. N01 recibe cualquier modificación de encargo propuesta o acordada.
 
-Si se requiere más evidencia, N14 recibe la pregunta y el compromiso que su resultado podría habilitar; N15/N16 se activan solo según protocolo, recursos y permisos de la futura prestación. La construcción actual entrega estas reglas y formatos, sin ejecutar esas actuaciones.
+Si se requiere más evidencia, N14 recibe la pregunta y el compromiso que su resultado podría habilitar; N15/N16 se activan solo según protocolo, recursos y permisos de la prestación. La construcción actual entrega estas reglas y formatos, sin ejecutar esas actuaciones.
 
 Cambios de necesidad, alternativa, acceso, precio/coste, cobro, capacidad o autoridad que afecten la tesis reabren K06 antes del compromiso dependiente. Conservar versión anterior y registrar CAM con impacto en cada consumidor. Una continuación de conversación no altera por sí misma el fundamento ni obliga a repetir Diagnostic.

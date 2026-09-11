@@ -30,4 +30,4 @@ Registrar AF derivada con premisas, relación, explicación contraria y uso perm
 
 La [plantilla de comparación](plantillas/06_comparacion.md) conserva entradas, relaciones y resultados por versión, cuando se use en una prestación. El libro calcula una combinación por versión; no contiene escenarios rellenados ni una comparación simultánea automática. Cada alternativa necesita su propia fuente de parámetros y cálculo conservada en la prestación; los resultados comparados deben ser localizables y vigentes. Cambiar una premisa invalida la comparación dependiente hasta actualizarla.
 
-La preparación de esta capacidad consiste ahora en las instrucciones, fórmulas y campos vacíos. No se ejecutan comparaciones empresariales ni pruebas durante la construcción fundacional.
+ No se ejecutan comparaciones empresariales ni pruebas

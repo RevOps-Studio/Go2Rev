@@ -2,7 +2,7 @@
 
 Versión de plantilla 0.1 · Campos de prestación vacíos
 
-Usar con [N01](../01_encargo_y_salida.md) y el [diccionario común](../03_contratos_y_diccionario.md). La columna Regla es metadato metodológico. La columna Valor se completa únicamente durante una futura prestación. Repetir los bloques indicados cuando proceda; no crear filas sin finalidad.
+Usar con [N01](../01_encargo_y_salida.md) y el [diccionario común](../03_contratos_y_diccionario.md). La columna Regla es metadato metodológico. La columna Valor se completa únicamente durante la prestación. Repetir los bloques indicados cuando proceda; no crear filas sin finalidad.
 
 **Obligatoriedad:** EVAL = antes de iniciar la evaluación contratada; CONTR = antes de contratar; USO = antes del uso dependiente; A/B = condicional al recorrido. Un campo puede estar pendiente mientras se redacta la propuesta; registrar su efecto. Todo compromiso material necesita fuente/localizador o DEC. La aceptación se registra exclusivamente en DEC.
 
@@ -114,3 +114,7 @@ Para condiciones, identificar trabajo permitido y compromiso detenido. Para evid
 | Consumidores y campos | Relaciones de consumo de N02–N17 pertinentes | |
 | Disparadores de revisión | Cambios de iniciativa, ámbito, oferta, recurso, autoridad o condiciones que afectarían el encargo | |
 | Pendientes y siguiente acción | HUE/SOL, responsable y compromiso afectado | |
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K01, completar el núcleo de [N01 Delimitar encargo y salida](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

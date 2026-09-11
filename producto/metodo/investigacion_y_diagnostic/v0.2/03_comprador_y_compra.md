@@ -2,6 +2,8 @@
 
 Versión 0.2 · Procedimiento de futura prestación
 
+Empezar con la [primera pasada de N04](../../operacion_conversacional/v0.2/10_primera_pasada.md#n04) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
 ## Decisión, entradas y salida
 
 Recomendar a quién empezar, en qué situación y qué debe ocurrir para que se decida la compra. N04 produce K04: segmentos comparados, foco propuesto, criterios de inclusión/exclusión, roles, situaciones, criterios de elección, recorrido de decisión y límites del conocimiento.
@@ -38,7 +40,7 @@ Separar intereses y restricciones por función. La mejora para un usuario no dem
 
 En distribución, mantener mapas relacionados para intermediario y cliente final: incorporación al canal, incentivos y recursos del intermediario, elección/uso final y circulación de información. La compra de stock no acredita demanda final. En autoservicio, describir qué decisiones se resuelven en el propio recorrido y qué roles pueden intervenir excepcionalmente; no imponer una reunión.
 
-Las identidades de personas no son necesarias para diseñar el mapa general de roles. En la futura prestación solo se incorporarán los datos pertinentes y autorizados, fuera de las fuentes metodológicas.
+Las identidades de personas no son necesarias para diseñar el mapa general de roles. En la prestación solo se incorporarán los datos pertinentes y autorizados, fuera de las fuentes metodológicas.
 
 ## 4. Reconstruir el recorrido de decisión
 
@@ -72,6 +74,6 @@ Cuando falte economía exploratoria, transmitir a N08–N12 las diferencias de u
 
 Para explorar, K04 necesita una hipótesis de segmento específica, representación de necesidad, alternativas de compra, fuentes o premisas y condición de refutación. Para afirmar preferencia, compra o autoridad efectiva se exige evidencia pertinente a esas afirmaciones. La aprobación del patrocinador solo resuelve la elección de foco que le corresponde.
 
-La entrega explica inclusión/exclusión, roles, criterios, recorrido, propuesta de foco, mejores razones en contra y límites. N05 recibe trabajo y alternativas; N06 comparación; N07–N10 contenido para posición, oferta, acceso y conversión; N11 expectativas de cumplimiento; N13 eventos que podrían medir decisiones. Los consumidores reciben versiones y usos según el [contrato de FND03](06_contratos_y_economia_exploratoria.md).
+La entrega explica inclusión/exclusión, roles, criterios, recorrido, propuesta de foco, mejores razones en contra y límites. N05 recibe trabajo y alternativas; N06 comparación; N07–N10 contenido para posición, oferta, acceso y conversión; N11 expectativas de cumplimiento; N13 eventos que podrían medir decisiones. Los consumidores reciben versiones y usos según el [contrato de investigación y Diagnostic](06_contratos_y_economia_exploratoria.md).
 
 Nuevos desencadenantes, roles, requisitos, evidencia de elección, condiciones de acceso o restricciones económicas reabren el campo y sus consumidores. Una falta de evidencia se conserva como tal, con vía de obtención o uso limitado. La revisión del consultor examina representatividad, sesgos de cobertura, trazabilidad y coherencia entre necesidad, autoridad, compra y capacidad de servir.

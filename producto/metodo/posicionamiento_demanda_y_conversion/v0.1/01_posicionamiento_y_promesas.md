@@ -2,6 +2,8 @@
 
 Versión 0.1 · Productor de K07
 
+Empezar con la [primera pasada de N07](../../operacion_conversacional/v0.2/10_primera_pasada.md#n07) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
 ## Decisión y entradas
 
 Elegir qué marco ayuda al comprador pertinente a entender, comparar y considerar la oferta, qué razón de elección puede sostenerse y qué afirmaciones pueden utilizarse. Recibir K04 situación/roles/criterios, K05 alternativas y diferencias, K02 capacidades y K08 unidad/alcance. Para el diseño adoptable incorporar K06/DEC; para estudiar una hipótesis basta delimitar su uso exploratorio. K11/K12 devuelven límites de cumplimiento, coste y capacidad.
@@ -38,10 +40,17 @@ Cada afirmación material remite a AF/revisión/campo y conserva alcance tempora
 
 Identificar afirmaciones que deben retirarse, condicionarse o reservarse para análisis: resultados sin soporte, comparaciones incompletas, derechos pendientes, exclusividad no acreditada o promesas fuera de control. Registrar motivo y qué permitiría reconsiderarlas. No crear un banco de frases prohibidas por gusto ni vetar el lenguaje necesario de la categoría por usarlo un competidor.
 
-Para cada pieza que N15 deba producir, N07 entrega destinatario, situación, función, argumento, evidencia localizable, versión de oferta, llamada a la acción coherente y restricciones de uso. La pieza necesaria puede ser una explicación, comparación, propuesta, instrucción o contenido del punto de compra; no se prescribe un conjunto universal. Las piezas se materializarán para la futura prestación desde estas reglas y los contratos de FND06.
+Para cada pieza que N15 deba producir, N07 entrega destinatario, situación, función, argumento, evidencia localizable, versión de oferta, llamada a la acción coherente y restricciones de uso. La pieza necesaria puede ser una explicación, comparación, propuesta, instrucción o contenido del punto de compra; no se prescribe un conjunto universal. Las piezas se materializarán para la prestación desde estas reglas y los contratos de preparación y transferencia.
 
 ## Suficiencia, autoridad y cambios
 
 K07 es suficiente para el uso indicado si permite entender a quién se dirige, por qué la oferta podría merecer consideración, qué puede prometerse y sobre qué fundamento. Las incertidumbres de comprensión o preferencia permanecen explícitas; se entregan a N14 si requieren actuación posterior. La corrección de redacción y la aprobación no demuestran preferencia de mercado.
 
 El consultor revisa razonamiento y claridad. Responsables de oferta/operación confirman compromisos bajo su control; patrocinador decide posicionamiento y riesgo dentro de K01. No se exige aprobación por cada frase. Cambios de comprador, alternativa, evidencia, capacidad, precio o alcance actualizan AF/K07 y consumidores K08/K09/K10/K15 pertinentes, con CAM. Retirar de uso materiales que dependan de una afirmación invalidada antes del siguiente compromiso.
+
+
+## De los atributos al comprador de mejor encaje
+
+Tomar las diferencias sustentadas de K05 y las capacidades de K02/K08. Para cada atributo, explicar el mecanismo y la consecuencia útil frente a la alternativa concreta. Agrupar consecuencias que resuelvan el mismo trabajo en temas de valor, evitando contar varias veces el mismo beneficio. Relacionar cada tema con situación, criterio y coste de cambio de K04: identificar dónde aporta valor material y dónde no cambia la elección.
+
+Revisar el segmento de mejor encaje con ese razonamiento, incluidas exclusiones. Contrastar de nuevo el marco de categoría y la promesa. Si el segmento resultante difiere del Diagnostic, elevar la revisión de K06/K01 antes de adoptarlo; no cambiar el foco silenciosamente. Conservar la cadena atributo → mecanismo → valor relativo → comprador pertinente → marco y mensaje, con evidencia y condición contraria.

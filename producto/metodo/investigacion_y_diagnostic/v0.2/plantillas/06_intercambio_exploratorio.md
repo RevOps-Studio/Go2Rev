@@ -2,7 +2,7 @@
 
 Versión de plantilla 0.2 · Campos de prestación vacíos
 
-Usar con [contratos y economía exploratoria](../06_contratos_y_economia_exploratoria.md). Es una sección agrupable de solicitud/recepción por combinación de K06. El asistente organiza las entradas; cada nodo mantiene su salida K y el registro compartido de FND02. No es un nuevo modelo económico ni un plan de prestación.
+Usar con [contratos y economía exploratoria](../06_contratos_y_economia_exploratoria.md). Es una sección agrupable de solicitud/recepción por combinación de K06. El asistente organiza las entradas; cada nodo mantiene su salida K y el registro compartido de encargo y conocimiento. No es un nuevo modelo económico ni un plan de prestación.
 
 Los campos materiales para el compromiso son obligatorios; se admite desconocido con causa y efecto sobre el uso. Esta plantilla no precarga supuestos, parámetros ni resultados. E conserva su significado exploratorio y no acredita condiciones de operación.
 
@@ -42,3 +42,7 @@ Los campos materiales para el compromiso son obligatorios; se admite desconocido
 | Disposición por campo | Admitido, admitido con límites o devuelto; productor, corrección/evidencia y evento necesario | |
 | Consecuencia para K06 | Mantener, limitar o revisar combinación; siguiente pregunta o ajuste | |
 | Relación de consumo y cambios | Versiones incorporadas, consumidores y premisa que reabre el análisis | |
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K06, completar el núcleo de [N06 Recomendar la salida de Diagnostic](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

@@ -26,3 +26,7 @@ Versión 0.1 · [Instrucción](../03_economia_y_capacidad.md) · [Guía del libr
 | Evidencia requerida | Pregunta, fuente/actuación pertinente, responsable, HUE/SOL o N14 | |
 | Autoridad y disposición | DEC para inversión/riesgo/compromiso; revisión de consultor separada | |
 | Consumo y revisión | Campo/versión/receptor/uso/admisión, disparador y CAM | |
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K12, completar el núcleo de [N12 Analizar economía y capacidad](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

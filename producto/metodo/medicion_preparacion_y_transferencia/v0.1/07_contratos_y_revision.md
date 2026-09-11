@@ -1,10 +1,10 @@
-# Contratos y revisión de FND06
+# Contratos y revisión de preparación y transferencia
 
 Versión 0.1 · K13–K17
 
 ## Semántica y responsabilidad
 
-Aplicar el [diccionario común FND02](../../encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md): K por productor, FUE/AF para conocimiento y originales, DEC para autoridad, HUE/SOL/CON para carencias y CAM para cambios. Los bloques de medida, protocolo, pieza y observación son secciones localizables de K13–K17; no crean registros maestros ni taxonomías de procedencia paralelos.
+Aplicar el [diccionario común encargo y conocimiento](../../encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md): K por productor, FUE/AF para conocimiento y originales, DEC para autoridad, HUE/SOL/CON para carencias y CAM para cambios. Los bloques de medida, protocolo, pieza y observación son secciones localizables de K13–K17; no crean registros maestros ni taxonomías de procedencia paralelos.
 
 Cada artefacto identifica K01, revisión, ámbito, autor/fecha, estado documental y ubicación. Cada campo material consumido identifica productor, revisión, naturaleza/fundamento, unidad/periodo cuando proceda y límite. La recepción es admitido, admitido con límites o devuelto con razón, productor y corrección requerida. No exige revisar todo un nodo para consumir un campo suficiente.
 
@@ -22,14 +22,14 @@ E y O indican uso, no verdad o permiso. Un protocolo E puede preparar una obtenc
 
 ## Intercambios con los componentes construidos
 
-| Origen | Tratamiento en FND06 | Devolución cuando cambie la conclusión |
+| Origen | Tratamiento en preparación y transferencia | Devolución cuando cambie la conclusión |
 |---|---|---|
-| FND02 K01/K02 | Condiciones contractuales, fuentes, autoridad y disponibilidad se conservan por campo | N01 si cambia alcance/compromiso; N02 si cambia fuente, capacidad o carencia |
-| FND03 N03–N06 | Investigación externa y contraste siguen siendo sustantivos; N14 prepara solo la obtención que falta | AF/FUE y razonamiento al analista productor; N06 revisa tesis/salida, no recibe un aprobado genérico de N16 |
-| FND04 N08/N11/N12 | Piezas respetan oferta/entrega, unidades, dominio, carga y caja; N13 no inventa otra fórmula | Corregir productor y consumidores; no rellenar un dato económico ausente desde un protocolo |
-| FND05 N07/N09/N10 | Mensajes, eventos, transiciones, cohortes y variantes determinan material/captura/cobertura | Cambios de comprador, señal, condición, coste o trabajo vuelven al nodo pertinente |
+| encargo y conocimiento K01/K02 | Condiciones contractuales, fuentes, autoridad y disponibilidad se conservan por campo | N01 si cambia alcance/compromiso; N02 si cambia fuente, capacidad o carencia |
+| investigación y Diagnostic N03–N06 | Investigación externa y contraste siguen siendo sustantivos; N14 prepara solo la obtención que falta | AF/FUE y razonamiento al analista productor; N06 revisa tesis/salida, no recibe un aprobado genérico de N16 |
+| oferta, entrega y economía N08/N11/N12 | Piezas respetan oferta/entrega, unidades, dominio, carga y caja; N13 no inventa otra fórmula | Corregir productor y consumidores; no rellenar un dato económico ausente desde un protocolo |
+| posición, demanda y conversión N07/N09/N10 | Mensajes, eventos, transiciones, cohortes y variantes determinan material/captura/cobertura | Cambios de comprador, señal, condición, coste o trabajo vuelven al nodo pertinente |
 
-El [intercambio exploratorio](../../investigacion_y_diagnostic/v0.2/06_contratos_y_economia_exploratoria.md) y los [consumidores FND05](../../posicionamiento_demanda_y_conversion/v0.1/06_contratos_y_revision.md) quedan desarrollados por estas instrucciones. La secuencia local pregunta → protocolo → piezas/medidas → comprobación pertinente → actuación autorizada → análisis evita exigir el cierre que precisamente se busca fundamentar. No necesita todo K07–K17 operativo para un protocolo acotado.
+El [intercambio exploratorio](../../investigacion_y_diagnostic/v0.2/06_contratos_y_economia_exploratoria.md) y los [consumidores posición, demanda y conversión](../../posicionamiento_demanda_y_conversion/v0.1/06_contratos_y_revision.md) quedan desarrollados por estas instrucciones. La secuencia local pregunta → protocolo → piezas/medidas → comprobación pertinente → actuación autorizada → análisis evita exigir el cierre que precisamente se busca fundamentar. No necesita todo K07–K17 operativo para un protocolo acotado.
 
 Las observaciones comerciales o de investigación se conservan en FUE/AF con protocolo y contexto; el productor de la pregunta interpreta su significado. K16 evalúa preparación de tareas y no sustituye N03–N06/N12. Ambas salidas pueden compartir soporte original sin duplicar ni ampliar su autoridad.
 
@@ -43,8 +43,6 @@ Las observaciones comerciales o de investigación se conservan en FUE/AF con pro
 | Conocimiento | Observación, declaración, inferencia, hipótesis | La procedencia interna/externa/derivada permanece separada |
 | Decisión/recepción | Autoridad y condiciones según DEC/K01 | No cambia la evidencia ni borra el pendiente aceptado |
 | Preparación/entrega | Diseñada, preparada, comprobada; real observada en ámbito propio; parcial/condicionada cuando proceda | No ascenso automático por archivo completo, aprobación o una actuación favorable |
-
-Durante la construcción estos son significados de campos vacíos. No representan estados de una empresa ni resultados ejecutados.
 
 ## Calidad y revisión ante cambios
 
@@ -61,4 +59,4 @@ Revisar cobertura de obligaciones/variantes, fundamento, razonamiento, coherenci
 
 Registrar CAM con motivo/fuente, campo, versiones anterior/nueva, consumidores y disposición. Actualizar primero productor, luego dependientes. Justificar qué observaciones conservan validez y qué uso queda retirado hasta nueva comprobación. Una corrección de texto sin efecto de comportamiento no obliga a repetir el recorrido completo; una condición indispensable cambiada sí exige revisar su cobertura. No cambiar criterios retrospectivamente ni borrar fallos.
 
-La [plantilla de decisiones/cambios FND02](../../encargo_y_conocimiento/v0.1/plantillas/06_decisiones_y_cambios.md) mantiene el registro común. FND07 integra entrada global y capacidades del entorno; FND08 identifica el paquete y su guía de implementación. Los protocolos de este componente pertenecen a la futura prestación; su ejecución no es una tarea actual de construcción ni un requisito para cerrar documentalmente FND06.
+La [plantilla de decisiones/cambios encargo y conocimiento](../../encargo_y_conocimiento/v0.1/plantillas/06_decisiones_y_cambios.md) mantiene el registro común. operación conversacional integra entrada global y capacidades del entorno; paquete de implementación identifica el paquete y su guía de implementación. Los protocolos de este componente pertenecen a la prestación; su ejecución no es una tarea actual de construcción ni un requisito para cerrar documentalmente preparación y transferencia.

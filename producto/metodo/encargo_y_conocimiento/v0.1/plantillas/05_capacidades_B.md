@@ -44,3 +44,7 @@ Los campos de habilitación y alternativas se requieren cuando la capacidad no e
 | Evidencia pendiente | HUE/SOL o necesidad de protocolo en N14; no atribuye ejecución | |
 | Revisión y autoridad | Consultor revisa; DEC identifica quien autoriza recursos/compromisos cuando corresponda | |
 | Condición de reapertura | Cambio de recurso, plazo, dependencia, tarea o promesa que afecta disponibilidad | |
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K02, completar el núcleo de [N02 Convertir originales en conocimiento](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

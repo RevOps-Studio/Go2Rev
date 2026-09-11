@@ -25,3 +25,7 @@ Repetir por partida o recurso material. Un identificador local dentro de K11/K12
 | Restricción | Holgura/cota o desconocido; fecha y concurrencia pertinentes | |
 | Coste de oportunidad | Uso alternativo factible, fundamento y presentación separada | |
 | Revisión y consumo | Cambio, productor/receptor, uso y condición de admisión | |
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K12, completar el núcleo de [N12 Analizar economía y capacidad](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

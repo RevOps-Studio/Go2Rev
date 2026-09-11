@@ -10,7 +10,7 @@ La información interna define qué se pretende conseguir, qué se ofrece, qué 
 
 Una recomendación integral de Diagnostic requiere investigación externa pertinente a sus conclusiones y un contraste explícito con K02. Si falta acceso o evidencia material, se registra cobertura parcial y se limita la recomendación afectada. Una incompatibilidad ya acreditada puede justificar detener un compromiso conforme a K01, sin atribuir investigación de dimensiones no examinadas.
 
-Esta regla describe la futura prestación. Durante la construcción se redactan el procedimiento y sus plantillas vacías; no se investiga una iniciativa empresarial.
+Esta regla describe la prestación.
 
 ## Cobertura externa orientada a decisiones
 

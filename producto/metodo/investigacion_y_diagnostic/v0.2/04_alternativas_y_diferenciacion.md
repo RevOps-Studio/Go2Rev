@@ -2,6 +2,8 @@
 
 Versión 0.2 · Procedimiento de futura prestación
 
+Empezar con la [primera pasada de N05](../../operacion_conversacional/v0.2/10_primera_pasada.md#n05) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
 ## Decisión, entradas y salida
 
 Determinar contra qué opciones compite la oferta y qué diferencia podría justificar elegirla en la situación de compra investigada. N05 produce K05: universo delimitado y priorizado, comparación pertinente, hipótesis de diferenciación, fundamento contrario y condiciones de revisión.

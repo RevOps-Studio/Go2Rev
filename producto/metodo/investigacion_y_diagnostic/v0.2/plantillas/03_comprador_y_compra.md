@@ -55,3 +55,7 @@ Repetir bloques solo para segmentos, funciones y transiciones pertinentes. Una h
 | Suficiencia y evidencia pendiente | AF/HUE/CON, uso exploratorio o compromiso delimitado; solicitud a N14 si corresponde | |
 | Consumidores | Campos/versiones para N05–N11 y N13; N06 integra la elección | |
 | Revisión y disposición | Consultor/fecha, DEC cuando exista, límites y disparadores de CAM | |
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K04, completar el núcleo de [N04 Entender comprador y compra](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

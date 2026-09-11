@@ -2,6 +2,8 @@
 
 Versión 0.1 · Productor de K16 · Protocolos de futura prestación
 
+Empezar con la [primera pasada de N16](../../operacion_conversacional/v0.2/10_primera_pasada.md#n16) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
 ## Alcance y prerrequisitos
 
 Determinar si las tareas y recorridos críticos contratados pueden utilizarse con sus contenidos, personas y medios. Recibir protocolos/criterios previos K14, piezas/configuraciones K15, reglas K07–K13, entradas pertinentes al encargo y recursos efectivos. El consultor evalúa; el operador realiza las tareas de uso que le correspondan; el responsable técnico interviene donde su competencia sea necesaria.
@@ -42,7 +44,7 @@ La [matriz de cobertura](plantillas/07_cobertura_y_preparacion.md) define qué s
 3. Revisar condiciones de ausencia, denominador nulo, cambio de unidad y límite de capacidad o rango que sean materiales. Seleccionar entradas/condiciones documentadas del encargo; no presentar un recorrido no cubierto como comprobado. Si no puede observarse una condición necesaria, conservar la limitación.
 4. Examinar totales, conciliación, coste compartido, eventos de caja y sensibilidad pertinentes. Comprobar recálculo, guardado/reapertura y transferencia entre formatos únicamente en los medios requeridos por la prestación.
 
-**Criterio.** Resultado y tratamiento de carencias coherentes con especificación y tolerancia; ámbito soportado sin fórmulas omitidas. **Rastro.** Entradas/revisión, relación esperada, motor y salidas preservadas. **Límite.** Corrección matemática no acredita validez comercial de una premisa, financiación disponible ni aceptación de precio. Si una extensión excede el libro FND04, construir y comprobar esa relación antes de concluir sobre ella.
+**Criterio.** Resultado y tratamiento de carencias coherentes con especificación y tolerancia; ámbito soportado sin fórmulas omitidas. **Rastro.** Entradas/revisión, relación esperada, motor y salidas preservadas. **Límite.** Corrección matemática no acredita validez comercial de una premisa, financiación disponible ni aceptación de precio. Si una extensión excede el libro oferta, entrega y economía, construir y comprobar esa relación antes de concluir sobre ella.
 
 ## Captura, transformación y lectura de medidas
 
@@ -52,7 +54,7 @@ La [matriz de cobertura](plantillas/07_cobertura_y_preparacion.md) define qué s
 
 ## Uso por operador y traspaso integrado
 
-**Pregunta.** Si el operador puede reconocer la situación, actuar, decidir avance/bloqueo, registrar, transmitir y continuar con sus medios. **Entradas.** Material, guía, condiciones y entrada pertinente al recorrido contratado; operador y receptor reales disponibles en la futura prestación. **Procedimiento:**
+**Pregunta.** Si el operador puede reconocer la situación, actuar, decidir avance/bloqueo, registrar, transmitir y continuar con sus medios. **Entradas.** Material, guía, condiciones y entrada pertinente al recorrido contratado; operador y receptor reales disponibles en la prestación. **Procedimiento:**
 
 1. Dar el contexto y la tarea en lenguaje de uso. Conservar la formación/guía prevista y registrar qué ayuda adicional se proporciona durante la observación.
 2. Observar localización e interpretación de la información, selección de acción, aplicación de condición/autoridad, registro y entrega al receptor. Verificar recepción y siguiente paso; una notificación emitida no completa el traspaso.
@@ -73,7 +75,7 @@ La [matriz de cobertura](plantillas/07_cobertura_y_preparacion.md) define qué s
 | Servicio | Alcance, insumos, cambio, recurso, hito/conformidad y finalización |
 | Recurrencia o consumo | Primera compra, activación, medición, renovación/baja y condiciones de facturación sin doble adquisición |
 
-No basta marcar una variante presente: identificar la regla, material, condición y observación que la cubre. Los [contratos de FND04](../../oferta_entrega_y_economia/v0.1/07_contratos_y_revision.md) y las [variantes FND05](../../posicionamiento_demanda_y_conversion/v0.1/05_variantes_y_traspasos.md) gobiernan su significado.
+No basta marcar una variante presente: identificar la regla, material, condición y observación que la cubre. Los [contratos de oferta, entrega y economía](../../oferta_entrega_y_economia/v0.1/07_contratos_y_revision.md) y las [variantes posición, demanda y conversión](../../posicionamiento_demanda_y_conversion/v0.1/05_variantes_y_traspasos.md) gobiernan su significado.
 
 K16 declara preparación comprobada solo para obligaciones cubiertas con evidencia suficiente en su versión y condiciones. Si un recorrido crítico, operador, recurso o receptor faltan, el ámbito dependiente permanece parcial/condicionado. No promediar aprobados para compensar un defecto indispensable. Una actuación real se registra como observación con su alcance y no como validación integral del sistema.
 

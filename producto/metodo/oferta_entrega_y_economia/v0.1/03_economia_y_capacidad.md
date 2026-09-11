@@ -2,9 +2,11 @@
 
 Versión 0.1 · Productor de K12
 
+Empezar con la [primera pasada de N12](../../operacion_conversacional/v0.2/10_primera_pasada.md#n12) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
 ## Pregunta y perímetro
 
-Determinar qué puede sostenerse bajo una combinación explícita, qué impide comprometerla y qué cambio merece consideración. Separar economía de la iniciativa, economía de prestar Go2Rev y desarrollo del producto. Las 4–5 horas semanales de Carlos corresponden al desarrollo y no son un parámetro de servicio.
+Determinar qué puede sostenerse bajo una combinación explícita, qué impide comprometerla y qué cambio merece consideración. Separar economía de la iniciativa, economía de prestar Go2Rev y desarrollo del producto.
 
 Recibir K08 unidad/condiciones, K09 actividad y coste de toda la cohorte, K10 esfuerzo comercial y tiempos, K11 trabajo/cobro/pago y K02 recursos. E no exige K06 final. Si falta acceso o compra, calcular las partes sustentadas y declarar adquisición/venta incompletas; no emitir una conclusión integral de sostenibilidad con esa ausencia.
 

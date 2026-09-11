@@ -33,7 +33,7 @@ Cuando sea necesario incorporar fuentes o mejorar acceso, utilizar la [rutina de
 | Oferta, precio o capacidad publicados | Documentación vigente de la entidad, condiciones y unidad de comparación | Resultado conseguido, disponibilidad contractual propia o aceptación de precio |
 | Cambio de mercado o evolución de producto | Series comparables, documentación de versiones, cambios oficiales, estudios y fuentes técnicas con método/fecha | Tendencia general a partir de un anuncio, previsión convertida en hecho o demanda propia por crecimiento externo |
 | Problema, desencadenante y criterio de compra | Documentos originales de proceso/compra, relatos atribuibles y conducta contextualizada del comprador | Generalización a toda una población sin cobertura adecuada |
-| Preferencia, adopción o respuesta propia | Elección, uso, compromiso o comportamiento pertinente de la futura prestación, con condiciones y límites | Repetibilidad, causalidad o rendimiento general por un hecho aislado |
+| Preferencia, adopción o respuesta propia | Elección, uso, compromiso o comportamiento pertinente de la prestación, con condiciones y límites | Repetibilidad, causalidad o rendimiento general por un hecho aislado |
 | Capacidad de entrega y economía | Originales propios de recursos/trabajo, condiciones de proveedor y eventos de cobro/pago; estimaciones con derivación | Rendimiento propio deducido de una referencia externa |
 | Posición o diferencia relevante | Alternativas comparadas, criterios del comprador y capacidades propias con respaldo | Superioridad porque una página omita una característica o porque cambie el vocabulario |
 
@@ -89,7 +89,7 @@ Registrar qué se investigó, qué cambió frente al punto de partida, por qué 
 
 ## 7. Encargar evidencia adicional y transmitir resultados
 
-Si basta un original, utilizar SOL con pregunta, fuente, unidad/periodo, responsable y alternativa. Si se necesita una actuación, formular su encargo a N14: proposición, población o contexto pertinente, explicación alternativa, evidencia buscada, criterio previo, acceso, ejecutor, exposición permitida, condición de parada y decisión posterior. N14 produce el protocolo; N15 prepara piezas y N16 conserva observaciones en la futura prestación. La solicitud no atribuye ejecución ni autoriza contactar, gastar o actuar en sistemas.
+Si basta un original, utilizar SOL con pregunta, fuente, unidad/periodo, responsable y alternativa. Si se necesita una actuación, formular su encargo a N14: proposición, población o contexto pertinente, explicación alternativa, evidencia buscada, criterio previo, acceso, ejecutor, exposición permitida, condición de parada y decisión posterior. N14 produce el protocolo; N15 prepara piezas y N16 conserva observaciones en la prestación. La solicitud no atribuye ejecución ni autoriza contactar, gastar o actuar en sistemas.
 
 El asistente no traslada al patrocinador el análisis contratado. Presenta su propuesta y pide únicamente la decisión o el dato exclusivo que corresponda. Se mantienen las autorizaciones vigentes dentro de su alcance.
 
@@ -100,5 +100,3 @@ Entregar hallazgo, fundamento, interpretación, límite, decisión afectada y ca
 La revisión busca cobertura de alternativas y condiciones críticas, razonamiento causal y contrario, consistencia de ámbitos/unidades, localización de fuentes y utilidad para decidir. El consultor revisa conclusiones; los responsables aclaran hechos propios. Un resultado de investigación puede recomendar cierre y seguir siendo una entrega fundada de Diagnostic.
 
 Revisar además el origen y dependencia de las fuentes, el mecanismo temporal de las tendencias materiales y la ruta premisa interna + evidencia externa → conclusión → decisión. El acceso por una herramienta o MCP no modifica el juicio de suficiencia.
-
-Durante la construcción, se revisan estas instrucciones y sus interfaces documentalmente. La obtención de datos y las actuaciones descritas se realizarán únicamente en la etapa de uso de la metodología construida.

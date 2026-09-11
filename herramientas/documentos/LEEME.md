@@ -1,9 +1,7 @@
-# Herramientas de documentación
+# Vistas Word del método
 
-Estas herramientas generan y revisan dos vistas de lectura del producto. `construir_lectura.py` utiliza los seis archivos actuales de arquitectura; con `--guia` utiliza guía de implementación, alcance y composición de entregables del paquete fundacional. Solo leen estas fuentes actuales y sus recursos de estilo. No ejecutan la metodología ni generan información empresarial.
+Requiere Python con `python-docx` y `lxml`. Ejecutar `python herramientas/documentos/construir_lectura.py` para arquitectura o añadir `--guia` para implementación. Arquitectura reúne cuatro fuentes operativas; implementación reúne entorno, carpetas, glosario, guía, alcance y composición de entregables.
 
-El constructor mantiene página Letter, márgenes amplios, jerarquía de títulos y tablas legibles. Arquitectura conserva su identidad visual; la guía usa títulos negros. Los Word se generan limpios, con portada, capítulos continuos, enlaces relativos y encabezados de tabla repetidos.
+El constructor lee únicamente fuentes actuales del producto y sus estilos. Los archivos se guardan junto a las fuentes; `salida/` contiene revisión temporal excluida de la distribución. Los documentos existentes pueden utilizarse sin regenerarlos.
 
-La carpeta `salida/` contiene exclusivamente archivos temporales de revisión documental y procedencia del render. No es fuente metodológica ni parte de la distribución. Cada Word final se guarda junto a sus fuentes en `producto/arquitectura/v0.2/` o `producto/paquete_fundacional/v0.1/`. El constructor requiere Python con `python-docx` y `lxml`; abrir el producto no exige ejecutar esta herramienta. Una regeneración sobrescribe solo el derivado general, nunca un archivo de prestación.
-
-La ausencia de LibreOffice en este entorno ya está identificada. La revisión visual utiliza Word en segundo plano y la biblioteca de renderizado del runtime disponible. El uso de Word requiere el permiso de ejecución del entorno. La inspección de páginas confirma presentación; no equivale a prueba de la metodología.
+Para revisar presentación en Windows con Word instalado, utilizar `renderizar_word.ps1` con rutas absolutas de entrada y PDF de salida; Word se abre en segundo plano y cierra sin modificar el original. `renderizar_paginas.py` necesita `pypdfium2` para obtener imágenes del PDF. Un entorno sin Word debe usar un renderizador de DOCX disponible y revisar el resultado; la generación de DOCX no exige Word. La revisión visual no acredita aplicación del método.

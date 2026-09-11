@@ -1,8 +1,6 @@
-# Protocolos para obtener evidencia en una futura prestación
+# Protocolos para obtener evidencia en una prestación
 
-Versión 0.1 · Procedimientos de K14 · Sin ejecución durante la construcción
-
-Estos protocolos atienden preguntas que no quedan resueltas con los materiales disponibles. Su selección se realiza en N14. El asistente redacta instrumentos y analiza resultados; no exige al consultor completar un ejercicio empresarial para construir el método. La investigación externa de FND03 se conserva y se amplía cuando haga falta; la obtención directa no la sustituye por defecto.
+Versión 0.1 · Procedimientos de K14 · Sin ejecución  Su selección se realiza en N14. El asistente redacta instrumentos y analiza resultados; no exige al consultor completar un ejercicio empresarial para construir el método. La investigación externa de investigación y Diagnostic se conserva y se amplía cuando haga falta; la obtención directa no la sustituye por defecto.
 
 ## Condiciones comunes antes de actuar
 
@@ -40,7 +38,7 @@ El protocolo explicita criterio de interpretación antes de observar, recursos e
 
 ## Actuación comercial para una pregunta delimitada
 
-**Propósito.** Obtener una señal de conducta relevante para una decisión comercial, solo cuando forme parte del encargo y esté autorizada después del cierre fundacional. **Entradas.** Pregunta, población/ruta K09, oferta y mensaje K07/K08, recorrido/entrega K10/K11, economía/límites K12, captura K13 y medios preparados. **Responsables.** Consultor diseña y analiza; operador realiza la acción; patrocinador autoriza exposición, gasto y compromisos conforme al encargo.
+**Propósito.** Obtener una señal de conducta relevante para una decisión comercial, solo cuando forme parte del encargo y esté autorizada dentro del alcance autorizado. **Entradas.** Pregunta, población/ruta K09, oferta y mensaje K07/K08, recorrido/entrega K10/K11, economía/límites K12, captura K13 y medios preparados. **Responsables.** Consultor diseña y analiza; operador realiza la acción; patrocinador autoriza exposición, gasto y compromisos conforme al encargo.
 
 1. Precisar proposición, alternativa, conducta observable y ventana pertinente. Distinguir exposición, respuesta, solicitud, aceptación, pago, uso y renovación. Elegir una señal suficiente para esa decisión sin atribuirle otras capacidades.
 2. Definir población elegible, unidad, selección, exclusiones y acceso efectivo. Mantener exposición/actividad, ausencia de respuesta y resultados desconocidos. La [disciplina de cohortes](../../posicionamiento_demanda_y_conversion/v0.1/04_costes_cohortes_y_capacidad.md) gobierna denominadores, madurez y costes de todos los intentos.

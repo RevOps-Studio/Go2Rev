@@ -1,6 +1,8 @@
 # N02 · Base de conocimiento y solicitud selectiva
 
-Versión 0.1 · Instrucciones para una futura prestación
+Versión 0.1 · Instrucciones para una prestación
+
+Empezar con la [primera pasada de N02](../../operacion_conversacional/v0.2/10_primera_pasada.md#n02) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
 
 ## Finalidad y contrato
 
@@ -120,7 +122,7 @@ Priorizar por consecuencia y momento del compromiso. Va primero lo que pueda imp
 | Información externa accesible | Asistente investigador | Obtener y analizar originales dentro de permisos; no trasladar al cliente la investigación contratada |
 | Interpretación de materiales existentes | Asistente, con revisión del consultor | Explicitar premisas y alternativas; pedir al responsable únicamente aclaraciones sobre hechos propios |
 | Decisión o permiso | Persona con autoridad identificada en K01 | Presentar propuesta, consecuencias y compromiso que necesita autorización |
-| Evidencia que exige una actuación | Responsable de diseñarla y ejecutarla según alcance | Encargar su protocolo a N14; precisar recursos y autorización. La ejecución pertenece a una prestación posterior a la construcción completa |
+| Evidencia que exige una actuación | Responsable de diseñarla y ejecutarla según alcance | Encargar su protocolo a N14; precisar recursos y autorización. La ejecución pertenece a una prestación dentro del alcance autorizado |
 
 Cada solicitud especifica qué se necesita, por qué, fuente esperada, responsable, formato admisible, periodo/unidad, límite de fecha o evento y alternativa si no existe. Pedir una exportación o un original pertinente, no una elaboración nueva innecesaria. Antes de enviar una petición o contactar a alguien, verificar la autorización de comunicación.
 
@@ -147,3 +149,8 @@ Actualizar primero fuente o premisa, después derivaciones, matrices y consumido
 El consultor revisa si la base responde a las preguntas del encargo, si las fuentes sostienen las afirmaciones en su ámbito, si las derivaciones muestran razonamiento y alternativas, si las discrepancias tienen tratamiento y si cada hueco relevante tiene una consecuencia y un responsable. La revisión humana de hechos propios se concentra en las aclaraciones necesarias. No se impone confirmar cada sección para seguir trabajando dentro de la autorización vigente.
 
 La revisión de construcción de estas instrucciones examina su cobertura y consistencia documental. Su aplicación y la prueba de la metodología quedan posteriores al cierre fundacional completo.
+
+
+## Lectura interna y externa en una misma base
+
+N02 recibe y lee los originales disponibles de ambas procedencias, registra cobertura y extrae AF. N03–N05 producen la investigación y su interpretación por capacidad: no hay dos registros FUE paralelos. Cada conclusión de Diagnostic enlaza premisa interna, evidencia externa, comparabilidad, razonamiento y campo afectado. Si un hallazgo externo abre una opción ausente del brief, registrarla y evaluar su pertinencia en N03–N06. El cliente aporta información exclusiva; el consultor produce el análisis contratado.

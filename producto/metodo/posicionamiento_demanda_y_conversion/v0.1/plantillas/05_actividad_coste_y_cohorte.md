@@ -27,11 +27,7 @@ Usar con [costes, cohortes y capacidad](../04_costes_cohortes_y_capacidad.md). E
 | Actividad y frontera | Preparación o tarea repetida; K09/K10 productor y consumidor, evitando doble registro | |
 | Impulsor | Qué genera trabajo: preparación, intentos, exposiciones, respuestas, revisiones u otro evento definido | |
 | Cantidad de ejecuciones | Todas las ejecuciones pertinentes, incluso sin resultado; fuente/hipótesis y periodo | |
-| Recurso | Unidad no intercambiable, competencia y CAP; no usar dedicación de Carlos al desarrollo como capacidad de servicio | |
-| Preparación y carga fija | S por recurso/cohorte, cobertura y motivo de no proporcionalidad a repeticiones | |
-| Consumo por ejecución | h por recurso/actividad, unidad, fuente y variación material | |
-| Carga y calendario | Relación S + suma de ejecuciones por consumo, periodo y distribución necesaria para compromisos de respuesta | |
-| Disponibilidad neta | A menos otros compromisos B, unidad y franjas; referencia común con K11/K12 | |
+| Recurso | Unidad no intercambiable, competencia y CAP; utilizar únicamente recursos y disponibilidad asignados al encargo; referencia común con K11/K12 | |
 | Restricción y respuesta | Cuello de botella, capacidad por habilitar o límite de emisión/compromiso | |
 
 ## Partida y representación económica — bloque repetible
@@ -59,3 +55,7 @@ Usar con [costes, cohortes y capacidad](../04_costes_cohortes_y_capacidad.md). E
 | Consumidores y revisión | N06/N12/N13 pertinentes, campo/revisión, recepción y condición CAM | |
 
 La fórmula vacía expresa una relación general. Durante esta construcción no se completan cantidades, tasas, tarifas, importes ni resultados.
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K09, completar el núcleo de [N09 Elegir rutas de demanda](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

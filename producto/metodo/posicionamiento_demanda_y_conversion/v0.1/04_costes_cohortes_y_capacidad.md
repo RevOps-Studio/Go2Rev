@@ -2,7 +2,7 @@
 
 Versión 0.1 · Salidas económicas de N09/N10 hacia N12
 
-Estas relaciones generales permiten construir la parte comercial de K12. Se aplican junto a las [fórmulas de FND04](../../oferta_entrega_y_economia/v0.1/04_formulas_y_dominio.md) y su [contrato](../../oferta_entrega_y_economia/v0.1/07_contratos_y_revision.md). Durante la construcción se revisan simbólicamente unidades, dominio e interfaces; no se introducen parámetros ni se ejecutan comparaciones de negocio.
+Estas relaciones generales permiten construir la parte comercial de K12. Se aplican junto a las [fórmulas de oferta, entrega y economía](../../oferta_entrega_y_economia/v0.1/04_formulas_y_dominio.md) y su [contrato](../../oferta_entrega_y_economia/v0.1/07_contratos_y_revision.md).
 
 ## Unidades, identidad y ventana
 
@@ -49,7 +49,7 @@ Un compromiso de respuesta requiere además distribución temporal de entradas, 
 
 ## Coste de la cohorte y de su resultado
 
-Construir C_k con partidas identificadas: trabajo valorado según el perímetro pertinente, terceros, medios, datos, incentivos y parte de preparación/recursos compartidos que corresponda. Cada partida conserva cantidad, tarifa, unidad, periodo, fuente, regla de reparto y vínculo con el [registro de costes de FND04](../../oferta_entrega_y_economia/v0.1/plantillas/03_partidas_y_recursos.md). La suma tiene cobertura completa únicamente si representa todas las partidas materiales para ese uso.
+Construir C_k con partidas identificadas: trabajo valorado según el perímetro pertinente, terceros, medios, datos, incentivos y parte de preparación/recursos compartidos que corresponda. Cada partida conserva cantidad, tarifa, unidad, periodo, fuente, regla de reparto y vínculo con el [registro de costes de oferta, entrega y economía](../../oferta_entrega_y_economia/v0.1/plantillas/03_partidas_y_recursos.md). La suma tiene cobertura completa únicamente si representa todas las partidas materiales para ese uso.
 
 Separar desembolso incremental, coste reconocido y valoración de recursos ya remunerados. Multiplicar horas por tarifa permite valorar esfuerzo si la tarifa es pertinente, pero no autoriza añadir ese valor al salario ya incluido en F. Una asignación a cohorte sirve para analizar rendimiento; su incorporación a resultado se reconcilia con la partida de origen. La preparación reutilizable conserva inversión, periodo de reconocimiento y regla de asignación; no se distribuye entre un volumen futuro inventado.
 
@@ -72,7 +72,7 @@ No comparar costes por resultado con definiciones distintas ni trasladar un cost
 
 La [plantilla de actividad/coste](plantillas/05_actividad_coste_y_cohorte.md) entrega unidad, población, cohorte, impulsor, esfuerzo, reconocimiento y pago por partida. N12 decide su representación según el dominio, no según el nombre comercial del canal. N09 y N10 conservan la frontera de tarea y el mismo identificador de partida cuando comparten una referencia.
 
-En el [libro de FND04](../../oferta_entrega_y_economia/v0.1/08_guia_del_modelo.md), la columna de variable comercial por unidad no es un lugar para introducir CAC sin reconciliar. Las cargas que no sean proporcionales a cantidad reconocida se descomponen o requieren una relación adicional; los cobros/pagos se llevan a eventos con fecha y condición. Si falta conversión, puede calcularse una actividad comprometida y su coste con cobertura propia, manteniendo desconocido el coste por compra.
+En el [libro de oferta, entrega y economía](../../oferta_entrega_y_economia/v0.1/08_guia_del_modelo.md), la columna de variable comercial por unidad no es un lugar para introducir CAC sin reconciliar. Las cargas que no sean proporcionales a cantidad reconocida se descomponen o requieren una relación adicional; los cobros/pagos se llevan a eventos con fecha y condición. Si falta conversión, puede calcularse una actividad comprometida y su coste con cobertura propia, manteniendo desconocido el coste por compra.
 
 ## Expectativas, sensibilidad y recomendación
 
@@ -80,4 +80,4 @@ Una expectativa ponderada solo se produce si su decisión la necesita y existe f
 
 Para analizar una premisa, conservar mecanismo y efectos conjuntos: cambiar respuesta afecta intentos por resultado y carga comercial; cambiar precio puede alterar respuesta/alcance; cambiar canal puede añadir preparación, comisión y demora de cobro. No mantener un CAC favorable mientras se reduce el denominador sin revisar el numerador. Derivar umbrales desde K12: coste/actividad admisible, capacidad por recurso o condición de respuesta que haría viable la combinación dentro de su dominio. Sin parámetros suficientes, conservar la relación simbólica.
 
-N06 recibe resultados calculables, parciales y no calculables, su efecto en la tesis y la pregunta decisiva. La cobertura comercial incompleta impide una recomendación integral que dependa de ella, pero no oculta una incompatibilidad conocida. El compromiso de obtener nueva evidencia se formula para N03–N05 si basta investigación o para N14 si requiere actuación; ejecutar esos protocolos es posterior a la construcción del método.
+N06 recibe resultados calculables, parciales y no calculables, su efecto en la tesis y la pregunta decisiva. La cobertura comercial incompleta impide una recomendación integral que dependa de ella, pero no oculta una incompatibilidad conocida. El compromiso de obtener nueva evidencia se formula para N03–N05 si basta investigación o para N14 si requiere actuación; ejecutar esos protocolos es propia de la prestación autorizada.

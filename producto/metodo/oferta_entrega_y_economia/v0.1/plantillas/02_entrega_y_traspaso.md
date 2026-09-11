@@ -28,3 +28,7 @@ Repetir el bloque de tarea o traspaso cuando cambie decisión, ejecutor o eviden
 | Continuidad y cierre | Soporte, garantía, renovación, cancelación y límite pertinentes | |
 | Suficiencia | Recursos o condiciones desconocidos y compromiso afectado | |
 | Consumo y cambio | Receptor/campo/revisión/uso, admisión/límite y CAM | |
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K11, completar el núcleo de [N11 Diseñar entrega y cobro](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

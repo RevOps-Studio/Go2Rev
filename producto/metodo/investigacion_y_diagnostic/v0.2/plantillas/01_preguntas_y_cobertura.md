@@ -2,7 +2,7 @@
 
 Versión de plantilla 0.2 · Campos de prestación vacíos
 
-Usar con [investigación común](../01_investigacion_y_suficiencia.md). El asistente redacta cada bloque para una pregunta material y el consultor revisa su conclusión. Integrarlo en el K consumidor o referenciarlo desde él. FUE, AF, HUE, SOL y CON se mantienen en el registro compartido de FND02.
+Usar con [investigación común](../01_investigacion_y_suficiencia.md). El asistente redacta cada bloque para una pregunta material y el consultor revisa su conclusión. Integrarlo en el K consumidor o referenciarlo desde él. FUE, AF, HUE, SOL y CON se mantienen en el registro compartido de encargo y conocimiento.
 
 Todos los campos que justifican el uso indicado son obligatorios antes de cerrar la pregunta. Durante una prestación, los desconocidos y no aplicables se declaran con su motivo. Las reglas de estas tablas son metadatos; la columna Valor permanece vacía en el producto.
 
@@ -65,3 +65,7 @@ Usar la [rutina breve](../09_rutina_de_fuentes_y_acceso.md) al necesitar cobertu
 | Evidencia adicional necesaria | SOL o encargo a N14 con proposición, contexto, criterio, exposición, responsable, permiso y parada; si procede | |
 | Revisor y fecha | Autoría y alcance de revisión; no atribuir revisión independiente si no existe | |
 | Consumidores y reapertura | K/campos y versiones; nueva evidencia o cambio que obliga a reconsiderar | |
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K03, completar el núcleo de [N03 Delimitar mercado y acceso](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

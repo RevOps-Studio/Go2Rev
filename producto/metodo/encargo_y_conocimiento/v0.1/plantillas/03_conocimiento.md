@@ -109,3 +109,7 @@ Productor: analista con el consumidor. Un hueco persiste aunque la solicitud aso
 | Alternativa y límite de uso | Fuente alternativa, derivación fundamentada, conclusión limitada o compromiso detenido | |
 | Estado y fundamento | Abierto, resuelto, uso limitado o no aplica justificado; AF/FUE/DEC que sostiene la disposición | |
 | Reapertura y dependencias | Condición que exige reconsiderar y consumidores a revisar | |
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K02, completar el núcleo de [N02 Convertir originales en conocimiento](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

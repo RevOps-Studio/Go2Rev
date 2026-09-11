@@ -33,3 +33,7 @@ Usar con [obtención de evidencia](../03_protocolos_de_evidencia.md) o [comproba
 | Revisión y consumo | Productor receptor, campo/revisión, disposición y condición CAM antes de actuar | |
 
 Fijar estos criterios antes de la observación. La [plantilla de observación](06_observacion_y_correccion.md) conservará después el resultado sin modificar el protocolo retrospectivamente.
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K14, completar el núcleo de [N14 Preparar obligaciones y evidencia](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

@@ -2,7 +2,7 @@
 
 Versión 0.1 · K07 · Campos empresariales vacíos
 
-Usar con [posicionamiento y promesas](../01_posicionamiento_y_promesas.md). Repetir los bloques de alternativa y conclusión solo cuando la decisión lo requiera. Son secciones de K07, no registros ni planes maestros adicionales. Aplicar el [diccionario común](../../../encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md): en una futura prestación, desconocido, no aplica y cero tienen significados distintos.
+Usar con [posicionamiento y promesas](../01_posicionamiento_y_promesas.md). Repetir los bloques de alternativa y conclusión solo cuando la decisión lo requiera. Son secciones de K07, no registros ni planes maestros adicionales. Aplicar el [diccionario común](../../../encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md): en una prestación, desconocido, no aplica y cero tienen significados distintos.
 
 ## Identificación y pregunta
 
@@ -48,3 +48,7 @@ Usar con [posicionamiento y promesas](../01_posicionamiento_y_promesas.md). Repe
 | Revisión ante cambios | Premisa que reabre la elección, productor y consumidores; CAM cuando cambie | |
 
 Los mensajes se desarrollan en [mensaje y fundamento](02_mensaje_y_fundamento.md), conservando una misma oferta y sus condiciones.
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K07, completar el núcleo de [N07 Construir posición y mensaje](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

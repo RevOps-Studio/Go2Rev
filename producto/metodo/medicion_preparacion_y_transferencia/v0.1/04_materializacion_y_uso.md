@@ -2,11 +2,13 @@
 
 Versión 0.1 · Productor de K15
 
+Empezar con la [primera pasada de N15](../../operacion_conversacional/v0.2/10_primera_pasada.md#n15) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
 ## Decisión y entradas
 
 Producir lo que el destinatario necesita para realizar la tarea contratada, con contenido utilizable y un medio suficiente. Recibir obligación/protocolo K14, campos admitidos K07–K13, K01 y capacidades/permisos K02. En una preparación exploratoria, producir solo el ámbito del protocolo. En Design/Despliegue, cubrir las obligaciones del alcance habilitado, no solo materiales de una comprobación.
 
-K15 conserva pieza, versión, fuente editable, vista cuando proceda, propósito, usuario, estado y configuración efectuada o pendiente. No redefine oferta, fórmulas o transiciones por conveniencia de formato. Si falta una decisión material, la devuelve al productor; si falta redacción, el asistente la completa. Las acciones de producción y configuración siguientes corresponden a la futura prestación.
+K15 conserva pieza, versión, fuente editable, vista cuando proceda, propósito, usuario, estado y configuración efectuada o pendiente. No redefine oferta, fórmulas o transiciones por conveniencia de formato. Si falta una decisión material, la devuelve al productor; si falta redacción, el asistente la completa. Las acciones de producción y configuración siguientes corresponden a la prestación.
 
 ## Producir contenido que permita actuar
 
@@ -43,7 +45,7 @@ Antes de modificar un medio, confirmar ámbito y autoridad existentes, dependenc
 
 Los accesos se entregan mediante el mecanismo apropiado del entorno y al responsable autorizado. Las guías identifican propietario y forma de acceso sin incorporar secretos. Una conexión MCP puede facilitar lectura/escritura cuando sea suficiente y autorizada; no cambia fuente, autoridad ni criterio. Si falla, una alternativa manual solo es equivalente si conserva contenido, tiempo, capacidad y recepción exigidos.
 
-Cuando se use el [modelo económico FND04](../../oferta_entrega_y_economia/v0.1/08_guia_del_modelo.md), conservar su dominio. La captura de costes por actividad o relaciones no lineales requiere representación explícita antes de concluir. Exportar un libro o verlo correctamente no acredita recálculo con entradas ni comportamiento en otro motor; N16 especifica esa comprobación en el entorno de prestación.
+Cuando se use el [modelo económico oferta, entrega y economía](../../oferta_entrega_y_economia/v0.1/08_guia_del_modelo.md), conservar su dominio. La captura de costes por actividad o relaciones no lineales requiere representación explícita antes de concluir. Exportar un libro o verlo correctamente no acredita recálculo con entradas ni comportamiento en otro motor; N16 especifica esa comprobación en el entorno de prestación.
 
 ## Presentación humana y suficiencia
 

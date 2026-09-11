@@ -71,3 +71,7 @@ La opción pertinente de mantener situación, no invertir o aplazar se describe 
 | Entrega a productores siguientes | N07–N15, campos/versiones, restricciones y condiciones aún no cumplidas | |
 | Entrega a continuidad | N17 recibe evaluación, DEC, archivos disponibles, obligaciones, límites y siguiente acción | |
 | Disparadores de revisión | Cambio material en necesidad, alternativa, acceso, oferta, coste/caja, capacidad o autoridad; CAM pertinente | |
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K06, completar el núcleo de [N06 Recomendar la salida de Diagnostic](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

@@ -2,7 +2,7 @@
 
 Versión de plantilla 0.1 · Campos de prestación vacíos
 
-Usar con [contratos y diccionario](../03_contratos_y_diccionario.md). Son registros de una futura prestación. La columna Valor permanece vacía en el producto. Repetir solo por decisiones, entregas y dependencias materiales; pueden convivir en un índice compartido con K01/K02.
+Usar con [contratos y diccionario](../03_contratos_y_diccionario.md). Son registros de una prestación. La columna Valor permanece vacía en el producto. Repetir solo por decisiones, entregas y dependencias materiales; pueden convivir en un índice compartido con K01/K02.
 
 ## Decisión DEC · Bloque repetible
 
@@ -83,3 +83,7 @@ Productor: analista con responsables afectados. K01 gobierna quién puede autori
 | Responsable y orden | Productor antes que consumidor; evento necesario para cierre | |
 | Resolución | Versión resultante, revisión realizada y DEC si corresponde | |
 | Uso resultante y límites | Compromiso habilitado o pendiente, con fundamento | |
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K02, completar el núcleo de [N02 Convertir originales en conocimiento](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

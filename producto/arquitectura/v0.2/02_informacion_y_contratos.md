@@ -2,7 +2,7 @@
 
 Versión 0.2 · Especificación fundacional del producto
 
-Este archivo define la información y los contratos que se utilizarán en una futura prestación. Durante la construcción se producen las instrucciones y los formatos vacíos; no se recopila ni se completa aquí información de una empresa.
+Este archivo define la información y los contratos que se utilizarán en una prestación.
 
 ## Separar captura evidencia e interpretación
 
