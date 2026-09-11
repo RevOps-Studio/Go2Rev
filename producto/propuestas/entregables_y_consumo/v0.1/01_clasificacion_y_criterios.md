@@ -1,6 +1,6 @@
 # Entregables, documentos de consumo y trabajo interno
 
-Propuesta v0.1 · 11 de septiembre de 2026 · Pendiente de revisión de Carlos
+Propuesta v0.1 · 11 de septiembre de 2026 · Integración documental en main autorizada por Carlos
 
 ## Conclusión de la revisión
 
@@ -10,7 +10,7 @@ Se propone trabajar con **interno de proceso**, **interno de consumo** y **exter
 
 «Interno» toma como referencia al equipo que presta Go2Rev. La guía que recibe el equipo comercial del cliente es externa respecto a Go2Rev, aunque ese equipo la use dentro de su empresa. «Interno de consumo» designa el documento de análisis o consulta del consultor que puede dar lugar a una vista compartible. Por tanto, la familia de contenido y su circulación se indican por separado: compartir una síntesis no crea por sí solo una obligación de entrega.
 
-Esta propuesta revisa el método vigente en el conjunto v0.5. No modifica todavía instrucciones operativas, campos, carpetas, plantillas ni distribución. La selección de formatos y su construcción constituyen el trabajo posterior a la revisión de este criterio. El proyecto sigue siendo fundacional y teórico; aquí no se crean materiales de una prestación ni se ejecutan sus procedimientos.
+Esta propuesta revisa el método vigente en el conjunto v0.5. Carlos autoriza incorporarla al repositorio como base documental para el siguiente trabajo. No modifica todavía instrucciones operativas, campos, carpetas, plantillas ni distribución. La incorporación de las reglas, selección de formatos y construcción constituyen el desarrollo posterior. El proyecto sigue siendo fundacional y teórico; aquí no se crean materiales de una prestación ni se ejecutan sus procedimientos.
 
 ## Qué está resuelto y qué falta
 
@@ -149,11 +149,11 @@ No hace falta otra ficha maestra. La identidad, fuente, revisión, finalidad, re
 
 La elección entre documento, hoja, presentación, página o medio configurado vendrá después de fijar esas necesidades. Los registros internos no requieren un Word o PDF individual. Una tabla estructurada puede seguir siendo su representación suficiente. La operación por conversación y la independencia de proveedor se conservan.
 
-## Propuesta concreta para revisar
+## Base para la incorporación operativa
 
 Adoptar las tres familias como criterio de composición, con circulación separada; mantener los tres checkpoints vigentes como decisiones, y producir las vistas de análisis y de operación que necesita cada receptor desde sus fuentes existentes. El análisis de competencia queda como consumo compartible y alimenta Diagnostic; la guía de mensajes se entrega cuando la tarea contratada la requiere. K01 gobierna cualquier obligación adicional.
 
-Si se acepta este criterio, la incorporación afectará a la guía de composición, la operación conversacional, los metadatos comunes, los destinos/índice y las instrucciones de N01, N15 y N17. Habrá que revisar la propagación de esas reglas a plantillas, lecturas y distribución, y después construir los formatos de consumo y entrega. No introduce nodos, maestros, registros de negocio nuevos ni una plataforma.
+La incorporación operativa de este criterio afectará a la guía de composición, la operación conversacional, los metadatos comunes, los destinos/índice y las instrucciones de N01, N15 y N17. Habrá que revisar la propagación de esas reglas a plantillas, lecturas y distribución, y después construir los formatos de consumo y entrega. La integración documental no acredita ese desarrollo terminado. No introduce nodos, maestros, registros de negocio nuevos ni una plataforma.
 
 ## Fuentes efectivamente revisadas
 
