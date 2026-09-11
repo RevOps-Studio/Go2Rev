@@ -2,7 +2,24 @@
 
 Versión 0.1 · Productor de K13
 
-Empezar con la [primera pasada de N13](../../operacion_conversacional/v0.2/10_primera_pasada.md#n13) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N13](../../operacion_conversacional/v0.3/10_primera_pasada.md#n13) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
+
+<!-- procedimiento:inicio -->
+## Procedimiento de primera pasada
+
+Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+
+1. Partir de una decisión que necesita información y de los eventos K09–K12. Precisar objeto, identidad, fecha y unidad de análisis.
+2. Definir captura, fuente, responsable, cálculo y corte de cada medida. Abrir relaciones y excepciones si hay agregación, duplicados, faltantes o transición entre sistemas.
+3. Diseñar revisión e interpretación: condición, autoridad y acción ante el resultado. Abrir la ficha de revisión para vincular medida y decisión.
+4. Entregar K13 a N15 para instrumentar y a N16 para comprobar contenido y funcionamiento pertinentes; mantener límites de cobertura y trazabilidad hasta el original.
+
+**Bloques de salida:** K13.T01.B01. Su condición y momento gobiernan la exigibilidad; las piezas auxiliares se abren según la tarea.
+<!-- procedimiento:fin -->
+
+## Referencia sustantiva y condiciones de ampliación
+
 
 ## Pregunta y entradas
 

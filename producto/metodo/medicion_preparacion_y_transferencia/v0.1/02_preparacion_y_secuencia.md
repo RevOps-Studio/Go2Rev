@@ -2,7 +2,24 @@
 
 Versión 0.1 · Productor de K14
 
-Empezar con la [primera pasada de N14](../../operacion_conversacional/v0.2/10_primera_pasada.md#n14) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N14](../../operacion_conversacional/v0.3/10_primera_pasada.md#n14) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
+
+<!-- procedimiento:inicio -->
+## Procedimiento de primera pasada
+
+Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+
+1. Recuperar obligación K01 o pregunta abierta, diseños pertinentes y recursos. Precisar capacidad recibible, destinatario y compromiso que depende de ella.
+2. Definir piezas, responsables, medios, permisos y secuencia. Para obtención ligera de evidencia usar únicamente los campos que exige la pregunta y su exposición.
+3. Abrir el protocolo pertinente y fijar antes de actuar entrada, procedimiento, observación, criterio de decisión y condición de cierre. Adaptarlo al alcance y registrar cambios del criterio antes de observar.
+4. Entregar K14 a N15/N16 con dependencias y recursos; transmitir obligaciones y límites de acompañamiento a N17. Mantener localizado el trabajo detenido por una carencia.
+
+**Bloques de salida:** K14.T03.B01. Su condición y momento gobiernan la exigibilidad; las piezas auxiliares se abren según la tarea.
+<!-- procedimiento:fin -->
+
+## Referencia sustantiva y condiciones de ampliación
+
 
 ## Finalidad y dos motivos de preparación
 
@@ -39,4 +56,4 @@ El orden local evita circularidad: formular pregunta y protocolo → producir me
 
 Antes de ejecutar se fijan límites de gasto, esfuerzo, duración o exposición que necesite el compromiso, criterios de interrupción y autoridad para ampliarlos. Si son desconocidos y necesarios, la ejecución queda pendiente. No fijar un número universal de iteraciones ni continuar hasta obtener un resultado favorable. Una corrección justifica repetición cuando identifica causa, cambio y cobertura afectada; de otro modo se recomienda obtener otra evidencia, limitar o cerrar.
 
-K14 entrega a N15 instrucciones de producción, a N16 protocolos y cobertura, y a N17 obligaciones/condiciones de acompañamiento. Un cambio de promesa, entrada, variante, capacidad o criterio revisa la parte afectada antes de ejecutarla. No se abre otra planificación maestra: la secuencia es una sección del encargo y el Plan de desarrollo permanece separado.
+K14 entrega a N15 instrucciones de producción, a N16 protocolos y cobertura, y a N17 obligaciones/condiciones de acompañamiento. Un cambio de promesa, entrada, variante, capacidad o criterio revisa la parte afectada antes de ejecutarla. La secuencia forma parte del encargo y se localiza en su índice.

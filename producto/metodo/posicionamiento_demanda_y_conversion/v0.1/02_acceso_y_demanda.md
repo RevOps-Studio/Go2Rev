@@ -2,7 +2,24 @@
 
 Versión 0.1 · Productor de K09
 
-Empezar con la [primera pasada de N09](../../operacion_conversacional/v0.2/10_primera_pasada.md#n09) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N09](../../operacion_conversacional/v0.3/10_primera_pasada.md#n09) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
+
+<!-- procedimiento:inicio -->
+## Procedimiento de primera pasada
+
+Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+
+1. Recuperar acceso K03, compra K04, oferta K08 y capacidad K02. Comparar mecanismos de demanda por población alcanzable, pertinencia, permiso y dependencia de terceros.
+2. Definir acción, señal esperada, criterio y receptor K10. Elegir una primera ruta atendible y una secuencia que explicite recursos, aprendizaje y reversibilidad.
+3. Abrir el bloque de actividad, coste y cohorte antes de estimar carga o economía. Incluir preparación, atención, seguimiento y trabajo no convertido; conectar costes y restricciones con K12.
+4. Entregar K09 con condiciones de inicio, límite y criterio de revisión. Devolver al productor las brechas de acceso, oferta, recepción o capacidad que impidan la ruta.
+
+**Bloques de salida:** K09.T03.B01, K09.T03.B02, K09.T03.B03. Su condición y momento gobiernan la exigibilidad; las piezas auxiliares se abren según la tarea.
+<!-- procedimiento:fin -->
+
+## Referencia sustantiva y condiciones de ampliación
+
 
 ## Decisión y entradas
 
@@ -36,7 +53,7 @@ Una ruta identifica **por qué se produciría la respuesta**, dónde sucede, qu�
 | Uso de una capacidad del producto | Una experiencia útil permite evaluar valor y avanzar hacia una compra pertinente | Capacidad disponible, coste de servir, medición y transición. Uso gratuito o actividad no demuestra compra ni retención |
 | Reapertura por cambio pertinente | Un nuevo hecho resuelve la razón por la que no se avanzó | Permiso vigente, motivo anterior, nueva pertinencia y límite. El paso del tiempo no habilita insistencia indefinida |
 
-Las familias son un vocabulario de diseño general, no recomendaciones de canal para un encargo ni acciones del desarrollo actual. El trabajo puede combinarse; sus poblaciones, actividades y costes deben seguir siendo identificables.
+Las familias son un vocabulario de diseño general, no recomendaciones de canal para un encargo. El trabajo puede combinarse; sus poblaciones, actividades y costes deben seguir siendo identificables.
 
 ## Fuentes externas y referencias de desempeño
 

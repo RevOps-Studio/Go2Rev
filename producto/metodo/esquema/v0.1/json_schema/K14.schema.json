@@ -1,0 +1,471 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Representación documental opcional de K14",
+  "$comment": "Valida únicamente estructura de una exportación textual. No valida suficiencia, exigibilidad condicional, verdad, permisos ni aceptación. Las colecciones permiten bloques repetibles. No obliga a operar Go2Rev en JSON.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cabecera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "versión": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ámbito y K01": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor y fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ubicación": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado documental": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "receptor y uso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bloques": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "K14.T03.B01": {
+          "type": "array",
+          "description": ". Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K14.T03.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Referencia",
+                "description": "K14/sección/revisión, autor, fecha, ubicación y estado documental"
+              },
+              "K14.T03.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Encargo y ámbito",
+                "description": "K01/revisión, destinatario, recorrido/variante y uso E/O"
+              },
+              "K14.T03.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Motivo de preparación",
+                "description": "Obligación contratada, evidencia para decisión abierta o ambas; localizador"
+              },
+              "K14.T03.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisión habilitada",
+                "description": "K06/DEC o pregunta exploratoria delimitada sin exigir K06 final"
+              },
+              "K14.T03.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Capacidad recibible",
+                "description": "Qué debe poder hacerse, por quién y con qué condición de finalización"
+              },
+              "K14.T03.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Tarea y recorrido",
+                "description": "Entrada, acción/decisión, salida, receptor y excepción material"
+              },
+              "K14.T03.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contenido productor",
+                "description": "K07–K13/campo/revisión y criterio admitido; carencias explícitas"
+              },
+              "K14.T03.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Pieza o medio",
+                "description": "Función y localizador si existe; conservar, adaptar, producir o configurar"
+              },
+              "K14.T03.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Tipo de evidencia",
+                "description": "Mercado/proceso, conducta comercial, cálculo/archivo, captura o uso; límite de conclusión"
+              },
+              "K14.T03.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Protocolo",
+                "description": "Referencia a procedimiento y versión de criterio previo; qué cubrirá"
+              },
+              "K14.T03.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Dependencia de inicio",
+                "description": "Productor, condición verificable y qué trabajo puede avanzar mientras falta"
+              },
+              "K14.T03.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Orden y prioridad",
+                "description": "Precedencias, consecuencia de error, valor de información y coste de esperar/actuar"
+              },
+              "K14.T03.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Trabajo completo",
+                "description": "Producción, preparación, ejecución, análisis, corrección y traspaso pertinentes"
+              },
+              "K14.T03.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recurso y calendario",
+                "description": "Competencia, CAP, disponibilidad neta y distribución temporal; asignación nominal distinta de efectiva"
+              },
+              "K14.T03.B01.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Economía",
+                "description": "Referencias de partidas/carga K12, ámbito, reconocimiento/pago y conciliación sin doble coste"
+              },
+              "K14.T03.B01.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Acceso y autoridad",
+                "description": "Permisos por acción, responsable y vigencia; no pedir de nuevo autoridad suficiente"
+              },
+              "K14.T03.B01.F17": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condición de preparado",
+                "description": "Entradas, versiones, personas, medios y observación efectivamente disponibles"
+              },
+              "K14.T03.B01.F18": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Límites",
+                "description": "Gasto/esfuerzo/tiempo/exposición pertinentes y fundamento; desconocidos necesarios impiden esa ejecución"
+              },
+              "K14.T03.B01.F19": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Interrupción o ampliación",
+                "description": "Condición de detener, responsable y autoridad para cambiar el compromiso"
+              },
+              "K14.T03.B01.F20": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Criterio de recepción",
+                "description": "Obligación y evidencia necesaria; no exigir venta como cierre universal"
+              },
+              "K14.T03.B01.F21": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Alternativa o carencia",
+                "description": "HUE/CON, efecto, opción suficiente y productor"
+              },
+              "K14.T03.B01.F22": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Acompañamiento",
+                "description": "Trabajo del consultor/operador, soporte previsto y condición de fin conforme a K01"
+              },
+              "K14.T03.B01.F23": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consumidores y revisión",
+                "description": "K15/K16/K17 o N06, campo/revisión, disposición y CAM pertinente"
+              }
+            }
+          }
+        },
+        "K14.T04.B01": {
+          "type": "array",
+          "description": ". Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K14.T04.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Referencia y estado",
+                "description": "K14/sección/revisión, autor, fecha, ubicación y estado documental"
+              },
+              "K14.T04.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Encargo y obligación",
+                "description": "K01/revisión y compromiso o pregunta que justifica la actuación"
+              },
+              "K14.T04.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Proposición y consumidor",
+                "description": "AF/HUE, decisión, productor/campo/revisión que necesita la evidencia"
+              },
+              "K14.T04.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Explicación alternativa",
+                "description": "Qué otra lectura debe poder distinguirse y por qué importa"
+              },
+              "K14.T04.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Tipo de evidencia",
+                "description": "Selección razonada entre fuentes/proceso, conducta comercial, funcionamiento o uso"
+              },
+              "K14.T04.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cobertura y límite",
+                "description": "Qué podrá concluirse, qué no y qué variantes/condiciones se observarán"
+              },
+              "K14.T04.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Población y unidad",
+                "description": "Inclusión/exclusión, identidad, selección, sesgos y representatividad que puede sostenerse"
+              },
+              "K14.T04.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Versiones",
+                "description": "Oferta/ruta/material/regla, fuente editable y medio/entorno pertinentes"
+              },
+              "K14.T04.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Entradas",
+                "description": "Origen, localizador, condición conocida/desconocida y autorización de uso"
+              },
+              "K14.T04.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recursos efectivos",
+                "description": "Ejecutor, operador/receptor cuando procedan, competencia, disponibilidad y respaldo"
+              },
+              "K14.T04.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Permisos",
+                "description": "Acceso, contacto, registro, exposición, gasto o modificación según actuación"
+              },
+              "K14.T04.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Instrucción al ejecutor",
+                "description": "Contexto, propósito, tarea, guía y apoyos normales; sin transferir análisis pendiente"
+              },
+              "K14.T04.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Procedimiento",
+                "description": "Secuencia concreta, responsables, entrada/salida y condiciones de cada paso"
+              },
+              "K14.T04.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Criterio previo",
+                "description": "Evidencia/resultados que permitirán discriminar la pregunta o evaluar cumplimiento"
+              },
+              "K14.T04.B01.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condición contraria",
+                "description": "Qué refutaría la premisa o impediría el compromiso dependiente"
+              },
+              "K14.T04.B01.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Tratamiento de inconclusión",
+                "description": "Ausencia de captura, condición no observada, desconocido y no respuesta separados"
+              },
+              "K14.T04.B01.F17": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Magnitudes y tolerancia",
+                "description": "Definición K12/K13, unidades, dominio y precisión/criterio sustentados cuando procedan"
+              },
+              "K14.T04.B01.F18": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Tiempo de observación",
+                "description": "Origen/corte/ventana y madurez; sin interpretar prematuramente un resultado"
+              },
+              "K14.T04.B01.F19": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Comparación",
+                "description": "Asignación/condiciones de alternativas cuando proceda, posibles diferencias y límite causal"
+              },
+              "K14.T04.B01.F20": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Rastro previsto",
+                "description": "Original, fecha/contexto, acciones, ayudas, resultados, coste/carga y lugar de conservación"
+              },
+              "K14.T04.B01.F21": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Preparabilidad",
+                "description": "Evidencia de disponibilidad de entradas, medios, personas y captura; dependencias aún pendientes"
+              },
+              "K14.T04.B01.F22": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Límites y detención",
+                "description": "Recursos/compromisos autorizados, condición de interrupción y responsable"
+              },
+              "K14.T04.B01.F23": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Corrección y repetición",
+                "description": "Causa/cambio que justificarían repetir, cobertura afectada y límite acordado"
+              },
+              "K14.T04.B01.F24": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Salidas de decisión",
+                "description": "Qué hacer ante respaldo, contradicción, fallo o evidencia insuficiente; autoridad"
+              },
+              "K14.T04.B01.F25": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Revisión y consumo",
+                "description": "Productor receptor, campo/revisión, disposición y condición CAM antes de actuar"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cabecera",
+    "bloques"
+  ]
+}

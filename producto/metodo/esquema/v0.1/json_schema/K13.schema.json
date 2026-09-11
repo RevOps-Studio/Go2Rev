@@ -1,0 +1,407 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Representación documental opcional de K13",
+  "$comment": "Valida únicamente estructura de una exportación textual. No valida suficiencia, exigibilidad condicional, verdad, permisos ni aceptación. Las colecciones permiten bloques repetibles. No obliga a operar Go2Rev en JSON.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cabecera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "versión": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ámbito y K01": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor y fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ubicación": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado documental": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "receptor y uso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bloques": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "K13.T01.B01": {
+          "type": "array",
+          "description": ". Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K13.T01.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Referencia y estado",
+                "description": "K13/sección/revisión, ubicación, autor, fecha y estado documental"
+              },
+              "K13.T01.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Encargo y uso",
+                "description": "K01/revisión, ámbito y uso E/O de los campos"
+              },
+              "K13.T01.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisión",
+                "description": "Compromiso que podría cambiar, responsable y alternativas"
+              },
+              "K13.T01.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Mecanismo",
+                "description": "Relación entre evento, condición/resultado y decisión; AF que la fundamenta"
+              },
+              "K13.T01.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evento",
+                "description": "Qué sucede y qué condición acredita el hecho; distinguir actividad, señal, compra, entrega y caja"
+              },
+              "K13.T01.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Objeto e identidad",
+                "description": "Unidad, identificador/enlace, deduplicación y repetición pertinente"
+              },
+              "K13.T01.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Población",
+                "description": "Inclusión/exclusión, ámbito y cobertura del universo elegible"
+              },
+              "K13.T01.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fechas y ventana",
+                "description": "Hecho, registro, recepción, corte, calendario/zona y seguimiento pertinente"
+              },
+              "K13.T01.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Medida y unidad",
+                "description": "Nombre descriptivo, magnitud/unidad y significado para la decisión"
+              },
+              "K13.T01.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fórmula y dominio",
+                "description": "Entradas, transformaciones, numerador/denominador y condición de cálculo; referencia K12 cuando proceda"
+              },
+              "K13.T01.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fuentes",
+                "description": "FUE/sistema/campo, original, cobertura leída, versión y responsable"
+              },
+              "K13.T01.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Conciliación",
+                "description": "Qué gobierna cada dato/estado y cómo se resuelve discrepancia, duplicidad o llegada tardía"
+              },
+              "K13.T01.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Captura",
+                "description": "Origen, extracción/recepción, transformación, destino y medio suficiente para N15"
+              },
+              "K13.T01.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Disponibilidad",
+                "description": "CAP, acceso, calidad, latencia y requisitos por habilitar"
+              },
+              "K13.T01.B01.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Ausencias",
+                "description": "Desconocido, inválido, pendiente y cero observado separados; efecto sobre cálculo/conclusión"
+              },
+              "K13.T01.B01.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Línea base y referencia",
+                "description": "Periodo/población comparables, fuente y límite; ausencia sin sustitución arbitraria"
+              },
+              "K13.T01.B01.F17": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Objetivo",
+                "description": "Aspiración o compromiso, DEC y horizonte; separado de observación"
+              },
+              "K13.T01.B01.F18": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Umbral de acción",
+                "description": "Fundamento K12/condición/riesgo o relación simbólica, autoridad y acción que activa"
+              },
+              "K13.T01.B01.F19": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Interpretación",
+                "description": "Explicación, alternativa contraria, madurez, sesgos y límite de generalización/atribución"
+              },
+              "K13.T01.B01.F20": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Responsables",
+                "description": "Quién captura/calcula, quién interpreta y quién decide; disponibilidad pertinente"
+              },
+              "K13.T01.B01.F21": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Revisión",
+                "description": "Evento o periodo justificado y plazo útil para actuar; sin reunión obligatoria"
+              },
+              "K13.T01.B01.F22": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Comprobación requerida",
+                "description": "Qué debe verificar N16 para declarar captura/cálculo/consulta preparados"
+              },
+              "K13.T01.B01.F23": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consumo y cambios",
+                "description": "Receptor/campo/revisión, disposición, HUE/CON y condición CAM"
+              }
+            }
+          }
+        },
+        "K13.T02.B01": {
+          "type": "array",
+          "description": ". Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K13.T02.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Referencia",
+                "description": "K13/sección/revisión, autor, fecha y estado documental"
+              },
+              "K13.T02.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Ámbito y motivo",
+                "description": "K01/revisión, población/recorrido y decisión que justifica la lectura"
+              },
+              "K13.T02.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Corte y definiciones",
+                "description": "Fecha/ventana, medida/revisión y naturaleza de los datos"
+              },
+              "K13.T02.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fuentes y cobertura",
+                "description": "AF/FUE, disponibilidad, completitud y cambios de captura/definición"
+              },
+              "K13.T02.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Observación",
+                "description": "Qué se conoce bajo esas definiciones; separar resultado parcial, pendiente y desconocido"
+              },
+              "K13.T02.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Comparación",
+                "description": "Referencia compatible, diferencia y límite; no empalmar series incompatibles"
+              },
+              "K13.T02.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Umbral pertinente",
+                "description": "Criterio previo, fundamento, autoridad y condición de aplicación"
+              },
+              "K13.T02.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Explicación sustentada",
+                "description": "Premisas, mecanismo y razonamiento que conecta datos con decisión"
+              },
+              "K13.T02.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Explicación contraria",
+                "description": "Otras causas compatibles, cambios simultáneos y evidencia en contra"
+              },
+              "K13.T02.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Efecto en el sistema",
+                "description": "Campos/revisiones K06–K12 u otros que dependen del hallazgo"
+              },
+              "K13.T02.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Alternativas de acción",
+                "description": "Mantener, ajustar, detener, reabrir u obtener evidencia; consecuencias y recursos"
+              },
+              "K13.T02.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recomendación",
+                "description": "Motivo, límites y condición que la cambiaría; sin forzar una acción nueva por cada revisión"
+              },
+              "K13.T02.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisión",
+                "description": "Referencia DEC, autoridad, disposición y compromiso realmente habilitado"
+              },
+              "K13.T02.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Acción y receptor",
+                "description": "Responsable, entrada/salida, lugar de registro, disponibilidad y recepción"
+              },
+              "K13.T02.B01.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condición posterior",
+                "description": "Cuándo comprobar efecto/cumplimiento, con qué evidencia y qué ocurrirá si no llega"
+              },
+              "K13.T02.B01.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Pendientes",
+                "description": "HUE/CON, motivo, alcance limitado y productor de corrección/obtención"
+              },
+              "K13.T02.B01.F17": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cambio y conservación",
+                "description": "CAM si procede; datos publicados al corte y revisión posterior separados"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cabecera",
+    "bloques"
+  ]
+}

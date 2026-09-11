@@ -1,0 +1,347 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Representación documental opcional de K04",
+  "$comment": "Valida únicamente estructura de una exportación textual. No valida suficiencia, exigibilidad condicional, verdad, permisos ni aceptación. Las colecciones permiten bloques repetibles. No obliga a operar Go2Rev en JSON.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cabecera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "versión": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ámbito y K01": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor y fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ubicación": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado documental": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "receptor y uso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bloques": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "K04.T03.B01": {
+          "type": "array",
+          "description": "Segmento y situación · Bloque repetible. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K04.T03.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Segmento y ámbito",
+                "description": "Situación/grupo delimitado, geografía y periodo, dentro de K01/K03"
+              },
+              "K04.T03.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Inclusión, exclusión y solapamiento",
+                "description": "Condiciones observables que distinguen el grupo y cómo se asigna una unidad"
+              },
+              "K04.T03.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Trabajo y problema",
+                "description": "Actividad afectada, quién recibe la consecuencia y soporte AF"
+              },
+              "K04.T03.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Desencadenante y momento",
+                "description": "Qué haría revisar la solución actual; distinguir declarado, observado e inferido"
+              },
+              "K04.T03.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Alternativa actual",
+                "description": "Cómo se resuelve o se mantiene la situación; fundamento o hipótesis"
+              },
+              "K04.T03.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consecuencia de seguir igual",
+                "description": "Coste, riesgo o efecto conocido/desconocido; no presumir urgencia"
+              },
+              "K04.T03.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Restricciones de compra/adopción",
+                "description": "Presupuesto, admisión, calendario, riesgo, integración y continuidad pertinentes"
+              },
+              "K04.T03.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evidencia y cobertura",
+                "description": "AF/FUE, población/contexto, sesgo y límite de generalización"
+              },
+              "K04.T03.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contraste de compra externo e interno",
+                "description": "Necesidad/criterio/rol interno frente a evidencia externa, comparabilidad, dimensión nueva e implicación sobre segmento/oferta"
+              },
+              "K04.T03.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "A/B y capacidad de servir",
+                "description": "TRA/CAP y condición que debe sostener la oferta en ese segmento"
+              }
+            }
+          }
+        },
+        "K04.T03.B02": {
+          "type": "array",
+          "description": "Función en la compra · Bloque repetible. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K04.T03.B02.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Función y ámbito",
+                "description": "Uso, prescripción, evaluación, aprobación, contratación, pago o aceptación; intermediario/final si procede"
+              },
+              "K04.T03.B02.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisión y autoridad",
+                "description": "Qué decide o bloquea; evidencia o desconocimiento de su autoridad"
+              },
+              "K04.T03.B02.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Criterio e interés",
+                "description": "Qué necesita conseguir/proteger en esa situación; atribución y soporte"
+              },
+              "K04.T03.B02.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Información/evidencia requerida",
+                "description": "Qué permite juzgar admisibilidad o preferencia"
+              },
+              "K04.T03.B02.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Relación con otras funciones",
+                "description": "Dependencia, conflicto o acumulación de roles; sin asignar por estereotipo de cargo"
+              }
+            }
+          }
+        },
+        "K04.T03.B03": {
+          "type": "array",
+          "description": "Transición de compra · Bloque repetible. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K04.T03.B03.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Situación de entrada",
+                "description": "Estado o evento de comprador y naturaleza de su conocimiento"
+              },
+              "K04.T03.B03.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisión a resolver",
+                "description": "Qué necesita decidir para avanzar o elegir otra salida"
+              },
+              "K04.T03.B03.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Responsable de decisión",
+                "description": "Función y autoridad de la sección anterior"
+              },
+              "K04.T03.B03.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condición y evidencia de avance",
+                "description": "Evento/criterio observable; acción del vendedor separada"
+              },
+              "K04.T03.B03.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Otras salidas y fricciones",
+                "description": "Pausa, retorno, abandono o permanencia, y causas sustentadas o hipotéticas"
+              },
+              "K04.T03.B03.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Tiempo y eventos",
+                "description": "Inicio/fin, unidad, periodo y cobertura; desconocido si no hay sustento"
+              },
+              "K04.T03.B03.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Requisitos para N10/N11",
+                "description": "Trabajo comercial, condición de inicio/aceptación y límites que deben respetar"
+              }
+            }
+          }
+        },
+        "K04.T03.B04": {
+          "type": "array",
+          "description": "Comparación y foco recomendado. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K04.T03.B04.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Criterios decisivos",
+                "description": "Necesidad, acceso, compra, servicio, economía y evidencia; explicar pertinencia"
+              },
+              "K04.T03.B04.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Restricciones por opción",
+                "description": "Incompatibilidades conocidas, capacidades por habilitar y carencias"
+              },
+              "K04.T03.B04.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Comparación razonada",
+                "description": "Ventajas, renuncias y relaciones entre criterios; no compensar imposibilidades con puntuación"
+              },
+              "K04.T03.B04.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Foco propuesto y fundamento",
+                "description": "A quién empezar, por qué y mejor alternativa descartada para ese uso"
+              },
+              "K04.T03.B04.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condición que cambia la prioridad",
+                "description": "Premisa decisiva y evidencia que la resolvería"
+              },
+              "K04.T03.B04.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Suficiencia y evidencia pendiente",
+                "description": "AF/HUE/CON, uso exploratorio o compromiso delimitado; solicitud a N14 si corresponde"
+              },
+              "K04.T03.B04.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consumidores",
+                "description": "Campos/versiones para N05–N11 y N13; N06 integra la elección"
+              },
+              "K04.T03.B04.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Revisión y disposición",
+                "description": "Consultor/fecha, DEC cuando exista, límites y disparadores de CAM"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cabecera",
+    "bloques"
+  ]
+}

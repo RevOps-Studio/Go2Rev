@@ -2,7 +2,24 @@
 
 Versión 0.1 · Instrucciones para una prestación
 
-Empezar con la [primera pasada de N02](../../operacion_conversacional/v0.2/10_primera_pasada.md#n02) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N02](../../operacion_conversacional/v0.3/10_primera_pasada.md#n02) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
+
+<!-- procedimiento:inicio -->
+## Procedimiento de primera pasada
+
+Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+
+1. Recuperar K01 y materiales pertinentes a sus preguntas. Inventariar disponibilidad y leer las secciones necesarias; identificar original, localizador y cobertura en FUE.
+2. Extraer proposiciones materiales en AF y separar lo declarado de lo observado o derivado. Explicitar premisas, transformación y refutación en las inferencias e hipótesis.
+3. Reconciliar discrepancias comparables en CON; convertir ausencias materiales en HUE. Proponer investigación o solicitud SOL al productor exclusivo, con uso afectado y alternativa.
+4. Producir perfil K02 y matriz TRA para A o CAP para B, abriendo la plantilla aplicable de la extensión. Entregar al consumidor campos, versiones y límites; registrar relaciones de consumo y cambios cuando existan.
+
+**Bloques de salida:** K02.T03.B01, K02.T03.B02, K02.T03.B03, K02.T03.B04, K02.T03.B05, K02.T03.B06. Su condición y momento gobiernan la exigibilidad; las piezas auxiliares se abren según la tarea.
+<!-- procedimiento:fin -->
+
+## Referencia sustantiva y condiciones de ampliación
+
 
 ## Finalidad y contrato
 
@@ -148,7 +165,7 @@ Actualizar primero fuente o premisa, después derivaciones, matrices y consumido
 
 El consultor revisa si la base responde a las preguntas del encargo, si las fuentes sostienen las afirmaciones en su ámbito, si las derivaciones muestran razonamiento y alternativas, si las discrepancias tienen tratamiento y si cada hueco relevante tiene una consecuencia y un responsable. La revisión humana de hechos propios se concentra en las aclaraciones necesarias. No se impone confirmar cada sección para seguir trabajando dentro de la autorización vigente.
 
-La revisión de construcción de estas instrucciones examina su cobertura y consistencia documental. Su aplicación y la prueba de la metodología quedan posteriores al cierre fundacional completo.
+
 
 
 ## Lectura interna y externa en una misma base

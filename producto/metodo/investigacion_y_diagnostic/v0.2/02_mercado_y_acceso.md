@@ -2,7 +2,24 @@
 
 Versión 0.2 · Procedimiento de futura prestación
 
-Empezar con la [primera pasada de N03](../../operacion_conversacional/v0.2/10_primera_pasada.md#n03) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N03](../../operacion_conversacional/v0.3/10_primera_pasada.md#n03) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
+
+<!-- procedimiento:inicio -->
+## Procedimiento de primera pasada
+
+Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+
+1. Fijar pregunta, opciones de ámbito y criterio de suficiencia antes de buscar. Delimitar situación de compra, población, unidad, inclusiones, solapamientos y periodo en K03.
+2. Investigar estructura, distribución, acceso, requisitos y tendencias materiales. Elegir fuentes por proposición y geografía; usar la rutina de fuentes si el pool es insuficiente o cambia el acceso. Distinguir fuente candidata, conectada y leída.
+3. Cruzar hallazgos externos con objetivos, representación, recursos y horizonte K02. Clasificar coincidencias, matices, contradicciones, huecos y condiciones; explicar el mecanismo y el campo que cambia. Conservar el argumento contrario.
+4. Dimensionar solo magnitudes útiles a la elección: abrir las fórmulas de referencia antes de calcular, construir desde unidades y contrastar agregados comparables. Entregar ámbito recomendado, fundamento, cobertura y límites a sus consumidores.
+
+**Bloques de salida:** K03.T02.B01, K03.T02.B02, K03.T02.B03, K03.T02.B04. Su condición y momento gobiernan la exigibilidad; las piezas auxiliares se abren según la tarea.
+<!-- procedimiento:fin -->
+
+## Referencia sustantiva y condiciones de ampliación
+
 
 ## Decisión, entradas y salida
 

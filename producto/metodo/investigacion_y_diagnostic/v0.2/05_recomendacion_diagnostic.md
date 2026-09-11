@@ -2,7 +2,26 @@
 
 Versión 0.2 · Procedimiento de futura prestación
 
-Empezar con la [primera pasada de N06](../../operacion_conversacional/v0.2/10_primera_pasada.md#n06) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N06](../../operacion_conversacional/v0.3/10_primera_pasada.md#n06) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
+
+<!-- procedimiento:inicio -->
+## Procedimiento de primera pasada
+
+Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+
+1. Recuperar pregunta y salidas K01, K02–K05 y una combinación explícita K08–K12 en E. Abrir la interfaz exploratoria de la extensión antes de comparar su economía; solicitar los campos que falten a sus productores.
+2. Contrastar evidencia externa con representación, recursos y restricciones internas. Separar incompatibilidades, condiciones habilitables e incertidumbres; comparar opciones con costes, capacidad, caja y límites de cobertura.
+3. Cuando una incertidumbre impida decidir, analizar una hipótesis sustentada con premisas y refutación según suficiencia común. Si una conversación exploratoria breve puede cambiar la elección, abrir ese procedimiento y N14 solo en el alcance pertinente; precisar qué compromiso permanece limitado.
+4. Exponer la mejor objeción y recomendar una salida con condiciones, alternativa y disparadores de revisión. Localizar la decisión de autoridad en DEC, su consecuencia contractual y la recepción N17, incluida una terminación de Diagnostic.
+
+**Bloques de salida:** K06.T05.B01, K06.T05.B02, K06.T05.B03, K06.T05.B04, K06.T05.B05. Su condición y momento gobiernan la exigibilidad; las piezas auxiliares se abren según la tarea.
+
+**Régimen de evidencia:** [hipótesis sustentada](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md#hipotesis) · [conversación exploratoria breve](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md#conversacion).
+<!-- procedimiento:fin -->
+
+## Referencia sustantiva y condiciones de ampliación
+
 
 ## Decisión, responsabilidad y salida
 
@@ -101,6 +120,6 @@ DEC conserva disposición, decisor, fecha, rastro, alcance habilitado y condicio
 
 N07–N15 reciben la combinación y el alcance efectivamente habilitados, versiones de entradas, restricciones y condiciones que no pueden tratar como cumplidas. N17 recibe evaluación, decisión, obligaciones de entrega, condiciones económicas de salida y límites de continuidad. N01 recibe cualquier modificación de encargo propuesta o acordada.
 
-Si se requiere más evidencia, N14 recibe la pregunta y el compromiso que su resultado podría habilitar; N15/N16 se activan solo según protocolo, recursos y permisos de la prestación. La construcción actual entrega estas reglas y formatos, sin ejecutar esas actuaciones.
+Si se requiere más evidencia, N14 recibe la pregunta y el compromiso que su resultado podría habilitar; N15/N16 se activan solo según protocolo, recursos y permisos de la prestación.
 
 Cambios de necesidad, alternativa, acceso, precio/coste, cobro, capacidad o autoridad que afecten la tesis reabren K06 antes del compromiso dependiente. Conservar versión anterior y registrar CAM con impacto en cada consumidor. Una continuación de conversación no altera por sí misma el fundamento ni obliga a repetir Diagnostic.

@@ -2,7 +2,24 @@
 
 Versión 0.1 · Productor de K17
 
-Empezar con la [primera pasada de N17](../../operacion_conversacional/v0.2/10_primera_pasada.md#n17) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N17](../../operacion_conversacional/v0.3/10_primera_pasada.md#n17) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
+
+<!-- procedimiento:inicio -->
+## Procedimiento de primera pasada
+
+Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+
+1. Recuperar K01, decisión Diagnostic y entregas/cobertura pertinentes. Reconciliar obligaciones, versiones y estado efectivo por receptor.
+2. Preparar acceso, fuentes editables, vistas y guía de continuidad. Para una salida Diagnostic seleccionar solo contenido y obligaciones propios de esa salida.
+3. Disponer pendientes con responsable, consecuencia y reapertura; concretar recepción, liquidación, soporte y finalización del acompañamiento conforme al acuerdo.
+4. Entregar K17 e índice vigente, comprobar localización y comunicar usos admitidos y limitados. Conservar decisiones y versiones necesarias para una reanudación posterior.
+
+**Bloques de salida:** K17.T08.B01, K17.T08.B02. Su condición y momento gobiernan la exigibilidad; las piezas auxiliares se abren según la tarea.
+<!-- procedimiento:fin -->
+
+## Referencia sustantiva y condiciones de ampliación
+
 
 ## Finalidad y entradas
 

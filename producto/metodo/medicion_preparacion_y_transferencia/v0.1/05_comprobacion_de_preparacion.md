@@ -2,13 +2,30 @@
 
 Versión 0.1 · Productor de K16 · Protocolos de futura prestación
 
-Empezar con la [primera pasada de N16](../../operacion_conversacional/v0.2/10_primera_pasada.md#n16) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N16](../../operacion_conversacional/v0.3/10_primera_pasada.md#n16) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
+
+<!-- procedimiento:inicio -->
+## Procedimiento de primera pasada
+
+Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+
+1. Recuperar criterio K14, versiones K15 y medios/operador pertinentes. Seleccionar y abrir el procedimiento completo de comprobación requerido por la tarea.
+2. Conservar entrada, ejecutor, ayuda, resultado y rastro original durante la actuación autorizada. Comparar con el criterio previo y declarar cumplido, incumplido, inconcluyente o no ejecutado.
+3. Localizar la causa y devolver corrección al productor. Abrir cobertura para determinar qué observaciones deben repetirse y qué usos siguen sustentados.
+4. Entregar K16 por ámbito y versión, con límites y disposición de pendientes. Separar revisión de contenido, funcionamiento y uso observado al declarar preparación.
+
+**Bloques de salida:** K16.T06.B01. Su condición y momento gobiernan la exigibilidad; las piezas auxiliares se abren según la tarea.
+<!-- procedimiento:fin -->
+
+## Referencia sustantiva y condiciones de ampliación
+
 
 ## Alcance y prerrequisitos
 
 Determinar si las tareas y recorridos críticos contratados pueden utilizarse con sus contenidos, personas y medios. Recibir protocolos/criterios previos K14, piezas/configuraciones K15, reglas K07–K13, entradas pertinentes al encargo y recursos efectivos. El consultor evalúa; el operador realiza las tareas de uso que le correspondan; el responsable técnico interviene donde su competencia sea necesaria.
 
-Estos procedimientos se construyen ahora y solo se ejecutarán después de completar Go2Rev, en el ámbito autorizado. La revisión documental de la construcción examina sus definiciones, no genera observaciones de negocio. La falta de operador durante el desarrollo no impide redactar el protocolo completo.
+
 
 ## Cobertura antes de observar
 

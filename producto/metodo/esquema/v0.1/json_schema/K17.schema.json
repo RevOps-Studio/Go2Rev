@@ -1,0 +1,271 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Representación documental opcional de K17",
+  "$comment": "Valida únicamente estructura de una exportación textual. No valida suficiencia, exigibilidad condicional, verdad, permisos ni aceptación. Las colecciones permiten bloques repetibles. No obliga a operar Go2Rev en JSON.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cabecera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "versión": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ámbito y K01": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor y fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ubicación": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado documental": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "receptor y uso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bloques": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "K17.T08.B01": {
+          "type": "array",
+          "description": "Estado, contenido y recepción. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K17.T08.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Referencia",
+                "description": "K17/revisión, autor, fecha, ubicación y estado documental"
+              },
+              "K17.T08.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Encargo y salida",
+                "description": "K01/revisión, K06/DEC, ámbito contratado y decisión de cierre"
+              },
+              "K17.T08.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Obligación recibible",
+                "description": "Entrega, destinatario, criterio y compromiso al que responde"
+              },
+              "K17.T08.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Estado y fundamento",
+                "description": "Evaluación, diseño, preparación comprobada o entrega parcial; evidencia por ámbito"
+              },
+              "K17.T08.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Actuaciones observadas",
+                "description": "Referencias originales cuando existan; separar de cumplimiento integral y resultado futuro"
+              },
+              "K17.T08.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Índice por tarea",
+                "description": "Qué usar y dónde, fuente editable, revisión, derivados y precedencia"
+              },
+              "K17.T08.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Dependencias",
+                "description": "Archivos, fuentes externas y medios necesarios; enlace distinto de copia disponible"
+              },
+              "K17.T08.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Acceso y derechos",
+                "description": "Receptor/propietario, permisos y mecanismo conforme a K01; sin secretos ni redistribución presumida"
+              },
+              "K17.T08.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Integridad y recuperación",
+                "description": "Evidencia de selección/apertura/lectura o transporte pertinente; límite de lo comprobado"
+              },
+              "K17.T08.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Guía de continuidad",
+                "description": "Cómo entrar, recuperar, actuar, registrar/transmitir y revisar; tarea, responsable y ayuda"
+              },
+              "K17.T08.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Medición y revisión",
+                "description": "K13, dónde consultar, decisión, responsable y evento/periodo pertinente"
+              },
+              "K17.T08.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recepción efectiva",
+                "description": "Quién recibe, qué confirma, cuándo y con qué reservas; no presumir por envío"
+              },
+              "K17.T08.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Efecto económico",
+                "description": "Condiciones acordadas sobre evaluación, trabajo realizado/no realizado y cierre"
+              }
+            }
+          }
+        },
+        "K17.T08.B02": {
+          "type": "array",
+          "description": "Pendiente y acompañamiento — bloques agrupables. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K17.T08.B02.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Pendiente y causa",
+                "description": "HUE/CON/defecto/decisión/dependencia localizable; conservar su naturaleza"
+              },
+              "K17.T08.B02.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Efecto y límite",
+                "description": "Obligación/uso que impide o condiciona, sin presentar cumplimiento integral"
+              },
+              "K17.T08.B02.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Responsable y condición",
+                "description": "Quién resolverá, evidencia/corrección necesaria, momento pertinente y receptor"
+              },
+              "K17.T08.B02.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Naturaleza del trabajo posterior",
+                "description": "Corrección debida, consulta cubierta, dependencia o ampliación según K01"
+              },
+              "K17.T08.B02.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Soporte incluido",
+                "description": "Acciones, medios, responsable y límites de acompañamiento ya acordados"
+              },
+              "K17.T08.B02.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Atención y resolución",
+                "description": "Condiciones/calendario de respuesta separados de resolución y dependencias externas"
+              },
+              "K17.T08.B02.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fin de acompañamiento",
+                "description": "Evento/fecha/condición pactada y obligaciones remanentes; sin operación permanente implícita"
+              },
+              "K17.T08.B02.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Incidencia y cambio",
+                "description": "Cómo informar, limitar uso, asignar productor, corregir y comprobar lo afectado"
+              },
+              "K17.T08.B02.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Aprendizaje autorizado",
+                "description": "Regla general candidata, causa, alcance y autorización; fuera de fuentes generales quedan datos de prestación"
+              },
+              "K17.T08.B02.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cierre y continuidad",
+                "description": "DEC/recepción, siguiente decisión y localización del estado vigente"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cabecera",
+    "bloques"
+  ]
+}

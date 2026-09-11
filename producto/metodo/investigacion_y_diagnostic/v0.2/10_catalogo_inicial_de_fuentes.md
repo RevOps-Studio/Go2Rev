@@ -14,6 +14,17 @@ Revisión documental de los portales: 11 de septiembre de 2026. Selección orien
 | Qué ofrece una alternativa y cómo lo vende | Web, documentación de producto, tarifas y condiciones del proveedor identificado | Localizar las páginas concretas durante el encargo. La publicación acredita lo declarado; buscar evidencia distinta para funcionamiento, adopción o preferencia |
 | Qué explica compra, entrega o cambio en un sector | Regulador competente, asociaciones, publicaciones técnicas y fuentes de compradores pertinentes | Elegir originales por el hecho investigado y contrastar cobertura e incentivos. Una afiliación institucional no sustituye la lectura del contenido |
 
+## Patrón por geografía
+
+Para cualquier país, buscar en el idioma pertinente la entidad responsable de estadística, agencia de comercio exterior, asociación del sector, registro mercantil, portal de contratación y fuentes de experiencia de compradores. Comprobar dominio/editor, función, cobertura, periodo, método y acceso antes de proponer una candidata. Elegir la asociación después de delimitar el sector; recurrir a reseñas o catálogos de software solo cuando correspondan a la categoría investigada. Una publicación mercantil no sustituye toda la información registral; un registro de contratos no representa toda la demanda.
+
+| Geografía | Semilla verificable, no prescriptiva |
+|---|---|
+| España | [INE](https://www.ine.es/) para estadísticas; [ICEX](https://www.icex.es/) para información de internacionalización; [BORME](https://www.boe.es/diario_borme/) para publicaciones mercantiles; [Plataforma de Contratación del Sector Público](https://contrataciondelestado.es/) para anuncios/documentos de contratación. Seleccionar asociación sectorial y fuentes de experiencia según pregunta y cobertura. |
+| Portugal | [INE Portugal](https://www.ine.pt/) para estadísticas; [AICEP](https://portugalglobal.pt/) para información de internacionalización; [Registo Comercial](https://registo.justica.gov.pt/Empresas/Pedir-Certidao-Permanente) para información registral según acceso; [BASE](https://www.base.gov.pt/Base4/pt/o-portal/base/) para información de contratos públicos. Seleccionar asociación sectorial y fuentes de experiencia según pregunta y cobertura. |
+
+Los portales son puntos de partida reales, no datos de un encargo. La recuperación automática de INE Portugal y de contenido de la plataforma española de contratación fue limitada en esta revisión; comprobar acceso por el medio disponible antes de utilizarlos. La identificación del portal no acredita lectura de sus tablas, documentos o expedientes ni disponibilidad de MCP.
+
 ## Rutina para usar y ampliar el catálogo
 
 1. Partir de una pregunta que pueda alterar K03–K06 o una condición de oferta/entrega/economía. Buscar además señales externas que el brief no contemple.

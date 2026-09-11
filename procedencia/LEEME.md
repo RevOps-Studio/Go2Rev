@@ -8,3 +8,5 @@ Estos archivos conservan correspondencia con originales leídos y decisiones de 
 - [Maestros de integración v0.2](maestros_integracion_v0.2/LEEME.md): copias exactas anteriores a la mejora del modelo.
 
 Las fuentes metodológicas actuales permanecen en `producto/`. Los tres maestros de la raíz mantienen tareas, definición y evidencias. La base anterior está identificada por la etiqueta Git `base-fundacional-v0.1`; el archivo histórico local conserva los originales excluidos de Git.
+
+- [Maestros de integración v0.3](maestros_integracion_v0.3/LEEME.md): copias exactas anteriores a la mejora de arranque y lectura.

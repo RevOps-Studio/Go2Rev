@@ -2,7 +2,24 @@
 
 Versión 0.1 · Instrucciones para una prestación
 
-Empezar con la [primera pasada de N01](../../operacion_conversacional/v0.2/10_primera_pasada.md#n01) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N01](../../operacion_conversacional/v0.3/10_primera_pasada.md#n01) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
+
+<!-- procedimiento:inicio -->
+## Procedimiento de primera pasada
+
+Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+
+1. Leer el mandato y formular la decisión que debe informar Diagnostic. Delimitar iniciativa, alternativas, recorrido y representación de oferta; separar las condiciones de origen/destino A o intención/capacidad B.
+2. Proponer entregas por destinatario, contenido controlable, recursos y criterio de recepción. Definir acciones y finalización del acompañamiento cuando forme parte del alcance.
+3. Preparar todas las salidas admisibles: continuar, condicionar, obtener evidencia, ajustar, aplazar o cerrar. Conectar cada una con trabajo, autoridad, recepción y tratamiento económico antes de contratar.
+4. Resolver con la autoridad las condiciones CONTR; completar EVAL antes de evaluar y USO antes de la acción dependiente. Entregar K01 y localizar DEC, pendientes y consumidores; conservar la propuesta como tal hasta su acuerdo.
+
+**Bloques de salida:** K01.T01.B01, K01.T01.B02, K01.T01.B03, K01.T01.B04, K01.T01.B05, K01.T01.B06, K01.T01.B07, K01.T01.B08. Su condición y momento gobiernan la exigibilidad; las piezas auxiliares se abren según la tarea.
+<!-- procedimiento:fin -->
+
+## Referencia sustantiva y condiciones de ampliación
+
 
 ## Decisión, entradas y salida
 
