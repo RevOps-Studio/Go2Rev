@@ -14,3 +14,6 @@ Las fuentes metodológicas actuales permanecen en `producto/`. Los tres maestros
 - [Maestros previos a integrar v0.4](maestros_preintegracion_v0.4/LEEME.md): copias exactas anteriores al cierre autorizado en main.
 
 - [Maestros de la base estable v0.4](maestros_base_v0.4/LEEME.md): copias exactas anteriores a la propuesta de intake de Diagnostic.
+
+- [Propuesta de intake incorporada](intake/v0.1/LEEME.md): propuesta original y correspondencia con las fuentes operativas.
+- [Maestros de la propuesta de intake](maestros_propuesta_intake/LEEME.md): copias exactas anteriores a la incorporación autorizada.

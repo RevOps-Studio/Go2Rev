@@ -1055,7 +1055,7 @@
               "id": "K02.T02.B01.F04",
               "etiqueta": "Contenido solicitado",
               "tipo": "texto_o_referencia",
-              "regla": "Dato, documento o aclaración preciso; evitar pedir un diagnóstico elaborado por el cliente; requerido",
+              "regla": "Dato, documento o aclaración preciso; aprovechar material existente y pedir solo la carencia residual. El consultor produce el análisis contratado; requerido",
               "momento_explicito": [],
               "exigibilidad": "regla_y_contexto",
               "nucleo": false
@@ -1100,7 +1100,7 @@
               "id": "K02.T02.B01.F09",
               "etiqueta": "Formato y cobertura admisibles",
               "tipo": "texto_o_referencia",
-              "regla": "Exportación, documento, sección o aclaración; mínimo para el uso, sin imponer herramienta; requerido",
+              "regla": "Original, exportación, sección o aclaración; cobertura suficiente por contenido, ámbito, selección, unidad y periodo, sin imponer herramienta ni cuotas universales. El asistente normaliza; requerido",
               "momento_explicito": [],
               "exigibilidad": "regla_y_contexto",
               "nucleo": false
@@ -1118,7 +1118,7 @@
               "id": "K02.T02.B01.F11",
               "etiqueta": "Prioridad y consecuencia",
               "tipo": "texto_o_referencia",
-              "regla": "Compromiso afectado, reversibilidad y efecto de no obtenerlo; requerido",
+              "regla": "Recuperar de HUE prioridad y uso afectados: imprescindible, deseable u opcional para esa decisión. Precisar consecuencia, reversibilidad, trabajo que puede continuar y esfuerzo estimado si añade elaboración al cliente; compararlo con utilidad y alternativa antes de pedir; requerido",
               "momento_explicito": [],
               "exigibilidad": "regla_y_contexto",
               "nucleo": false
@@ -1127,7 +1127,7 @@
               "id": "K02.T02.B01.F12",
               "etiqueta": "Fecha o evento límite",
               "tipo": "texto_o_referencia",
-              "regla": "Momento en que cambia o impide el uso; requerido",
+              "regla": "Momento antes del que cambia o impide el uso: CONTR/EVAL o USO dependiente; conservar condiciones ya acordadas, sin exigir toda la información al inicio; requerido",
               "momento_explicito": [],
               "exigibilidad": "regla_y_contexto",
               "nucleo": false
@@ -1250,6 +1250,36 @@
               "exigibilidad": "regla_y_contexto",
               "nucleo": false
             }
+          ]
+        },
+        {
+          "tipo": "texto",
+          "lineas": [
+            "",
+            "## Comunicación inicial",
+            "",
+            "<a id=\"comunicacion-inicial\"></a>",
+            "",
+            "Vista preparada por el consultor desde K01/K02 y las SOL seleccionadas. Sustituir los marcadores con contenido sustentado de la prestación y retirar los párrafos que no apliquen antes de enviar. Conservar el rastro de la revisión enviada en SOL; no generar otro registro de estado. Consultar la [guía de intake](../04_intake_diagnostic.md).",
+            "",
+            "**Asunto:** Inicio de Diagnostic de {{iniciativa}}",
+            "",
+            "Trabajaremos para ayudarte a decidir {{decisión y ámbito acordados}}. Con lo que ya hemos revisado, entendemos que {{síntesis breve de la iniciativa y la oferta}}. El punto que necesitamos que confirmes o corrijas es {{aclaración factual o decisión pendiente y responsable}}.",
+            "",
+            "Ya contamos con {{material efectivamente recibido y cobertura revisada}}. Para empezar, puedes facilitarnos {{selección de materiales existentes todavía necesarios y propietario, si se conoce}} mediante {{canal y ubicación autorizados}}. Nos sirve {{formato y cobertura admisibles}}; nosotros extraeremos y ordenaremos la información.",
+            "",
+            "Necesitaremos {{aportación imprescindible}} antes de {{evento dependiente y motivo}}. {{Material deseable, utilidad y momento, solo si procede}}. Si un material no existe, no lo localizas, está desactualizado o no puedes compartirlo, indícanos cuál: revisaremos la alternativa y su efecto sobre la evaluación.",
+            "",
+            "Go2Rev preparará la investigación externa, su contraste con vuestra información y la propuesta de diagnóstico. En {{siguiente resultado o evento acordado}} compartiremos {{interpretación o resultado controlable}} y las aclaraciones concretas que sigan siendo necesarias.",
+            "",
+            "## Ampliación o aclaración posterior",
+            "",
+            "Para resolver {{decisión o conclusión afectada}}, ya hemos revisado {{material y parte cubierta}}. Falta {{dato o aclaración residual}}; nos sirve {{original, formato, unidad, periodo y cobertura pertinentes}} de {{propietario}} antes de {{evento y motivo}}.",
+            "",
+            "La aportación supondría {{trabajo adicional y estimación de esfuerzo, solo si exige elaborarlo}}. Si no está disponible, la alternativa es {{alternativa y límite de conclusión}}. Mientras tanto, avanzaremos con {{trabajo independiente permitido}}.",
+            "",
+            "Los marcadores son instrucciones de composición, no valores de un encargo. Una petición sin carencia concreta se omite. La autorización vigente se recupera de K01; el texto no autoriza por sí mismo contacto o acceso.",
+            ""
           ]
         },
         {
@@ -1400,7 +1430,7 @@
               "id": "K02.T03.B01.F09",
               "etiqueta": "Preguntas que orientan el siguiente trabajo",
               "tipo": "texto_o_referencia",
-              "regla": "Decisión/nodo y HUE; requerido",
+              "regla": "Decisión/nodo y HUE; requerido. Previsión selectiva desde el catálogo de intake, con referencias a cobertura disponible y responsables; no crear otro registro ni solicitudes por contexto opcional",
               "momento_explicito": [],
               "exigibilidad": "regla_y_contexto",
               "nucleo": true
@@ -2034,7 +2064,7 @@
               "id": "K02.T03.B06.F04",
               "etiqueta": "Decisión y uso afectados",
               "tipo": "texto_o_referencia",
-              "regla": "Nodo/campo, compromiso y consecuencia de la ausencia",
+              "regla": "Nodo/campo, compromiso y consecuencia de la ausencia; precisar el uso detenido y el trabajo independiente que puede continuar",
               "momento_explicito": [],
               "exigibilidad": "regla_y_contexto",
               "nucleo": true
@@ -2043,7 +2073,7 @@
               "id": "K02.T03.B06.F05",
               "etiqueta": "Prioridad razonada",
               "tipo": "texto_o_referencia",
-              "regla": "Consecuencia, reversibilidad, momento necesario y esfuerzo proporcionado",
+              "regla": "Imprescindible, deseable u opcional para la decisión, con fundamento; separar aplicabilidad, momento CONTR/EVAL/USO, reversibilidad y esfuerzo. Bloqueante describe un efecto de ausencia, no un estado del registro",
               "momento_explicito": [],
               "exigibilidad": "regla_y_contexto",
               "nucleo": true

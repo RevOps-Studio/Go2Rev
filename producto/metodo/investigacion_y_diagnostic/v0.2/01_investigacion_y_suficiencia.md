@@ -89,6 +89,8 @@ Registrar qué se investigó, qué cambió frente al punto de partida, por qué 
 
 ## 7. Encargar evidencia adicional y transmitir resultados
 
+Antes de trasladar una carencia al cliente, aplicar la [guía de intake](../../encargo_y_conocimiento/v0.1/04_intake_diagnostic.md): recuperar lo ya leído, identificar el hecho exclusivo y precisar cobertura, momento y esfuerzo. El asistente resuelve investigación externa y elaboración analítica. Pedir solo la parte residual de una recepción parcial, manteniendo el trabajo independiente; una actuación nueva sigue el protocolo de N14.
+
 Si basta un original, utilizar SOL con pregunta, fuente, unidad/periodo, responsable y alternativa. Si se necesita una actuación, formular su encargo a N14: proposición, población o contexto pertinente, explicación alternativa, evidencia buscada, criterio previo, acceso, ejecutor, exposición permitida, condición de parada y decisión posterior. N14 produce el protocolo; N15 prepara piezas y N16 conserva observaciones en la prestación. La solicitud no atribuye ejecución ni autoriza contactar, gastar o actuar en sistemas.
 
 El asistente no traslada al patrocinador el análisis contratado. Presenta su propuesta y pide únicamente la decisión o el dato exclusivo que corresponda. Se mantienen las autorizaciones vigentes dentro de su alcance.

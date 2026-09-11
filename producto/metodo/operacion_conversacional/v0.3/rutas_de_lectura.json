@@ -44,6 +44,11 @@
           "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md",
           "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
           "seccion": "Contrato K01 y relación de consumo afectada"
+        },
+        {
+          "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/04_intake_diagnostic.md",
+          "cuando": "Antes de preparar la recogida o una ampliación al cliente.",
+          "seccion": "Procedimiento; clasificación, arranque, bloqueo y comunicación pertinentes"
         }
       ]
     },
@@ -63,7 +68,7 @@
       ],
       "entrada": "K01 y originales disponibles.",
       "resultado_inicial": "Leer por pregunta, identificar fuentes, extraer afirmaciones, reconciliar discrepancias y asignar huecos a investigación o aportación exclusiva.",
-      "cierre": "Cerrar la primera pasada cuando el consumidor pueda identificar qué sabe, qué debe investigar y qué impide su decisión.",
+      "cierre": "Entradas suficientes para el uso; HUE/SOL localizados por prioridad y momento, con parte bloqueada y trabajo independiente visibles.",
       "plantilla_principal": "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/03_conocimiento.md",
       "consumidores": [
         "N03",
@@ -112,6 +117,16 @@
           "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/06_decisiones_y_cambios.md",
           "cuando": "Cuando exista decisión, consumo de un campo o cambio material.",
           "seccion": "Bloques aplicables de la plantilla"
+        },
+        {
+          "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/04_intake_diagnostic.md",
+          "cuando": "Antes de preparar la recogida o una ampliación al cliente.",
+          "seccion": "Procedimiento; clasificación, arranque, bloqueo y comunicación pertinentes"
+        },
+        {
+          "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/05_catalogo_de_informacion.md",
+          "cuando": "Al anticipar necesidades o precisar cantidad y calidad de una solicitud.",
+          "seccion": "Familias aplicables y reglas de cobertura/recepción"
         }
       ]
     },

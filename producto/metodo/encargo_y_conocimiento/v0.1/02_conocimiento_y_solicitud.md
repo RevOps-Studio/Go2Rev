@@ -10,9 +10,9 @@ Empezar con la [primera pasada de N02](../../operacion_conversacional/v0.3/10_pr
 
 Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
 
-1. Recuperar K01 y materiales pertinentes a sus preguntas. Inventariar disponibilidad y leer las secciones necesarias; identificar original, localizador y cobertura en FUE.
+1. Recuperar K01 y materiales pertinentes a sus preguntas. Aplicar la [guía de intake](04_intake_diagnostic.md) y consultar las familias pertinentes del [catálogo](05_catalogo_de_informacion.md) antes de preparar la recogida. Inventariar disponibilidad y leer las secciones necesarias; identificar original, localizador y cobertura en FUE.
 2. Extraer proposiciones materiales en AF y separar lo declarado de lo observado o derivado. Explicitar premisas, transformación y refutación en las inferencias e hipótesis.
-3. Reconciliar discrepancias comparables en CON; convertir ausencias materiales en HUE. Proponer investigación o solicitud SOL al productor exclusivo, con uso afectado y alternativa.
+3. Reconciliar discrepancias comparables en CON; convertir ausencias materiales en HUE. Preparar síntesis y solicitudes seleccionadas con prioridad, momento, cobertura, esfuerzo y alternativa; la plantilla SOL contiene la comunicación reutilizable. El asistente investiga y analiza; el cliente aporta hechos exclusivos y decisiones. Localizar el uso bloqueado y continuar lo independiente.
 4. Producir perfil K02 y matriz TRA para A o CAP para B, abriendo la plantilla aplicable de la extensión. Entregar al consumidor campos, versiones y límites; registrar relaciones de consumo y cambios cuando existan.
 
 **Bloques de salida:** K02.T03.B01, K02.T03.B02, K02.T03.B03, K02.T03.B04, K02.T03.B05, K02.T03.B06. Su condición y momento gobiernan la exigibilidad; las piezas auxiliares se abren según la tarea.
@@ -30,6 +30,8 @@ La entrada es K01 con ámbito y preguntas, más originales o declaraciones dispo
 Las salidas se recogen en [conocimiento](plantillas/03_conocimiento.md), [solicitudes](plantillas/02_solicitudes.md), [transferencia A](plantillas/04_transferencia_A.md) o [capacidades B](plantillas/05_capacidades_B.md). Los [contratos y el diccionario](03_contratos_y_diccionario.md) definen cómo se consumen.
 
 ## 1. Seleccionar materiales por la decisión
+
+La [guía de intake](04_intake_diagnostic.md) gobierna la anticipación y secuencia de recogida. Su [catálogo](05_catalogo_de_informacion.md) concreta familias, cantidad y calidad por uso. Utilizar la previsión en K02/HUE/SOL, sin enviar un cuestionario íntegro al cliente. Las familias siguientes mantienen el mapa de extracción: el catálogo las desarrolla para seleccionar peticiones, no las sustituye ni crea otro registro.
 
 Leer K01 y escribir qué necesita decidir el siguiente consumidor y qué campos pueden cambiar su recomendación o compromiso. Distinguir el conocimiento necesario ahora del que será necesario al preparar una actuación posterior. No abrir una recolección completa de la empresa por rutina.
 

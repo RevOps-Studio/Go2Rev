@@ -36,7 +36,7 @@ Editar los pasos en la instrucción sustantiva, las interfaces en rutas_de_lectu
 
 **Salida:** K02; consumo por N03, N04, N05, N06, N07, N08, N09, N10, N11, N12, N13, N14, N15, N16, N17.
 
-**Cierre:** Cerrar la primera pasada cuando el consumidor pueda identificar qué sabe, qué debe investigar y qué impide su decisión.
+**Cierre:** Entradas suficientes para el uso; HUE/SOL localizados por prioridad y momento, con parte bloqueada y trabajo independiente visibles.
 
 **Destino:** 00 Sistema y 02 Anexos. Mantener fuente, vista e índice.
 

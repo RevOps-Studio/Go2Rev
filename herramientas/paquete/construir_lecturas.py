@@ -10,7 +10,7 @@ from construir_plantillas import load, procedure, header
 
 ROOT = Path(__file__).resolve().parents[2]
 OP = ROOT / 'producto/metodo/operacion_conversacional/v0.3'
-PACKAGE = ROOT / 'producto/paquete_fundacional/v0.4'
+PACKAGE = ROOT / 'producto/paquete_fundacional/v0.5'
 OUT = PACKAGE / 'lecturas'
 
 
@@ -58,7 +58,7 @@ def main():
     _, routes = load()
     limits = routes['presupuesto_palabras']
     outputs = {}
-    preamble = ('Conjunto 0.4 · Compilación derivada, no fuente editable. El contenido expresamente incluido sustituye la apertura del original metodológico de esa versión; una sección no sustituye el resto del archivo. Las fuentes del encargo y del mercado requieren lectura efectiva.\n\n')
+    preamble = ('Conjunto 0.5 · Compilación derivada, no fuente editable. El contenido expresamente incluido sustituye la apertura del original metodológico de esa versión; una sección no sustituye el resto del archivo. Las fuentes del encargo y del mercado requieren lectura efectiva.\n\n')
     common = ['ENTRADA_GO2REV.md', '13_invariantes.md', '12_nucleo_y_suficiencia.md', 'plantillas/04_indice_del_encargo.md']
     outputs['CARGA_INICIO.md'] = '# Go2Rev · Entrada común\n\n' + preamble + '\n\n'.join(include(OP / p) for p in common)
     stats = {'entrada': len((OP/'ENTRADA_GO2REV.md').read_text(encoding='utf-8').split()),
@@ -96,8 +96,8 @@ def main():
     index=(OP/'plantillas/04_indice_del_encargo.md').read_text(encoding='utf-8')
     index=re.sub(r'\[([^\]]+)\]\([^)]+\)',r'\1 (en la biblioteca Go2Rev)',index)
     items['00 Sistema/Indice del encargo.md']=index.encode('utf-8')
-    items['INICIO.md']=('# Estructura vacía del encargo\n\nExtraer dentro de la raíz acordada, separada de la biblioteca Go2Rev. Recuperar el índice si existe trabajo previo y conciliar las rutas antes de incorporar esta estructura; conservar los archivos existentes.\n\nCompletar el índice cuando exista mandato y contenido. Crear Fuentes y Lectura al producir la primera pieza de ese tipo. Seguir carpetas y guardado del conjunto 0.4.\n').encode('utf-8')
-    with zipfile.ZipFile(PACKAGE/'Go2Rev_estructura_vacia_v0.4.zip','w',compression=zipfile.ZIP_DEFLATED) as z:
+    items['INICIO.md']=('# Estructura vacía del encargo\n\nExtraer dentro de la raíz acordada, separada de la biblioteca Go2Rev. Recuperar el índice si existe trabajo previo y conciliar las rutas antes de incorporar esta estructura; conservar los archivos existentes.\n\nCompletar el índice cuando exista mandato y contenido. Crear Fuentes y Lectura al producir la primera pieza de ese tipo. Seguir carpetas y guardado del conjunto 0.5.\n').encode('utf-8')
+    with zipfile.ZipFile(PACKAGE/'Go2Rev_estructura_vacia_v0.5.zip','w',compression=zipfile.ZIP_DEFLATED) as z:
         for name,value in sorted(items.items()):
             info=zipfile.ZipInfo(name,(2026,9,11,0,0,0));info.create_system=3
             info.external_attr=(0o40755 if name.endswith('/') else 0o100644)<<16

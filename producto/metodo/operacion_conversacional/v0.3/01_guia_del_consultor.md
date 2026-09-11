@@ -19,6 +19,8 @@ Las capacidades del entorno se comprueban para la tarea. No se necesita instalar
 
 ## Cómo interpretar una respuesta
 
+Al iniciar la recogida o preparar una ampliación, abrir la [guía de intake](../../encargo_y_conocimiento/v0.1/04_intake_diagnostic.md). El asistente anticipa necesidades, lee lo disponible y prepara una síntesis con peticiones seleccionadas. El catálogo se consulta por familias pertinentes; sus campos no se trasladan íntegros al cliente. La [comunicación reutilizable](../../encargo_y_conocimiento/v0.1/plantillas/02_solicitudes.md#comunicacion-inicial) se compone desde K01/K02/SOL y conserva su rastro allí.
+
 | Lo que entrega el asistente | Qué debe permitir evaluar |
 |---|---|
 | Resultado y contexto | Qué decisión aborda, para quién, en qué ámbito y cómo se conecta con el sistema comercial |

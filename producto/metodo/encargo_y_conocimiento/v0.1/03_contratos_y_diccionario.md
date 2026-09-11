@@ -66,6 +66,14 @@ K02 se considera suficiente **para una tarea indicada** si cada entrada material
 
 ## Transiciones y estados separados
 
+### Intake y previsión de necesidades
+
+Aplicar la [guía de recogida](04_intake_diagnostic.md) al preparar el inicio o una ampliación. K02 anticipa necesidades por decisión desde el catálogo y localiza cobertura existente, HUE y SOL. En HUE, la prioridad razonada distingue imprescindible, deseable u opcional para un uso y momento; la aplicabilidad se decide por separado. Bloqueante describe el efecto de una ausencia: precisar qué conclusión o compromiso se detiene y qué trabajo puede continuar. Estas clases no cambian los estados del diccionario.
+
+SOL conserva productor, contenido residual, cobertura admisible, prioridad, evento y alternativa. Su campo de prioridad incluye esfuerzo estimado cuando la petición exige elaboración adicional al cliente, comparado con utilidad y alternativa. La comunicación inicial y la ampliación de la plantilla son vistas de K01/K02/SOL, sin otro registro de estados. Recuperar permisos vigentes; recibir material solo resuelve el hueco tras examinarlo. La información requerida para una conclusión posterior no se exige automáticamente para iniciar la investigación.
+
+### Estados del contrato
+
 | Eje | Valores o distinciones | Regla de transición |
 |---|---|---|
 | Edición de artefacto | Borrador, revisado, sustituido | Revisado identifica autor y alcance de revisión; sustituido conserva ubicación del contenido anterior |

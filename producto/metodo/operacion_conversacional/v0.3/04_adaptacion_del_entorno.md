@@ -6,7 +6,7 @@ Versión 0.1 · Instrucción general de preparación y traslado
 
 La adaptación explica cómo realizar una acción metodológica con el medio disponible: localizar/leer, investigar, calcular, guardar, presentar o actuar con autoridad. Conserva K01–K17, AF/FUE/DEC y demás semántica común, unidades, contratos, criterios y límites. No contiene un motor propio, API, sistema de agentes ni configuración de un proveedor predeterminado.
 
-Estas instrucciones se aplicarán al preparar la prestación o cuando se solicite un cambio real de medio/entorno.  El [paquete de implementación](../../../paquete_fundacional/v0.4/LEEME.md) identifica la versión del método que se utilizará.
+Estas instrucciones se aplicarán al preparar la prestación o cuando se solicite un cambio real de medio/entorno.  El [paquete de implementación](../../../paquete_fundacional/v0.5/LEEME.md) identifica la versión del método que se utilizará.
 
 ## Preparación en un entorno
 

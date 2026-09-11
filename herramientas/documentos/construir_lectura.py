@@ -10,7 +10,7 @@ from docx.oxml.ns import qn
 
 ROOT=Path(__file__).resolve().parents[2]
 IS_GUIDE='--guia' in sys.argv
-ARCH=ROOT/('producto/paquete_fundacional/v0.4' if IS_GUIDE else 'producto/arquitectura/v0.2')
+ARCH=ROOT/('producto/paquete_fundacional/v0.5' if IS_GUIDE else 'producto/arquitectura/v0.2')
 CURRENT_SOURCE=ARCH/'LEEME.md'
 OUT=Path(__file__).resolve().parent/'salida'
 OUT.mkdir(parents=True,exist_ok=True)
@@ -116,7 +116,7 @@ if IS_GUIDE:
     for r in h.runs:r.font.size=Pt(8)
     for border in h._p.findall('.//'+qn('w:pBdr')):border.getparent().remove(border)
     para('Guía de implementación','Heading 1')
-    para('Versión del conjunto 0.4 · 11 de septiembre de 2026')
+    para('Versión del conjunto 0.5 · 11 de septiembre de 2026')
     para('Para el consultor responsable de la primera prestación. Esta guía explica cómo encuadrar el servicio, investigar y recomendar, conectar el diseño, comprobar la preparación y transferir la continuidad. La base fundacional está construida y conserva su estado teórico; sus procedimientos se aplicarán en un encargo autorizado.')
     para('Los seis capítulos reúnen preparación del entorno, carpetas, glosario, guía, alcance y composición de entregables. Las instrucciones sustantivas, contratos, plantillas vacías y modelo económico se localizan mediante los enlaces del paquete. Las fuentes editables de esta vista permanecen junto a ella; los cambios se incorporan primero a esas fuentes.')
     chapters=[('../../metodo/operacion_conversacional/v0.3/09_uso_por_entorno.md','1 Preparar el entorno'),('../../metodo/operacion_conversacional/v0.3/08_carpetas_y_guardado.md','2 Carpetas y guardado'),('../../metodo/operacion_conversacional/v0.3/00_glosario.md','3 Glosario de lectura'),('01_guia_de_implementacion.md','4 Implementación de la prestación'),('02_alcance_y_variantes.md','5 Alcance y variantes'),('03_entregables_y_recepcion.md','6 Composición de entregables y recepción')]
@@ -124,7 +124,7 @@ else:
     para('Arquitectura metodológica','Heading 1')
     para('Base metodológica fundacional')
     para('Versión de arquitectura 0.2 · Base aceptada el 10 de septiembre de 2026')
-    para('La arquitectura conserva diecisiete nodos, contratos y correspondencia con los once pasos de origen. Su desarrollo sustantivo está integrado en el paquete fundacional 0.4. Las pruebas del método se sitúan después del cierre de construcción y requieren un ámbito autorizado; no se atribuye aquí aplicación previa.')
+    para('La arquitectura conserva diecisiete nodos, contratos y correspondencia con los once pasos de origen. Su desarrollo sustantivo está integrado en el paquete fundacional 0.5. Las pruebas del método se sitúan después del cierre de construcción y requieren un ámbito autorizado; no se atribuye aquí aplicación previa.')
     para('Esta vista reúne los cuatro archivos operativos actuales de arquitectura, con integración editorial del 11 de septiembre de 2026. Las fuentes editables permanecen en producto/arquitectura/v0.2. La vista se regenera desde ellas y conserva el estado teórico del producto.')
     chapters=[('01_arquitectura_metodologica.md','1 Arquitectura y decisiones de producto'),('02_informacion_y_contratos.md','2 Información y contratos de conocimiento'),('03_nodos_y_entregables.md','3 Nodos y entregables'),('04_dependencias_y_gobernanza.md','4 Dependencias suficiencia y gobernanza')]
 para('Contenido','Heading 2')
@@ -159,10 +159,10 @@ for index,(name,title) in enumerate(chapters):
         p=para(line)
         if line.startswith('Versión '):p.paragraph_format.keep_with_next=True
 d.core_properties.title='Go2Rev Guía de implementación' if IS_GUIDE else 'Go2Rev Arquitectura metodológica'
-d.core_properties.subject='Conjunto fundacional v0.4' if IS_GUIDE else 'Arquitectura v0.2'
+d.core_properties.subject='Conjunto fundacional v0.5' if IS_GUIDE else 'Arquitectura v0.2'
 d.core_properties.author='RevOps Studio'
 d.core_properties.comments=''
-dest=ARCH/('Go2Rev_guia_de_implementacion_v0.4.docx' if IS_GUIDE else 'Go2Rev_arquitectura_metodologica_v0.2.docx')
+dest=ARCH/('Go2Rev_guia_de_implementacion_v0.5.docx' if IS_GUIDE else 'Go2Rev_arquitectura_metodologica_v0.2.docx')
 d.save(dest)
 # El paquete se produce limpio: no conserva partes opacas de otros documentos.
 with zipfile.ZipFile(dest) as z:parts={n:z.read(n) for n in z.namelist() if n!='docProps/thumbnail.jpeg'}

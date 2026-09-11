@@ -94,7 +94,7 @@
                   "null"
                 ],
                 "title": "Contenido solicitado",
-                "description": "Dato, documento o aclaración preciso; evitar pedir un diagnóstico elaborado por el cliente; requerido"
+                "description": "Dato, documento o aclaración preciso; aprovechar material existente y pedir solo la carencia residual. El consultor produce el análisis contratado; requerido"
               },
               "K02.T02.B01.F05": {
                 "type": [
@@ -134,7 +134,7 @@
                   "null"
                 ],
                 "title": "Formato y cobertura admisibles",
-                "description": "Exportación, documento, sección o aclaración; mínimo para el uso, sin imponer herramienta; requerido"
+                "description": "Original, exportación, sección o aclaración; cobertura suficiente por contenido, ámbito, selección, unidad y periodo, sin imponer herramienta ni cuotas universales. El asistente normaliza; requerido"
               },
               "K02.T02.B01.F10": {
                 "type": [
@@ -150,7 +150,7 @@
                   "null"
                 ],
                 "title": "Prioridad y consecuencia",
-                "description": "Compromiso afectado, reversibilidad y efecto de no obtenerlo; requerido"
+                "description": "Recuperar de HUE prioridad y uso afectados: imprescindible, deseable u opcional para esa decisión. Precisar consecuencia, reversibilidad, trabajo que puede continuar y esfuerzo estimado si añade elaboración al cliente; compararlo con utilidad y alternativa antes de pedir; requerido"
               },
               "K02.T02.B01.F12": {
                 "type": [
@@ -158,7 +158,7 @@
                   "null"
                 ],
                 "title": "Fecha o evento límite",
-                "description": "Momento en que cambia o impide el uso; requerido"
+                "description": "Momento antes del que cambia o impide el uso: CONTR/EVAL o USO dependiente; conservar condiciones ya acordadas, sin exigir toda la información al inicio; requerido"
               },
               "K02.T02.B01.F13": {
                 "type": [
@@ -330,7 +330,7 @@
                   "null"
                 ],
                 "title": "Preguntas que orientan el siguiente trabajo",
-                "description": "Decisión/nodo y HUE; requerido"
+                "description": "Decisión/nodo y HUE; requerido. Previsión selectiva desde el catálogo de intake, con referencias a cobertura disponible y responsables; no crear otro registro ni solicitudes por contexto opcional"
               },
               "K02.T03.B01.F10": {
                 "type": [
@@ -812,7 +812,7 @@
                   "null"
                 ],
                 "title": "Decisión y uso afectados",
-                "description": "Nodo/campo, compromiso y consecuencia de la ausencia"
+                "description": "Nodo/campo, compromiso y consecuencia de la ausencia; precisar el uso detenido y el trabajo independiente que puede continuar"
               },
               "K02.T03.B06.F05": {
                 "type": [
@@ -820,7 +820,7 @@
                   "null"
                 ],
                 "title": "Prioridad razonada",
-                "description": "Consecuencia, reversibilidad, momento necesario y esfuerzo proporcionado"
+                "description": "Imprescindible, deseable u opcional para la decisión, con fundamento; separar aplicabilidad, momento CONTR/EVAL/USO, reversibilidad y esfuerzo. Bloqueante describe un efecto de ausencia, no un estado del registro"
               },
               "K02.T03.B06.F06": {
                 "type": [

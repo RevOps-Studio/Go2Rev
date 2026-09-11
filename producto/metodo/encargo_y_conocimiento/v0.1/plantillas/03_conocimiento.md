@@ -22,7 +22,7 @@ Usar con [N02](../02_conocimiento_y_solicitud.md) y [contratos](../03_contratos_
 | ★ Situación de compra y roles | Conocido o hipótesis; AF, alcance y límite; lo desconocido se conserva |  |
 | ★ Forma de venta, entrega y cobro | Unidad, actores y condiciones conocidas; AF; lo desconocido se conserva |  |
 | ★ Capacidades y restricciones | Síntesis con AF y TRA/CAP; qué uso limitan |  |
-| ★ Preguntas que orientan el siguiente trabajo | Decisión/nodo y HUE; requerido |  |
+| ★ Preguntas que orientan el siguiente trabajo | Decisión/nodo y HUE; requerido. Previsión selectiva desde el catálogo de intake, con referencias a cobertura disponible y responsables; no crear otro registro ni solicitudes por contexto opcional |  |
 | ★ Índice de fuentes y afirmaciones | Ubicación de registros FUE y AF vigentes y versiones referenciadas; requerido |  |
 | ★ Matriz aplicable | Ubicación de transferencia A o capacidades B; requerido según recorrido |  |
 | ★ Contradicciones, huecos y solicitudes | CON, HUE y SOL pertinentes; indicar cobertura revisada para interpretar ausencia de registros |  |
@@ -124,8 +124,8 @@ Productor: analista con el consumidor. Un hueco persiste aunque la solicitud aso
 | ★ ID, revisión, autor y fecha | Identidad y contenido |  |
 | ★ Campo o pregunta pendiente | Qué no se conoce; no presumir que el material no existe |  |
 | ★ Ámbito, unidad y periodo | Qué haría pertinente una respuesta; no aplica con motivo cuando corresponda |  |
-| ★ Decisión y uso afectados | Nodo/campo, compromiso y consecuencia de la ausencia |  |
-| ★ Prioridad razonada | Consecuencia, reversibilidad, momento necesario y esfuerzo proporcionado |  |
+| ★ Decisión y uso afectados | Nodo/campo, compromiso y consecuencia de la ausencia; precisar el uso detenido y el trabajo independiente que puede continuar |  |
+| ★ Prioridad razonada | Imprescindible, deseable u opcional para la decisión, con fundamento; separar aplicabilidad, momento CONTR/EVAL/USO, reversibilidad y esfuerzo. Bloqueante describe un efecto de ausencia, no un estado del registro |  |
 | ★ Vía de resolución | Fuente esperada, responsable, SOL o trabajo analítico y evento límite |  |
 | ★ Alternativa y límite de uso | Fuente alternativa, derivación fundamentada, conclusión limitada o compromiso detenido |  |
 | ★ Estado y fundamento | Abierto, resuelto, uso limitado o no aplica justificado; AF/FUE/DEC que sostiene la disposición |  |
