@@ -52,3 +52,7 @@ Usar con [conversión y compra](../03_conversion_y_compra.md) y [variantes y tra
 | Recepción y cambio | Consumidor/campo/revisión, disposición; premisa que exige CAM y revisión localizada | |
 
 La [plantilla K11 de entrega y traspaso](../../../oferta_entrega_y_economia/v0.1/plantillas/02_entrega_y_traspaso.md) conserva el contrato de cumplimiento. La [recepción y seguimiento](06_recepcion_y_seguimiento.md) desarrolla asignación y devoluciones comerciales sin duplicar ese contrato.
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K10, completar el núcleo de [N10 Diseñar compra y traspasos](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

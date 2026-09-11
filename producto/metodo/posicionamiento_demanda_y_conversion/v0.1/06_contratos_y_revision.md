@@ -1,12 +1,12 @@
-# Contratos y revisión de FND05
+# Contratos y revisión de posición, demanda y conversión
 
 Versión 0.1 · K07/K09/K10
 
 ## Semántica y campos comunes
 
-Aplicar el [diccionario FND02](../../encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md). Cada artefacto identifica K01, revisión, ámbito, autor/fecha, estado documental y ubicación. Cada entrada material identifica productor/K, campo/revisión, AF/FUE, unidad/periodo y límite. Conservar hipótesis e inferencias con razonamiento y refutación; DEC mantiene la autoridad del compromiso.
+Aplicar el [diccionario encargo y conocimiento](../../encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md). Cada artefacto identifica K01, revisión, ámbito, autor/fecha, estado documental y ubicación. Cada entrada material identifica productor/K, campo/revisión, AF/FUE, unidad/periodo y límite. Conservar hipótesis e inferencias con razonamiento y refutación; DEC mantiene la autoridad del compromiso.
 
-El uso E es exploratorio y O es para operación preparada. Ninguno aumenta evidencia ni constituye autorización. En la futura prestación, un campo requerido desconocido tiene causa, consecuencia y HUE pertinente; no aplica requiere fundamento. Las plantillas del producto permanecen vacías y no son objetos empresariales en ejecución.
+El uso E es exploratorio y O es para operación preparada. Ninguno aumenta evidencia ni constituye autorización. En la prestación, un campo requerido desconocido tiene causa, consecuencia y HUE pertinente; no aplica requiere fundamento. Las plantillas del producto permanecen vacías y no son objetos empresariales en ejecución.
 
 ## Productores, salidas y suficiencia de recepción
 
@@ -29,7 +29,7 @@ El uso E es exploratorio y O es para operación preparada. Ninguno aumenta evide
 | N16 | Recorridos/ramas y tareas críticas, condiciones de transición, excepciones, receptor, medio y evidencia necesaria | Solo revisión de texto no acredita recepción/uso, conciliación de evento ni capacidad efectiva |
 | N17 | Entregas/versiones, decisiones, reglas de continuidad, límites, responsables y condiciones de reapertura | No afirmar transferencia completa de medios/competencias pendientes ni convertir soporte en operación permanente |
 
-FND06 desarrolla N13–N17. Estos campos son contratos de producción, no resultados ni protocolos ejecutados. La relación de consumo mantiene productor/campo/revisión, receptor/tarea, uso y disposición: admitido, admitido con límites o devuelto. La devolución identifica corrección/evidencia y responsable; no bloquea campos independientes.
+preparación y transferencia desarrolla N13–N17. Estos campos son contratos de producción, no resultados ni protocolos ejecutados. La relación de consumo mantiene productor/campo/revisión, receptor/tarea, uso y disposición: admitido, admitido con límites o devuelto. La devolución identifica corrección/evidencia y responsable; no bloquea campos independientes.
 
 ## Secuencia exploratoria e integración
 
@@ -39,7 +39,7 @@ FND06 desarrolla N13–N17. Estos campos son contratos de producción, no result
 4. N03–N05 investigan la premisa, N08–N11 revisan lo afectado o N14 recibe una necesidad de actuación. N06 recomienda una salida acorde con K01 cuando haya suficiencia para el compromiso; no se fuerza una conclusión favorable.
 5. Tras DEC, N07 desarrolla el posicionamiento del ámbito habilitado y N08–N12 completan diseño. Las hipótesis exploratorias conservan su fundamento; preparación efectiva corresponde a la futura ejecución de N14–N16.
 
-El [intercambio de FND03](../../investigacion_y_diagnostic/v0.2/plantillas/06_intercambio_exploratorio.md) recibe los campos sustantivos N09/N10 aquí construidos. Los [contratos FND04](../../oferta_entrega_y_economia/v0.1/07_contratos_y_revision.md) reciben costes/cargas y devuelven límites. Ninguna dependencia exige K06 final o K07 aprobado para producir las entradas E que Diagnostic necesita.
+El [intercambio de investigación y Diagnostic](../../investigacion_y_diagnostic/v0.2/plantillas/06_intercambio_exploratorio.md) recibe los campos sustantivos N09/N10 aquí construidos. Los [contratos oferta, entrega y economía](../../oferta_entrega_y_economia/v0.1/07_contratos_y_revision.md) reciben costes/cargas y devuelven límites. Ninguna dependencia exige K06 final o K07 aprobado para producir las entradas E que Diagnostic necesita.
 
 ## Calidad y gobierno
 

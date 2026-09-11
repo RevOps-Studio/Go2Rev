@@ -2,11 +2,11 @@
 
 Versión de plantilla 0.2 · Campos de prestación vacíos
 
-Usar con [investigación externa y contraste](../08_investigacion_externa_y_contraste.md). El asistente produce la relación y su recomendación; el consultor revisa el fundamento; el patrocinador decide compromisos cuando corresponda. Integrar los bloques en K03–K06 y conservar AF/FUE, TRA/CAP, DEC y CAM de FND02. No se crea otro tipo de registro ni una puntuación de encaje.
+Usar con [investigación externa y contraste](../08_investigacion_externa_y_contraste.md). El asistente produce la relación y su recomendación; el consultor revisa el fundamento; el patrocinador decide compromisos cuando corresponda. Integrar los bloques en K03–K06 y conservar AF/FUE, TRA/CAP, DEC y CAM de encargo y conocimiento. No se crea otro tipo de registro ni una puntuación de encaje.
 
 ## Cobertura de la lectura externa
 
-Examinar las dimensiones según el ámbito. Las etiquetas de dimensión son metadatos; el resto de celdas está vacío. En la futura prestación, indicar analizada, limitada o no pertinente con motivo. La carencia material limita la conclusión dependiente.
+Examinar las dimensiones según el ámbito. Las etiquetas de dimensión son metadatos; el resto de celdas está vacío. En la prestación, indicar analizada, limitada o no pertinente con motivo. La carencia material limita la conclusión dependiente.
 
 | Dimensión | Pregunta y campo consumidor | Cobertura, fuentes y estado razonado | Conclusión o carencia y consecuencia |
 |---|---|---|---|
@@ -58,3 +58,7 @@ Los campos que sostienen una conclusión material son obligatorios para ese uso.
 | Conclusiones materiales | Concordancias, tensiones, condiciones y alternativas que cambian o fundamentan la tesis | |
 | Recomendación resultante | Efectos sobre combinación y salida Diagnostic, con mejor argumento contrario y límites | |
 | Suficiencia de cobertura | Por qué se puede emitir esa recomendación y qué impide una conclusión integral cuando proceda | |
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K03, completar el núcleo de [N03 Delimitar mercado y acceso](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

@@ -4,7 +4,7 @@ Versión 0.1 · Especificación general de intercambio
 
 ## Convenciones de uso y formato
 
-Las [plantillas](LEEME.md) contienen campos y reglas de cumplimentación, con la columna de valor vacía. Son definiciones del producto, no registros de una prestación. Durante una futura prestación se crean únicamente las instancias pertinentes, fuera de las fuentes metodológicas. Las secciones repetibles pueden convivir en un solo documento editable; las referencias permiten localizar cada objeto sin imponer una base de datos.
+Las [plantillas](LEEME.md) contienen campos y reglas de cumplimentación, con la columna de valor vacía. Son definiciones del producto, no registros de una prestación. Durante una prestación se crean únicamente las instancias pertinentes, fuera de las fuentes metodológicas. Las secciones repetibles pueden convivir en un solo documento editable; las referencias permiten localizar cada objeto sin imponer una base de datos.
 
 Un ID identifica de forma estable el objeto; su revisión identifica un contenido. No renumerar objetos para ordenar tablas. Cada referencia material indica ID, revisión y campo o sección. Una fecha identifica cuándo se obtuvo o decidió algo; no sustituye a la revisión. Las versiones que sustentaron una decisión se conservan localizables aunque otra versión pase a ser vigente.
 
@@ -76,7 +76,7 @@ K02 se considera suficiente **para una tarea indicada** si cada entrada material
 | Solicitud | Por emitir, emitida, recibida parcial, recibida, no disponible, cerrada | Recibir requiere referencia al material; cerrar exige disposición de cada hueco, incluida limitación justificada |
 | Hueco | Abierto, resuelto, uso limitado, no aplica justificado | Resuelto requiere AF/FUE o DEC pertinente. Si se limita el uso, conserva incertidumbre y disparador de revisión |
 | Contradicción | Abierta, conciliada por ámbito, corregida, sin resolver con uso limitado | La conclusión conserva ambas referencias y la explicación; no borrar la discrepancia original |
-| Situación operativa | Diseñada, preparada, comprobada, real observada | Se atribuye en los nodos correspondientes a una futura prestación y con su evidencia; FND02 no la declara por sí mismo |
+| Situación operativa | Diseñada, preparada, comprobada, real observada | Se atribuye en los nodos correspondientes a una prestación y con su evidencia; encargo y conocimiento no la declara por sí mismo |
 
 El soporte para una afirmación se expresa mediante un juicio por uso, con evidencia a favor/en contra y carencias. No se fija una escala numérica global. La disponibilidad de una capacidad se interpreta con las reglas de la matriz B, sin confundirla con los estados de artefacto o decisión.
 
@@ -96,4 +96,4 @@ Un consumidor que necesita mayor suficiencia identifica qué nueva conclusión p
 4. Corregir primero productores, luego consumidores. Preservar versiones que justificaron decisiones anteriores. Solicitar nueva autoridad solo si cambia el compromiso o vence su condición.
 5. Cerrar el cambio con versiones resultantes, disposiciones verificadas documentalmente y condiciones pendientes visibles. Un cambio de sesión no es un CAM por sí mismo.
 
-N17 conserva la continuidad de decisiones y cambios en la futura prestación. Este componente construye la semántica mínima que necesitan los nodos; no añade maestros al desarrollo de Go2Rev.
+N17 conserva la continuidad de decisiones y cambios en la prestación. Este componente construye la semántica mínima que necesitan los nodos; no añade maestros al desarrollo de Go2Rev.

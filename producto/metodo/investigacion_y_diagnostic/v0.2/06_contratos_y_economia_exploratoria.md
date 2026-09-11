@@ -4,11 +4,11 @@ Versión 0.2 · Interfaces de N03–N06
 
 ## Semántica compartida
 
-Se aplica el [diccionario de FND02](../../encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md): IDs y revisiones estables, fuente original localizable, AF material con naturaleza/procedencia, desconocido distinto de cero, DEC separado de evidencia y CAM por impacto. K03–K06 son objetos lógicos que pueden compartir archivo; sus campos no crean maestros adicionales.
+Se aplica el [diccionario de encargo y conocimiento](../../encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md): IDs y revisiones estables, fuente original localizable, AF material con naturaleza/procedencia, desconocido distinto de cero, DEC separado de evidencia y CAM por impacto. K03–K06 son objetos lógicos que pueden compartir archivo; sus campos no crean maestros adicionales.
 
 Cada cabecera de artefacto identifica iniciativa, K01 vigente, autor, fecha, revisión, ámbito, estado documental, entradas y ubicación. El productor define campos consumibles; el receptor comprueba versión, contexto, unidades, vigencia y suficiencia para su uso E/O. E significa exploratorio y O uso para operación preparada; ninguno es una calificación de verdad.
 
-Las plantillas contienen reglas y una columna Valor vacía. En la futura prestación se completa solo lo necesario para el uso solicitado. Una ausencia requerida se declara desconocida con motivo y HUE cuando afecte a la decisión; no aplica exige justificar su condición. La propuesta y la decisión efectiva permanecen separadas.
+Las plantillas contienen reglas y una columna Valor vacía. En la prestación se completa solo lo necesario para el uso solicitado. Una ausencia requerida se declara desconocida con motivo y HUE cuando afecte a la decisión; no aplica exige justificar su condición. La propuesta y la decisión efectiva permanecen separadas.
 
 ## Entradas y salidas por nodo
 
@@ -30,7 +30,7 @@ La pertinencia se evalúa para el compromiso solicitado. Si una dimensión no se
 | K05 | Las alternativas se comparan por trabajo y criterio pertinente con alcance y fuentes visibles | Se inventa exclusividad por omisión, se omiten costes relevantes para un orden o se infiere preferencia por lenguaje distinto |
 | K06 | La recomendación se refiere a un compromiso concreto; combina entradas compatibles, atiende restricciones y muestra qué la cambiaría | Falta una premisa indispensable sin límite viable, la autoridad no consta o la salida contradice K01 |
 
-La devolución identifica campo, razón, productor responsable y evidencia/corrección necesaria, usando la relación de consumo de FND02. El resto del trabajo autorizado puede continuar. La admisión documental de una entrada no acepta un compromiso de negocio.
+La devolución identifica campo, razón, productor responsable y evidencia/corrección necesaria, usando la relación de consumo de encargo y conocimiento. El resto del trabajo autorizado puede continuar. La admisión documental de una entrada no acepta un compromiso de negocio.
 
 ## Contrato de lectura externa y contraste
 
@@ -46,7 +46,7 @@ La [capacidad transversal de contraste](08_investigacion_externa_y_contraste.md)
 
 Una recomendación integral requiere cobertura externa pertinente y síntesis del cruce. Una carencia material obliga a devolver el campo o limitar el alcance de la recomendación; las reglas de K01 permiten una salida delimitada sin acreditar análisis no realizado. La conclusión de adecuación para una decisión no demuestra aceptación comercial ni encaje producto–mercado observado.
 
-La [rutina de fuentes y acceso](09_rutina_de_fuentes_y_acceso.md) registra sugerencias en preguntas/cobertura. Sus salidas identifican necesidad, candidata concreta, aportación, acceso/disponibilidad, condición de coste/permiso y recomendación. La incorporación al conjunto y la eventual conexión MCP son decisiones distintas; ninguna convierte una candidata o un contenido no leído en evidencia. FND07 integra la rutina con capacidades del entorno conservando estas reglas.
+La [rutina de fuentes y acceso](09_rutina_de_fuentes_y_acceso.md) registra sugerencias en preguntas/cobertura. Sus salidas identifican necesidad, candidata concreta, aportación, acceso/disponibilidad, condición de coste/permiso y recomendación. La incorporación al conjunto y la eventual conexión MCP son decisiones distintas; ninguna convierte una candidata o un contenido no leído en evidencia. operación conversacional integra la rutina con capacidades del entorno conservando estas reglas.
 
 ## Unidad del intercambio exploratorio
 
@@ -64,7 +64,7 @@ La [plantilla de intercambio](plantillas/06_intercambio_exploratorio.md) se usa 
 | N11 · Entrega/cobro E | Trabajo de preparación y repetición, recursos por tarea, aceptación, insumos/proveedores, costes conocidos/desconocidos, fechas/eventos de pagos y cobros | Descomponer la promesa N08 con capacidades K02 y requisitos K03/K04; distinguir disponibilidad, tarea, calidad, aceptación y obligación económica | Capacidad por habilitar no se declara disponible; coste ausente no es gratuito; cobro supuesto no es condición acordada |
 | N12 · Economía/capacidad E | Modelo editable delimitado, entradas/procedencia, calculable/no calculable, contribución, resultado pertinente, equilibrio cuando exista, capacidad, caja, análisis diferencial y umbral de decisión | Reconciliar unidad, periodo, mezcla, roles y costes de N08–N11; comprobar doble imputación y dominio; mostrar relaciones y restricciones antes de recomendar | Una dimensión desconocida impide la conclusión completa que dependa de ella; un umbral orienta evidencia y no prueba ventas ni ejecución |
 
-Los procedimientos mínimos describen la interfaz necesaria para Diagnostic. FND04 desarrolla N08/N11/N12 y FND05 desarrolla N09/N10 en profundidad; ambos deben conservarla y completarla sin imponer K06 final como prerrequisito para E. No se declara construido aquí su alcance completo de diseño u operación.
+Los procedimientos mínimos describen la interfaz necesaria para Diagnostic. oferta, entrega y economía desarrolla N08/N11/N12 y posición, demanda y conversión desarrolla N09/N10 en profundidad; ambos deben conservarla y completarla sin imponer K06 final como prerrequisito para E. No se declara construido aquí su alcance completo de diseño u operación.
 
 ## Comparabilidad y restricciones económicas del intercambio
 
@@ -92,7 +92,7 @@ Después de DEC, Design consume la combinación y el alcance habilitados y desar
 
 ## Contrato con evidencia adicional y cierre
 
-Cuando la decisión requiera una actuación, N06 entrega a N14 proposición, ámbito/población, alternativas explicativas, evidencia necesaria, criterio de decisión, restricciones, responsable de acceso, autoridad, recursos/exposición, condición de parada y consumidor del resultado. N14 debe devolver un protocolo íntegro antes de ejecución; N15/N16 aportan preparación y observaciones con su alcance cuando se ejecuten en la futura prestación. La sola petición no es protocolo completo ni resultado.
+Cuando la decisión requiera una actuación, N06 entrega a N14 proposición, ámbito/población, alternativas explicativas, evidencia necesaria, criterio de decisión, restricciones, responsable de acceso, autoridad, recursos/exposición, condición de parada y consumidor del resultado. N14 debe devolver un protocolo íntegro antes de ejecución; N15/N16 aportan preparación y observaciones con su alcance cuando se ejecuten en la prestación. La sola petición no es protocolo completo ni resultado.
 
 Si no existe permiso o recurso, N06 mantiene el compromiso dependiente detenido y elige una salida conforme a K01. N17 recibe K06, DEC, entregables realmente disponibles, límites de investigación, obligaciones de recepción/liquidación y condición de reapertura. No exige materiales de Design o Despliegue para recibir una evaluación que termine sin construcción.
 
@@ -104,4 +104,4 @@ Aplicar CAM al campo material y recorrer relaciones efectivas de consumo, no tod
 
 ## Cierre documental del componente
 
-FND03 queda construido por la existencia de instrucciones sustantivas N03–N06, investigación común, contratos y plantillas vacías con significado y consumidores. La integración con FND04–FND07 se conserva en el [paquete fundacional](../../../paquete_fundacional/v0.1/LEEME.md), que identifica alcance, versión e instrucciones de implementación. La revisión actual es documental; no utiliza recorridos de negocio ni ejecuta protocolos.
+investigación y Diagnostic queda construido por la existencia de instrucciones sustantivas N03–N06, investigación común, contratos y plantillas vacías con significado y consumidores. La integración con oferta, entrega y economía–operación conversacional se conserva en el [paquete fundacional](../../../paquete_fundacional/v0.2/LEEME.md), que identifica alcance, versión e instrucciones de implementación. La revisión actual es documental; no utiliza recorridos de negocio ni ejecuta protocolos.

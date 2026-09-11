@@ -2,6 +2,8 @@
 
 Versión 0.1 · Productor de K11
 
+Empezar con la [primera pasada de N11](../../operacion_conversacional/v0.2/10_primera_pasada.md#n11) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
 ## Decisión y entradas
 
 Diseñar qué trabajo, medios y condiciones hacen cumplible una unidad vendida y permiten completar su ciclo económico. Recibir compromisos K08, condiciones de mercado K03, aceptación/compra K04, recursos K02 y traspaso K10 cuando exista. E utiliza el recorrido representado de compra sin exigir pedido ni K06 definitivo. N12 devuelve límites de recursos, coste y caja.

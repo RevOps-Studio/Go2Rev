@@ -2,7 +2,7 @@
 
 Versión 0.2 · Arquitectura fundacional aceptada
 
-Las dependencias y criterios de los nodos describen la futura prestación. El gobierno de construcción, descrito al final, se limita a completar e integrar el método. Su prueba se sitúa después de la construcción completa.
+Las dependencias y criterios delimitan el uso de cada resultado y la autoridad para comprometerlo en el encargo.
 
 ## Contratos de dependencia
 
@@ -36,7 +36,7 @@ Los campos y consumidores de cada K están definidos en 03. Esta tabla es la fue
 
 **Comprador, alternativas y posicionamiento.** N04 produce candidatos desde K02/K03; N05 puede revelar un sustituto o situación de compra que cambie segmentación. Se actualiza N04 y se vuelve a comparar lo afectado. N07 elige un marco como propuesta dentro del alcance habilitado. Si la elección cambia comprador o promesa material, vuelve a N04–N06 antes de cerrar Design.
 
-**Evidencia adicional durante el Diagnostic de una prestación.** Si N06 necesita evidencia directa, N14 especifica la pregunta y la pieza mínima para obtenerla; N15 la prepara y N16 conserva resultados adecuados a ese uso. Esto no declara Despliegue completo ni obliga a materializar todo el sistema. Sin autorización o recursos, se puede recomendar aplazar, limitar o cerrar; una conclusión se limita a la evidencia disponible. Durante la construcción fundacional se redacta este procedimiento; su ejecución pertenece a una prestación posterior.
+**Evidencia adicional durante el Diagnostic de una prestación.** Si N06 necesita evidencia directa, N14 especifica la pregunta y la pieza mínima para obtenerla; N15 la prepara y N16 conserva resultados adecuados a ese uso. Esto no declara Despliegue completo ni obliga a materializar todo el sistema. Sin autorización o recursos, se puede recomendar aplazar, limitar o cerrar; una conclusión se limita a la evidencia disponible.
 
 **Criterio para terminar una iteración.** La opción recomendada es estable ante los rangos defendibles para el compromiso siguiente, o existe una incertidumbre identificada que solo se resuelve con otra fuente/prueba. Se entrega entonces decisión condicionada y siguiente acción. No se fija un número mágico de vueltas ni se continúa hasta obtener una recomendación favorable. El límite de esfuerzo se acuerda por alcance y consecuencias.
 
@@ -73,7 +73,7 @@ Hay tres momentos de decisión ligados a compromisos: resultado de Diagnostic, d
 
 Se mantienen separados el estado de la evidencia, el estado de elaboración del artefacto (borrador, revisado, sustituido), la decisión del cliente (propuesta, aceptada, condicionada, rechazada) y la situación operativa (diseñada, preparada, comprobada, real observada). Mezclarlos produce falsos cierres: revisado no significa comprado y aceptado no significa probado.
 
-El expediente del cliente puede reunir alcance, decisiones, versiones, huecos, cambios y pruebas en un registro manejable con un índice actual. No se obliga a copiar Registro, Estado y Backlog de RevOS como tres nuevos documentos. En desarrollo Go2Rev permanecen únicamente los tres maestros: Plan organiza tareas, Producto enlaza método y Evidencias conserva lo comprobado. La arquitectura y sus controles son archivos del producto.
+El expediente del cliente puede reunir alcance, decisiones, versiones, huecos, cambios y pruebas en un registro manejable con un índice actual. No se obliga a copiar Registro, Estado y Backlog de RevOS como tres nuevos documentos.
 
 ## Cambios y revisión de dependencias
 
@@ -89,14 +89,6 @@ El aprendizaje posterior a la construcción sigue esta relación: observación d
 
 ## Operación conversacional y neutralidad del LLM
 
-Las futuras skills tendrán finalidad, capacidades requeridas, entradas, análisis, salidas y límites comunes. Los adaptadores solo indicarán cómo leer, investigar, calcular, guardar, renderizar o usar un sistema con permisos. Si falta una capacidad se emplea alternativa apta o se limita la tarea; no se cambia la regla de negocio por proveedor.
+Las instrucciones conversacionales mantienen finalidad, capacidades requeridas, entradas, análisis, salidas y límites comunes. Los adaptadores solo indicarán cómo leer, investigar, calcular, guardar, renderizar o usar un sistema con permisos. Si falta una capacidad se emplea alternativa apta o se limita la tarea; no se cambia la regla de negocio por proveedor.
 
-Una continuación carga índice vigente, K relevantes, originales que sustentan afirmaciones materiales y la pieza metodológica de la tarea. No carga todos los textos históricos ni depende de memoria. El consultor pide trabajo en lenguaje natural; los comandos técnicos pertenecen al entorno de producción, no al flujo del servicio. La neutralidad de proveedor se diseña mediante contratos comunes; su comportamiento se comprobará después de completar la construcción.
-
-## Gobierno de construcción fundacional
-
-El Plan es el único backlog de construcción. Carlos decide cambios de producto y arquitectura; el asistente produce instrucciones, contratos, plantillas vacías, fórmulas generales, protocolos y guías. Una tarea se admite si completa una pieza del entregable final o corrige una carencia identificada.
-
-La revisión durante esta etapa es documental: cobertura, profundidad del análisis, consistencia de contratos y fórmulas, integridad de archivos y legibilidad. No se ejecutan los procedimientos de prestación para terminar de construirlos. La metodología se probará solo después de completar e integrar todo el alcance declarado.
-
-Los tres maestros conservan exclusivamente contenido vigente. Las fuentes de diseño se consultan por capacidad y se transforman en reglas generales. Las versiones sustituidas permanecen fuera de la carga operativa. Las vistas derivadas se regeneran desde las fuentes actuales y no adquieren autoridad propia.
+Una continuación carga índice vigente, K relevantes, originales que sustentan afirmaciones materiales y la pieza metodológica de la tarea. No carga todos los textos históricos ni depende de memoria. El consultor pide trabajo en lenguaje natural; los comandos técnicos pertenecen al entorno de producción, no al flujo del servicio. La neutralidad de proveedor se diseña mediante contratos comunes; su comportamiento se comprueba para la capacidad y uso del entorno elegido.

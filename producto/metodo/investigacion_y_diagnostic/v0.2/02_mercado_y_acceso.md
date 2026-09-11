@@ -2,6 +2,8 @@
 
 Versión 0.2 · Procedimiento de futura prestación
 
+Empezar con la [primera pasada de N03](../../operacion_conversacional/v0.2/10_primera_pasada.md#n03) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
 ## Decisión, entradas y salida
 
 Determinar qué ámbito merece profundizar, qué estructura condiciona su acceso y qué puede impedir llegar, vender o cumplir. N03 produce K03, un mapa delimitado con opciones de segmento, actores y mecanismos de acceso, condiciones de entrada, magnitudes útiles cuando estén sustentadas y preguntas abiertas.
@@ -85,3 +87,10 @@ K03 debe permitir a N04 identificar opciones y restricciones de compra; a N05 de
 Un original inaccesible se registra con su límite y alternativa. Una cifra insuficiente puede permitir comparación cualitativa si esa magnitud no decide el compromiso. Un requisito indispensable sin resolver limita el compromiso, no obliga a detener todo el mapa.
 
 Cambios en ámbito, criterio de inclusión, requisito, concentración, canal o calendario reabren los campos afectados y sus consumidores. Actualizar TRA/CAP y devolver a K01 los cambios de alcance. La revisión del consultor comprueba definiciones, cobertura, diferencia entre universo/acceso/ventas y coherencia con comprador y capacidad.
+
+
+## Procedimiento para construir una magnitud comparable
+
+Definir primero unidad compradora, necesidad, territorio, periodo e inclusión/exclusión. Localizar tablas o registros cuya clasificación se aproxime al ámbito y conservar la diferencia. Aplicar filtros sobre una misma población identificable; cuando solo existan proporciones agregadas, justificar su transferibilidad y dependencia antes de combinarlas. No multiplicar probabilidades marginales como si fueran independientes. Separar grupos disjuntos y eliminar solapamientos antes de sumar.
+
+Construir la estimación desde unidades y frecuencia/volumen pertinentes; contrastarla con otra perspectiva disponible, investigando las causas de discrepancia. Expresar el intervalo sustentado o la magnitud no calculable, y el efecto sobre la decisión. La capacidad de atender o acceder es una restricción propia, no tamaño del mercado. Usar TAM/SAM/SOM solo con definición de cada perímetro y método; una cuota objetivo no demuestra cuota obtenible.

@@ -26,3 +26,7 @@ Usar con [comprobación de preparación](../05_comprobacion_de_preparacion.md). 
 | Cambio y conservación | CAM pertinente, versiones originales y cobertura que requiere nueva comprobación | |
 
 Si falta operador o recorrido crítico, la preparación del ámbito dependiente permanece parcial. Una actuación real observada tiene su alcance propio y no sustituye esta cobertura.
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K16, completar el núcleo de [N16 Comprobar preparación delimitada](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

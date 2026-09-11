@@ -22,3 +22,7 @@ Repetir por alternativa material. No presupone un número de alternativas ni dat
 | Evidencia necesaria | Fuente/actuación, criterio de decisión y consumidor | |
 | Recomendación | Preferencia, conflicto de criterios, límites o ausencia de orden concluyente | |
 | DEC y revisión | Autoridad, disposición, disparador y versiones consumidoras | |
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K12, completar el núcleo de [N12 Analizar economía y capacidad](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

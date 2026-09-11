@@ -1,18 +1,18 @@
 # Arquitectura metodológica de Go2Rev
 
-Versión 0.2 · 10 de septiembre de 2026 · Base aceptada por Carlos Estrada · Archivo del producto
+Versión 0.2 · 10 de septiembre de 2026 · Archivo del producto
 
-## Arquitectura y finalidad de construcción
+## Arquitectura y finalidad del servicio
 
 Go2Rev se organiza como un sistema de decisiones sobre una iniciativa y su mercado, con diecisiete nodos funcionales y una base de conocimiento compartida. Los nodos distinguen trabajos intelectuales que en las fuentes de diseño estaban concentrados en D2, G1 y G3. Conservan la correspondencia con los once pasos existentes y las fases Diagnostic, Design y Despliegue. No equivalen a diecisiete documentos, reuniones o skills.
 
-La promesa aceptada exige resolver la conexión entre comprador, oferta, acceso, venta, entrega y cobro, y comprobar la preparación del recorrido contratado. Para conseguirlo hay que diseñar también conocimiento interno, investigación externa, posicionamiento, precio, medición y criterios de decisión. La construcción se deriva de esa promesa y de los contratos de cada capacidad. Cada pieza debe formar parte del producto final.
+La promesa aceptada exige resolver la conexión entre comprador, oferta, acceso, venta, entrega y cobro, y comprobar la preparación del recorrido contratado. Para conseguirlo hay que diseñar también conocimiento interno, investigación externa, posicionamiento, precio, medición y criterios de decisión. Cada capacidad aporta contenido necesario para esa promesa.
 
-Carlos ha aceptado esta arquitectura y ha fijado la construcción completa de la metodología antes de probarla. La primera base es enteramente teórica y no ha habido clientes. Las instrucciones, plantillas, modelos y protocolos que desarrollan esta arquitectura se localizan en el [paquete fundacional](../../paquete_fundacional/v0.1/LEEME.md). Los nodos siguientes describen la futura prestación; durante el desarrollo se redacta su funcionamiento, sin ejecutar actuaciones de negocio.
+ La primera base es enteramente teórica y no ha habido clientes. Las instrucciones, plantillas, modelos y protocolos que desarrollan esta arquitectura se localizan en el [paquete fundacional](../../paquete_fundacional/v0.2/LEEME.md). Los nodos siguientes describen la prestación.
 
 ## Decisiones de arquitectura aceptadas
 
-1. **Mantener los once pasos como correspondencia histórica y de transición.** La arquitectura utiliza nombres funcionales y códigos N01–N17 para identificar productores y consumidores. La entrada de prestación se rige por estos contratos. Los once pasos se conservan como correspondencia de diseño en 05; las instrucciones de origen no constituyen una entrada operativa de la versión fundacional.
+1. **Mantener los once pasos como correspondencia histórica y de transición.** La arquitectura utiliza nombres funcionales y códigos N01–N17 para identificar productores y consumidores. La entrada de prestación se rige por estos contratos. Los once pasos se conservan como correspondencia de diseño en la tabla de correspondencia de este archivo; las instrucciones de origen no constituyen una entrada operativa de la versión fundacional.
 2. **Dar entidad propia a comprador, alternativas, posicionamiento, oferta y precio, demanda, entrega y cobro, y medición.** Pueden compartir un documento, pero cada capacidad debe aportar un análisis identificable y alimentar decisiones posteriores.
 3. **Usar versiones exploratorias en Diagnostic antes de comprometer el sistema del cliente.** Diagnostic necesita una representación inicial de oferta, acceso, capacidad y economía. No necesita el precio definitivo ni todo el diseño. Las versiones exploratorias habilitan comparación; las versiones destinadas a operar exigen condiciones más fuertes.
 4. **Separar suficiencia de evidencia, calidad del análisis, autorización y preparación.** Una recomendación puede ser razonable para una prueba reversible y seguir sin justificar un lanzamiento. Una aprobación no aumenta la evidencia disponible.
@@ -85,8 +85,24 @@ El expediente conserva fuentes, cálculos y decisiones. La vista de cliente expl
 | Conversación y LLM agnostic | Contratos comunes, N02, N15–N17 | Archivos recuperables, adaptaciones de capacidad y permisos, sin lógica comercial por proveedor |
 | Aprendizaje posterior a la construcción | Gobierno de cambios | Incorporar mejoras justificadas después de utilizar la versión fundacional, preservando sus fuentes generales |
 
-## Cómo leer y desarrollar la arquitectura
+## Cómo leer la arquitectura
 
-02_informacion_y_contratos.md especifica cómo producir conocimiento y qué significa cada registro. 03_nodos_y_entregables.md define el trabajo de los diecisiete nodos. 04_dependencias_y_gobernanza.md fija iteración, calidad y decisiones. 05_reutilizacion_y_fuentes.md distingue contenido realmente leído de material solamente inventariado. 06_construccion_y_revision.md fija los componentes y criterios de una versión utilizable. El paquete fundacional localiza su desarrollo sustantivo.
+[Información y contratos](02_informacion_y_contratos.md) define el conocimiento compartido; [nodos](03_nodos_y_entregables.md) especifica las diecisiete capacidades; [dependencias y gobernanza](04_dependencias_y_gobernanza.md) fija iteración, suficiencia y autoridad. La [primera pasada](../../metodo/operacion_conversacional/v0.2/10_primera_pasada.md) abre las instrucciones sustantivas de cada tarea.
 
-El Plan mantiene el backlog de construcción. El asistente desarrolla instrucciones, contratos, plantillas vacías, modelos generales, protocolos y guías. Carlos revisa decisiones de producto. La revisión durante esta etapa es documental; las pruebas de la metodología se abrirán solo después de completar e integrar todas las piezas del alcance declarado.
+## Correspondencia con los once pasos de origen
+
+Los pasos conservan su identidad para orientar la transición. Su contenido se distribuye entre capacidades con contratos propios; esta tabla no restaura instrucciones antiguas ni reduce el método a once pasos.
+
+| Paso de origen | Capacidad actual | Relación conservada o ampliada |
+|---|---|---|
+| D0 Encuadre | N01 | Encargo y salida Diagnostic antes de contratar |
+| D1 Base interna | N02 | Originales, afirmaciones, solicitudes y transferibilidad |
+| D2 Investigación | N03–N05 | Mercado, comprador, alternativas y contraste externo/interno |
+| D3 Recomendación | N06 | Decisión fundada con economía y acceso exploratorios |
+| G1 Oferta | N04/N07/N08/N09 | Compra, posición, oferta/precio y demanda diferenciados |
+| G2 Economía | N08/N11/N12 | Precio, cumplimiento, contribución, recursos y caja |
+| G3 Recorrido | N10/N11 | Compra, traspaso, entrega y cobro |
+| G4 Preparación de pruebas | N13/N14 | Medición y preparación por evidencia pendiente o por obligación |
+| P1 Materiales | N15/N17 | Piezas utilizables, medios efectivos y transferencia |
+| P2 Comprobación | N16 | Cobertura por recorrido y tipo de evidencia |
+| P3 Cierre | N17 | Recepción, soporte acotado y continuidad |

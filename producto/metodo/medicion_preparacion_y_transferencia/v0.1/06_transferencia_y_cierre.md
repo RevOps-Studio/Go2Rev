@@ -2,6 +2,8 @@
 
 Versión 0.1 · Productor de K17
 
+Empezar con la [primera pasada de N17](../../operacion_conversacional/v0.2/10_primera_pasada.md#n17) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
 ## Finalidad y entradas
 
 Determinar qué estado se entrega, qué puede continuar el cliente, qué queda limitado y cuándo termina el acompañamiento. Recibir K01 y sus condiciones económicas/de salida, K06/DEC, entregables efectivamente producidos, K13–K16 cuando procedan, fuentes/versiones y pendientes. La transferencia es un trabajo de prestación que se realizará una vez construida la metodología; la plantilla general permanece vacía.

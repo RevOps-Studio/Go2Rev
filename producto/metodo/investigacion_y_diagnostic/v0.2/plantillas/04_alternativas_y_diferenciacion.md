@@ -4,7 +4,7 @@ Versión de plantilla 0.2 · Campos de prestación vacíos
 
 Usar con [N05](../04_alternativas_y_diferenciacion.md). El asistente compara, el consultor revisa y N06/N07 consumen las hipótesis sin convertirlas en decisiones aceptadas. La cabecera común de K05 conserva revisión, autor/fecha, K01, ámbito, entradas, estado y ubicación según [contratos](../06_contratos_y_economia_exploratoria.md).
 
-El universo se delimita por la decisión; no se exige número fijo de alternativas o hipótesis. Repetir los bloques pertinentes y referenciar AF/FUE de FND02. Los valores permanecen vacíos.
+El universo se delimita por la decisión; no se exige número fijo de alternativas o hipótesis. Repetir los bloques pertinentes y referenciar AF/FUE de encargo y conocimiento. Los valores permanecen vacíos.
 
 ## Universo y comparación
 
@@ -56,3 +56,7 @@ El universo se delimita por la decisión; no se exige número fijo de alternativ
 | Contraste con oferta y capacidades propias | Premisas de K02, hallazgos externos, comparabilidad, conclusión y decisión que cambia o se fundamenta | |
 | Suficiencia y carencias | Cobertura de alternativas materiales, comparabilidad, CON/HUE y límite de uso | |
 | Consumidores y revisión | Campos/versiones, autoría de revisión y disparador de cambio de alternativa/criterio/capacidad | |
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K05, completar el núcleo de [N05 Comparar alternativas](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

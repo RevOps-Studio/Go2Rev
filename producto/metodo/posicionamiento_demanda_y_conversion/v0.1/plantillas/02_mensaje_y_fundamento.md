@@ -29,4 +29,8 @@ Usar con [posicionamiento y promesas](../01_posicionamiento_y_promesas.md). Repe
 | Criterio de recepción | Coherencia con oferta, fundamento, legibilidad, acción/receptor y medio disponible para el uso | |
 | Consumo y revisión | Consumidor/campo/revisión, disposición y cambio que exigiría retirar o actualizar la pieza | |
 
-Mantener los registros AF/FUE/DEC/CAM en su ubicación común; aquí se referencian, sin crear una copia alternativa. N15 materializará lo necesario y N16 comprobará preparación durante la futura prestación.
+Mantener los registros AF/FUE/DEC/CAM en su ubicación común; aquí se referencian, sin crear una copia alternativa. N15 materializará lo necesario y N16 comprobará preparación durante la prestación.
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K07, completar el núcleo de [N07 Construir posición y mensaje](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

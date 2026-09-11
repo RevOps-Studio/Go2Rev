@@ -1,6 +1,6 @@
 # Rutina breve · Sugerir fuentes y medios de acceso
 
-Versión 0.2 · Preparación de investigación en una futura prestación
+Versión 0.2 · Preparación de investigación en una prestación
 
 ## Cuándo y para qué
 
@@ -43,3 +43,8 @@ La propuesta no instala ni conecta por sí misma. La ejecución de una conexión
 La propuesta debe poder decidirse con una lectura breve: **necesidad → fuente/herramienta concreta → aportación → acceso → recomendación y autorización pendiente**. El asistente conserva el análisis, la selección de candidatas y la alternativa de trabajo. El consultor decide únicamente las elecciones de alcance, gasto o permiso que le correspondan.
 
 Una candidata seleccionada entra en FUE cuando se identifique el material y su disponibilidad. Solo el contenido efectivamente recuperado y leído puede sostener AF; sugerir, incorporar al conjunto o conectar una fuente no demuestra aún lo que contiene.
+
+
+## Candidatas iniciales localizables
+
+El [catálogo inicial](10_catalogo_inicial_de_fuentes.md) ofrece portales y herramientas por pregunta, con fecha de revisión y límites. Seleccionarlos y ampliarlos según el ámbito; la existencia de un portal no acredita lectura de un original ni conexión MCP.

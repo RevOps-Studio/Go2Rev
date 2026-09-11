@@ -1,6 +1,8 @@
 # N01 · Encuadre del encargo y salida de Diagnostic
 
-Versión 0.1 · Instrucciones para una futura prestación
+Versión 0.1 · Instrucciones para una prestación
+
+Empezar con la [primera pasada de N01](../../operacion_conversacional/v0.2/10_primera_pasada.md#n01) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
 
 ## Decisión, entradas y salida
 
@@ -42,7 +44,7 @@ Comparar cada promesa con capacidad y autoridad: qué produce Go2Rev, qué aport
 
 Delimitar el acompañamiento por actuaciones, responsables, recursos, revisiones incluidas y evento de finalización. Identificar cómo se recibe cada actuación y qué atención queda fuera. Si se pacta un límite temporal o económico, anotar unidad y condiciones de consumo; no reemplazar el contenido por una disponibilidad indefinida.
 
-El criterio de recepción debe poder leerse sin inferir éxito comercial: qué pregunta queda respondida, qué decisiones están conectadas, qué material está disponible o qué preparación se habrá comprobado durante la futura prestación. Distinguir aceptación de la entrega y evidencia sobre el mercado.
+El criterio de recepción debe poder leerse sin inferir éxito comercial: qué pregunta queda respondida, qué decisiones están conectadas, qué material está disponible o qué preparación se habrá comprobado durante la prestación. Distinguir aceptación de la entrega y evidencia sobre el mercado.
 
 ## 4. Prever el valor y la salida de Diagnostic
 

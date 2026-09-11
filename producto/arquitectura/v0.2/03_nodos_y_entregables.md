@@ -2,7 +2,7 @@
 
 Versión 0.2 · Especificación fundacional · Todos los nodos aplican el contrato común de 02
 
-Los códigos identifican capacidades, no etapas obligatorias de una conversación. Cada salida K01–K17 es un objeto lógico con versión; puede compartir archivo con otras. **E** significa uso exploratorio y **O** uso para operación preparada. No son niveles de verdad: cada afirmación conserva su evidencia. El asistente produce y revisa el análisis; el consultor responde de su calidad. El patrocinador decide compromisos del negocio. Los roles y procedimientos siguientes pertenecen a una futura prestación. Durante la construcción el asistente desarrolla sus instrucciones y formatos, y Carlos revisa decisiones de producto. N14–N16 se especifican ahora; su ejecución queda después de la construcción completa de Go2Rev.
+Los códigos identifican capacidades, no etapas obligatorias de una conversación. Cada salida K01–K17 es un objeto lógico con versión; puede compartir archivo con otras. **E** significa uso exploratorio y **O** uso para operación preparada. No son niveles de verdad: cada afirmación conserva su evidencia. El asistente produce y revisa el análisis; el consultor responde de su calidad. El patrocinador decide compromisos del negocio. Los roles y procedimientos siguientes pertenecen a una prestación.
 
 ## N01 Encuadre del encargo
 
@@ -110,7 +110,7 @@ Los códigos identifican capacidades, no etapas obligatorias de una conversació
 
 **Salida y consumidores.** K09: rutas candidatas/elegidas, mecanismo, población/origen, acceso, mensaje y acción, secuencia, responsable, recursos, costes de toda la cohorte, eventos y condición de pausa/revisión. N10 consume origen y cualificación; N12 costes/volúmenes condicionados; N13 eventos; N14–N15 preparación.
 
-**Suficiencia, carencias y revisión.** Ruta candidata, disponible y probada son estados distintos. Sin acceso real puede prepararse una alternativa; no se registran oportunidades sin evidencia de origen. Consultor revisa y patrocinador autoriza actuaciones/gasto dentro del encargo. Nuevas restricciones, señales, costes o capacidad de respuesta reabren ruta y economía. Diseñar demanda del cliente no reactiva captación de Go2Rev.
+**Suficiencia, carencias y revisión.** Ruta candidata, disponible y probada son estados distintos. Sin acceso real puede prepararse una alternativa; no se registran oportunidades sin evidencia de origen. Consultor revisa y patrocinador autoriza actuaciones/gasto dentro del encargo. Nuevas restricciones, señales, costes o capacidad de respuesta reabren ruta y economía.
 
 ## N10 Conversión y recorrido de venta
 
@@ -138,7 +138,7 @@ Los códigos identifican capacidades, no etapas obligatorias de una conversació
 
 ## N12 Economía capacidad y escenarios
 
-**Decisión y aplicabilidad.** Qué combinación puede sostenerse y qué premisa decide su viabilidad. Común A/B con modelos adaptados a la unidad; separa economía de la iniciativa, coste de prestar Go2Rev y desarrollo del producto.
+**Decisión y aplicabilidad.** Qué combinación puede sostenerse y qué premisa decide su viabilidad. Común A/B con modelos adaptados a la unidad; separa economía de la iniciativa y coste del servicio contratado.
 
 **Entradas y productores.** K08 unidad/precio, K09 coste y volumen de toda la cohorte, K10 esfuerzo comercial, K11 entrega/cobro, recursos K02. Cada input conserva unidad, periodo, procedencia y estado. El asistente calcula; responsables aportan datos exclusivos.
 
@@ -150,7 +150,7 @@ Los códigos identifican capacidades, no etapas obligatorias de una conversació
 
 ## N13 Medición y aprendizaje
 
-**Decisión y aplicabilidad.** Qué observar y qué decisión tomar cuando cambie el resultado. Común A/B; en inicio puede medir condiciones y señales sin fingir una línea base de ventas. Es diseño de operación del cliente; no añade reuniones a Carlos durante desarrollo.
+**Decisión y aplicabilidad.** Qué observar y qué decisión tomar cuando cambie el resultado. Común A/B; en inicio puede medir condiciones y señales sin fingir una línea base de ventas. Es diseño de operación del cliente; se ajusta a las decisiones del encargo.
 
 **Entradas y productores.** K01 objetivos, K06 hipótesis, K09–K11 eventos del recorrido, K12 umbrales y K02 medios/datos disponibles.
 

@@ -25,3 +25,7 @@ Usar con [medición y revisión](../01_medicion_y_revision.md). El asistente pre
 | Cambio y conservación | CAM si procede; datos publicados al corte y revisión posterior separados | |
 
 La emisión del reporte no significa que la acción se haya realizado. Conservar la decisión en el [registro común](../../../encargo_y_conocimiento/v0.1/plantillas/06_decisiones_y_cambios.md) y referenciarla aquí.
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K13, completar el núcleo de [N13 Instrumentar para decidir](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

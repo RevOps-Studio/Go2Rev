@@ -19,7 +19,7 @@ La futura prestación selecciona variantes por su unidad y recorrido; A/B descri
 1. Identificar la relación que no representa el modelo lineal: reconocimiento diferido, devolución, lote, restricción temporal, precio por tramo, interdependencia de productos u otra condición material.
 2. Describir entradas, unidad, fuente y evento; redactar la fórmula o regla correspondiente con dominio y desconocidos. Relacionarla con las fórmulas generales y los campos K08/K11 que la producen.
 3. Incorporar el cálculo en una sección/hoja editable de K12, con resultado propio y enlace a su consumidor. Conservar el dato original y la transformación. No pegar un resultado opaco ni duplicar el mismo ingreso/coste al integrarlo.
-4. Revisar simbólicamente unidades, cobertura, dependencias, casos de dominio y reconocimiento/caja. Durante la construcción esta revisión es documental; el uso y comprobación de comportamiento se sitúan después de construir el método completo.
+4. Revisar simbólicamente unidades, cobertura, dependencias, casos de dominio y reconocimiento/caja.
 5. Limitar la conclusión si la adaptación material falta. Explicar qué puede decidirse con lo disponible y qué requiere completar antes del compromiso.
 
 No se presupone un sistema contable completo, planificación industrial, asesoría fiscal o un optimizador de producción dentro de Go2Rev. La metodología debe representar las relaciones que decidan su iniciativa acotada y derivar a la competencia pertinente aquello que exceda el servicio. Esa frontera no permite omitir un coste o impedimento material y mantener una recomendación integral.

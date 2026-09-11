@@ -31,3 +31,7 @@ Usar con [medición y revisión](../01_medicion_y_revision.md). Repetir el bloqu
 | Consumo y cambios | Receptor/campo/revisión, disposición, HUE/CON y condición CAM | |
 
 La futura observación y decisión se relacionan en [revisión y decisión](02_revision_y_decision.md). La plantilla general no contiene valores, objetivos ni umbrales empresariales.
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K13, completar el núcleo de [N13 Instrumentar para decidir](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

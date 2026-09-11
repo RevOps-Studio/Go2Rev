@@ -4,7 +4,7 @@ Versión 0.1 · K08/K11/K12
 
 ## Contrato común
 
-Aplicar el [diccionario FND02](../../encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md): FUE original localizable, AF con naturaleza/procedencia y razonamiento si es derivada, DEC con autoridad, HUE/SOL para carencias, CON solo para incompatibilidades comparables y CAM por impacto. No añadir taxonomías paralelas ni registros de cada frase.
+Aplicar el [diccionario encargo y conocimiento](../../encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md): FUE original localizable, AF con naturaleza/procedencia y razonamiento si es derivada, DEC con autoridad, HUE/SOL para carencias, CON solo para incompatibilidades comparables y CAM por impacto. No añadir taxonomías paralelas ni registros de cada frase.
 
 Cada artefacto identifica K01, revisión, autor/fecha, ámbito, estado documental, entradas y ubicación; cada relación de consumo identifica campo, versión, consumidor, uso E/O, admisión/límite/devolución y corrección responsable. E y O no son niveles de evidencia. Los campos requeridos ausentes se declaran desconocidos; no aplica se justifica. Solo la plantilla sin utilizar conserva campos vacíos.
 
@@ -20,7 +20,7 @@ Después de K06/DEC, añadir alcance habilitado, K07/K09/K10 de diseño y condic
 
 ## Intercambio con Diagnostic
 
-Usar la combinación localizada por K06/revisión/sección y el [intercambio de FND03](../../investigacion_y_diagnostic/v0.2/plantillas/06_intercambio_exploratorio.md). N08/N11/N12 devuelven aquí sus productores sustantivos. N09/N10 mantienen el contrato existente y se desarrollan en FND05; un dato aún no disponible conserva su efecto, sin sustituirlo por un supuesto arbitrario.
+Usar la combinación localizada por K06/revisión/sección y el [intercambio de investigación y Diagnostic](../../investigacion_y_diagnostic/v0.2/plantillas/06_intercambio_exploratorio.md). N08/N11/N12 devuelven aquí sus productores sustantivos. N09/N10 mantienen el contrato existente y se desarrollan en posición, demanda y conversión; un dato aún no disponible conserva su efecto, sin sustituirlo por un supuesto arbitrario.
 
 El orden es representación de oferta → acceso/compra y cumplimiento → economía de la misma combinación → revisión de pregunta o configuración → recomendación N06. Se pueden avanzar ramas independientes. No contar como dos ventas la operación con intermediario y la venta al usuario ni mezclar el precio de una oferta con los costes favorables de otra.
 
@@ -28,7 +28,7 @@ Cada conclusión que provenga del cruce externo/interno referencia las AF de amb
 
 ## Suficiencia y calidad por uso
 
-| Dimensión | Revisión documental del contenido | Consecuencia de carencia en la futura prestación |
+| Dimensión | Revisión documental del contenido | Consecuencia de carencia en la prestación |
 |---|---|---|
 | Cobertura | Promesas enlazadas con tareas; partidas con costes; recursos completos; caja con obligaciones; variantes pertinentes resueltas | Limitar resultado, recomendación o compromiso dependiente |
 | Fundamento | Valor, referencia y evidencia separados; transformaciones comparables y AF localizables | Tratar como hipótesis/desconocido, investigar o devolver |

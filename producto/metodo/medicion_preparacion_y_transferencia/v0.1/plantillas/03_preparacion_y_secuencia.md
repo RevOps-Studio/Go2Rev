@@ -31,3 +31,7 @@ Usar con [preparación y secuencia](../02_preparacion_y_secuencia.md). Repetir p
 | Consumidores y revisión | K15/K16/K17 o N06, campo/revisión, disposición y CAM pertinente | |
 
 El [protocolo previo](04_protocolo_previo.md) desarrolla la actuación cuando proceda. Identificar una pieza en esta tabla no significa que esté materializada ni comprobada.
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K14, completar el núcleo de [N14 Preparar obligaciones y evidencia](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

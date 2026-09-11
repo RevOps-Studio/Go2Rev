@@ -1,0 +1,1084 @@
+{
+  "producto": "Go2Rev",
+  "version_conjunto": "0.2",
+  "fecha": "2026-09-11",
+  "estado": "Construcción cerrada; base teórica sin pruebas de la metodología",
+  "revision_integracion": "Puesta en marcha 2026-09-11",
+  "entrada": "INICIO.md",
+  "archivos_totales": 135,
+  "exclusion_de_huella": "producto/paquete_fundacional/v0.2/manifiesto.json",
+  "archivos": [
+    {
+      "ruta": "INICIO.md",
+      "componente": "Entrada de distribución",
+      "version_base": "0.2",
+      "funcion": "Entrada derivada",
+      "bytes": 527,
+      "sha256": "80f02637ab58982b2019c55aeae8d2a407e9d5d03172dacc9f6fc1bb2e13b6f7"
+    },
+    {
+      "ruta": "herramientas/documentos/LEEME.md",
+      "componente": "Herramientas documentales",
+      "version_base": "conjunto 0.2",
+      "funcion": "Herramienta documental opcional",
+      "bytes": 1055,
+      "sha256": "d723793662f3f13da4d6d0e9768cd860cc3c5817379a1464426b87752a589498"
+    },
+    {
+      "ruta": "herramientas/documentos/construir_lectura.py",
+      "componente": "Herramientas documentales",
+      "version_base": "conjunto 0.2",
+      "funcion": "Herramienta documental opcional",
+      "bytes": 11587,
+      "sha256": "24e747aed90e044425cfe84accb2f6d8b1ad647b55d8eae6fbc335fd70344b92"
+    },
+    {
+      "ruta": "herramientas/documentos/renderizar_paginas.py",
+      "componente": "Herramientas documentales",
+      "version_base": "conjunto 0.2",
+      "funcion": "Herramienta documental opcional",
+      "bytes": 320,
+      "sha256": "5b5fcac9cc1f50e8b8809c16beca0f7a5c0603a04e6ad9ecd4a940f7139c1489"
+    },
+    {
+      "ruta": "herramientas/documentos/renderizar_word.ps1",
+      "componente": "Herramientas documentales",
+      "version_base": "conjunto 0.2",
+      "funcion": "Herramienta documental opcional",
+      "bytes": 680,
+      "sha256": "5a7f3f24685ed4359e93f7257942848e33482ea21acff5fa692d8a42ef0398bb"
+    },
+    {
+      "ruta": "herramientas/modelo_economico/LEEME.md",
+      "componente": "Herramientas documentales",
+      "version_base": "conjunto 0.2",
+      "funcion": "Herramienta documental opcional",
+      "bytes": 1323,
+      "sha256": "4cec4b771cb11dafb4685eedbcf87a4c0225ee5199d76d25895fd5a541d2e644"
+    },
+    {
+      "ruta": "herramientas/modelo_economico/construir_modelo.mjs",
+      "componente": "Herramientas documentales",
+      "version_base": "conjunto 0.2",
+      "funcion": "Herramienta documental opcional",
+      "bytes": 495,
+      "sha256": "4108abf1e6a149cd7764bc9c7d7dccdbdd05a249169e1b4d3a386ce4bb23bb5a"
+    },
+    {
+      "ruta": "herramientas/paquete/LEEME.md",
+      "componente": "Herramientas documentales",
+      "version_base": "conjunto 0.2",
+      "funcion": "Herramienta documental opcional",
+      "bytes": 1912,
+      "sha256": "735e942ebbee798b51db5caab6bcc91fcd1eaac52f6a586ea0c5d8b73247b568"
+    },
+    {
+      "ruta": "herramientas/paquete/construir_lecturas.py",
+      "componente": "Herramientas documentales",
+      "version_base": "conjunto 0.2",
+      "funcion": "Herramienta documental opcional",
+      "bytes": 6219,
+      "sha256": "0289400bebed596026b39f83cbe4c92f0b9f0ac390433029db674a561b43d1d1"
+    },
+    {
+      "ruta": "herramientas/paquete/construir_paquete.py",
+      "componente": "Herramientas documentales",
+      "version_base": "conjunto 0.2",
+      "funcion": "Herramienta documental opcional",
+      "bytes": 8048,
+      "sha256": "a044e2bab79ff7cf1a82c622f96362162221c14b6522aff4ccdc821c718132c5"
+    },
+    {
+      "ruta": "producto/arquitectura/v0.2/01_arquitectura_metodologica.md",
+      "componente": "Arquitectura",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 11719,
+      "sha256": "fbfffb7fa84b07be7abcdedb13e857ae5e4ad8d6980e94e28ce53cf3d3c17ec7"
+    },
+    {
+      "ruta": "producto/arquitectura/v0.2/02_informacion_y_contratos.md",
+      "componente": "Arquitectura",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 13740,
+      "sha256": "9e2a62b594a8b5958275dc1823260efc88a8cc8505c604208e1d2a8a41543c6a"
+    },
+    {
+      "ruta": "producto/arquitectura/v0.2/03_nodos_y_entregables.md",
+      "componente": "Arquitectura",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 30979,
+      "sha256": "169124856980c6bfd1415a1b74860fa14f2fba4a1ea17636d1f3d1d4f5d27c4f"
+    },
+    {
+      "ruta": "producto/arquitectura/v0.2/04_dependencias_y_gobernanza.md",
+      "componente": "Arquitectura",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 13252,
+      "sha256": "9318d3f537f117f0dad36dc7219d4c7ec073838af3732fc9b4e2fe086eec855d"
+    },
+    {
+      "ruta": "producto/arquitectura/v0.2/Go2Rev_arquitectura_metodologica_v0.2.docx",
+      "componente": "Arquitectura",
+      "version_base": "0.2",
+      "funcion": "Vista de lectura derivada",
+      "bytes": 66593,
+      "sha256": "af714fe20fa27d9ad0ac2093d661cb2e6c3bc4aad2263266a9b63efb838d452b"
+    },
+    {
+      "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/01_encargo_y_salida.md",
+      "componente": "Encargo y conocimiento",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 13818,
+      "sha256": "9f673564cb784efcf13dd1317ba0d63ae188cef173e1b82ce4d0ca97f56919a4"
+    },
+    {
+      "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/02_conocimiento_y_solicitud.md",
+      "componente": "Encargo y conocimiento",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 20461,
+      "sha256": "8288ad2c844cd433649f887c3c0bab766daa716c2b72a8a91b374778353b2a62"
+    },
+    {
+      "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md",
+      "componente": "Encargo y conocimiento",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 12836,
+      "sha256": "f339fcc2568ee7a41d224ade15b1f217fa4bb7e199cd4c7df0c96e8a3841acf8"
+    },
+    {
+      "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/LEEME.md",
+      "componente": "Encargo y conocimiento",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 1432,
+      "sha256": "717f0cb57dbe0d32dbe99c685898a21c50747443ec35aceb73b04c77bea6e2dc"
+    },
+    {
+      "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/01_encargo.md",
+      "componente": "Encargo y conocimiento",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 9454,
+      "sha256": "8854a61ca34c98e4fd4e7dff89f76df18552d3c5918e4f0d288629d1e3094638"
+    },
+    {
+      "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/02_solicitudes.md",
+      "componente": "Encargo y conocimiento",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 3863,
+      "sha256": "e8e442787e974b60cf7b975f8bb316ced264285d63325e3e3ab4dfd02c84ba15"
+    },
+    {
+      "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/03_conocimiento.md",
+      "componente": "Encargo y conocimiento",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 9223,
+      "sha256": "80bb3f04c16860d263b9adf102b5568a222303247eb71fb62d27a3d869c4e955"
+    },
+    {
+      "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/04_transferencia_A.md",
+      "componente": "Encargo y conocimiento",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 3712,
+      "sha256": "454bf3b13b3818f3095d936f2e9604ac0034ac920b9cd4cc03e23b9143b6ee72"
+    },
+    {
+      "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/05_capacidades_B.md",
+      "componente": "Encargo y conocimiento",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 4037,
+      "sha256": "e4f4da9fc995432d46f67b69e3c666bc9e9f576fec700d216c1a5b568692a9cb"
+    },
+    {
+      "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/06_decisiones_y_cambios.md",
+      "componente": "Encargo y conocimiento",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 6564,
+      "sha256": "62b9529f6cf0d145186f5bc00c93e06b0ce97de7216a8fc84d4c9de46c37660e"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/01_investigacion_y_suficiencia.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 14253,
+      "sha256": "5dbac91081bdd926c1b3c472dbb8ca0499ed1e044c73d3d9e31f7f29ee4f0fff"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/02_mercado_y_acceso.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 12624,
+      "sha256": "d29afc34c02f0f7f2f7a9baa129555fa1a2e1febd80abb5e5c52fb2ca36c0dbc"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/03_comprador_y_compra.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 10482,
+      "sha256": "9c38270a459c19d6aa651321559fd480cb1cda20a007c60f432cd21e4d685bde"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/04_alternativas_y_diferenciacion.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 9430,
+      "sha256": "05df87cc7a10ca42cfce1ee5af6b2e1bc28d7be19ad69998916e8f9b5983d2ed"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/05_recomendacion_diagnostic.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 14266,
+      "sha256": "6f98de4a11ec770b4b5f520f4250149b85898de62ddcd6b99b9126e488532561"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/06_contratos_y_economia_exploratoria.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 15759,
+      "sha256": "7d6b5fc0610f4656e287c8eeec90b7e67faff1126c1bb2362fb0924bfaaf1d6a"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/08_investigacion_externa_y_contraste.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 13883,
+      "sha256": "3ee24ad56d4c26d016ec2f2d926c3d9e3818b60a7714ecb594aaa9e2b75bbb8c"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/09_rutina_de_fuentes_y_acceso.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 7419,
+      "sha256": "1cf93f0466994e408280d5fe39873baad5bbaca9789d9993a54f818300ede080"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/10_catalogo_inicial_de_fuentes.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 4280,
+      "sha256": "293e7516bf6f64769fa636f548c5f72c6db14d2ea88d1f0e2e2b66696043c988"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/LEEME.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 2115,
+      "sha256": "eac88b1eea2857653a2acf4e5792c2585cc0371486cb501c9388cad0e0214a05"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/01_preguntas_y_cobertura.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Plantilla vacía",
+      "bytes": 6118,
+      "sha256": "bd3636a2b2841ebca95f63af351600d4a7a29258f0d08a284110c1b546b0be28"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/02_mercado_y_acceso.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Plantilla vacía",
+      "bytes": 5309,
+      "sha256": "629ded4ec557bde705a896bccb8154d2f1e6d62d182c923f6d714ed583532c5a"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/03_comprador_y_compra.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Plantilla vacía",
+      "bytes": 4706,
+      "sha256": "f72231eb4f35577ad013eb3631ab0f77919bd8f0df79984d2f846efc6e3e2a36"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/04_alternativas_y_diferenciacion.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Plantilla vacía",
+      "bytes": 5306,
+      "sha256": "0707cd36e73d7fae96c9bebeca5f711be08981c21ad6cff11bc5a850d940bde4"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/05_recomendacion_diagnostic.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Plantilla vacía",
+      "bytes": 6591,
+      "sha256": "3b8e28b9f0e12269ad2853f1d56ccafd23230a8f8c9962299a308ff6747e2041"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/06_intercambio_exploratorio.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Plantilla vacía",
+      "bytes": 4166,
+      "sha256": "0358e73eb51405ae12f66bcca36385e01c1f5e567856901025a4483804e72919"
+    },
+    {
+      "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/07_contraste_externo_interno.md",
+      "componente": "Investigación y Diagnostic",
+      "version_base": "0.2",
+      "funcion": "Plantilla vacía",
+      "bytes": 5020,
+      "sha256": "77817ffdb80d0fd759865b3ee5030ac599738eb7a06646f6e20970a808d91701"
+    },
+    {
+      "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/01_medicion_y_revision.md",
+      "componente": "Medición preparación y transferencia",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 9495,
+      "sha256": "7b56f165bb3a183c86e7439e64b0e86b8ff0510665662a566c44e40b80ce2196"
+    },
+    {
+      "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/02_preparacion_y_secuencia.md",
+      "componente": "Medición preparación y transferencia",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 6784,
+      "sha256": "2694fbd79f08424c1810187a70adf6fc84e5192111bb03eab9f748f3d34e2d4b"
+    },
+    {
+      "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/03_protocolos_de_evidencia.md",
+      "componente": "Medición preparación y transferencia",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 9990,
+      "sha256": "29ee039b8d696a0c1c1eee25aface92d3de60f48d80baa2fd9f9565e54ba823a"
+    },
+    {
+      "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/04_materializacion_y_uso.md",
+      "componente": "Medición preparación y transferencia",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 9209,
+      "sha256": "ff8a55040cdf9213be387373bb7f42e49f884a88a8816494902dc73ec0a00f56"
+    },
+    {
+      "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/05_comprobacion_de_preparacion.md",
+      "componente": "Medición preparación y transferencia",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 12099,
+      "sha256": "cc3781d9fd60749e79628b8d14f4117ae4bc6dde0c981ca82c1e623fe4e066c5"
+    },
+    {
+      "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/06_transferencia_y_cierre.md",
+      "componente": "Medición preparación y transferencia",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 8179,
+      "sha256": "801bc3f07ae592d91d4985f95fe89915ff2b4975a0a776bfc287ccd88561994e"
+    },
+    {
+      "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/07_contratos_y_revision.md",
+      "componente": "Medición preparación y transferencia",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 8246,
+      "sha256": "892f7ba7e2949257c749b14a14af132c4d0cdf4b902bcddd68f1cd8b633f85e3"
+    },
+    {
+      "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/LEEME.md",
+      "componente": "Medición preparación y transferencia",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 1976,
+      "sha256": "7ae865520726331cefa56da16f9bf583bfc76979a288a57d9229528e752f6ec3"
+    },
+    {
+      "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/01_evento_y_medida.md",
+      "componente": "Medición preparación y transferencia",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 3339,
+      "sha256": "df67c1a377416d6493aaac630f5fb696033e1f90a0684c0359eda65de5e373db"
+    },
+    {
+      "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/02_revision_y_decision.md",
+      "componente": "Medición preparación y transferencia",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 2848,
+      "sha256": "cb24cf6cc5a9f127d8aeba18036d38eba410a683a568d967cf5181645880e12a"
+    },
+    {
+      "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/03_preparacion_y_secuencia.md",
+      "componente": "Medición preparación y transferencia",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 3464,
+      "sha256": "741c92db78777c51e6eeb74f2cc62e31c7b97d38109c1f7aa26daafb89788b0b"
+    },
+    {
+      "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/04_protocolo_previo.md",
+      "componente": "Medición preparación y transferencia",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 3899,
+      "sha256": "ffbe8c89236ac7b226b042e438c7ca10b041b4d6d202594aa79924d405ce29ec"
+    },
+    {
+      "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/05_pieza_y_configuracion.md",
+      "componente": "Medición preparación y transferencia",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 3380,
+      "sha256": "a15e7270a67be2b62e7b694b9d5e896303cc9d031356715f9f1a6c30f26eae39"
+    },
+    {
+      "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/06_observacion_y_correccion.md",
+      "componente": "Medición preparación y transferencia",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 3532,
+      "sha256": "eb2f539d39a587869364a6e362eb70579feac62bc9e590e1ebf46771f530e867"
+    },
+    {
+      "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/07_cobertura_y_preparacion.md",
+      "componente": "Medición preparación y transferencia",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 2895,
+      "sha256": "e79d3acc7d2fe51e79830201c7324057d9e778d327ec26f93b9a5342acbe013b"
+    },
+    {
+      "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/08_transferencia_y_soporte.md",
+      "componente": "Medición preparación y transferencia",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 3760,
+      "sha256": "2849a87f0d6b39a4d2b62190ad8578ada9fce43cd625eabb34bfd83800afba7d"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/01_oferta_y_precio.md",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 8218,
+      "sha256": "04007b9975cb764600730080755e9b72f18341b7e2530f4e2aad1cfb607f2a3c"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/02_entrega_y_cobro.md",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 6452,
+      "sha256": "4dd3bf05da6c7591bcdcfe1c85c2f1c6afbcc808816b7c53a6397ce432f6739c"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/03_economia_y_capacidad.md",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 6453,
+      "sha256": "2b4b834f12a964a9d78e4b51806a8d66582c0f081c9de7176aed99c50b7b55d3"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/04_formulas_y_dominio.md",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 13271,
+      "sha256": "2def2f551d8735ada9f424a4e421ece3b1f503b52d400a5c856807fe2b8731d9"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/05_variantes_de_oferta_y_operacion.md",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 5123,
+      "sha256": "db09e4cbbe510cab6165dd86c712949a3ac9ec387e4120860b667a0488da0dd2"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/06_comparacion_y_umbrales.md",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 4866,
+      "sha256": "949e8527adfa5c3523047d766212e4b9e681b2291bc09cee03f088f1da129e24"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/07_contratos_y_revision.md",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 6315,
+      "sha256": "d40278ad560106df4032b38bedf5347f484b4c4c163c88ef3ff584dbf95b1aa0"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/08_guia_del_modelo.md",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 10179,
+      "sha256": "21fa32a4a01baf59d648f0cc01ee081db38356b4a31ca59d2b3913e8f8bc62c9"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/LEEME.md",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 1679,
+      "sha256": "5a995a50acdb7492f7cd098b6246889da0b2d633e04d6aa90e954857cecc569d"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/modelo/Go2Rev_modelo_economico_v0.1.xlsx",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Modelo editable vacío",
+      "bytes": 33561,
+      "sha256": "22c1e940da091035ba87dcf4ecd97286433b3da48e48a2ba7734cab4ef528338"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/modelo/definicion_modelo.mjs",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Definición editable del modelo",
+      "bytes": 21118,
+      "sha256": "2e8fd1037cc01fbebf9e5afda21a70e53601d096e8227a2d9092bc81ad69a6f1"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/01_oferta.md",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 2927,
+      "sha256": "e4dd120a41cbcb061aef8a4a7780dd3107e9eaa6dc4d524e2f264e35ee15a90c"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/02_entrega_y_traspaso.md",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 2515,
+      "sha256": "fb46a175b0750e884e1f29692296e56cc15bf2acd54c1f270066f9571cb1ba87"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/03_partidas_y_recursos.md",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 2331,
+      "sha256": "325c02c5c5c63750e93c7c855224b08fa9f376d8164c5e94f42124b2a933df97"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/04_eventos_de_caja.md",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 2175,
+      "sha256": "8d768452a7f4519b31a26a1cdd6a78b859c3af80a248da13f3de82cf8eb49d2d"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/05_modelo_y_conclusion.md",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 2683,
+      "sha256": "e84c9a2721790980ccffce8dbda179757dfa789b9a45726a27568b4bbd5dfd33"
+    },
+    {
+      "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/06_comparacion.md",
+      "componente": "Oferta entrega y economía",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 2138,
+      "sha256": "368c77040af5421997dec6a2091c80cb1436fa1bafe70f9fca7f1c19a85bc7c4"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/00_glosario.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 2751,
+      "sha256": "18bbe94bd90e11e028d83c99035c985b2a58aad16970a758bdd8a541d447cfbd"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/01_guia_del_consultor.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 5897,
+      "sha256": "cfc35365c5da8a339f5fbeb9b913672ab266f5cd8ae44c41b66887a93ee05ddc"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/02_rutas_y_lectura.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 8932,
+      "sha256": "ceef1c918340c525e5c79ce8017bb025fb39920f7bfb826623b0ff08f96e5ab7"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/03_capacidades_y_alternativas.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 10194,
+      "sha256": "269774b15259520a959c0e386559f3342918471fe5daee819c8938d15b8d685b"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/04_adaptacion_del_entorno.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 8569,
+      "sha256": "57e476e2553b0cbd399268a8f7dbabf0d3846facbb4fb873c9cae2d3a05ad10c"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/05_continuidad_y_cambios.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 6573,
+      "sha256": "64c6123cdbd0370f5e40010dbd28afc619b99a62b6711c3db3b920d81b36278f"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/06_contrato_y_revision.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 5910,
+      "sha256": "3b7d1b9536ba018d2002f8a40a9c451924ad850b1b0b4c06fe9d59c9170b712d"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/08_carpetas_y_guardado.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 6612,
+      "sha256": "08687d90db7cf6b3faf2b58bcb913cbd72054468dc0bff7c7cb39ae44fa1149f"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/09_uso_por_entorno.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 9501,
+      "sha256": "9c4cbaf0964df2cf19cb368851dbf0e664e6097a780157087ca989135d7106a0"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/10_primera_pasada.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 17787,
+      "sha256": "6ac6bc50b266ca920db12c788bfc865fc5ec2d4cb70fbd19956612bcbd7cee32"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/11_correspondencia_de_vocabulario.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 3863,
+      "sha256": "f2a5076b1578dddef20f8ae4163d21b8d82d26157a4e7986e2ae06ae099e6f40"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 4444,
+      "sha256": "0cd1093e3fce49d17750844c8da15faf1a8e418aa2beda29d828dcdb90560bc0"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/ENTRADA_GO2REV.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 9827,
+      "sha256": "2e6595a347eb9f41cde17093b5238af8e7edef1b607cd00f31ac427bdc314061"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/LEEME.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 1817,
+      "sha256": "8d8d1633fb4e0a13aff85cc13ba9c3ce1c295ad111a538f07407e7518b116811"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/plantillas/01_capacidad_del_entorno.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Plantilla vacía",
+      "bytes": 2478,
+      "sha256": "0711a8aa00839c4c8f3f7972842ea262f74debedb64bfd6a7674da042a7b6b0d"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/plantillas/02_continuidad_de_tarea.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Plantilla vacía",
+      "bytes": 2435,
+      "sha256": "09a1c1966a574b81a9d326b875414708994a4b5931bb025518245827aa6631da"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/plantillas/03_traspaso_de_contexto.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Plantilla vacía",
+      "bytes": 2422,
+      "sha256": "72bc0a3ba251f92d622d789e5cf3045e4ebb53bc5c28a7085868545c45b76d58"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/plantillas/04_indice_del_encargo.md",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Plantilla vacía",
+      "bytes": 1237,
+      "sha256": "9c6e9b7f51df6fa7676076f2c58c799c404016d01f5bb982332d6546a9883fe4"
+    },
+    {
+      "ruta": "producto/metodo/operacion_conversacional/v0.2/rutas_de_lectura.json",
+      "componente": "Operación conversacional",
+      "version_base": "0.2",
+      "funcion": "Localizadores para compilar lecturas",
+      "bytes": 10146,
+      "sha256": "7468466993513c526e7f704e155d4c547e335adbbe70d2dd8b616af9b3e1b9e3"
+    },
+    {
+      "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/01_posicionamiento_y_promesas.md",
+      "componente": "Posicionamiento demanda y conversión",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 8600,
+      "sha256": "43ac6d36e72a70682b29a63030c88cd7bc9f37479e2751f99cf1cdc2b5aa6c0a"
+    },
+    {
+      "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/02_acceso_y_demanda.md",
+      "componente": "Posicionamiento demanda y conversión",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 9782,
+      "sha256": "4cfc2e81f665473226b4f156b8c47c87c2f5d29abb0e34fb8779a5a4d4d42db6"
+    },
+    {
+      "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/03_conversion_y_compra.md",
+      "componente": "Posicionamiento demanda y conversión",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 9393,
+      "sha256": "218e598042980c81059574bc71c19368bba44062081420b276fb4936715e39b7"
+    },
+    {
+      "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/04_costes_cohortes_y_capacidad.md",
+      "componente": "Posicionamiento demanda y conversión",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 12185,
+      "sha256": "b1c394891a8c33b0a7c90cdeca5712aa272787b4a18ab9ed3b35fbb7faa62e8f"
+    },
+    {
+      "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/05_variantes_y_traspasos.md",
+      "componente": "Posicionamiento demanda y conversión",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 7780,
+      "sha256": "cf39c1d628f6ff4c1cd673e53d00d1cedbe125ed2daa8e05895d18ab0ddd8c5a"
+    },
+    {
+      "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/06_contratos_y_revision.md",
+      "componente": "Posicionamiento demanda y conversión",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 8663,
+      "sha256": "5a9dc9f04dc1f78c11ec9fa1095764650c9f6e6f3c6b1231459524a0b85c723b"
+    },
+    {
+      "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/LEEME.md",
+      "componente": "Posicionamiento demanda y conversión",
+      "version_base": "0.1",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 1669,
+      "sha256": "21c0440758ef57ded0cfdc34eede7d088442797db456ddc1d358cf30c1800788"
+    },
+    {
+      "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/01_posicionamiento.md",
+      "componente": "Posicionamiento demanda y conversión",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 4279,
+      "sha256": "a613e0be810afab71a88e2a77e562270d481ba2f893b6a864452ee7f59b675fb"
+    },
+    {
+      "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/02_mensaje_y_fundamento.md",
+      "componente": "Posicionamiento demanda y conversión",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 3578,
+      "sha256": "d2658fd4717e9155076172e42f394eeb2cbed25e359cc58789ef020d360ad178"
+    },
+    {
+      "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/03_ruta_de_demanda.md",
+      "componente": "Posicionamiento demanda y conversión",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 4824,
+      "sha256": "15d6043dd6f3e5caa67822093c7a1ff6da245d95c76de61ad22956977c975cd9"
+    },
+    {
+      "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/04_recorrido_y_transicion.md",
+      "componente": "Posicionamiento demanda y conversión",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 5083,
+      "sha256": "c61e47911cbfd3a73e1fb55dea35bb6b211e71f60e3b7d437eff12d072d36f34"
+    },
+    {
+      "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/05_actividad_coste_y_cohorte.md",
+      "componente": "Posicionamiento demanda y conversión",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 4915,
+      "sha256": "979862c4b90b09bab15e880de0ffe7ba7ec3142ef3f3abd8983366dde61d0505"
+    },
+    {
+      "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/06_recepcion_y_seguimiento.md",
+      "componente": "Posicionamiento demanda y conversión",
+      "version_base": "0.1",
+      "funcion": "Plantilla vacía",
+      "bytes": 3787,
+      "sha256": "ff8142373a3a1c070c83a72d34a4687e3796bccfb2d2ae3248b3feff541da500"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/01_guia_de_implementacion.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 14168,
+      "sha256": "1060859e5b34b763687ff2bf38bebadf1ca3cb77af4fdded2ddd069c7712d321"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/02_alcance_y_variantes.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 7591,
+      "sha256": "c76bdb75cfec742b87a33dd51060bc1c20cb8bc24bd14b3ad3e7f1d7b8e40eca"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/03_entregables_y_recepcion.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 9531,
+      "sha256": "44f0a9d3a00607b96aba9c604097da50574475584f28677b7ec8fa0ed930ac11"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/04_cobertura_e_integracion.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 9680,
+      "sha256": "dbdab47da317f2a2f5784aa0e25fd449e2fc6a4fecfc970ca6b0bec974b86e1a"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/05_versiones_y_mantenimiento.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 2621,
+      "sha256": "434e127feadb74e00dc1547b003a29e0245c6874d3b55aa7ca2d6a038920cc08"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/Go2Rev_estructura_vacia_v0.2.zip",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Estructura documental vacía",
+      "bytes": 2751,
+      "sha256": "eeb18a907db493054b0f5b6d03206180f2e57e59d13ba51d6dd1ebb085dfc52e"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/Go2Rev_guia_de_implementacion_v0.2.docx",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Vista de lectura derivada",
+      "bytes": 57518,
+      "sha256": "6310b23a1118e5ac2611a88d59bf4514299a527438c8131e1302665d560baa5e"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/INVENTARIO.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Índice derivado de archivos",
+      "bytes": 26164,
+      "sha256": "63678bf3a4e91ce68a803b933bcf74b5744d9bfc0d4923011653fdb98384cd7f"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/LEEME.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Instrucción o especificación metodológica",
+      "bytes": 5494,
+      "sha256": "1668534982c8852b2aa96640f18cb645d29d42718b89d13e3a3d8c08b0d39f02"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_INICIO.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 34673,
+      "sha256": "4b9fc375fd1be1ee20dc74ec8646e4a41538ba177a3372cc2cc3c86855d34689"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N01.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 38219,
+      "sha256": "bb01a712029122d18d49144fab7f3654b4583ef51be40431a0ffb2c7075de981"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N02.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 63345,
+      "sha256": "23f0c7f4a60926838d8e5ddd19fc7f1eee94043b619ab0a84fbb3164fff4ee3d"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N03.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 87752,
+      "sha256": "1edd118e0561d4c46a616a8e1bbd432d5d3199fd92e10b1d6f3a8dc60a2ee257"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N04.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 73900,
+      "sha256": "c3ab7b728c790332b0754db7b6bb977f7d01b70739c094008d3b50f3859cb8d3"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N05.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 73470,
+      "sha256": "9127b6e9d045c537df20c112fb86b4ed1cd6f10db769432b942e7dbdf0c21d84"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N06.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 83902,
+      "sha256": "87987a33a68e23841bc4fa935a66a2a3c84c20c3ac5cf66a87d71e49670745a8"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N07.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 49088,
+      "sha256": "3289a0bb8fa33186bdc56a48f1347481039627a03c3b0821c46ad83826b81984"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N08.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 54394,
+      "sha256": "6530de53c64a4dfebf90424f64fdaaa56ff814b058d31b10017b33b5eb1591d6"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N09.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 51979,
+      "sha256": "cef29a647f54f06e4ab87fb28822598e68530837d30f12a0a14c851eeb36e19e"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N10.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 50676,
+      "sha256": "9adc6b30aca0de1b6efc7443dafc537baa56befa52bd66a75f75b02a9216677b"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N11.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 52143,
+      "sha256": "56fa1525de8e0519b210bf69d380edb5c0b8ef72a3d4770910f5197856331550"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N12.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 59382,
+      "sha256": "74983bae17197c33be1766bb2947b08a826499af890e5b7d9af541af395943ea"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N13.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 26659,
+      "sha256": "c161a0331ecfdc71868ab40430b0751e50ea53b4e70449bd9561e09ebccc3a01"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N14.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 25676,
+      "sha256": "75744032f4a2656ed17ac2e2c4c7d113e198cbb55f39215f4b28adb55a418de9"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N15.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 23419,
+      "sha256": "5508d243d510527f738f2c99bf27ff7709264f5f9aebc9a47c1b6a67a1f5017a"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N16.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 29800,
+      "sha256": "0adefa02aa2a6c5b934acd1b1d7e5374fdf601b9ce630d26921a637f032b610b"
+    },
+    {
+      "ruta": "producto/paquete_fundacional/v0.2/lecturas/CARGA_N17.md",
+      "componente": "Paquete fundacional",
+      "version_base": "0.2",
+      "funcion": "Compilación derivada por tarea",
+      "bytes": 23747,
+      "sha256": "29a66d5cc1d9355691e90e9359066782ca000f7fe582cab5012b13b2c2d34448"
+    }
+  ]
+}

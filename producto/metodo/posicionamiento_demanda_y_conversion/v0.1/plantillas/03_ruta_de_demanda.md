@@ -28,7 +28,7 @@ Usar con [acceso y demanda](../02_acceso_y_demanda.md) y [costes, cohortes y cap
 | Origen de acceso | Lugar, recurso o relación y qué permite obtener realmente | |
 | Disponibilidad | CAP, estado acreditado, vigencia y requisitos por habilitar; acceso identificado no equivale a disponible | |
 | Autorización | Permiso específico para lectura, tratamiento, contacto, publicación o gasto según la acción | |
-| Carencia de investigación | Pregunta y HUE; fuente/herramienta/acceso suficiente propuesto mediante rutina FND03 | |
+| Carencia de investigación | Pregunta y HUE; fuente/herramienta/acceso suficiente propuesto mediante rutina investigación y Diagnostic | |
 | Secuencia causal | Preparación, exposición/contacto, respuesta, cualificación y recepción pertinentes; ramas y precedencias | |
 | Mensaje y pieza | Propósito, decisión, fundamento y referencia K07; representación descriptiva en E | |
 | Evento de respuesta | Condición observable, fuente y diferencia frente a envío, exposición o compra | |
@@ -51,3 +51,7 @@ Usar con [acceso y demanda](../02_acceso_y_demanda.md) y [costes, cohortes y cap
 | Autoridad y consumidores | DEC, K06/K10/K12–K17 pertinentes, campo/revisión y disposición de recepción | |
 
 El [bloque de actividad](05_actividad_coste_y_cohorte.md) conserva el coste completo. El [bloque de recepción](06_recepcion_y_seguimiento.md) detalla el traspaso. Una ruta seleccionada sigue sin acreditar respuesta, ventas o preparación efectiva.
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K09, completar el núcleo de [N09 Elegir rutas de demanda](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

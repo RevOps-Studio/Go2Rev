@@ -2,7 +2,7 @@
 
 Versión de plantilla 0.2 · Campos de prestación vacíos
 
-Usar con [N03](../02_mercado_y_acceso.md) y [contratos](../06_contratos_y_economia_exploratoria.md). El asistente produce el mapa; el consultor revisa su fundamento. La cabecera común identifica K03, revisión, autor, fecha, K01, ámbito, entradas, estado documental y ubicación. Referenciar AF/FUE y las relaciones de consumo de FND02 sin duplicarlas.
+Usar con [N03](../02_mercado_y_acceso.md) y [contratos](../06_contratos_y_economia_exploratoria.md). El asistente produce el mapa; el consultor revisa su fundamento. La cabecera común identifica K03, revisión, autor, fecha, K01, ámbito, entradas, estado documental y ubicación. Referenciar AF/FUE y las relaciones de consumo de encargo y conocimiento sin duplicarlas.
 
 Los campos de definición y los factores materiales son necesarios para recomendar un ámbito. Las magnitudes son condicionales a su utilidad para la decisión; si fueran decisivas y no se conocieran, registrar HUE y límite. Todos los valores permanecen vacíos en la plantilla.
 
@@ -58,3 +58,7 @@ Los campos de definición y los factores materiales son necesarios para recomend
 | Suficiencia y cobertura pendiente | Juicio por uso, HUE/CON y límites cuantitativos o cualitativos | |
 | Receptor y campos | N04/N05/N06/N09/N11/N12, versiones y usos admitidos | |
 | Revisión y cambio | Autoría/fecha, decisiones de ámbito en DEC y disparadores de CAM | |
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K03, completar el núcleo de [N03 Delimitar mercado y acceso](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

@@ -2,11 +2,13 @@
 
 Versión 0.1 · Productor de K10
 
+Empezar con la [primera pasada de N10](../../operacion_conversacional/v0.2/10_primera_pasada.md#n10) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
 ## Decisión y entradas
 
 Diseñar cómo una señal llega a una decisión de compra, quién hace el trabajo y qué evidencia habilita cada compromiso. Recibir K04 roles/criterios/recorrido, K09 origen y señales, K08 unidad/condiciones, K11 inicio y cumplimiento, y K12 límites. K07 aporta mensajes para el ámbito habilitado. Para E se representa el recorrido y su esfuerzo sin requerir comprador contactado, acuerdo, K07 definitivo ni K06 final.
 
-Cuando exista un proceso propio en una futura prestación, comparar descripción con eventos y fuentes reales. En A examinar diferencias de compra en destino; en B construir una hipótesis de recorrido sin presentar un historial inexistente. El diseño no presupone departamentos separados, cargos comerciales ni un CRM.
+Cuando exista un proceso propio en una prestación, comparar descripción con eventos y fuentes reales. En A examinar diferencias de compra en destino; en B construir una hipótesis de recorrido sin presentar un historial inexistente. El diseño no presupone departamentos separados, cargos comerciales ni un CRM.
 
 ## Diseñar desde las decisiones del comprador
 
@@ -19,7 +21,7 @@ Cuando exista un proceso propio en una futura prestación, comparar descripción
 
 ## Acción, asignación y seguimiento
 
-7. **Construir el trabajo de cada etapa.** Precisar propósito, entrada, contenido/material requerido, acción, salida y lugar de recepción. Para aclarar una necesidad, examinar primero la información disponible y formular preguntas discriminantes sobre la decisión; evitar cuestionarios por rutina. Para explicar o comparar, utilizar K07/K08 y evidencia apropiada. Para una oferta económica, conservar unidad, precio, condiciones y facultad de excepción. El asistente redacta y analiza; las interacciones se realizarán únicamente en la futura prestación autorizada.
+7. **Construir el trabajo de cada etapa.** Precisar propósito, entrada, contenido/material requerido, acción, salida y lugar de recepción. Para aclarar una necesidad, examinar primero la información disponible y formular preguntas discriminantes sobre la decisión; evitar cuestionarios por rutina. Para explicar o comparar, utilizar K07/K08 y evidencia apropiada. Para una oferta económica, conservar unidad, precio, condiciones y facultad de excepción. El asistente redacta y analiza; las interacciones se realizarán únicamente en la prestación autorizada.
 8. **Tratar objeciones como información.** Relacionar duda con criterio K04, distinguir falta de comprensión, falta de evidencia, incompatibilidad y cambio de prioridad. Responder con evidencia/condición pertinente o reconocer el límite. Un problema de capacidad no se resuelve con un argumento; un cambio de alcance vuelve a N08/N11/N12. Registrar la necesidad de prueba en N14 cuando proceda, sin ejecutar ni inventar su resultado.
 9. **Asignar receptor y respaldo.** Definir asignación por competencia, ámbito, disponibilidad y conflicto pertinente; quién acepta la recepción, qué ocurre si la rechaza y qué sucede si el responsable no está disponible. Una asignación propuesta o nombre de rol no acredita persona y tiempo reales. No repartir entre recursos no intercambiables como si fueran capacidad conjunta.
 10. **Dimensionar respuesta y cadencia.** Definir evento que inicia el reloj, calendario/zona, trabajo necesario, tiempo de espera permitido y condición de revisión/escalado. Distinguir confirmación de recepción y resolución. Proponer ritmo y límite de seguimiento según urgencia documentada, preferencia del destinatario, ciclo de compra, coste y capacidad; no fijar intentos, horas o semanas universales. Que una actuación pueda automatizarse no demuestra que el receptor esté atendido.
@@ -36,6 +38,13 @@ Si existen datos pertinentes durante una prestación y la decisión requiere una
 
 K10 reúne recorrido/ramas, condiciones de transición, evidencia, trabajo y materiales, responsables, respuesta/seguimiento, cierre, devolución y traspaso. N12 recibe cantidad de actividades, esfuerzo por recurso, costes y tiempos de todos los intentos; N13 recibe definiciones de evento; N15 instrucciones/piezas; N16 acciones críticas y criterios que tendrá que comprobar.
 
-E basta para examinar plausibilidad y carga cuando las hipótesis y ausencias están delimitadas. Para O, cada compromiso necesario requiere receptor, medio, contenido, condiciones y preparación efectivos; FND06 especifica su comprobación futura. Una tabla de etapas completa no demuestra uso ni conducta de compradores.
+E basta para examinar plausibilidad y carga cuando las hipótesis y ausencias están delimitadas. Para O, cada compromiso necesario requiere receptor, medio, contenido, condiciones y preparación efectivos; preparación y transferencia especifica su comprobación futura. Una tabla de etapas completa no demuestra uso ni conducta de compradores.
 
 El consultor revisa diseño; el responsable comercial y operación confirman factibilidad y recepción; el patrocinador decide compromisos/excepciones conforme a K01. Cambios de comprador, oferta, señal, autoridad, capacidad o cobro reabren campos y transiciones afectados. Conservar eventos previos y su versión, corregir la interpretación sin fabricar un evento anterior, y retirar uso de materiales que se hayan quedado sin fundamento.
+
+
+## Preguntas discriminantes y regla de seguimiento
+
+Seleccionar únicamente preguntas cuya respuesta cambie una transición: qué hecho abrió la necesidad; qué ocurre si no se cambia; cómo se resuelve hoy; qué criterio decide entre alternativas; quién puede aceptar y qué necesita comprobar; qué condición o fecha limita el compromiso. Recuperar primero las respuestas ya documentadas y solicitar hechos concretos cuando hagan falta. Registrar ausencia o contradicción sin inventar intención de compra.
+
+Para cada seguimiento, definir desencadenante, información útil que aporta, destinatario, espera razonada y salida por respuesta, rechazo, aplazamiento o falta de pertinencia. La cadencia se deriva del ciclo de decisión, preferencia, coste y capacidad. Una secuencia de contactos no es una obligación independiente de esos criterios.

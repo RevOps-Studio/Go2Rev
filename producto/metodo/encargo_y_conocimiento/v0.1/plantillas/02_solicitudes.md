@@ -39,3 +39,7 @@ Usar con [N02](../02_conocimiento_y_solicitud.md) y [diccionario](../03_contrato
 ## Redacción de la petición
 
 El texto que se envíe durante la prestación debe expresar: decisión a la que sirve, material exacto, unidad/periodo, forma sencilla de aportarlo, momento necesario y alternativa si no existe. La solicitud permanece como borrador hasta contar con autoridad para enviarla. Su recepción puede ser parcial sin reiniciar la petición completa.
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K02, completar el núcleo de [N02 Convertir originales en conocimiento](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

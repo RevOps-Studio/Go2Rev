@@ -38,3 +38,7 @@ Usar con [transferencia y cierre](../06_transferencia_y_cierre.md). También per
 | Cierre y continuidad | DEC/recepción, siguiente decisión y localización del estado vigente | |
 
 La autoridad de recepción no aumenta la evidencia. Conservar originales y versiones que sustentan el cierre, sin trasladar su historial completo a la entrada operativa.
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K17, completar el núcleo de [N17 Transferir y cerrar el alcance](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

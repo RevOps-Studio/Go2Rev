@@ -2,6 +2,8 @@
 
 Versión 0.1 · Productor de K14
 
+Empezar con la [primera pasada de N14](../../operacion_conversacional/v0.2/10_primera_pasada.md#n14) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
 ## Finalidad y dos motivos de preparación
 
 Convertir el alcance habilitado en obligaciones, medios, trabajo y comprobaciones delimitadas. N14 recibe K01, K06/DEC según compromiso, diseño disponible K07–K13 y CAP/permisos K02. La preparación nace de **lo contratado** y de **la evidencia que necesita una decisión abierta**. Una obligación de entrega no necesita un fallo o una prueba previa para justificar su construcción.
@@ -15,7 +17,7 @@ Si Diagnostic precisa evidencia adicional, N14 usa su pregunta, oferta/ruta expl
 3. **Resolver el fundamento de cada necesidad.** Relacionar obligación o pregunta con pieza/tarea, entrada, salida, operador, receptor y criterio. Distinguir información propia ausente, investigación pendiente, decisión pendiente, contenido que debe redactar el asistente y capacidad por habilitar. No convertir una omisión de redacción en solicitud de datos al cliente.
 4. **Elegir evidencia adecuada.** Usar la tabla siguiente y los [protocolos de evidencia](03_protocolos_de_evidencia.md). Declarar qué puede concluirse y qué queda fuera. Una revisión documental puede detectar un defecto suficiente para detener el uso, aunque no sea suficiente para acreditar preparación completa.
 5. **Fijar protocolo previo.** Precisar pregunta/proposición, versión/ámbito, entradas, procedimiento, ejecutor, recurso, criterio, rastro, límites y decisión posterior. La [plantilla de protocolo](plantillas/04_protocolo_previo.md) es común; se completa con el procedimiento pertinente, no solo con su título.
-6. **Dimensionar trabajo y recursos.** Incluir producción, preparación de acceso, coordinación, ejecución, análisis, corrección y traspaso pertinentes. Identificar competencia, disponibilidad por calendario, presupuesto, pagos y compromisos competidores. Referenciar partidas/cargas en K12 una sola vez. Las 4–5 horas de Carlos para desarrollo no son capacidad de una prestación.
+6. **Dimensionar trabajo y recursos.** Incluir producción, preparación de acceso, coordinación, ejecución, análisis, corrección y traspaso pertinentes. Identificar competencia, disponibilidad por calendario, presupuesto, pagos y compromisos competidores. Referenciar partidas/cargas en K12 una sola vez.
 7. **Ordenar por precedencias y consecuencias.** Resolver primero lo que impide una obligación o puede invalidar el siguiente compromiso. Comparar valor de información, coste de esperar/actuar, reversibilidad y recursos sin puntuación obligatoria. Establecer condición de inicio/fin y dependencias por tarea; un calendario depende de duración y disponibilidad sustentadas, sin horizontes universales.
 8. **Recomendar el alcance preparable.** Entregar secuencia, decisiones necesarias, carencias, alternativa suficiente y efecto sobre recepción. Consultor responde del diseño; patrocinador decide compromisos adicionales; propietarios de medios y operador confirman condiciones exclusivas. Si existe autorización suficiente, continuar. Si una dependencia falta, producir el trabajo independiente.
 
@@ -23,7 +25,7 @@ Si Diagnostic precisa evidencia adicional, N14 usa su pregunta, oferta/ruta expl
 
 | Pregunta | Procedimiento apropiado | Límite |
 |---|---|---|
-| Qué ocurre en mercado, compra, alternativas o requisitos | Investigación FND03; obtención directa delimitada cuando sea necesaria | Declaración y documento conservan su naturaleza; no prueban adopción propia |
+| Qué ocurre en mercado, compra, alternativas o requisitos | Investigación investigación y Diagnostic; obtención directa delimitada cuando sea necesaria | Declaración y documento conservan su naturaleza; no prueban adopción propia |
 | Qué comportamiento de compra aparece bajo condiciones definidas | Actuación comercial expresamente contratada y autorizada | Una señal, pago o rechazo tiene alcance propio; no acredita causalidad, margen o repetibilidad por sí solo |
 | Si contenido, fórmula, archivo o configuración hacen lo especificado | Comprobación funcional N16 | No acredita uso humano ni resultado de mercado |
 | Si el operador puede realizar la tarea y el traspaso | Uso observado N16 con materiales/medios pertinentes | Delimitado a tareas, personas, versiones y condiciones observadas |
@@ -31,7 +33,7 @@ Si Diagnostic precisa evidencia adicional, N14 usa su pregunta, oferta/ruta expl
 
 ## Preparabilidad, ejecución y revisión
 
-Un protocolo está diseñado cuando su pregunta y procedimiento son completos. Está preparado para ejecutar cuando las entradas, versiones, recursos, operador, permisos, medios de observación y criterios necesarios están efectivamente disponibles. Tener un nombre de rol, una invitación o un enlace no basta. La ejecución y su resultado requieren un rastro posterior; estas condiciones pertenecen a la futura prestación.
+Un protocolo está diseñado cuando su pregunta y procedimiento son completos. Está preparado para ejecutar cuando las entradas, versiones, recursos, operador, permisos, medios de observación y criterios necesarios están efectivamente disponibles. Tener un nombre de rol, una invitación o un enlace no basta. La ejecución y su resultado requieren un rastro posterior; estas condiciones pertenecen a la prestación.
 
 El orden local evita circularidad: formular pregunta y protocolo → producir medida/pieza/medio necesario en N13/N15 → comprobar la preparación pertinente en N16 → ejecutar la actuación autorizada → analizar evidencia en el productor → decidir. Una observación de mercado vuelve a N03–N06/K12 según la pregunta; N16 no sustituye esa interpretación por un aprobado general.
 

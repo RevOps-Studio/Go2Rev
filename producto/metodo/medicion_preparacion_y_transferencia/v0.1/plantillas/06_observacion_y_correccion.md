@@ -2,7 +2,7 @@
 
 Versión 0.1 · K16 o soporte FUE/AF del protocolo K14 · Campos empresariales vacíos
 
-Usar después de la construcción completa, según [obtención de evidencia](../03_protocolos_de_evidencia.md) o [comprobación](../05_comprobacion_de_preparacion.md). Esta plantilla define el registro; no contiene ni acredita observación alguna. Repetir por ejecución/unidad de observación pertinente, preservando intentos anteriores.
+Usar dentro del alcance autorizado, según [obtención de evidencia](../03_protocolos_de_evidencia.md) o [comprobación](../05_comprobacion_de_preparacion.md). Esta plantilla define el registro; no contiene ni acredita observación alguna. Repetir por ejecución/unidad de observación pertinente, preservando intentos anteriores.
 
 | Campo | Regla | Valor |
 |---|---|---|
@@ -30,3 +30,7 @@ Usar después de la construcción completa, según [obtención de evidencia](../
 | Conservación y cambio | Original preservado, versiones y CAM cuando proceda | |
 
 Una corrección o aclaración posterior no modifica lo ocurrido. La reutilización exige equivalencia suficiente de versión, condición, población, medio y tipo de evidencia para el nuevo uso.
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K16, completar el núcleo de [N16 Comprobar preparación delimitada](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

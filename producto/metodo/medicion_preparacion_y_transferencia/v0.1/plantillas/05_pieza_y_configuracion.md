@@ -30,3 +30,7 @@ Usar con [materialización y uso](../04_materializacion_y_uso.md). Repetir por p
 | Cambio posterior | Condición CAM, fuente/vistas/configuración afectadas y observación que conservar/revisar | |
 
 Describir una configuración no equivale a aplicarla. Completar una pieza no equivale a comprobar su uso. Conservar ambas condiciones en el traspaso a N16/N17.
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K15, completar el núcleo de [N15 Producir piezas y configurar medios](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

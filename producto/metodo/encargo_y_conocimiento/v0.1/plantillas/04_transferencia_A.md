@@ -41,3 +41,7 @@ La cobertura considera necesidad, situación y roles de compra, alternativas, ac
 | Alternativa y compromiso detenido | Opción si no puede transferirse; dependencia pendiente cuando corresponda | |
 | Revisión del consultor | Autor, fecha y alcance; no equivale a resultado en destino | |
 | Disparador de cambio | Condición, diferencia o evidencia nueva que reabre TRA y sus consumidores | |
+
+## Aplicabilidad de los bloques
+
+Antes de emitir K02, completar el núcleo de [N02 Convertir originales en conocimiento](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.
