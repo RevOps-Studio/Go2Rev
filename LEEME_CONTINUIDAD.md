@@ -2,13 +2,13 @@
 
 11 de septiembre de 2026 · Índice, no maestro
 
-Las mejoras autorizadas están construidas, revisadas documentalmente y publicadas. La [solicitud 3](https://github.com/RevOps-Studio/Go2Rev/pull/3) recoge la mejora actual. Su rama, mejora/arranque-y-lectura, depende de mejora/modelo-economico-portable; el Plan localiza su revisión e integración. La base inicial está conservada en main y en la etiqueta base-fundacional-v0.1. La construcción sigue teórica, sin clientes ni pruebas de la metodología. Carlos revisa producto y arquitectura; el asistente produce las piezas.
+Go2Rev v0.4 es la base estable integrada en main con autorización de Carlos del 11 de septiembre de 2026. Las solicitudes 1–3 conservan el historial de puesta en marcha, modelo portable y arranque/lectura; la [solicitud 3](https://github.com/RevOps-Studio/Go2Rev/pull/3) cierra esta integración. La etiqueta base-fundacional-v0.4 identifica el nuevo hito y base-fundacional-v0.1 conserva el inicial. Las próximas mejoras parten de main actualizado en una rama propia. El método sigue teórico, sin clientes ni pruebas de aplicación. Carlos revisa producto y arquitectura; el asistente produce las piezas.
 
 ## Tres documentos vivos
 
-- [Plan v0.51](Go2Rev_plan_de_trabajo_v0.51_2026-09-11.md): estado, tareas y decisión de integración pendiente.
-- [Producto v0.40](Go2Rev_producto_y_metodo_v0.40_2026-09-11.md): definición, arquitectura y operación actuales.
-- [Evidencias v0.47](Go2Rev_evidencias_y_pruebas_v0.47_2026-09-11.md): decisiones, fuentes y revisión documental.
+- [Plan v0.52](Go2Rev_plan_de_trabajo_v0.52_2026-09-11.md): estado estable, tareas y límites pendientes.
+- [Producto v0.41](Go2Rev_producto_y_metodo_v0.41_2026-09-11.md): definición, arquitectura y operación actuales.
+- [Evidencias v0.48](Go2Rev_evidencias_y_pruebas_v0.48_2026-09-11.md): decisiones, fuentes y revisión documental.
 
 ## Entrada del producto
 

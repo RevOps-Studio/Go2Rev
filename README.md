@@ -27,7 +27,7 @@ La configuración de Git conserva los bytes de los archivos para mantener la cor
 
 ## Mejoras y versiones estables
 
-`main` conserva la base estable. Cada mejora se desarrolla en una rama propia, con avances guardados en commits y subidos a GitHub. La misma rama se mantiene durante las sesiones necesarias para completar esa mejora.
+`main` conserva la base estable v0.4, integrada con autorización de Carlos. La etiqueta `base-fundacional-v0.4` permite recuperar este hito y `base-fundacional-v0.1` conserva el inicial. Cada mejora se desarrolla en una rama propia, con avances guardados en commits y subidos a GitHub. La misma rama se mantiene durante las sesiones necesarias para completar esa mejora.
 
 Los cambios se presentan mediante una solicitud de integración (pull request), con su alcance, revisión y límites. Se incorporan a `main` tras la revisión y autorización de Carlos. Las reglas de continuidad del trabajo están en [AGENTS.md](AGENTS.md).
 
