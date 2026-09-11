@@ -1,0 +1,635 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Representación documental opcional de K06",
+  "$comment": "Valida únicamente estructura de una exportación textual. No valida suficiencia, exigibilidad condicional, verdad, permisos ni aceptación. Las colecciones permiten bloques repetibles. No obliga a operar Go2Rev en JSON.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cabecera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "versión": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ámbito y K01": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor y fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ubicación": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado documental": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "receptor y uso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bloques": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "K06.T05.B01": {
+          "type": "array",
+          "description": "Decisión que se presenta. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K06.T05.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Pregunta y compromiso",
+                "description": "Qué se decide y qué trabajo se habilitaría; alcance y reversibilidad"
+              },
+              "K06.T05.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Mandato, límites y autoridad",
+                "description": "K01/revisión, condición económica de salida y responsable competente"
+              },
+              "K06.T05.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recomendación principal",
+                "description": "Salida propuesta, combinación y motivo central; no atribuye aceptación"
+              },
+              "K06.T05.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Aporte de Diagnostic",
+                "description": "Qué conocimiento modifica o fundamenta la lectura inicial de K02"
+              },
+              "K06.T05.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Síntesis del contraste externo e interno",
+                "description": "Lectura inicial, evidencia externa, concordancias/tensiones, condiciones o alternativas y consecuencias; referencia a la plantilla de contraste integrada"
+              },
+              "K06.T05.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cobertura efectiva",
+                "description": "Dimensiones examinadas, entradas recibidas y límites de las no examinadas"
+              },
+              "K06.T05.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Suficiencia externa para la recomendación",
+                "description": "Qué fuentes y cruces sustentan las conclusiones; carencia material y alcance parcial cuando no se complete la lectura pertinente"
+              }
+            }
+          }
+        },
+        "K06.T05.B02": {
+          "type": "array",
+          "description": "Opción o combinación · Bloque repetible para alternativas materiales. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K06.T05.B02.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Identidad y perímetro",
+                "description": "Sección estable de K06; qué se mantiene y qué cambia frente a otras opciones"
+              },
+              "K06.T05.B02.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Segmento, situación y alternativas",
+                "description": "K03/K04/K05 y versiones de campos pertinentes"
+              },
+              "K06.T05.B02.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Oferta, unidad y condiciones",
+                "description": "K08 E con alcance, precio/hipótesis y límites"
+              },
+              "K06.T05.B02.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Acceso y proceso de compra",
+                "description": "K09/K10 E, mecanismo, permisos, trabajo y respuesta conocida o desconocida"
+              },
+              "K06.T05.B02.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Entrega, cobro y recursos",
+                "description": "K11 E, CAP/TRA y condiciones de cumplimiento"
+              },
+              "K06.T05.B02.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Economía recibida",
+                "description": "K12 E, ubicación del modelo, unidad/periodo, resultados calculables y no calculables"
+              },
+              "K06.T05.B02.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Tesis causal",
+                "description": "Necesidad/alternativa → oferta → acceso/compra → entrega/cobro → economía/recursos; fundamento por enlace"
+              },
+              "K06.T05.B02.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Restricciones",
+                "description": "Incompatibilidad conocida, carencia de conocimiento o riesgo delimitable; efecto por compromiso"
+              },
+              "K06.T05.B02.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Mejor argumento contrario",
+                "description": "Alternativa explicativa y evidencia que podría hacer preferible otra opción"
+              },
+              "K06.T05.B02.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Premisa y variación decisivas",
+                "description": "Qué podría invertir la recomendación y qué fundamento tiene ese análisis"
+              },
+              "K06.T05.B02.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Dinámica y horizonte",
+                "description": "Cambio/tendencia material, mecanismo, desfase y límite de su efecto sobre la combinación, cuando proceda"
+              },
+              "K06.T05.B02.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consecuencia y uso admisible",
+                "description": "Qué permite y qué permanece detenido o desconocido"
+              }
+            }
+          }
+        },
+        "K06.T05.B03": {
+          "type": "array",
+          "description": "Comparación y juicio de suficiencia. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K06.T05.B03.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Opciones excluidas",
+                "description": "Incompatibilidad o razón de exclusión, ámbito y límite de esa conclusión"
+              },
+              "K06.T05.B03.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Comparación de opciones restantes",
+                "description": "Consecuencias, esfuerzo, exposición, reversibilidad y fundamento; intercambios explícitos"
+              },
+              "K06.T05.B03.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Economía y restricciones conjuntas",
+                "description": "Contribución, fijos/equilibrio pertinente, capacidad y caja; recepción suficiente o límites"
+              },
+              "K06.T05.B03.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Estabilidad de la recomendación",
+                "description": "Variaciones justificadas examinadas o comparación cualitativa suficiente; incógnita que impide concluir cuando proceda"
+              },
+              "K06.T05.B03.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evidencia y contradicciones",
+                "description": "AF/FUE/CON/HUE que sostienen o limitan el compromiso"
+              },
+              "K06.T05.B03.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Premisa cuestionada y aporte",
+                "description": "Alternativa con mecanismo, efecto y refutación, o motivo de no encontrar una pertinente"
+              },
+              "K06.T05.B03.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Juicio por uso",
+                "description": "Por qué el fundamento permite el compromiso propuesto y qué no demuestra"
+              }
+            }
+          }
+        },
+        "K06.T05.B04": {
+          "type": "array",
+          "description": "Salida y consecuencias. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K06.T05.B04.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Salida recomendada",
+                "description": "Continuar, continuar con condiciones, obtener evidencia adicional, ajustar, aplazar o cerrar"
+              },
+              "K06.T05.B04.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Alcance permitido y parte detenida",
+                "description": "Acciones/entregas precisas y dependencias; obligatorio si hay condiciones"
+              },
+              "K06.T05.B04.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condiciones pendientes",
+                "description": "Evidencia de cumplimiento, responsable, recurso y evento límite"
+              },
+              "K06.T05.B04.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evidencia adicional",
+                "description": "Pregunta, contexto, explicación alternativa, criterio previo, acceso, ejecutor, exposición, permiso y parada; N14 desarrolla protocolo si se necesita actuación"
+              },
+              "K06.T05.B04.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Ajuste de encargo",
+                "description": "Campo de K01, nueva propuesta de alcance/condiciones y autoridad requerida, cuando proceda"
+              },
+              "K06.T05.B04.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evaluación recibible",
+                "description": "Contenido que se entrega aun si no continúa la construcción; cobertura y límites"
+              },
+              "K06.T05.B04.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Economía de la salida",
+                "description": "Referencia a regla acordada de K01, obligaciones de trabajo no ejecutado y recepción/liquidación"
+              },
+              "K06.T05.B04.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Aplazamiento o terminación",
+                "description": "Qué cesa o permanece, continuidad y condición de reapertura según salida"
+              }
+            }
+          }
+        },
+        "K06.T05.B05": {
+          "type": "array",
+          "description": "Disposición y transmisión. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K06.T05.B05.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Revisión del consultor",
+                "description": "Autor, fecha, alcance y defectos corregidos; no equivale a decisión del patrocinador"
+              },
+              "K06.T05.B05.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Disposición efectiva",
+                "description": "Referencia DEC, decisor, fecha/rastro y compromiso habilitado cuando se decida; pendiente mientras sea propuesta"
+              },
+              "K06.T05.B05.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Entrega a productores siguientes",
+                "description": "N07–N15, campos/versiones, restricciones y condiciones aún no cumplidas"
+              },
+              "K06.T05.B05.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Entrega a continuidad",
+                "description": "N17 recibe evaluación, DEC, archivos disponibles, obligaciones, límites y siguiente acción"
+              },
+              "K06.T05.B05.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Disparadores de revisión",
+                "description": "Cambio material en necesidad, alternativa, acceso, oferta, coste/caja, capacidad o autoridad; CAM pertinente"
+              }
+            }
+          }
+        },
+        "K06.T06.B01": {
+          "type": "array",
+          "description": "Identificación y comparabilidad. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K06.T06.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Combinación y revisión",
+                "description": "K06/sección estable, ámbito de K01 y fecha"
+              },
+              "K06.T06.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Pregunta de decisión",
+                "description": "Compromiso y premisa que necesita resolver el intercambio"
+              },
+              "K06.T06.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Unidad y actores",
+                "description": "Comprador contractual, usuario, pagador, intermediario; unidad de venta y entrega y relación entre ellas"
+              },
+              "K06.T06.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Perímetro económico",
+                "description": "Iniciativa evaluada, separado de honorarios/condiciones de prestar Go2Rev"
+              },
+              "K06.T06.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Periodo, moneda y condiciones",
+                "description": "Ventana, impuestos, calendario y alcance comparables"
+              },
+              "K06.T06.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Responsables y entradas de contexto",
+                "description": "Productores N08–N12; K02–K05/TRA/CAP pertinentes con revisiones"
+              }
+            }
+          }
+        },
+        "K06.T06.B02": {
+          "type": "array",
+          "description": "Recepción por productor · Repetir únicamente los campos pertinentes. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K06.T06.B02.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Oferta/precio N08 E",
+                "description": "Unidad, contenido, promesa controlable, exclusiones, alternativa de precio/condiciones, soporte y carencias"
+              },
+              "K06.T06.B02.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Acceso N09 E",
+                "description": "Mecanismo, insumos, permisos, actividad, coste de intentos, cohorte/población y respuesta con su naturaleza"
+              },
+              "K06.T06.B02.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Compra N10 E",
+                "description": "Decisiones/transiciones, esfuerzo/tiempo por rol, intentos sin venta, aceptación y requisitos de inicio"
+              },
+              "K06.T06.B02.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Entrega/cobro N11 E",
+                "description": "Preparación, repetición/retrabajo, recursos, aceptación, costes y eventos de pagos/cobros con condiciones"
+              },
+              "K06.T06.B02.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Economía N12 E",
+                "description": "Modelo editable, dominio, entradas/fórmulas, cobertura, resultados calculables y no calculables"
+              },
+              "K06.T06.B02.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fundamento por campo",
+                "description": "AF/FUE y K/revisión; observado/declarado/inferido/hipotético según registro, desconocidos explícitos"
+              },
+              "K06.T06.B02.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condición externa y capacidad propia",
+                "description": "Cruce que justifica precio/coste/requisito/volumen o límite, con ámbito y revisión; previsión o referencia externa no se convierten en parámetro propio cierto"
+              },
+              "K06.T06.B02.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Magnitudes de decisión",
+                "description": "Contribución, resultado/fijos, equilibrio cuando exista, capacidad y caja con límites"
+              },
+              "K06.T06.B02.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Comparación y variación",
+                "description": "Premisa material, cambio aislado/combinado justificable, efecto y umbral cuando calculable"
+              }
+            }
+          }
+        },
+        "K06.T06.B03": {
+          "type": "array",
+          "description": "Revisión de recepción y devolución. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K06.T06.B03.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Compatibilidad revisada",
+                "description": "Ámbito, unidad, periodo, mezcla y actores compatibles o transformación explícita"
+              },
+              "K06.T06.B03.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cobertura y doble imputación",
+                "description": "Costes/trabajo incluidos, omitidos o repetidos; roles y disponibilidades no intercambiables"
+              },
+              "K06.T06.B03.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Dominio y desconocidos",
+                "description": "Denominadores, unidades y restricciones; lo que no puede calcularse y por qué"
+              },
+              "K06.T06.B03.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Juicio sobre el uso solicitado",
+                "description": "Qué resultado basta para la decisión y qué no permite concluir"
+              },
+              "K06.T06.B03.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Disposición por campo",
+                "description": "Admitido, admitido con límites o devuelto; productor, corrección/evidencia y evento necesario"
+              },
+              "K06.T06.B03.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consecuencia para K06",
+                "description": "Mantener, limitar o revisar combinación; siguiente pregunta o ajuste"
+              },
+              "K06.T06.B03.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Relación de consumo y cambios",
+                "description": "Versiones incorporadas, consumidores y premisa que reabre el análisis"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cabecera",
+    "bloques"
+  ]
+}

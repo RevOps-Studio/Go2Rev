@@ -36,7 +36,7 @@ Cada conclusión que provenga del cruce externo/interno referencia las AF de amb
 | Coherencia | Misma combinación/unidad/periodo; costes una vez; fórmulas en dominio; recursos y fechas compatibles | Corregir productor y recalcular consumidores afectados |
 | Utilidad | Entrega comprensible, editable, con siguiente decisión y responsable | Corregir representación; no trasladar el análisis pendiente al cliente |
 
-No promediar estas dimensiones para compensar una imposibilidad. La revisión de construcción examina que las instrucciones y campos permiten resolverlas; no afirma haber observado su cumplimiento en una empresa.
+No promediar estas dimensiones para compensar una imposibilidad.
 
 ## Cambios y autoridad
 

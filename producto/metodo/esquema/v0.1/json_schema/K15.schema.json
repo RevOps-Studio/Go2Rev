@@ -1,0 +1,253 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Representación documental opcional de K15",
+  "$comment": "Valida únicamente estructura de una exportación textual. No valida suficiencia, exigibilidad condicional, verdad, permisos ni aceptación. Las colecciones permiten bloques repetibles. No obliga a operar Go2Rev en JSON.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cabecera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "versión": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ámbito y K01": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor y fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ubicación": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado documental": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "receptor y uso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bloques": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "K15.T05.B01": {
+          "type": "array",
+          "description": ". Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K15.T05.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Referencia",
+                "description": "K15/sección/revisión, autor, fecha, ubicación y estado documental"
+              },
+              "K15.T05.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Obligación y uso",
+                "description": "K01/K14, ámbito, destinatario y tarea que debe permitir"
+              },
+              "K15.T05.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contexto humano",
+                "description": "Iniciativa/recorrido de futura prestación, fase, naturaleza, motivo y decisión/tarea del lector"
+              },
+              "K15.T05.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Productores",
+                "description": "K07–K13/campo/revisión, AF/FUE y límites del compromiso"
+              },
+              "K15.T05.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Material existente",
+                "description": "Localizador/revisión, aptitud y qué se conserva/adapta; si falta, producción necesaria"
+              },
+              "K15.T05.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Medio elegido",
+                "description": "Función, disponibilidad, alternativa, coste/mantenimiento y CAP"
+              },
+              "K15.T05.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contenido operativo",
+                "description": "Texto, campos, reglas o fórmulas completos para la tarea; sin trasladar redacción pendiente al usuario"
+              },
+              "K15.T05.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Variables y ausencias",
+                "description": "Fuente de cada dato necesario, interpretación de desconocido y condición que impide avanzar"
+              },
+              "K15.T05.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Instrucción de entrada",
+                "description": "Qué recuperar, dónde consultar/introducir y cómo reconocer la situación"
+              },
+              "K15.T05.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Acción y autoridad",
+                "description": "Pasos, decisión, condición, ejecutor y compromiso permitido"
+              },
+              "K15.T05.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Excepción y ayuda",
+                "description": "Qué hacer ante carencia, incompatibilidad o fallo; responsable y salida útil"
+              },
+              "K15.T05.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Registro y receptor",
+                "description": "Qué guardar, ubicación, versión y qué acredita recepción/continuidad"
+              },
+              "K15.T05.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fuente y vistas",
+                "description": "Fuente editable autoritativa, derivados, precedencia y actualización"
+              },
+              "K15.T05.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Configuración necesaria",
+                "description": "Origen/campo, transformación, destino, identidad/evento y criterio de recepción si procede"
+              },
+              "K15.T05.B01.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cambio autorizado",
+                "description": "Ámbito, propietario, permiso, estado anterior y forma de recuperación cuando sea posible"
+              },
+              "K15.T05.B01.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Configuración efectuada",
+                "description": "Cambio, ejecutor/entorno, evidencia y revisión; separar especificado, aplicado y pendiente"
+              },
+              "K15.T05.B01.F17": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Conflicto de estados",
+                "description": "Fuente competente, duplicidad, demora y conciliación antes de repetir compromisos"
+              },
+              "K15.T05.B01.F18": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Acceso de continuidad",
+                "description": "Responsable y mecanismo autorizado, sin secretos dentro de la guía"
+              },
+              "K15.T05.B01.F19": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Criterio de revisión material",
+                "description": "Fundamento, coherencia, unidades, legibilidad, guardado/lectura y límites"
+              },
+              "K15.T05.B01.F20": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Comprobación N16",
+                "description": "Protocolo/versión, entrada, operador/receptor y cobertura necesaria"
+              },
+              "K15.T05.B01.F21": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Carencias y consumo",
+                "description": "HUE/CON, efecto, productor y disposición de recepción"
+              },
+              "K15.T05.B01.F22": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cambio posterior",
+                "description": "Condición CAM, fuente/vistas/configuración afectadas y observación que conservar/revisar"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cabecera",
+    "bloques"
+  ]
+}

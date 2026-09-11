@@ -1,31 +1,37 @@
 # Plantilla · Partidas y recursos de K11/K12
 
+Vista generada · Corregir la [definición de campos](../../../esquema/v0.1/plantillas.json), no esta vista. ★ = campo de la plantilla principal: aplicar condición y momento; las piezas auxiliares pueden ser indispensables. Cabecera: identidad, versión, ámbito y K01, autor y fecha, ubicación, estado documental, receptor y uso. Registrar una vez por artefacto; los bloques remiten a ella. FUE, AF y otros registros con identidad propia conservan sus metadatos. La aceptación se localiza en DEC.
+
+
 Versión 0.1 · [Instrucción económica](../03_economia_y_capacidad.md)
 
 Repetir por partida o recurso material. Un identificador local dentro de K11/K12 basta; FUE y AF conservan la procedencia.
 
+<a id="k12-t03-b01"></a>
+
+<!-- bloque: K12.T03.B01 -->
 | Campo | Regla | Valor |
 |---|---|---|
-| Cabecera y combinación | K11/K12, revisión, K01, periodo, moneda y ámbito | |
-| Partida y objeto | ID, trabajo/insumo, unidad de oferta y responsable | |
-| Cantidad y tarifa | Valor o desconocido de cada factor; unidades compatibles | |
-| Fórmula e importe | Relación, dominio, transformación y moneda | |
-| Fundamento por entrada | AF/FUE, naturaleza, periodo, campo y revisión | |
-| Cobertura | Completa para uso delimitado o parcial; omisión y efecto | |
-| Comportamiento | Variable/fijo/lote/escalón/inversión/ajuste y rango de validez | |
-| Reconocimiento | Periodo y regla económica, con responsable competente si precisa | |
-| Pago | Evento/fecha/regla, contraparte y condición | |
-| Imputación | Incluida aquí o dentro de otra partida; referencia y conciliación | |
-| Decisión incremental | Evitable/comprometida/hundida/asignada y fundamento | |
-| Recurso | Identidad, rol/medio, unidad de disponibilidad y competencia | |
-| Disponibilidad | Cantidad por calendario, fuente, CAP/TRA y límites | |
-| Otros compromisos | Carga ya consumida fuera de la combinación | |
-| Carga propia | Preparación, lote, unidad, comercial/soporte e incidencias | |
-| Sustitución | Alternativa, equivalencia por comprobar y efecto en coste/calidad | |
-| Restricción | Holgura/cota o desconocido; fecha y concurrencia pertinentes | |
-| Coste de oportunidad | Uso alternativo factible, fundamento y presentación separada | |
-| Revisión y consumo | Cambio, productor/receptor, uso y condición de admisión | |
+| Cabecera y combinación | K11/K12, revisión, K01, periodo, moneda y ámbito |  |
+| Partida y objeto | ID, trabajo/insumo, unidad de oferta y responsable |  |
+| Cantidad y tarifa | Valor o desconocido de cada factor; unidades compatibles |  |
+| Fórmula e importe | Relación, dominio, transformación y moneda |  |
+| Fundamento por entrada | AF/FUE, naturaleza, periodo, campo y revisión |  |
+| Cobertura | Completa para uso delimitado o parcial; omisión y efecto |  |
+| Comportamiento | Variable/fijo/lote/escalón/inversión/ajuste y rango de validez |  |
+| Reconocimiento | Periodo y regla económica, con responsable competente si precisa |  |
+| Pago | Evento/fecha/regla, contraparte y condición |  |
+| Imputación | Incluida aquí o dentro de otra partida; referencia y conciliación |  |
+| Decisión incremental | Evitable/comprometida/hundida/asignada y fundamento |  |
+| Recurso | Identidad, rol/medio, unidad de disponibilidad y competencia |  |
+| Disponibilidad | Cantidad por calendario, fuente, CAP/TRA y límites |  |
+| Otros compromisos | Carga ya consumida fuera de la combinación |  |
+| Carga propia | Preparación, lote, unidad, comercial/soporte e incidencias |  |
+| Sustitución | Alternativa, equivalencia por comprobar y efecto en coste/calidad |  |
+| Restricción | Holgura/cota o desconocido; fecha y concurrencia pertinentes |  |
+| Coste de oportunidad | Uso alternativo factible, fundamento y presentación separada |  |
+| Revisión y consumo | Cambio, productor/receptor, uso y condición de admisión |  |
 
 ## Aplicabilidad de los bloques
 
-Antes de emitir K12, completar el núcleo de [N12 Analizar economía y capacidad](../../../operacion_conversacional/v0.2/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.
+Antes de emitir K12, completar el núcleo de [N12 Analizar economía y capacidad](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto.

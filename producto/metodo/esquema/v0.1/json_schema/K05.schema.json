@@ -1,0 +1,355 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Representación documental opcional de K05",
+  "$comment": "Valida únicamente estructura de una exportación textual. No valida suficiencia, exigibilidad condicional, verdad, permisos ni aceptación. Las colecciones permiten bloques repetibles. No obliga a operar Go2Rev en JSON.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cabecera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "versión": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ámbito y K01": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor y fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ubicación": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado documental": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "receptor y uso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bloques": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "K05.T04.B01": {
+          "type": "array",
+          "description": "Universo y comparación. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K05.T04.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Trabajo, situación y comprador",
+                "description": "K03/K04 y versiones; define qué opciones son comparables"
+              },
+              "K05.T04.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Familias de alternativa consideradas",
+                "description": "Ofertas directas, otras categorías, solución interna y permanencia según pertinencia"
+              },
+              "K05.T04.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Inclusión/exclusión y cobertura",
+                "description": "Criterios, ámbitos y fuentes examinadas; límites de lo no localizado"
+              },
+              "K05.T04.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Prioridad de profundidad",
+                "description": "Qué alternativas pueden cambiar la decisión y por qué"
+              },
+              "K05.T04.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Criterios comunes",
+                "description": "Admisibilidad, elección y entrega pertinentes a K04; no seleccionar solo atributos favorables"
+              },
+              "K05.T04.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Unidad y alcance comparable",
+                "description": "Trabajo, resultado, periodo, condiciones y cobertura; diferencias que impiden equivalencia"
+              }
+            }
+          }
+        },
+        "K05.T04.B02": {
+          "type": "array",
+          "description": "Alternativa · Bloque repetible. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K05.T04.B02.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Identificación y pertinencia",
+                "description": "Opción efectivamente investigada o familia hipotética identificada como tal; relación con trabajo del comprador"
+              },
+              "K05.T04.B02.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Oferente, solución y disponibilidad",
+                "description": "Entidad, producto/servicio, versión/estado, segmento/ámbito y relación entre marcas; anuncio distinto de disponibilidad o resultado"
+              },
+              "K05.T04.B02.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Mecanismo, promesa y destinatario",
+                "description": "Qué resuelve, cómo y para quién; distinguir publicado, documentado e inferido"
+              },
+              "K05.T04.B02.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evidencia disponible y límite",
+                "description": "AF/FUE, fecha, localizador, cobertura y naturaleza de cada conclusión material"
+              },
+              "K05.T04.B02.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Requisitos de adopción/entrega",
+                "description": "Recursos, integración, aceptación, continuidad y obligaciones pertinentes"
+              },
+              "K05.T04.B02.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Funcionamiento y evolución",
+                "description": "Capacidades/restricciones documentadas, cambios de producto o actuación competitiva con fecha, fundamento y efecto en la elección"
+              },
+              "K05.T04.B02.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Precio y condiciones conocidos",
+                "description": "Unidad, moneda, impuestos, fecha, alcance y mínimos; desconocidos explícitos"
+              },
+              "K05.T04.B02.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Coste completo pertinente",
+                "description": "Preparación, adopción, uso, continuidad y salida; cobertura y carencias, sin doble imputación"
+              },
+              "K05.T04.B02.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Criterios de comparación",
+                "description": "Qué cumple, qué cambia y su consecuencia para K04; características técnicas cuando sean decisivas"
+              },
+              "K05.T04.B02.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fricción de cambiar o permanecer",
+                "description": "Esfuerzo, riesgo, dependencia, reversibilidad y desencadenante; AF o hipótesis"
+              },
+              "K05.T04.B02.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Argumento favorable y contrario",
+                "description": "Razones sustentadas por las que puede ser elegida o descartada para esa situación"
+              }
+            }
+          }
+        },
+        "K05.T04.B03": {
+          "type": "array",
+          "description": "Hipótesis de diferencia · Bloque repetible cuando exista fundamento. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K05.T04.B03.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Diferencia y comparación",
+                "description": "Qué cambia, frente a qué alternativa, para qué comprador y condición"
+              },
+              "K05.T04.B03.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Mecanismo y premisas",
+                "description": "AF/TRA/CAP, razón causal y límites; no confundir formulación verbal con capacidad"
+              },
+              "K05.T04.B03.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Relevancia para compra",
+                "description": "Criterio/rol de K04 y evidencia o hipótesis que la sustenta"
+              },
+              "K05.T04.B03.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Distinción dentro de cobertura",
+                "description": "Qué alternativa podría ocupar el mismo espacio bajo otra forma o lenguaje"
+              },
+              "K05.T04.B03.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Capacidad de sostener",
+                "description": "Recursos, entrega, economía y respaldo propios, existentes o por habilitar"
+              },
+              "K05.T04.B03.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Razón para adoptar",
+                "description": "Beneficio/condición frente a fricción de cambio y alternativa actual"
+              },
+              "K05.T04.B03.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Mejor explicación contraria",
+                "description": "Por qué la diferencia podría no importar, no ser sostenible o no justificar compra"
+              },
+              "K05.T04.B03.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Refutación y evidencia necesaria",
+                "description": "Proposición/condición que cambiaría la conclusión; HUE/SOL o petición a N14"
+              },
+              "K05.T04.B03.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Uso propuesto y límites",
+                "description": "N06/N07/N08/N09/N10; qué puede diseñarse y qué no puede afirmarse"
+              }
+            }
+          }
+        },
+        "K05.T04.B04": {
+          "type": "array",
+          "description": "Síntesis y recepción. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K05.T04.B04.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Comparación y propuesta",
+                "description": "Hipótesis que merece desarrollo, ajuste o descarte y fundamento; puede no existir diferencia favorable defendible"
+              },
+              "K05.T04.B04.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Efectos conectados",
+                "description": "Comprador, oferta, unidad, acceso, capacidad y economía que deben revisarse"
+              },
+              "K05.T04.B04.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contraste con oferta y capacidades propias",
+                "description": "Premisas de K02, hallazgos externos, comparabilidad, conclusión y decisión que cambia o se fundamenta"
+              },
+              "K05.T04.B04.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Suficiencia y carencias",
+                "description": "Cobertura de alternativas materiales, comparabilidad, CON/HUE y límite de uso"
+              },
+              "K05.T04.B04.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consumidores y revisión",
+                "description": "Campos/versiones, autoría de revisión y disparador de cambio de alternativa/criterio/capacidad"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cabecera",
+    "bloques"
+  ]
+}

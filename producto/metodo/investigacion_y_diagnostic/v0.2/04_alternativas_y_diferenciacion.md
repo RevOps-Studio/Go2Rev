@@ -2,7 +2,24 @@
 
 Versión 0.2 · Procedimiento de futura prestación
 
-Empezar con la [primera pasada de N05](../../operacion_conversacional/v0.2/10_primera_pasada.md#n05) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N05](../../operacion_conversacional/v0.3/10_primera_pasada.md#n05) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
+
+<!-- procedimiento:inicio -->
+## Procedimiento de primera pasada
+
+Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+
+1. Recuperar situaciones K04, ámbito K03 y capacidades K02. Incluir competidores directos, soluciones distintas, medios internos y continuidad que resuelvan el mismo trabajo de compra.
+2. Seleccionar criterios relevantes para la decisión y comparar unidades, alcance, condiciones, precio y esfuerzo cuando sean comparables. Consultar originales pertinentes y registrar límites de acceso o método.
+3. Separar capacidad declarada, disponibilidad, resultado documentado y elección del comprador. Relacionar las diferencias con capacidades propias y con el valor que podrían producir.
+4. Entregar K05 con comparación, diferencia defendible o ausencia de ella, evidencia contraria y refutación. Revisar comprador o ámbito si el marco de comparación cambia.
+
+**Bloques de salida:** K05.T04.B01, K05.T04.B02, K05.T04.B03, K05.T04.B04. Su condición y momento gobiernan la exigibilidad; las piezas auxiliares se abren según la tarea.
+<!-- procedimiento:fin -->
+
+## Referencia sustantiva y condiciones de ampliación
+
 
 ## Decisión, entradas y salida
 

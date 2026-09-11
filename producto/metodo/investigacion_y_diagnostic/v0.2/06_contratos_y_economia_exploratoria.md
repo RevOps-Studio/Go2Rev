@@ -64,7 +64,7 @@ La [plantilla de intercambio](plantillas/06_intercambio_exploratorio.md) se usa 
 | N11 · Entrega/cobro E | Trabajo de preparación y repetición, recursos por tarea, aceptación, insumos/proveedores, costes conocidos/desconocidos, fechas/eventos de pagos y cobros | Descomponer la promesa N08 con capacidades K02 y requisitos K03/K04; distinguir disponibilidad, tarea, calidad, aceptación y obligación económica | Capacidad por habilitar no se declara disponible; coste ausente no es gratuito; cobro supuesto no es condición acordada |
 | N12 · Economía/capacidad E | Modelo editable delimitado, entradas/procedencia, calculable/no calculable, contribución, resultado pertinente, equilibrio cuando exista, capacidad, caja, análisis diferencial y umbral de decisión | Reconciliar unidad, periodo, mezcla, roles y costes de N08–N11; comprobar doble imputación y dominio; mostrar relaciones y restricciones antes de recomendar | Una dimensión desconocida impide la conclusión completa que dependa de ella; un umbral orienta evidencia y no prueba ventas ni ejecución |
 
-Los procedimientos mínimos describen la interfaz necesaria para Diagnostic. oferta, entrega y economía desarrolla N08/N11/N12 y posición, demanda y conversión desarrolla N09/N10 en profundidad; ambos deben conservarla y completarla sin imponer K06 final como prerrequisito para E. No se declara construido aquí su alcance completo de diseño u operación.
+Los procedimientos mínimos describen la interfaz necesaria para Diagnostic. oferta, entrega y economía desarrolla N08/N11/N12 y posición, demanda y conversión desarrolla N09/N10 en profundidad; ambos deben conservarla y completarla sin imponer K06 final como prerrequisito para E. Consultar sus instrucciones para el alcance de diseño u operación requerido.
 
 ## Comparabilidad y restricciones económicas del intercambio
 
@@ -104,4 +104,4 @@ Aplicar CAM al campo material y recorrer relaciones efectivas de consumo, no tod
 
 ## Cierre documental del componente
 
-investigación y Diagnostic queda construido por la existencia de instrucciones sustantivas N03–N06, investigación común, contratos y plantillas vacías con significado y consumidores. La integración con oferta, entrega y economía–operación conversacional se conserva en el [paquete fundacional](../../../paquete_fundacional/v0.3/LEEME.md), que identifica alcance, versión e instrucciones de implementación. La revisión actual es documental; no utiliza recorridos de negocio ni ejecuta protocolos.
+El [paquete fundacional](../../../paquete_fundacional/v0.4/LEEME.md) localiza las instrucciones, contratos y formatos compatibles de las capacidades conectadas.

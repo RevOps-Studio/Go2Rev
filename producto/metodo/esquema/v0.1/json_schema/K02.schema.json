@@ -1,0 +1,1697 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Representación documental opcional de K02",
+  "$comment": "Valida únicamente estructura de una exportación textual. No valida suficiencia, exigibilidad condicional, verdad, permisos ni aceptación. Las colecciones permiten bloques repetibles. No obliga a operar Go2Rev en JSON.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cabecera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "versión": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ámbito y K01": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor y fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ubicación": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado documental": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "receptor y uso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bloques": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "K02.T02.B01": {
+          "type": "array",
+          "description": "Necesidad y obtención. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T02.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "ID, revisión, autor y fecha",
+                "description": "Identidad estable SOL y contenido; requerido al crear la petición"
+              },
+              "K02.T02.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "K01 y ámbito",
+                "description": "Revisión de encargo, iniciativa, geografía/segmento y recorrido pertinentes; requerido"
+              },
+              "K02.T02.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Huecos y decisión consumidora",
+                "description": "Referencias HUE, nodo, campo y decisión que necesita la información; requerido"
+              },
+              "K02.T02.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contenido solicitado",
+                "description": "Dato, documento o aclaración preciso; evitar pedir un diagnóstico elaborado por el cliente; requerido"
+              },
+              "K02.T02.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Unidad y periodo",
+                "description": "Definición, moneda/base, población/cohorte o ventana cuando corresponda; no aplica con motivo en contenido cualitativo"
+              },
+              "K02.T02.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Material ya revisado",
+                "description": "FUE y campos extraídos; delimita lo que no debe volver a pedirse; requerido"
+              },
+              "K02.T02.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fuente esperada y productor",
+                "description": "Original adecuado y persona/rol que lo aporta u obtiene; requerido"
+              },
+              "K02.T02.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Responsable de análisis",
+                "description": "Quién incorpora y evalúa suficiencia; requerido"
+              },
+              "K02.T02.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Formato y cobertura admisibles",
+                "description": "Exportación, documento, sección o aclaración; mínimo para el uso, sin imponer herramienta; requerido"
+              },
+              "K02.T02.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Canal y permiso",
+                "description": "Medio de obtención y autorización necesaria para contacto/acceso; requerido antes de la acción correspondiente"
+              },
+              "K02.T02.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Prioridad y consecuencia",
+                "description": "Compromiso afectado, reversibilidad y efecto de no obtenerlo; requerido"
+              },
+              "K02.T02.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fecha o evento límite",
+                "description": "Momento en que cambia o impide el uso; requerido"
+              },
+              "K02.T02.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Alternativa si no existe",
+                "description": "Otra fuente, derivación sustentable, límite de conclusión o suspensión del uso; requerido"
+              },
+              "K02.T02.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Estado de solicitud",
+                "description": "Según diccionario; requerido, con fecha de la transición"
+              }
+            }
+          }
+        },
+        "K02.T02.B02": {
+          "type": "array",
+          "description": "Recepción · Bloque repetible por material o respuesta recibida. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T02.B02.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "SOL y fecha de recepción",
+                "description": "Enlace a petición y momento recibido; completar solo cuando se reciba"
+              },
+              "K02.T02.B02.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Material recibido",
+                "description": "FUE/original, versión y localizador; quien lo recibe"
+              },
+              "K02.T02.B02.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cobertura y legibilidad",
+                "description": "Qué campos/periodos llegaron y cuáles se pudieron leer; analista"
+              },
+              "K02.T02.B02.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Diferencias respecto a solicitud",
+                "description": "Omisiones, ámbitos, unidades o condiciones distintos; analista"
+              },
+              "K02.T02.B02.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Afirmaciones incorporadas",
+                "description": "AF y revisión, tras examinar el original; analista"
+              },
+              "K02.T02.B02.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Disposición por hueco",
+                "description": "HUE resuelto, aún abierto, uso limitado o no aplica justificado; fundamento y consumidor"
+              },
+              "K02.T02.B02.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Petición residual o alternativa",
+                "description": "Qué falta, quién actúa y cuándo; solo por contenido aún necesario"
+              },
+              "K02.T02.B02.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cierre de solicitud",
+                "description": "Fecha, motivo y disposición de todos sus huecos; recibir un archivo no basta para cerrar"
+              }
+            }
+          }
+        },
+        "K02.T03.B01": {
+          "type": "array",
+          "description": "Índice y perfil de K02. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T03.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Identificación, revisión y fecha",
+                "description": "K02, prestación, autor y revisión; consultor; requerido"
+              },
+              "K02.T03.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Encargo de referencia",
+                "description": "K01 y revisión de ámbito/preguntas; requerido"
+              },
+              "K02.T03.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Estado de edición y revisión",
+                "description": "Estado, revisor, fecha y cobertura documental; requerido"
+              },
+              "K02.T03.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Oferta e iniciativa",
+                "description": "Síntesis de representación y mecanismo con AF/K01; requerido para explorar"
+              },
+              "K02.T03.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Ámbito y recorrido",
+                "description": "Origen/destino A o intención/capacidad B; K01; requerido"
+              },
+              "K02.T03.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Situación de compra y roles",
+                "description": "Conocido o hipótesis; AF, alcance y límite; lo desconocido se conserva"
+              },
+              "K02.T03.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Forma de venta, entrega y cobro",
+                "description": "Unidad, actores y condiciones conocidas; AF; lo desconocido se conserva"
+              },
+              "K02.T03.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Capacidades y restricciones",
+                "description": "Síntesis con AF y TRA/CAP; qué uso limitan"
+              },
+              "K02.T03.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Preguntas que orientan el siguiente trabajo",
+                "description": "Decisión/nodo y HUE; requerido"
+              },
+              "K02.T03.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Índice de fuentes y afirmaciones",
+                "description": "Ubicación de registros FUE y AF vigentes y versiones referenciadas; requerido"
+              },
+              "K02.T03.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Matriz aplicable",
+                "description": "Ubicación de transferencia A o capacidades B; requerido según recorrido"
+              },
+              "K02.T03.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contradicciones, huecos y solicitudes",
+                "description": "CON, HUE y SOL pertinentes; indicar cobertura revisada para interpretar ausencia de registros"
+              },
+              "K02.T03.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisiones y relaciones de consumo",
+                "description": "Ubicación de DEC, artefactos y cambios; requerido cuando existan"
+              },
+              "K02.T03.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Alcance de lectura y límite de la base",
+                "description": "Qué materiales/ámbitos fueron examinados y qué queda fuera; requerido"
+              },
+              "K02.T03.B01.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Uso propuesto al receptor",
+                "description": "Tarea, campos, versión y limitaciones; receptor evalúa su suficiencia"
+              }
+            }
+          }
+        },
+        "K02.T03.B02": {
+          "type": "array",
+          "description": "Fuente FUE · Bloque repetible. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T03.B02.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "ID y revisión de fuente",
+                "description": "Identidad estable y versión de la ficha/material"
+              },
+              "K02.T03.B02.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Título y tipo",
+                "description": "Identifica documento, registro, declaración, publicación u otro soporte"
+              },
+              "K02.T03.B02.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Autor o entidad responsable",
+                "description": "Productor del contenido, distinto de quien lo recupera"
+              },
+              "K02.T03.B02.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Ubicación del material",
+                "description": "Ruta o URL exacta y versión; localizable en el soporte de prestación"
+              },
+              "K02.T03.B02.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Localizador de lectura",
+                "description": "Página, sección, tabla/celda, intervalo o referencia equivalente"
+              },
+              "K02.T03.B02.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fecha del contenido y periodo",
+                "description": "Separar producción del material y periodo que describe; conservar desconocidos"
+              },
+              "K02.T03.B02.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fecha de recepción/consulta",
+                "description": "Momento efectivo y responsable de acceso"
+              },
+              "K02.T03.B02.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Procedencia",
+                "description": "Interna, externa o derivada; origen del material, no nivel de confianza"
+              },
+              "K02.T03.B02.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Original o lectura secundaria",
+                "description": "Si es secundaria, identificar original citado y si fue realmente recuperado"
+              },
+              "K02.T03.B02.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Disponibilidad y cobertura leída",
+                "description": "Estado del diccionario, secciones leídas y limitaciones de extracción"
+              },
+              "K02.T03.B02.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Ámbito",
+                "description": "Iniciativa, geografía, segmento, población y origen/destino pertinentes"
+              },
+              "K02.T03.B02.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Método de producción",
+                "description": "Cómo se obtuvo el contenido o medida, cobertura y sesgos conocidos; desconocido si no consta"
+              },
+              "K02.T03.B02.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Grupo de origen",
+                "description": "Fuente primaria o conjunto de datos común; relaciona dependencias y republicaciones"
+              },
+              "K02.T03.B02.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Permiso y límites de uso",
+                "description": "Acceso, reproducción, custodia o entrega acordados; no inferir permiso por disponibilidad"
+              },
+              "K02.T03.B02.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Transformación de lectura",
+                "description": "Extracción, traducción, transcripción o resumen realizado, autor y pérdida relevante; no aplica si ninguna"
+              },
+              "K02.T03.B02.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Referencias asociadas",
+                "description": "AF que utiliza la fuente, copias/ediciones y SOL de origen si corresponde"
+              }
+            }
+          }
+        },
+        "K02.T03.B03": {
+          "type": "array",
+          "description": "Afirmación AF · Bloque repetible. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T03.B03.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "ID, revisión, autor y fecha",
+                "description": "Identidad y contenido de la afirmación"
+              },
+              "K02.T03.B03.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Enunciado",
+                "description": "Proposición precisa con condiciones; separar proposiciones con fundamentos distintos"
+              },
+              "K02.T03.B03.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Naturaleza",
+                "description": "Observación, declaración, inferencia o hipótesis; las decisiones se registran en DEC"
+              },
+              "K02.T03.B03.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Procedencia",
+                "description": "Interna, externa o derivada; independiente de naturaleza"
+              },
+              "K02.T03.B03.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Ámbito y vigencia",
+                "description": "Iniciativa, geografía, segmento, población y periodo; origen/destino cuando aplique"
+              },
+              "K02.T03.B03.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Unidad y definición",
+                "description": "Unidad/base, eventos o definición de conceptos comparados; no aplica justificado en proposición cualitativa"
+              },
+              "K02.T03.B03.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Soporte y localizador",
+                "description": "FUE con revisión y ubicación exacta; en una derivación, también AF de premisas"
+              },
+              "K02.T03.B03.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Atribución y operación de observación",
+                "description": "Declarante cuando sea declaración; procedimiento y cobertura cuando sea observación"
+              },
+              "K02.T03.B03.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evidencia contraria y dependencias",
+                "description": "AF/FUE que contradicen o limitan; grupo de origen y alcance del contraste realizado"
+              },
+              "K02.T03.B03.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Juicio de soporte por uso",
+                "description": "Por qué pertinencia, calidad, independencia, actualidad y coherencia bastan o no para la tarea"
+              },
+              "K02.T03.B03.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Incertidumbre y limitaciones",
+                "description": "Qué no puede concluirse y qué condición sigue desconocida"
+              },
+              "K02.T03.B03.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Uso permitido y excluido",
+                "description": "Decisión/campo receptor, E/O y límites; diferenciar explorar y comprometer"
+              },
+              "K02.T03.B03.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contradicciones y huecos",
+                "description": "CON/HUE si procede y efecto sobre uso"
+              },
+              "K02.T03.B03.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Revisor y condición de revisión",
+                "description": "Responsable de interpretación, alcance revisado y cambio que obliga a reconsiderarla"
+              }
+            }
+          }
+        },
+        "K02.T03.B04": {
+          "type": "array",
+          "description": "Derivación · Obligatoria si AF es inferencia o hipótesis. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T03.B04.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Premisas",
+                "description": "AF/FUE con revisión, ámbito y soporte; supuestos sin evidencia identificados como tales"
+              },
+              "K02.T03.B04.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Razonamiento o fórmula",
+                "description": "Secuencia que conecta premisas y conclusión; ubicación de cálculo editable si lo hay"
+              },
+              "K02.T03.B04.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Unidades y transformaciones",
+                "description": "Dominio, unidades, base temporal y operación sobre los originales cuando corresponda"
+              },
+              "K02.T03.B04.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Explicaciones u opciones alternativas",
+                "description": "Alternativas materiales examinadas y por qué se prefieren o descartan"
+              },
+              "K02.T03.B04.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condición de refutación o cambio",
+                "description": "Evidencia o variación de premisa que haría abandonar o limitar la conclusión"
+              },
+              "K02.T03.B04.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consecuencia de desconocidos",
+                "description": "Qué no es calculable o qué elección permanece abierta; desconocido no equivale a cero"
+              }
+            }
+          }
+        },
+        "K02.T03.B05": {
+          "type": "array",
+          "description": "Contradicción CON · Bloque repetible. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T03.B05.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "ID, revisión, autor y fecha",
+                "description": "Identidad y contenido"
+              },
+              "K02.T03.B05.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Afirmaciones en conflicto",
+                "description": "AF/revisiones y proposición incompatible"
+              },
+              "K02.T03.B05.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Comprobación de comparabilidad",
+                "description": "Definición, ámbito, población, periodo, extracción y transformaciones"
+              },
+              "K02.T03.B05.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Efecto sobre el uso",
+                "description": "Decisión, cálculo o compromiso afectado y campos que deben limitarse"
+              },
+              "K02.T03.B05.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Explicaciones y contraste propuesto",
+                "description": "Diferencia de ámbito, error, cambio real u otra explicación sustentable; material necesario"
+              },
+              "K02.T03.B05.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Responsable y solicitud",
+                "description": "Quién aclara/analiza, SOL si procede y evento límite"
+              },
+              "K02.T03.B05.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Estado y resolución",
+                "description": "Según diccionario; fundamento y referencias de corrección o conciliación"
+              },
+              "K02.T03.B05.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Uso residual y revisión",
+                "description": "Qué puede seguir utilizándose, con qué límite y cuándo reabrir"
+              }
+            }
+          }
+        },
+        "K02.T03.B06": {
+          "type": "array",
+          "description": "Hueco HUE · Bloque repetible. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T03.B06.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "ID, revisión, autor y fecha",
+                "description": "Identidad y contenido"
+              },
+              "K02.T03.B06.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Campo o pregunta pendiente",
+                "description": "Qué no se conoce; no presumir que el material no existe"
+              },
+              "K02.T03.B06.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Ámbito, unidad y periodo",
+                "description": "Qué haría pertinente una respuesta; no aplica con motivo cuando corresponda"
+              },
+              "K02.T03.B06.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisión y uso afectados",
+                "description": "Nodo/campo, compromiso y consecuencia de la ausencia"
+              },
+              "K02.T03.B06.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Prioridad razonada",
+                "description": "Consecuencia, reversibilidad, momento necesario y esfuerzo proporcionado"
+              },
+              "K02.T03.B06.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Vía de resolución",
+                "description": "Fuente esperada, responsable, SOL o trabajo analítico y evento límite"
+              },
+              "K02.T03.B06.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Alternativa y límite de uso",
+                "description": "Fuente alternativa, derivación fundamentada, conclusión limitada o compromiso detenido"
+              },
+              "K02.T03.B06.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Estado y fundamento",
+                "description": "Abierto, resuelto, uso limitado o no aplica justificado; AF/FUE/DEC que sostiene la disposición"
+              },
+              "K02.T03.B06.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Reapertura y dependencias",
+                "description": "Condición que exige reconsiderar y consumidores a revisar"
+              }
+            }
+          }
+        },
+        "K02.T04.B01": {
+          "type": "array",
+          "description": "Identidad y elemento · Requerido en cada TRA. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T04.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "ID, revisión, autor y fecha",
+                "description": "Identidad estable TRA y contenido"
+              },
+              "K02.T04.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Encargo y conocimiento",
+                "description": "K01/K02 y revisiones pertinentes"
+              },
+              "K02.T04.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Elemento que se pretende trasladar",
+                "description": "Capacidad, material, mecanismo, condición o resultado; precisar cuál"
+              },
+              "K02.T04.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisión y consumidor",
+                "description": "Nodo/campo que necesita juzgar su transferencia"
+              },
+              "K02.T04.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contexto de origen",
+                "description": "Geografía, segmento, compra, canal, unidad y periodo pertinentes"
+              },
+              "K02.T04.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evidencia en origen",
+                "description": "AF/FUE y revisiones; distinguir resultado documentado y explicación causal"
+              },
+              "K02.T04.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Mecanismo propuesto",
+                "description": "Por qué podría funcionar y qué condiciones necesita; AF de inferencia/hipótesis si corresponde"
+              },
+              "K02.T04.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contexto de destino",
+                "description": "Ámbito acotado por K01; diferencias conocidas y preguntas abiertas"
+              }
+            }
+          }
+        },
+        "K02.T04.B02": {
+          "type": "array",
+          "description": "Comparación · Bloque repetible por condición habilitante. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T04.B02.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condición de origen",
+                "description": "Factor necesario o facilitador y por qué; fundamento AF o hipótesis identificada"
+              },
+              "K02.T04.B02.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Estado en destino",
+                "description": "Equivalente con soporte, diferente con soporte o desconocido; describir condición concreta"
+              },
+              "K02.T04.B02.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fundamento de destino",
+                "description": "AF/FUE y ámbito; HUE si no se conoce"
+              },
+              "K02.T04.B02.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Efecto sobre el mecanismo",
+                "description": "Qué se mantiene, cambia o no puede determinarse; razonamiento"
+              },
+              "K02.T04.B02.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Adaptación necesaria",
+                "description": "Cambio de oferta, acceso, entrega u otro elemento; condición y dependencia, sin atribuir ejecución"
+              },
+              "K02.T04.B02.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evidencia de destino necesaria",
+                "description": "Proposición que debe resolverse y tipo de fuente pertinente; SOL o protocolo de futura prestación"
+              },
+              "K02.T04.B02.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Responsable y momento",
+                "description": "Nodo/persona que obtiene o decide, recurso y evento que limita el compromiso"
+              }
+            }
+          }
+        },
+        "K02.T04.B03": {
+          "type": "array",
+          "description": "Conclusión de transferencia · Requerido antes de consumir TRA. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T04.B03.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Inferencia permitida",
+                "description": "Qué se puede reutilizar, adaptar o conservar como pregunta y por qué"
+              },
+              "K02.T04.B03.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Límite de transferencia",
+                "description": "Lo que no sostiene la evidencia de origen, incluida respuesta de destino cuando no esté acreditada"
+              },
+              "K02.T04.B03.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Uso y suficiencia",
+                "description": "E/O, decisión consumidora y por qué las condiciones bastan o no para ese uso"
+              },
+              "K02.T04.B03.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Alternativa y compromiso detenido",
+                "description": "Opción si no puede transferirse; dependencia pendiente cuando corresponda"
+              },
+              "K02.T04.B03.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Revisión del consultor",
+                "description": "Autor, fecha y alcance; no equivale a resultado en destino"
+              },
+              "K02.T04.B03.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Disparador de cambio",
+                "description": "Condición, diferencia o evidencia nueva que reabre TRA y sus consumidores"
+              }
+            }
+          }
+        },
+        "K02.T05.B01": {
+          "type": "array",
+          "description": "Capacidad y requisito · Requerido en cada CAP. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T05.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "ID, revisión, autor y fecha",
+                "description": "Identidad estable CAP y contenido"
+              },
+              "K02.T05.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Encargo y conocimiento",
+                "description": "K01/K02 y revisiones pertinentes"
+              },
+              "K02.T05.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Promesa y tarea que requiere capacidad",
+                "description": "Parte de la representación de oferta que debe poder cumplirse"
+              },
+              "K02.T05.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Capacidad necesaria",
+                "description": "Acción, resultado controlable y condición de aceptación"
+              },
+              "K02.T05.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recurso indispensable",
+                "description": "Persona, medio, insumo, permiso o dependencia; relación con la tarea"
+              },
+              "K02.T05.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Responsable de disponibilidad",
+                "description": "Rol/persona con capacidad para aportar o habilitar"
+              },
+              "K02.T05.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Unidad, periodo y restricciones",
+                "description": "Dedicación, cantidad, calendario, concurrencia y condiciones de uso pertinentes"
+              }
+            }
+          }
+        },
+        "K02.T05.B02": {
+          "type": "array",
+          "description": "Disponibilidad y habilitación. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T05.B02.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Estado de disponibilidad",
+                "description": "Acreditada para uso delimitado; declarada pendiente de contraste; por habilitar; desconocida"
+              },
+              "K02.T05.B02.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fundamento",
+                "description": "AF/FUE y revisión; alcance de lo que demuestra, HUE si falta"
+              },
+              "K02.T05.B02.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Diferencia entre intención y disponibilidad",
+                "description": "Qué falta para poder cumplir la tarea en el periodo requerido"
+              },
+              "K02.T05.B02.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condición de habilitación",
+                "description": "Acción, recurso y criterio que permitirían disponer de ella"
+              },
+              "K02.T05.B02.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Dependencias previas",
+                "description": "Otras CAP, decisiones, accesos o aportaciones; momento necesario"
+              },
+              "K02.T05.B02.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Alternativas de habilitación",
+                "description": "Opciones materiales comparadas por adecuación, esfuerzo, coste, dependencia y reversibilidad"
+              },
+              "K02.T05.B02.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Economía pertinente",
+                "description": "Coste, unidad/periodo y fundamento o desconocido; referencia a N11/N12 para modelización"
+              },
+              "K02.T05.B02.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Opción recomendada y razón",
+                "description": "Propuesta del consultor con alternativas y limitaciones; DEC si necesita compromiso"
+              },
+              "K02.T05.B02.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Responsable y evento límite",
+                "description": "Quién habilita/obtiene evidencia y antes de qué uso"
+              }
+            }
+          }
+        },
+        "K02.T05.B03": {
+          "type": "array",
+          "description": "Consecuencia y recepción. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T05.B03.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consumidor y compromiso",
+                "description": "N06/N08–N12/N14, campo y revisión que necesitan la capacidad"
+              },
+              "K02.T05.B03.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Uso permitido",
+                "description": "Exploración, diseño condicionado u operación delimitada, según su fundamento"
+              },
+              "K02.T05.B03.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Efecto de ausencia",
+                "description": "Qué entrega, inicio o promesa queda limitado y qué trabajo puede continuar"
+              },
+              "K02.T05.B03.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evidencia pendiente",
+                "description": "HUE/SOL o necesidad de protocolo en N14; no atribuye ejecución"
+              },
+              "K02.T05.B03.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Revisión y autoridad",
+                "description": "Consultor revisa; DEC identifica quien autoriza recursos/compromisos cuando corresponda"
+              },
+              "K02.T05.B03.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condición de reapertura",
+                "description": "Cambio de recurso, plazo, dependencia, tarea o promesa que afecta disponibilidad"
+              }
+            }
+          }
+        },
+        "K02.T06.B01": {
+          "type": "array",
+          "description": "Decisión DEC · Bloque repetible. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T06.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "ID, revisión, autor y fecha de propuesta",
+                "description": "Identidad y contenido"
+              },
+              "K02.T06.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Pregunta y compromiso",
+                "description": "Qué se decide, alcance y consecuencia"
+              },
+              "K02.T06.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "K01 y autoridad competente",
+                "description": "Revisión del encargo, rol y facultad de decisión"
+              },
+              "K02.T06.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Opciones consideradas",
+                "description": "Alternativas materiales, incluida limitación o no continuación si pertinente"
+              },
+              "K02.T06.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recomendación y razón",
+                "description": "Opción propuesta, mecanismo, comparación y principal argumento contrario examinado"
+              },
+              "K02.T06.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Entradas y revisiones",
+                "description": "K/AF/FUE/TRA/CAP, campos y versiones que sustentan la propuesta"
+              },
+              "K02.T06.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Criterio y juicio de suficiencia",
+                "description": "Qué evidencia exige el compromiso y por qué basta o no lo disponible"
+              },
+              "K02.T06.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Incertidumbres y límites",
+                "description": "HUE/CON, consecuencia y condiciones"
+              },
+              "K02.T06.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Disposición",
+                "description": "Propuesta, aceptada, condicionada o rechazada; solo autoridad identificada"
+              },
+              "K02.T06.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisor, fecha y rastro",
+                "description": "Original/localizador de la decisión efectiva y alcance; requerido al disponer"
+              },
+              "K02.T06.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Compromiso habilitado",
+                "description": "Acción, recurso y límites que realmente permite la decisión; requerido al disponer"
+              },
+              "K02.T06.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condición pendiente",
+                "description": "Responsable, evidencia de cumplimiento, evento límite y parte detenida; requerido si condicionada"
+              },
+              "K02.T06.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Revisión y consumidores",
+                "description": "Qué cambio la reabre y qué artefactos utilizan la decisión"
+              }
+            }
+          }
+        },
+        "K02.T06.B02": {
+          "type": "array",
+          "description": "Artefacto · Bloque repetible por salida lógica K. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T06.B02.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "ID, revisión y ubicación",
+                "description": "K del productor, archivo/sección y contenido actual"
+              },
+              "K02.T06.B02.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Productor, autor y fecha",
+                "description": "Nodo y responsable de elaboración"
+              },
+              "K02.T06.B02.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Finalidad y ámbito",
+                "description": "Decisión o tarea; unidad/periodo y variante pertinente"
+              },
+              "K02.T06.B02.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Entradas y fuentes editables",
+                "description": "Versiones, AF/FUE, cálculos o registros que sustentan los campos materiales"
+              },
+              "K02.T06.B02.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Campos consumibles",
+                "description": "Campo/sección, significado, unidad si procede, uso E/O y limitaciones"
+              },
+              "K02.T06.B02.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Estado y revisión documental",
+                "description": "Borrador/revisado/sustituido; revisor, fecha y cobertura"
+              },
+              "K02.T06.B02.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consumidores",
+                "description": "Relaciones de uso por nodo/campo"
+              },
+              "K02.T06.B02.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisión relacionada",
+                "description": "DEC, si habilita compromiso; no inferir aceptación del estado revisado"
+              },
+              "K02.T06.B02.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Reapertura y contenido anterior",
+                "description": "Condición de revisión y localizador de versiones utilizadas previamente"
+              }
+            }
+          }
+        },
+        "K02.T06.B03": {
+          "type": "array",
+          "description": "Relación de consumo · Bloque repetible por conjunto coherente de campos. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T06.B03.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Entrada de productor",
+                "description": "K/AF/TRA/CAP, revisión, campos y localizador"
+              },
+              "K02.T06.B03.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consumidor y decisión",
+                "description": "Nodo/artefacto receptor y tarea que necesita los campos"
+              },
+              "K02.T06.B03.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Compatibilidad",
+                "description": "Ámbito, periodo, unidades y vigencia revisados"
+              },
+              "K02.T06.B03.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Uso propuesto",
+                "description": "E/O y conclusión o compromiso preciso"
+              },
+              "K02.T06.B03.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Juicio de suficiencia",
+                "description": "Fundamento, contradicciones y ausencias relevantes"
+              },
+              "K02.T06.B03.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Disposición de recepción",
+                "description": "Admitido, admitido con límites o devuelto"
+              },
+              "K02.T06.B03.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Límites o devolución",
+                "description": "Campo concreto, razón, responsable productor y condición para volver a consumir"
+              },
+              "K02.T06.B03.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Responsable y fecha",
+                "description": "Analista receptor; no equivale a aprobación del patrocinador"
+              },
+              "K02.T06.B03.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Dependencias resultantes",
+                "description": "Artefactos/decisiones que desde ahora dependen de esa versión"
+              }
+            }
+          }
+        },
+        "K02.T06.B04": {
+          "type": "array",
+          "description": "Cambio CAM · Bloque repetible por modificación material. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T06.B04.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "ID, revisión, autor y fecha",
+                "description": "Identidad y contenido del cambio"
+              },
+              "K02.T06.B04.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Objeto y campo",
+                "description": "K/AF/FUE/TRA/CAP/DEC y localizador"
+              },
+              "K02.T06.B04.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contenido anterior y propuesto",
+                "description": "Revisiones, valor o premisa y diferencia de significado"
+              },
+              "K02.T06.B04.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Causa, fuente y ámbito",
+                "description": "Nuevo original, corrección, periodo o decisión; referencias y alcance"
+              },
+              "K02.T06.B04.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Impacto directo",
+                "description": "Relaciones de consumo afectadas y efecto sobre conclusiones/compromisos"
+              },
+              "K02.T06.B04.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Descendientes",
+                "description": "Dependencias sucesivas hasta acotar el efecto; no asumir actualización global"
+              },
+              "K02.T06.B04.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Uso pendiente de revisión",
+                "description": "Compromiso que debe limitarse y desde qué momento"
+              },
+              "K02.T06.B04.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Autoridad necesaria",
+                "description": "DEC si cambia alcance, recurso o compromiso; motivo si no requiere nueva decisión"
+              },
+              "K02.T06.B04.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Responsable de resolución",
+                "description": "Quién actualiza productor y quién revisa consumidores"
+              },
+              "K02.T06.B04.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condición de cierre",
+                "description": "Disposiciones resueltas, versiones resultantes y límites visibles"
+              }
+            }
+          }
+        },
+        "K02.T06.B05": {
+          "type": "array",
+          "description": "Disposición de impacto · Bloque repetible por artefacto o decisión afectada. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K02.T06.B05.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Afectado y campo",
+                "description": "Identificador/revisión, dependencia y localizador"
+              },
+              "K02.T06.B05.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Acción",
+                "description": "Actualizar, recalcular, revisar argumento, retirar uso o sin impacto con razón"
+              },
+              "K02.T06.B05.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fundamento y alcance",
+                "description": "Por qué esa disposición es suficiente y qué no cambia"
+              },
+              "K02.T06.B05.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Responsable y orden",
+                "description": "Productor antes que consumidor; evento necesario para cierre"
+              },
+              "K02.T06.B05.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Resolución",
+                "description": "Versión resultante, revisión realizada y DEC si corresponde"
+              },
+              "K02.T06.B05.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Uso resultante y límites",
+                "description": "Compromiso habilitado o pendiente, con fundamento"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cabecera",
+    "bloques"
+  ]
+}

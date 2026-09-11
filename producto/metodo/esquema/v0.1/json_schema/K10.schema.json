@@ -1,0 +1,547 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Representación documental opcional de K10",
+  "$comment": "Valida únicamente estructura de una exportación textual. No valida suficiencia, exigibilidad condicional, verdad, permisos ni aceptación. Las colecciones permiten bloques repetibles. No obliga a operar Go2Rev en JSON.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cabecera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "versión": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ámbito y K01": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor y fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ubicación": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado documental": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "receptor y uso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bloques": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "K10.T04.B01": {
+          "type": "array",
+          "description": "Recorrido y objeto. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K10.T04.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Referencia",
+                "description": "K10/revisión, ubicación, autor, fecha y estado documental"
+              },
+              "K10.T04.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Encargo y uso",
+                "description": "K01/revisión, ámbito, E/O y combinación K08/K09/K11/K12"
+              },
+              "K10.T04.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Modo de compra",
+                "description": "Directo, intermediado, autoservicio o combinación; relaciones que deben distinguirse"
+              },
+              "K10.T04.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Objeto de seguimiento",
+                "description": "Cuenta, ocasión, pedido u otro objeto pertinente; identidad, relaciones y deduplicación"
+              },
+              "K10.T04.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Entrada",
+                "description": "Señal/origen K09, significado, evidencia y frontera de tarea/coste N09–N10"
+              },
+              "K10.T04.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisiones del comprador",
+                "description": "K04: situación, riesgos, roles, autoridad y criterios; procesos paralelos o de terceros"
+              },
+              "K10.T04.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Definición de ocasión admitida",
+                "description": "Qué justifica trabajar una decisión de compra, evidencia necesaria y siguiente decisión"
+              },
+              "K10.T04.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Oferta y compromisos",
+                "description": "K08/revisión, condiciones, autoridad y cambios permitidos"
+              },
+              "K10.T04.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Aceptación, pedido e inicio",
+                "description": "Eventos distintos y condiciones K11; no equiparar propuesta emitida, compra, entrega e ingreso"
+              },
+              "K10.T04.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fundamento y carencias",
+                "description": "AF/FUE internas/externas, comparabilidad, razonamiento, HUE/CON y efecto en el recorrido"
+              }
+            }
+          }
+        },
+        "K10.T04.B02": {
+          "type": "array",
+          "description": "Transición o rama — bloque repetible. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K10.T04.B02.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Localización y propósito",
+                "description": "Sección estable, origen/destino y decisión o control que justifica la transición"
+              },
+              "K10.T04.B02.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condición de entrada",
+                "description": "Información y estado necesarios; productor/campo/revisión"
+              },
+              "K10.T04.B02.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Ajuste e intención",
+                "description": "Condiciones de posibilidad de servir separadas de señales de voluntad/avance"
+              },
+              "K10.T04.B02.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evidencia de condición",
+                "description": "Evento, material o confirmación, fuente, vigencia y responsable competente"
+              },
+              "K10.T04.B02.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Resultado de evaluación",
+                "description": "Cumplida, incumplida, desconocida o no aplica justificado; desconocido limita el paso dependiente"
+              },
+              "K10.T04.B02.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Trabajo necesario",
+                "description": "Acción, insumos y resultado; esfuerzo también si no se avanza"
+              },
+              "K10.T04.B02.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Material requerido",
+                "description": "Función, contenido, oferta/AF, destinatario, medio y criterio para N15"
+              },
+              "K10.T04.B02.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Riesgo u objeción",
+                "description": "Cuestión de compra, explicación, evidencia o cambio de capacidad; no sustituir respuesta por presión"
+              },
+              "K10.T04.B02.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Responsable y autoridad",
+                "description": "Quién actúa, quién puede comprometer y respaldo ante indisponibilidad"
+              },
+              "K10.T04.B02.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Asignación y respuesta",
+                "description": "Criterio de asignación, acuse, origen del reloj, calendario/zona y plazo sustentado por capacidad"
+              },
+              "K10.T04.B02.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Receptor y salida",
+                "description": "Objeto/evidencia transmitidos, confirmación de recepción y condición de aceptación"
+              },
+              "K10.T04.B02.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Rama sin avance",
+                "description": "Devolución, información pendiente, pausa, rechazo o cierre; motivo y acción pertinente"
+              },
+              "K10.T04.B02.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Seguimiento",
+                "description": "Motivo útil, permiso, criterio temporal, condición de cese y reapertura; sin cadencia universal"
+              },
+              "K10.T04.B02.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Actividad y carga",
+                "description": "Cantidad de ejecuciones, recurso, consumo por ejecución/preparación y referencia de partida"
+              },
+              "K10.T04.B02.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Observabilidad",
+                "description": "Evento, unidad, identidad, fecha, fuente y decisión para N13; seguimiento incompleto visible"
+              },
+              "K10.T04.B02.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Dependencia de preparación",
+                "description": "Medio/CAP, comprobación requerida y efecto si no está disponible"
+              }
+            }
+          }
+        },
+        "K10.T04.B03": {
+          "type": "array",
+          "description": "Cierre, variantes y revisión. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K10.T04.B03.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cierre comercial",
+                "description": "Qué acredita aceptación, rechazo u otra salida y autoridad del comprador; preservar versión aceptada"
+              },
+              "K10.T04.B03.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Traspaso a entrega",
+                "description": "Referencia al bloque K11 de entrega/traspaso; condiciones pendientes, receptor y aceptación"
+              },
+              "K10.T04.B03.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Particularidad de variante",
+                "description": "Intermediario/cliente final separados o secuencia pedido/pago/confirmación; condición pertinente"
+              },
+              "K10.T04.B03.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Excepción y conciliación",
+                "description": "Quién resuelve conflicto de estado, duplicidad o condición no prevista antes de otro compromiso"
+              },
+              "K10.T04.B03.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Economía exploratoria",
+                "description": "Campos K10 E para N06/N12; actividad/coste/tiempo, dominio y desconocidos sin exigir compra observada"
+              },
+              "K10.T04.B03.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recepción y cambio",
+                "description": "Consumidor/campo/revisión, disposición; premisa que exige CAM y revisión localizada"
+              }
+            }
+          }
+        },
+        "K10.T06.B01": {
+          "type": "array",
+          "description": ". Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K10.T06.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Referencia",
+                "description": "K09/K10, sección/revisión, autor, fecha y estado documental"
+              },
+              "K10.T06.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Encargo y uso",
+                "description": "K01/revisión, ámbito y uso E/O"
+              },
+              "K10.T06.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Objeto e identidad",
+                "description": "Unidad de compra, ocasión, pedido o evento; regla de enlace y deduplicación"
+              },
+              "K10.T06.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Origen y señal",
+                "description": "Ruta/campo/revisión y evento observado o hipotético, conservando su naturaleza"
+              },
+              "K10.T06.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Información transmitida",
+                "description": "Oferta/revisión, situación, evidencias, condiciones, límites y siguiente decisión"
+              },
+              "K10.T06.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Emisor",
+                "description": "Responsable de origen y tarea que termina; frontera de actividad/coste"
+              },
+              "K10.T06.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Receptor y competencia",
+                "description": "Responsable de siguiente tarea, disponibilidad y medio; criterio de asignación y respaldo"
+              },
+              "K10.T06.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Autoridad",
+                "description": "Compromiso que puede asumir y condiciones que debe elevar a otro decisor"
+              },
+              "K10.T06.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Ajuste e intención",
+                "description": "Criterios por separado y evidencia pertinente; desconocido no se transforma en incumplimiento"
+              },
+              "K10.T06.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condición de recepción",
+                "description": "Campos/evidencias necesarios, medio y qué acredita el acuse"
+              },
+              "K10.T06.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Disposición",
+                "description": "Admitido, admitido con límites o devuelto; motivo concreto, productor y corrección requerida"
+              },
+              "K10.T06.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Plazo de respuesta",
+                "description": "Inicio/fin del reloj, calendario/zona, cobertura y capacidad; separar respuesta y resolución"
+              },
+              "K10.T06.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Acción posterior",
+                "description": "Decisión o tarea útil, responsable, entrada/salida y condición de finalización"
+              },
+              "K10.T06.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Pendencia",
+                "description": "Qué falta, quién puede resolverlo, compromiso limitado y trabajo independiente permitido"
+              },
+              "K10.T06.B01.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Devolución",
+                "description": "Motivo de compra/servicio, evidencia y nodo que corrige; preservar contexto para evitar reinicio inútil"
+              },
+              "K10.T06.B01.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Seguimiento",
+                "description": "Utilidad para el comprador, permiso, criterio de momento y carga de cada intento"
+              },
+              "K10.T06.B01.F17": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Silencio o cierre",
+                "description": "Qué se sabe y qué no; condición para pausar/cerrar sin atribuir una causa no observada"
+              },
+              "K10.T06.B01.F18": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Reapertura",
+                "description": "Cambio relevante, evidencia nueva y permiso; evitar contar la misma ocasión como nueva adquisición por defecto"
+              },
+              "K10.T06.B01.F19": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Conflictos y repetición",
+                "description": "Fuente autorizada para conciliar estados; evento repetido no debe duplicar aceptación, cobro, pedido o entrega"
+              },
+              "K10.T06.B01.F20": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Carga y registro",
+                "description": "Actividad incluida aunque no avance; referencia a partida/recurso y evento para N12/N13"
+              },
+              "K10.T06.B01.F21": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Límite de entrega",
+                "description": "Si inicia cumplimiento, referencia al contrato K11, condiciones de inicio y recepción de operación"
+              },
+              "K10.T06.B01.F22": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Preparación requerida",
+                "description": "Medios/CAP, material, tarea crítica y criterio para N15/N16; pendiente no equivale a comprobado"
+              },
+              "K10.T06.B01.F23": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cambios y continuidad",
+                "description": "Consumidor/campo/revisión, CAM y condiciones de actualización antes del siguiente compromiso"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cabecera",
+    "bloques"
+  ]
+}

@@ -1,0 +1,691 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Representación documental opcional de K12",
+  "$comment": "Valida únicamente estructura de una exportación textual. No valida suficiencia, exigibilidad condicional, verdad, permisos ni aceptación. Las colecciones permiten bloques repetibles. No obliga a operar Go2Rev en JSON.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cabecera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "versión": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ámbito y K01": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor y fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ubicación": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado documental": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "receptor y uso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bloques": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "K12.T03.B01": {
+          "type": "array",
+          "description": ". Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K12.T03.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cabecera y combinación",
+                "description": "K11/K12, revisión, K01, periodo, moneda y ámbito"
+              },
+              "K12.T03.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Partida y objeto",
+                "description": "ID, trabajo/insumo, unidad de oferta y responsable"
+              },
+              "K12.T03.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cantidad y tarifa",
+                "description": "Valor o desconocido de cada factor; unidades compatibles"
+              },
+              "K12.T03.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fórmula e importe",
+                "description": "Relación, dominio, transformación y moneda"
+              },
+              "K12.T03.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fundamento por entrada",
+                "description": "AF/FUE, naturaleza, periodo, campo y revisión"
+              },
+              "K12.T03.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cobertura",
+                "description": "Completa para uso delimitado o parcial; omisión y efecto"
+              },
+              "K12.T03.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Comportamiento",
+                "description": "Variable/fijo/lote/escalón/inversión/ajuste y rango de validez"
+              },
+              "K12.T03.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Reconocimiento",
+                "description": "Periodo y regla económica, con responsable competente si precisa"
+              },
+              "K12.T03.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Pago",
+                "description": "Evento/fecha/regla, contraparte y condición"
+              },
+              "K12.T03.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Imputación",
+                "description": "Incluida aquí o dentro de otra partida; referencia y conciliación"
+              },
+              "K12.T03.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisión incremental",
+                "description": "Evitable/comprometida/hundida/asignada y fundamento"
+              },
+              "K12.T03.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recurso",
+                "description": "Identidad, rol/medio, unidad de disponibilidad y competencia"
+              },
+              "K12.T03.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Disponibilidad",
+                "description": "Cantidad por calendario, fuente, CAP/TRA y límites"
+              },
+              "K12.T03.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Otros compromisos",
+                "description": "Carga ya consumida fuera de la combinación"
+              },
+              "K12.T03.B01.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Carga propia",
+                "description": "Preparación, lote, unidad, comercial/soporte e incidencias"
+              },
+              "K12.T03.B01.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Sustitución",
+                "description": "Alternativa, equivalencia por comprobar y efecto en coste/calidad"
+              },
+              "K12.T03.B01.F17": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Restricción",
+                "description": "Holgura/cota o desconocido; fecha y concurrencia pertinentes"
+              },
+              "K12.T03.B01.F18": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Coste de oportunidad",
+                "description": "Uso alternativo factible, fundamento y presentación separada"
+              },
+              "K12.T03.B01.F19": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Revisión y consumo",
+                "description": "Cambio, productor/receptor, uso y condición de admisión"
+              }
+            }
+          }
+        },
+        "K12.T04.B01": {
+          "type": "array",
+          "description": ". Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K12.T04.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cabecera",
+                "description": "K11/K12, revisión, combinación, horizonte, moneda y escala"
+              },
+              "K12.T04.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Saldo inicial",
+                "description": "Importe, fecha, procedencia y disponibilidad efectiva"
+              },
+              "K12.T04.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Reserva mínima",
+                "description": "Regla/importe, horizonte y autoridad; no porcentaje universal"
+              },
+              "K12.T04.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evento",
+                "description": "ID, obligación, contraparte y vínculo con oferta/tarea"
+              },
+              "K12.T04.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Naturaleza",
+                "description": "Cobro, pago, devolución, inversión, tributo o financiación pertinente"
+              },
+              "K12.T04.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Importe y base",
+                "description": "Valor o desconocido, moneda/impuestos y fórmula de la obligación"
+              },
+              "K12.T04.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condición",
+                "description": "Qué habilita el evento y quién tiene autoridad"
+              },
+              "K12.T04.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fecha y orden",
+                "description": "Fecha/regla, evento de origen, calendario y secuencia intradía"
+              },
+              "K12.T04.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fundamento",
+                "description": "AF/FUE, naturaleza de afirmación, revisión y límites"
+              },
+              "K12.T04.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Reconocimiento económico",
+                "description": "Relación con ingreso/coste, inversión u otra clasificación"
+              },
+              "K12.T04.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Financiación",
+                "description": "Disponibilidad/condiciones acreditadas, vencimiento y pagos asociados"
+              },
+              "K12.T04.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Incidencia",
+                "description": "Retraso, disputa, impago/devolución y efecto sobre saldo/plazo"
+              },
+              "K12.T04.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Movimiento observado",
+                "description": "Comprobante/importe/fecha/aplicación solo cuando exista"
+              },
+              "K12.T04.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cobertura del calendario",
+                "description": "Obligaciones incluidas, ausentes y conclusión que limitan"
+              },
+              "K12.T04.B01.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Resultado y brecha",
+                "description": "Saldos, mínimo incluyendo inicio y financiación adicional necesaria"
+              },
+              "K12.T04.B01.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consumo y revisión",
+                "description": "Campos/revisiones consumidores, admisión/límite y CAM"
+              }
+            }
+          }
+        },
+        "K12.T05.B01": {
+          "type": "array",
+          "description": ". Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K12.T05.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cabecera",
+                "description": "K12, K01, revisión, autor/fecha, ámbito, estado y ubicación"
+              },
+              "K12.T05.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Pregunta y uso",
+                "description": "Decisión y compromiso, E/O y límites"
+              },
+              "K12.T05.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Combinación",
+                "description": "K06/revisión/sección; K08/K09/K10/K11 y campos compatibles"
+              },
+              "K12.T05.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Perímetro",
+                "description": "Iniciativa y prestación de Go2Rev separadas"
+              },
+              "K12.T05.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Unidades y conversión",
+                "description": "Venta, producción, entrega, reconocimiento, facturación y cobro"
+              },
+              "K12.T05.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Periodo y moneda",
+                "description": "Calendario, horizonte, escala, conversión y fuentes"
+              },
+              "K12.T05.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Base económica",
+                "description": "Reconocimiento, impuestos, inclusiones/exclusiones y responsable"
+              },
+              "K12.T05.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Variantes pertinentes",
+                "description": "Modelo de oferta/canal y relación resuelta, desconocida o no aplicable justificada"
+              },
+              "K12.T05.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fuente editable",
+                "description": "Archivo, revisión, hojas/celdas o secciones y motor empleado"
+              },
+              "K12.T05.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Parámetros",
+                "description": "Valor/desconocido, unidad, AF/FUE y transformación por entrada material"
+              },
+              "K12.T05.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cobertura de costes",
+                "description": "Variables, comerciales/cohortes, fijos, lotes/escalones, inversión y no duplicación"
+              },
+              "K12.T05.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Capacidad",
+                "description": "Recursos indispensables, cargas, disponibilidad/calendario y restricciones"
+              },
+              "K12.T05.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Caja",
+                "description": "Eventos/fechas, saldo inicial, reserva, financiación y cobertura"
+              },
+              "K12.T05.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fórmulas y dominio",
+                "description": "Relaciones, supuestos de validez y dependencias"
+              },
+              "K12.T05.B01.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Resultados",
+                "description": "Contribución, resultado pertinente, equilibrio, capacidad y caja calculables"
+              },
+              "K12.T05.B01.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "No calculable o parcial",
+                "description": "Entrada ausente/ inválida y magnitud/decisión limitada"
+              },
+              "K12.T05.B01.F17": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contraste externo/interno",
+                "description": "AF, comparabilidad, conclusión derivada y parámetro/relación afectada"
+              },
+              "K12.T05.B01.F18": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Comparación",
+                "description": "Referencia a configuraciones y versiones, efectos y umbral"
+              },
+              "K12.T05.B01.F19": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recomendación",
+                "description": "Decisión propuesta, fundamento, restricciones y condición contraria"
+              },
+              "K12.T05.B01.F20": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evidencia requerida",
+                "description": "Pregunta, fuente/actuación pertinente, responsable, HUE/SOL o N14"
+              },
+              "K12.T05.B01.F21": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Autoridad y disposición",
+                "description": "DEC para inversión/riesgo/compromiso; revisión de consultor separada"
+              },
+              "K12.T05.B01.F22": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consumo y revisión",
+                "description": "Campo/versión/receptor/uso/admisión, disparador y CAM"
+              }
+            }
+          }
+        },
+        "K12.T06.B01": {
+          "type": "array",
+          "description": ". Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K12.T06.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Pregunta",
+                "description": "Qué decisión podría cambiar y compromiso K01/K06"
+              },
+              "K12.T06.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Referencia",
+                "description": "Combinación, versiones y alternativa de mantener/no invertir pertinente"
+              },
+              "K12.T06.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Premisa cuestionada",
+                "description": "AF interna y contraste externo o hallazgo nuevo"
+              },
+              "K12.T06.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Alternativa",
+                "description": "Cambio de unidad, trabajo, recurso, alcance o condición"
+              },
+              "K12.T06.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Mecanismo",
+                "description": "Por qué cambiarían coste, calidad, compra, capacidad o caja"
+              },
+              "K12.T06.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Comparabilidad",
+                "description": "Mismo trabajo/horizonte/moneda; diferencias o conversiones"
+              },
+              "K12.T06.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Entradas afectadas",
+                "description": "Campo, versión, fuente, valor/intervalo/desconocido y dominio"
+              },
+              "K12.T06.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Efectos conjuntos",
+                "description": "Coste inicial/repetido, calidad, respuesta, recurso y calendario"
+              },
+              "K12.T06.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Desfavorable",
+                "description": "Causa, límites sustentados, dependencias y evidencia contraria"
+              },
+              "K12.T06.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fuente de cada cálculo",
+                "description": "Libro/sección/revisión y parámetros conservados"
+              },
+              "K12.T06.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Diferencias",
+                "description": "Contribución, resultado, capacidad y caja con alcance calculable"
+              },
+              "K12.T06.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cruce o equilibrio",
+                "description": "Fórmula, dominio, capacidad y resultado si calculable"
+              },
+              "K12.T06.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Umbral de decisión",
+                "description": "Variable o condición que invertiría recomendación y fundamento"
+              },
+              "K12.T06.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evidencia necesaria",
+                "description": "Fuente/actuación, criterio de decisión y consumidor"
+              },
+              "K12.T06.B01.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recomendación",
+                "description": "Preferencia, conflicto de criterios, límites o ausencia de orden concluyente"
+              },
+              "K12.T06.B01.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "DEC y revisión",
+                "description": "Autoridad, disposición, disparador y versiones consumidoras"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cabecera",
+    "bloques"
+  ]
+}

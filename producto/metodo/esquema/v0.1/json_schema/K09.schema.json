@@ -1,0 +1,625 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Representación documental opcional de K09",
+  "$comment": "Valida únicamente estructura de una exportación textual. No valida suficiencia, exigibilidad condicional, verdad, permisos ni aceptación. Las colecciones permiten bloques repetibles. No obliga a operar Go2Rev en JSON.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cabecera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "versión": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ámbito y K01": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor y fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ubicación": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado documental": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "receptor y uso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bloques": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "K09.T03.B01": {
+          "type": "array",
+          "description": "Propósito, población y mecanismo. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K09.T03.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Referencia",
+                "description": "K09/sección/revisión, ubicación, autor, fecha y estado"
+              },
+              "K09.T03.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Encargo y combinación",
+                "description": "K01/revisión, ámbito, uso E/O y combinación K08/K11/K12"
+              },
+              "K09.T03.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisión de diseño",
+                "description": "Pregunta que resuelve esta ruta y consumidor"
+              },
+              "K09.T03.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Población de compra",
+                "description": "K03/K04: situación, criterio de inclusión/exclusión, territorio y periodo pertinentes"
+              },
+              "K09.T03.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Unidad e identidad",
+                "description": "Persona, cuenta, unidad compradora u ocasión según función; enlace y deduplicación"
+              },
+              "K09.T03.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Oferta representada",
+                "description": "K08 E o diseño vigente; valor descriptivo/AF hipotética si no hay K07 definitivo"
+              },
+              "K09.T03.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Mecanismo",
+                "description": "Cómo se espera pasar de origen/acceso a atención, respuesta y decisión"
+              },
+              "K09.T03.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Canal y función",
+                "description": "Medio utilizado y tarea que cumple; separar mecanismo, canal, pieza y evento"
+              },
+              "K09.T03.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Alternativas examinadas",
+                "description": "Otras rutas y consecuencias comparables de acceso, esfuerzo, coste y tiempo"
+              },
+              "K09.T03.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fundamento interno",
+                "description": "AF/FUE y CAP de relaciones, medios, contenido y experiencia; dominio de transferencia"
+              },
+              "K09.T03.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fundamento externo",
+                "description": "AF/FUE de comportamiento, lugares, intermediarios o condiciones de acceso; cobertura y actualidad"
+              },
+              "K09.T03.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Match y conclusión",
+                "description": "Comparabilidad, razonamiento, explicación contraria y campo de ruta afectado"
+              }
+            }
+          }
+        },
+        "K09.T03.B02": {
+          "type": "array",
+          "description": "Acceso, secuencia y recepción. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K09.T03.B02.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Origen de acceso",
+                "description": "Lugar, recurso o relación y qué permite obtener realmente"
+              },
+              "K09.T03.B02.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Disponibilidad",
+                "description": "CAP, estado acreditado, vigencia y requisitos por habilitar; acceso identificado no equivale a disponible"
+              },
+              "K09.T03.B02.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Autorización",
+                "description": "Permiso específico para lectura, tratamiento, contacto, publicación o gasto según la acción"
+              },
+              "K09.T03.B02.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Carencia de investigación",
+                "description": "Pregunta y HUE; fuente/herramienta/acceso suficiente propuesto mediante rutina investigación y Diagnostic"
+              },
+              "K09.T03.B02.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Secuencia causal",
+                "description": "Preparación, exposición/contacto, respuesta, cualificación y recepción pertinentes; ramas y precedencias"
+              },
+              "K09.T03.B02.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Mensaje y pieza",
+                "description": "Propósito, decisión, fundamento y referencia K07; representación descriptiva en E"
+              },
+              "K09.T03.B02.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evento de respuesta",
+                "description": "Condición observable, fuente y diferencia frente a envío, exposición o compra"
+              },
+              "K09.T03.B02.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recepción en K10",
+                "description": "Señal, objeto, receptor, autoridad, acuse, condición de devolución y siguiente decisión"
+              },
+              "K09.T03.B02.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Ausencia de respuesta",
+                "description": "Trabajo, espera, criterio de seguimiento/pausa/cierre y reapertura con permiso pertinente"
+              },
+              "K09.T03.B02.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Secuencia entre rutas",
+                "description": "Dependencias, capacidad, condición de activación y revisión; sin calendario universal"
+              }
+            }
+          }
+        },
+        "K09.T03.B03": {
+          "type": "array",
+          "description": "Esfuerzo, comparación y condición de uso. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K09.T03.B03.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cohorte y ventana",
+                "description": "Entrada, corte, seguimiento, identidad y cobertura de resultados"
+              },
+              "K09.T03.B03.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Actividades completas",
+                "description": "Preparación, repeticiones, atención y devoluciones incluidos intentos sin resultado; frontera N09/N10"
+              },
+              "K09.T03.B03.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Costes y recursos",
+                "description": "Referencias a actividad/partida/recurso, unidad, periodo, fuente y carga; no duplicar detalle económico"
+              },
+              "K09.T03.B03.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Hipótesis de tasas y tiempos",
+                "description": "Naturaleza, población, fuente, comparabilidad, madurez e incertidumbre; desconocido sin rango inventado"
+              },
+              "K09.T03.B03.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Restricción K12",
+                "description": "Capacidad por recurso/franja, coste/caja y dominio; efecto sobre emisión y compromiso"
+              },
+              "K09.T03.B03.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recomendación",
+                "description": "Ruta y motivo frente a alternativas; mantener, condicionar, adaptar o descartar según uso"
+              },
+              "K09.T03.B03.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Criterio de revisión",
+                "description": "Señal, ventana, umbral fundamentado o relación simbólica y decisión que cambiaría"
+              },
+              "K09.T03.B03.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Carencias y límites",
+                "description": "HUE/CON, consecuencia, productor y alcance consumible"
+              },
+              "K09.T03.B03.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Autoridad y consumidores",
+                "description": "DEC, K06/K10/K12–K17 pertinentes, campo/revisión y disposición de recepción"
+              }
+            }
+          }
+        },
+        "K09.T05.B01": {
+          "type": "array",
+          "description": "Perímetro de población y medida. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K09.T05.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Referencia",
+                "description": "K09/K10, sección/revisión, autor, fecha y estado"
+              },
+              "K09.T05.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Encargo y uso",
+                "description": "K01/revisión, E/O y combinación; moneda, impuestos, periodo y unidad económica"
+              },
+              "K09.T05.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cohorte",
+                "description": "Regla de inclusión, origen de entrada y corte; identificar sin crear otro maestro"
+              },
+              "K09.T05.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Unidad e identidad",
+                "description": "Persona, cuenta, ocasión, pedido o unidad vendida; enlace entre objetos y deduplicación"
+              },
+              "K09.T05.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Observación",
+                "description": "Ventana, fecha del evento, tiempo de seguimiento y tratamiento de entradas inmaduras"
+              },
+              "K09.T05.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Población al corte",
+                "description": "Definiciones mutuamente excluyentes de avance, cierre sin avance, pendiente y resultado desconocido"
+              },
+              "K09.T05.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Resultado medido",
+                "description": "Evento, condición, fuente y unidad; adquisición nueva distinta de renovación o segunda compra"
+              },
+              "K09.T05.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Numerador y denominador",
+                "description": "Definiciones, cobertura y compatibilidad; rutas que saltan pasos se separan"
+              },
+              "K09.T05.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Naturaleza y fundamento",
+                "description": "AF/FUE por cantidad/tasa/tiempo; observado, inferido, hipotético o desconocido"
+              },
+              "K09.T05.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Transferibilidad",
+                "description": "Origen/destino, comparabilidad, sesgo, límites y razonamiento para cada dato externo o histórico"
+              },
+              "K09.T05.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Solapamiento y atribución",
+                "description": "Ventana, regla, identidad y parte sin atribuir; atribuir no demuestra causalidad"
+              }
+            }
+          }
+        },
+        "K09.T05.B02": {
+          "type": "array",
+          "description": "Actividad y recurso — bloque repetible. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K09.T05.B02.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Actividad y frontera",
+                "description": "Preparación o tarea repetida; K09/K10 productor y consumidor, evitando doble registro"
+              },
+              "K09.T05.B02.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Impulsor",
+                "description": "Qué genera trabajo: preparación, intentos, exposiciones, respuestas, revisiones u otro evento definido"
+              },
+              "K09.T05.B02.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cantidad de ejecuciones",
+                "description": "Todas las ejecuciones pertinentes, incluso sin resultado; fuente/hipótesis y periodo"
+              },
+              "K09.T05.B02.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recurso",
+                "description": "Unidad no intercambiable, competencia y CAP; utilizar únicamente recursos y disponibilidad asignados al encargo; referencia común con K11/K12"
+              },
+              "K09.T05.B02.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Restricción y respuesta",
+                "description": "Cuello de botella, capacidad por habilitar o límite de emisión/compromiso"
+              }
+            }
+          }
+        },
+        "K09.T05.B03": {
+          "type": "array",
+          "description": "Partida y representación económica — bloque repetible. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K09.T05.B03.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Partida fuente",
+                "description": "Identificador/localización/revisión de K12; conservar una sola contabilización"
+              },
+              "K09.T05.B03.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Componentes y cobertura",
+                "description": "Trabajo, terceros, medios, datos, incentivos u otros costes pertinentes; ausencias materiales visibles"
+              },
+              "K09.T05.B03.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cantidad y tarifa",
+                "description": "Referencia de fuente, unidad, moneda/impuestos y regla de cálculo de la partida"
+              },
+              "K09.T05.B03.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Perímetro de coste",
+                "description": "Incremental, reconocido o valoración de recurso ya remunerado; relación con salario/coste común"
+              },
+              "K09.T05.B03.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Compartición",
+                "description": "Rutas y tareas consumidoras, regla de reparto y conciliación con total de origen"
+              },
+              "K09.T05.B03.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Reconocimiento y pago",
+                "description": "Periodo de reconocimiento separado de fecha/condición de pago; enlace a evento de caja"
+              },
+              "K09.T05.B03.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Comportamiento",
+                "description": "Fijo en rango, variable por unidad o función de actividad/tramo; dominio que lo justifica"
+              },
+              "K09.T05.B03.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Representación K12",
+                "description": "Total del periodo, variable por unidad sustentado o relación adicional; no introducir CAC automáticamente como variable"
+              },
+              "K09.T05.B03.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Conciliación",
+                "description": "Cómo el total de partidas se conserva sin sumar de nuevo coste por resultado o atribuciones"
+              },
+              "K09.T05.B03.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Relación coste/resultado",
+                "description": "C hasta resultado definido dividido por su cantidad positiva compatible; cero o desconocido no autorizan cociente"
+              }
+            }
+          }
+        },
+        "K09.T05.B04": {
+          "type": "array",
+          "description": "Conclusión y entrega. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K09.T05.B04.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Resultado utilizable",
+                "description": "Calculable, parcial o no calculable; límite y decisión que permite"
+              },
+              "K09.T05.B04.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Dependencia sensible",
+                "description": "Premisa, efectos conjuntos y umbral sustentado o relación simbólica; no inventar extremos"
+              },
+              "K09.T05.B04.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Carencia material",
+                "description": "HUE/CON, productor y qué compromiso queda limitado"
+              },
+              "K09.T05.B04.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consumidores y revisión",
+                "description": "N06/N12/N13 pertinentes, campo/revisión, recepción y condición CAM"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cabecera",
+    "bloques"
+  ]
+}

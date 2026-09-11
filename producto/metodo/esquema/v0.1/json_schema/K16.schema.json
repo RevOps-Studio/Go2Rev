@@ -1,0 +1,407 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Representación documental opcional de K16",
+  "$comment": "Valida únicamente estructura de una exportación textual. No valida suficiencia, exigibilidad condicional, verdad, permisos ni aceptación. Las colecciones permiten bloques repetibles. No obliga a operar Go2Rev en JSON.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cabecera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "versión": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ámbito y K01": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor y fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ubicación": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado documental": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "receptor y uso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bloques": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "K16.T06.B01": {
+          "type": "array",
+          "description": ". Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K16.T06.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Referencia",
+                "description": "K16/sección o FUE/AF localizable, revisión, autor y estado documental"
+              },
+              "K16.T06.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Protocolo previo",
+                "description": "K14/revisión, propósito, criterio y consumidor de la evidencia"
+              },
+              "K16.T06.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Encargo y ámbito",
+                "description": "K01, tarea/recorrido/población, unidad y alcance autorizado"
+              },
+              "K16.T06.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contexto efectivo",
+                "description": "Fecha, lugar/medio, entorno y condiciones conocidas/desconocidas pertinentes"
+              },
+              "K16.T06.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Ejecutor y receptor",
+                "description": "Identidad/rol, responsabilidad y presencia efectiva; separar declaración de observación directa"
+              },
+              "K16.T06.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Entrada utilizada",
+                "description": "Original/localizador, revisión y condiciones realmente presentes"
+              },
+              "K16.T06.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Material y regla",
+                "description": "K15, oferta/transición/cálculo y versiones efectivamente utilizadas"
+              },
+              "K16.T06.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Acción realizada",
+                "description": "Secuencia observada y diferencia frente al procedimiento previsto"
+              },
+              "K16.T06.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Resultado original",
+                "description": "Salida o rastro íntegro autorizado; no reescribirlo tras interpretar o corregir"
+              },
+              "K16.T06.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evidencia y localizador",
+                "description": "FUE, cobertura, autor/origen y qué acredita exactamente"
+              },
+              "K16.T06.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Ayuda o intervención",
+                "description": "Guía normal, familiarización y ayuda adicional separadas; efecto sobre autonomía atribuible"
+              },
+              "K16.T06.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Estado frente al criterio",
+                "description": "Cumplido, incumplido, inconcluyente o no ejecutado con motivo, solo para preparación"
+              },
+              "K16.T06.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Lectura de la pregunta",
+                "description": "Para investigación: AF respaldada/contradicha/no resuelta, razonamiento y alcance; sin aprobado general"
+              },
+              "K16.T06.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Desviación o carencia",
+                "description": "Qué cambió o no se observó; causa conocida, inferida o pendiente"
+              },
+              "K16.T06.B01.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consecuencia",
+                "description": "Compromiso/tarea afectados, criticidad por efecto y uso que debe limitarse"
+              },
+              "K16.T06.B01.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Esfuerzo y coste",
+                "description": "Actividad, recurso y partida K12, incluidos intentos sin resultado; sin doble imputación"
+              },
+              "K16.T06.B01.F17": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Productor de corrección",
+                "description": "N01 o N03–N15 pertinente, campo/revisión y cambio requerido"
+              },
+              "K16.T06.B01.F18": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Corrección propuesta",
+                "description": "Causa, modificación, autoridad necesaria si cambia compromiso y nueva revisión"
+              },
+              "K16.T06.B01.F19": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Repetición justificada",
+                "description": "Cobertura afectada, recursos/límite y relación con intento previo; no repetir hasta aprobar"
+              },
+              "K16.T06.B01.F20": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Conclusión y límite",
+                "description": "Qué puede afirmarse, qué permanece desconocido y qué evidencia cambiaría la conclusión"
+              },
+              "K16.T06.B01.F21": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisión y recepción",
+                "description": "DEC/consumidor, disposición y siguiente tarea; separado de la evidencia"
+              },
+              "K16.T06.B01.F22": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Conservación y cambio",
+                "description": "Original preservado, versiones y CAM cuando proceda"
+              }
+            }
+          }
+        },
+        "K16.T07.B01": {
+          "type": "array",
+          "description": ". Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K16.T07.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Referencia",
+                "description": "K16/sección/revisión, autor, fecha, ubicación y estado documental"
+              },
+              "K16.T07.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Encargo",
+                "description": "K01/revisión, entrega/obligación y condición de recepción"
+              },
+              "K16.T07.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Tarea y recorrido",
+                "description": "Situación, decisión, acción, registro y receptor; variantes pertinentes"
+              },
+              "K16.T07.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Criticidad",
+                "description": "Consecuencia de fallo o ausencia para el compromiso, no puntuación por facilidad"
+              },
+              "K16.T07.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condiciones cubiertas",
+                "description": "Dominio normal y excepciones materiales seleccionadas con motivo"
+              },
+              "K16.T07.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Material y medio",
+                "description": "K15/regla/revisión, entorno y disponibilidad requeridos"
+              },
+              "K16.T07.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Operador y receptor",
+                "description": "Rol/persona/capacidad a observar y ayuda ordinaria prevista"
+              },
+              "K16.T07.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Tipo de evidencia",
+                "description": "Contenido/archivo, cálculo, captura, uso/traspaso o evidencia de mercado separada"
+              },
+              "K16.T07.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Protocolo y criterio",
+                "description": "K14/revisión y condición previa específica"
+              },
+              "K16.T07.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Estado observado",
+                "description": "Resultado/localizador de cada criterio, fecha/contexto y límites"
+              },
+              "K16.T07.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Carencia de cobertura",
+                "description": "Tarea, variante, condición o capacidad no observada; motivo y efecto"
+              },
+              "K16.T07.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Defecto pendiente",
+                "description": "Causa/productor, uso limitado y condición de corrección"
+              },
+              "K16.T07.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Reutilización",
+                "description": "Qué observación previa se conserva y por qué equivale para este uso"
+              },
+              "K16.T07.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Conclusión por ámbito",
+                "description": "Diseñado, preparado o comprobado según evidencia; parcial/condicionado si procede"
+              },
+              "K16.T07.B01.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Alcance no acreditado",
+                "description": "Qué no puede extenderse a otros medios, operadores, volumen, variantes o resultados comerciales"
+              },
+              "K16.T07.B01.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Preparación para recepción",
+                "description": "Obligaciones recibibles y límites que N17 debe comunicar"
+              },
+              "K16.T07.B01.F17": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisión y siguiente acción",
+                "description": "Consultor evalúa; autoridad/receptor según K01; responsable y condición posterior"
+              },
+              "K16.T07.B01.F18": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cambio y conservación",
+                "description": "CAM pertinente, versiones originales y cobertura que requiere nueva comprobación"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cabecera",
+    "bloques"
+  ]
+}

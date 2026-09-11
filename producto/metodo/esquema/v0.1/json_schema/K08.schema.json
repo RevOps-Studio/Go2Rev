@@ -1,0 +1,277 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Representación documental opcional de K08",
+  "$comment": "Valida únicamente estructura de una exportación textual. No valida suficiencia, exigibilidad condicional, verdad, permisos ni aceptación. Las colecciones permiten bloques repetibles. No obliga a operar Go2Rev en JSON.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cabecera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "versión": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ámbito y K01": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor y fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ubicación": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado documental": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "receptor y uso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bloques": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "K08.T01.B01": {
+          "type": "array",
+          "description": ". Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K08.T01.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cabecera",
+                "description": "K08, K01, revisión, autor/fecha, ámbito, estado y ubicación"
+              },
+              "K08.T01.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Uso y combinación",
+                "description": "E/O y K06/revisión/sección cuando exista; decisión solicitada"
+              },
+              "K08.T01.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Entradas",
+                "description": "K02/K04/K05 y K06/K07/K11/K12 pertinentes, campos y versiones"
+              },
+              "K08.T01.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recorrido",
+                "description": "A/B; TRA/CAP y efecto en oferta"
+              },
+              "K08.T01.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Situación y alternativa",
+                "description": "Necesidad, desencadenante, alternativa actual y fundamento"
+              },
+              "K08.T01.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Roles",
+                "description": "Usuario, beneficiario, comprador, intermediario y pagador"
+              },
+              "K08.T01.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Unidades",
+                "description": "Valor, venta, entrega, facturación y recurso; conversión y periodo"
+              },
+              "K08.T01.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Configuración",
+                "description": "Contenido, módulos/dependencias, límites, opciones y razón de elección"
+              },
+              "K08.T01.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Compromiso",
+                "description": "Entrega controlable, responsable, AF/DEC y condiciones"
+              },
+              "K08.T01.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Requisitos de entrada",
+                "description": "Insumos, permisos y condición para iniciar"
+              },
+              "K08.T01.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Exclusiones y derechos",
+                "description": "Frontera, uso/transferencia pertinente y condiciones"
+              },
+              "K08.T01.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Finalización",
+                "description": "Criterio de conformidad, receptor y cierre"
+              },
+              "K08.T01.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fundamento interno",
+                "description": "Coste/capacidad/caja y AF; huecos"
+              },
+              "K08.T01.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fundamento externo",
+                "description": "Alternativa, unidad/alcance/periodo y AF/FUE leída"
+              },
+              "K08.T01.B01.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contraste y conclusión",
+                "description": "Comparabilidad, mecanismo, AF derivada, implicación y refutación"
+              },
+              "K08.T01.B01.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Compra y valor",
+                "description": "Criterio K04 y evidencia/hipótesis de respuesta"
+              },
+              "K08.T01.B01.F17": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Mecanismo de precio",
+                "description": "Base, contador/evento, regla, límites y discusión"
+              },
+              "K08.T01.B01.F18": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Importe o intervalo",
+                "description": "Moneda, unidad, extremos sustentados o desconocido"
+              },
+              "K08.T01.B01.F19": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Precio neto",
+                "description": "Descuentos/base/orden, comisiones, ajustes y no duplicación"
+              },
+              "K08.T01.B01.F20": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Condiciones económicas",
+                "description": "Impuestos, vigencia, facturación, vencimientos y cobro"
+              },
+              "K08.T01.B01.F21": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Continuidad",
+                "description": "Renovación, revisión, cancelación, devolución y soporte pertinentes"
+              },
+              "K08.T01.B01.F22": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Estado de propuesta",
+                "description": "Referencia/hipótesis/condición autorizada/evidencia de respuesta, con rastro"
+              },
+              "K08.T01.B01.F23": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Alternativas y recomendación",
+                "description": "Razón de preferencia, límites y condición contraria"
+              },
+              "K08.T01.B01.F24": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Autoridad",
+                "description": "DEC para compromiso/excepción y alcance de autorización"
+              },
+              "K08.T01.B01.F25": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consumo y revisión",
+                "description": "Campo/revisión, receptor, uso, admisión/límite; CAM/disparador"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cabecera",
+    "bloques"
+  ]
+}

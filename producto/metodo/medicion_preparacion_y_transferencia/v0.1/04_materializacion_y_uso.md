@@ -2,7 +2,24 @@
 
 Versión 0.1 · Productor de K15
 
-Empezar con la [primera pasada de N15](../../operacion_conversacional/v0.2/10_primera_pasada.md#n15) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N15](../../operacion_conversacional/v0.3/10_primera_pasada.md#n15) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
+
+<!-- procedimiento:inicio -->
+## Procedimiento de primera pasada
+
+Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+
+1. Recuperar diseño pertinente y K14. Identificar tarea del operador, entrada, acción/contenido, excepción, salida y siguiente receptor.
+2. Producir la pieza útil en su fuente editable y preparar la vista apropiada. Abrir las pautas por tipo de material cuando cambien estructura, medio o condiciones de uso.
+3. Aplicar configuraciones autorizadas con el responsable del medio; verificar guardado, acceso y dependencias. Registrar qué está preparado y qué permanece pendiente.
+4. Revisar contenido y presentación y entregar K15 a N16 con versión, guía y criterio previo. Resolver en el productor los defectos documentales antes del uso que dependa de ellos.
+
+**Bloques de salida:** K15.T05.B01. Su condición y momento gobiernan la exigibilidad; las piezas auxiliares se abren según la tarea.
+<!-- procedimiento:fin -->
+
+## Referencia sustantiva y condiciones de ampliación
+
 
 ## Decisión y entradas
 

@@ -1,0 +1,507 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Representación documental opcional de K07",
+  "$comment": "Valida únicamente estructura de una exportación textual. No valida suficiencia, exigibilidad condicional, verdad, permisos ni aceptación. Las colecciones permiten bloques repetibles. No obliga a operar Go2Rev en JSON.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cabecera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "versión": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ámbito y K01": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor y fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ubicación": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado documental": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "receptor y uso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bloques": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "K07.T01.B01": {
+          "type": "array",
+          "description": "Identificación y pregunta. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K07.T01.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Referencia",
+                "description": "K07, revisión, ubicación, autor, fecha y estado documental"
+              },
+              "K07.T01.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Encargo y uso",
+                "description": "K01/revisión, ámbito y uso E/O de los campos"
+              },
+              "K07.T01.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Combinación",
+                "description": "Referencia estable a la combinación de comprador, oferta y ruta examinada"
+              },
+              "K07.T01.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisión habilitada",
+                "description": "K06/DEC y compromiso; en estudio previo, identificar carácter exploratorio"
+              },
+              "K07.T01.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Situación de compra",
+                "description": "K04/campo/revisión: necesidad, desencadenante, roles y decisión"
+              },
+              "K07.T01.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Alternativas reales",
+                "description": "K05/campo/revisión: qué se compara, incluida continuidad o resolución interna cuando proceda"
+              },
+              "K07.T01.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Oferta y capacidad",
+                "description": "K08, K11, K12 y CAP pertinentes; compromisos y límites efectivos"
+              },
+              "K07.T01.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Traslado o iniciativa",
+                "description": "TRA de origen/destino en A; intención, representación y CAP en B"
+              }
+            }
+          }
+        },
+        "K07.T01.B02": {
+          "type": "array",
+          "description": "Marco candidato — bloque repetible. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K07.T01.B02.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Localización del candidato",
+                "description": "Sección estable dentro de K07; descripción comprensible"
+              },
+              "K07.T01.B02.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Marco de referencia",
+                "description": "Categoría/subcategoría/combinación o marco nuevo y motivo para considerarlo"
+              },
+              "K07.T01.B02.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Comparación inducida",
+                "description": "Alternativas y criterios que el comprador tendería a usar; AF que sostiene la inferencia"
+              },
+              "K07.T01.B02.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Promesa",
+                "description": "Beneficio, mecanismo, compromiso controlable y condiciones"
+              },
+              "K07.T01.B02.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Razones para creer",
+                "description": "Requisito básico, característica, capacidad, evidencia de resultado o preferencia; no exigir que todas diferencien"
+              },
+              "K07.T01.B02.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Afirmaciones internas",
+                "description": "AF y fuente/revisión; distinguir declaración, observación, inferencia e hipótesis"
+              },
+              "K07.T01.B02.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evidencia externa",
+                "description": "AF/FUE y cobertura: comprador, alternativa o expectativa pertinente"
+              },
+              "K07.T01.B02.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Comparabilidad",
+                "description": "Coincidencias y diferencias de población, problema, oferta, tiempo y contexto"
+              },
+              "K07.T01.B02.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Conclusión derivada",
+                "description": "AF con premisas, razonamiento y campo de posicionamiento afectado"
+              },
+              "K07.T01.B02.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Expectativas creadas",
+                "description": "Alcance, precio, entrega, prueba y condiciones que el marco hace esperar"
+              },
+              "K07.T01.B02.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Esfuerzo de comprensión",
+                "description": "Educación, materiales y trabajo necesarios; implicación para K09/K10/K12"
+              },
+              "K07.T01.B02.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Explicación contraria",
+                "description": "Qué otra interpretación encaja y qué evidencia cambiaría la elección"
+              },
+              "K07.T01.B02.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Carencias materiales",
+                "description": "HUE/CON, consecuencia y uso que no puede sostenerse todavía"
+              }
+            }
+          }
+        },
+        "K07.T01.B03": {
+          "type": "array",
+          "description": "Comparación y recomendación. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K07.T01.B03.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Comparación razonada",
+                "description": "Comprensión, relevancia, contraste, fundamento y capacidad; sin promedio que oculte una condición indispensable"
+              },
+              "K07.T01.B03.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Marco recomendado",
+                "description": "Elección, motivo frente a alternativas y límites de uso"
+              },
+              "K07.T01.B03.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Afirmaciones utilizables",
+                "description": "Qué puede decirse, a quién, con qué evidencia y bajo qué condiciones"
+              },
+              "K07.T01.B03.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Afirmaciones pendientes",
+                "description": "Qué se condiciona, reformula o retira y dependencia afectada"
+              },
+              "K07.T01.B03.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisión y autoridad",
+                "description": "DEC, responsable del compromiso y condiciones; no confundir aceptación con evidencia de preferencia"
+              },
+              "K07.T01.B03.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consumidores",
+                "description": "K08/K09/K10/K15 u otros: campo, revisión, tarea y disposición de recepción"
+              },
+              "K07.T01.B03.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Revisión ante cambios",
+                "description": "Premisa que reabre la elección, productor y consumidores; CAM cuando cambie"
+              }
+            }
+          }
+        },
+        "K07.T02.B01": {
+          "type": "array",
+          "description": ". Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K07.T02.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Referencia y estado",
+                "description": "K07/sección/revisión, autor, fecha y estado documental"
+              },
+              "K07.T02.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Encargo y uso",
+                "description": "K01/revisión, ámbito y uso E/O de estos campos"
+              },
+              "K07.T02.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Destinatario",
+                "description": "Situación y rol de K04; conocimiento y decisión que necesita resolver"
+              },
+              "K07.T02.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Función del mensaje",
+                "description": "Reconocer, comprender, comparar, resolver un riesgo o asumir un compromiso según la compra"
+              },
+              "K07.T02.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Lugar en la ruta",
+                "description": "K09/K10, momento, origen del contacto y contexto de lectura/uso"
+              },
+              "K07.T02.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Oferta vigente",
+                "description": "K08/revisión: unidad, alcance, precio/condiciones pertinentes y exclusiones"
+              },
+              "K07.T02.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Núcleo compartido",
+                "description": "Marco, promesa y condiciones de K07 que deben conservarse entre roles y piezas"
+              },
+              "K07.T02.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Adaptación al rol",
+                "description": "Lenguaje, detalle y evidencia pertinentes sin alterar el compromiso común"
+              },
+              "K07.T02.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Mensaje propuesto",
+                "description": "Texto para el propósito indicado; incertidumbre visible si la afirmación es hipotética"
+              },
+              "K07.T02.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Afirmación material",
+                "description": "AF/revisión y naturaleza de cada afirmación que sustenta el compromiso"
+              },
+              "K07.T02.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Tipo de razón",
+                "description": "Requisito de confianza, atributo, diferencia, mecanismo o resultado documentado; delimitar qué demuestra"
+              },
+              "K07.T02.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Premisa interna",
+                "description": "AF/FUE, capacidad propia, alcance observado y límite de transferencia"
+              },
+              "K07.T02.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evidencia externa",
+                "description": "AF/FUE, original y alcance; publicación propia no es corroboración independiente"
+              },
+              "K07.T02.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cruce y conclusión",
+                "description": "Comparabilidad, razonamiento, AF derivada y frase/campo afectado; incluir hallazgo externo nuevo cuando proceda"
+              },
+              "K07.T02.B01.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evidencia contraria",
+                "description": "Alternativa explicativa, tensión o condición que limita la afirmación"
+              },
+              "K07.T02.B01.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Demostración o soporte requerido",
+                "description": "Recurso que haría comprensible o comprobable la afirmación y su CAP; su identificación no acredita ejecución"
+              },
+              "K07.T02.B01.F17": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Límites de comunicación",
+                "description": "Condiciones, reservas, datos sin acreditar y texto que debe reformularse o retirarse"
+              },
+              "K07.T02.B01.F18": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Acción propuesta",
+                "description": "Siguiente decisión/acción comprensible, información necesaria, receptor y compromiso que activa"
+              },
+              "K07.T02.B01.F19": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Pieza y medio",
+                "description": "Formato y lugar pertinentes, condiciones de acceso, accesibilidad y recepción para N15"
+              },
+              "K07.T02.B01.F20": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Permisos y autoridad",
+                "description": "Alcance de redacción, revisión, publicación o contacto según K01/DEC; conservar distinción"
+              },
+              "K07.T02.B01.F21": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Criterio de recepción",
+                "description": "Coherencia con oferta, fundamento, legibilidad, acción/receptor y medio disponible para el uso"
+              },
+              "K07.T02.B01.F22": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consumo y revisión",
+                "description": "Consumidor/campo/revisión, disposición y cambio que exigiría retirar o actualizar la pieza"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cabecera",
+    "bloques"
+  ]
+}

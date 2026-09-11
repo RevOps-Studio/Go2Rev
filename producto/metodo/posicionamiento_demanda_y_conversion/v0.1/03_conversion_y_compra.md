@@ -2,7 +2,24 @@
 
 Versión 0.1 · Productor de K10
 
-Empezar con la [primera pasada de N10](../../operacion_conversacional/v0.2/10_primera_pasada.md#n10) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N10](../../operacion_conversacional/v0.3/10_primera_pasada.md#n10) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
+
+<!-- procedimiento:inicio -->
+## Procedimiento de primera pasada
+
+Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+
+1. Recuperar compra K04, oferta K08, ruta K09 y condiciones K11/K12. Representar objeto de trabajo, decisiones del comprador, estados y eventos observables.
+2. Definir para cada transición el criterio discriminante, acción, responsable, información y receptor. Separar pertinencia e intención; incorporar retorno, excepción y cierre.
+3. Abrir recepción/seguimiento para fijar cadencia conforme a ventana de compra, permiso y capacidad. Abrir costes y cohortes antes de valorar el recorrido.
+4. Entregar K10 con evidencia de evento, traspasos, condiciones económicas y límites. Para automatizar, transmitir a N14/N15 eventos, excepciones y autoridad y fijar la comprobación pertinente.
+
+**Bloques de salida:** K10.T04.B01, K10.T04.B02, K10.T04.B03. Su condición y momento gobiernan la exigibilidad; las piezas auxiliares se abren según la tarea.
+<!-- procedimiento:fin -->
+
+## Referencia sustantiva y condiciones de ampliación
+
 
 ## Decisión y entradas
 

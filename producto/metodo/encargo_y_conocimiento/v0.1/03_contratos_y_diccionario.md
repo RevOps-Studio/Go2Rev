@@ -96,4 +96,4 @@ Un consumidor que necesita mayor suficiencia identifica qué nueva conclusión p
 4. Corregir primero productores, luego consumidores. Preservar versiones que justificaron decisiones anteriores. Solicitar nueva autoridad solo si cambia el compromiso o vence su condición.
 5. Cerrar el cambio con versiones resultantes, disposiciones verificadas documentalmente y condiciones pendientes visibles. Un cambio de sesión no es un CAM por sí mismo.
 
-N17 conserva la continuidad de decisiones y cambios en la prestación. Este componente construye la semántica mínima que necesitan los nodos; no añade maestros al desarrollo de Go2Rev.
+N17 conserva la continuidad de decisiones y cambios en la prestación.

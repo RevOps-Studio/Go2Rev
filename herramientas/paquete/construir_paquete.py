@@ -8,7 +8,7 @@ import re
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[2]
-PACKAGE = ROOT / 'producto/paquete_fundacional/v0.3'
+PACKAGE = ROOT / 'producto/paquete_fundacional/v0.4'
 MANIFEST = PACKAGE / 'manifiesto.json'
 INVENTORY = PACKAGE / 'INVENTARIO.md'
 COMPONENTS = [
@@ -18,11 +18,14 @@ COMPONENTS = [
     ('Oferta entrega y economía', '0.1', 'producto/metodo/oferta_entrega_y_economia/v0.1'),
     ('Posicionamiento demanda y conversión', '0.1', 'producto/metodo/posicionamiento_demanda_y_conversion/v0.1'),
     ('Medición preparación y transferencia', '0.1', 'producto/metodo/medicion_preparacion_y_transferencia/v0.1'),
-    ('Operación conversacional', '0.2', 'producto/metodo/operacion_conversacional/v0.2'),
-    ('Paquete fundacional', '0.3', 'producto/paquete_fundacional/v0.3'),
+    ('Operación conversacional', '0.3', 'producto/metodo/operacion_conversacional/v0.3'),
+    ('Definición de formatos', '0.1', 'producto/metodo/esquema/v0.1'),
+    ('Paquete fundacional', '0.4', 'producto/paquete_fundacional/v0.4'),
 ]
 TOOL_FILES = [
     'herramientas/documentos/LEEME.md',
+    'herramientas/documentos/requirements.txt',
+    'herramientas/documentos/renderizar_libreoffice.py',
     'herramientas/documentos/construir_lectura.py',
     'herramientas/documentos/renderizar_word.ps1',
     'herramientas/documentos/renderizar_paginas.py',
@@ -32,8 +35,9 @@ TOOL_FILES = [
     'herramientas/paquete/LEEME.md',
     'herramientas/paquete/construir_paquete.py',
     'herramientas/paquete/construir_lecturas.py',
+    'herramientas/paquete/construir_plantillas.py',
 ]
-START = '# Go2Rev Base fundacional 0.3\n\nAbrir el [paquete y guía de implementación](producto/paquete_fundacional/v0.3/LEEME.md). La base está construida y conserva su estado teórico. La primera aplicación y sus comprobaciones requieren un ámbito autorizado.\n\nLa carpeta producto contiene las fuentes, plantillas vacías, libro editable y vistas de lectura. Herramientas contiene los generadores opcionales; no hace falta ejecutarlos para leer o utilizar el método. El inventario y manifiesto están junto a la guía del paquete.\n'
+START = '# Go2Rev Base fundacional 0.4\n\nAbrir el [paquete y guía de implementación](producto/paquete_fundacional/v0.4/LEEME.md). La base está construida y conserva su estado teórico. La primera aplicación y sus comprobaciones requieren un ámbito autorizado.\n\nLa carpeta producto contiene las fuentes, plantillas vacías, libro editable y vistas de lectura. Herramientas contiene los generadores opcionales; no hace falta ejecutarlos para leer o utilizar el método. El inventario y manifiesto están junto a la guía del paquete.\n'
 
 
 def sha(data):
@@ -42,7 +46,13 @@ def sha(data):
 
 def role(path):
     if '/plantillas/' in path:
-        return 'Plantilla vacía'
+        return 'Plantilla vacía derivada'
+    if path.endswith('plantillas.json'):
+        return 'Definición editable de formatos'
+    if '/json_schema/' in path:
+        return 'Esquema estructural derivado opcional'
+    if path.endswith('10_primera_pasada.md'):
+        return 'Índice derivado de núcleo'
     if path.endswith('.docx'):
         return 'Vista de lectura derivada'
     if path.endswith('.xlsx'):
@@ -79,12 +89,12 @@ def main():
     for name in TOOL_FILES:
         if not (ROOT / name).is_file():
             raise FileNotFoundError(name)
-        paths[name] = ('Herramientas documentales', 'conjunto 0.3')
+        paths[name] = ('Herramientas documentales', 'conjunto 0.4')
     for p in [INVENTORY, MANIFEST]:
-        paths[p.relative_to(ROOT).as_posix()] = ('Paquete fundacional', '0.3')
-    lines = ['# Inventario de la distribución', '', 'Conjunto fundacional 0.3 · 11 de septiembre de 2026', '',
+        paths[p.relative_to(ROOT).as_posix()] = ('Paquete fundacional', '0.4')
+    lines = ['# Inventario de la distribución', '', 'Conjunto fundacional 0.4 · 11 de septiembre de 2026', '',
              f'La distribución contiene {len(paths) + 1} archivos: los enumerados aquí y la entrada INICIO.md situada en la raíz del ZIP. El manifiesto incluye la huella de todos salvo la suya propia. Este índice es un derivado de rutas y funciones; no es un maestro ni un resultado de aplicación.', '',
-             'Las versiones base se fijan con la revisión de integración del conjunto 0.3. El manifiesto distingue el contenido exacto tras las correcciones editoriales. Las vistas derivadas y herramientas están identificadas como tales.', '']
+             'Las versiones base se fijan con la revisión de integración del conjunto 0.4. El manifiesto distingue el contenido exacto tras las correcciones editoriales. Las vistas derivadas y herramientas están identificadas como tales.', '']
     labels = [c[0] for c in COMPONENTS] + ['Herramientas documentales']
     for label in labels:
         lines += ['## ' + label, '', '| Archivo | Función | Versión base |', '|---|---|---|']
@@ -98,11 +108,11 @@ def main():
     content['INICIO.md'] = START.encode('utf-8')
     entries = []
     for name, data in sorted(content.items()):
-        group, version = paths.get(name, ('Entrada de distribución', '0.3'))
+        group, version = paths.get(name, ('Entrada de distribución', '0.4'))
         entries.append({'ruta': name, 'componente': group, 'version_base': version,
                         'funcion': 'Entrada derivada' if name == 'INICIO.md' else role(name),
                         'bytes': len(data), 'sha256': sha(data)})
-    manifest = {'producto': 'Go2Rev', 'version_conjunto': '0.3', 'fecha': '2026-09-11',
+    manifest = {'producto': 'Go2Rev', 'version_conjunto': '0.4', 'fecha': '2026-09-11',
                 'estado': 'Construcción cerrada; base teórica sin pruebas de la metodología',
                 'revision_integracion': 'Puesta en marcha y modelo económico 2026-09-11',
                 'entrada': 'INICIO.md', 'archivos_totales': len(content) + 1,
@@ -122,7 +132,7 @@ def main():
                 raise ValueError(f'Enlace fuera del paquete o ausente: {name}: {target}')
     output = ROOT / 'entregables'
     output.mkdir(exist_ok=True)
-    dest = output / 'Go2Rev_fundacional_v0.3.zip'
+    dest = output / 'Go2Rev_fundacional_v0.4.zip'
     with zipfile.ZipFile(dest, 'w', compression=zipfile.ZIP_DEFLATED) as z:
         for name, data in sorted(content.items()):
             info = zipfile.ZipInfo(name, date_time=(2026, 9, 11, 0, 0, 0))
@@ -136,7 +146,7 @@ def main():
         for entry in entries:
             if sha(z.read(entry['ruta'])) != entry['sha256']:
                 raise ValueError('Contenido de distribución no coincide')
-    (output / 'Go2Rev_fundacional_v0.3.sha256').write_text(sha(dest.read_bytes()) + '  ' + dest.name + '\n', encoding='utf-8', newline='\n')
+    (output / 'Go2Rev_fundacional_v0.4.sha256').write_text(sha(dest.read_bytes()) + '  ' + dest.name + '\n', encoding='utf-8', newline='\n')
     print(json.dumps({'archivos': len(content), 'huellas': len(entries), 'zip': str(dest)}, ensure_ascii=True))
 
 

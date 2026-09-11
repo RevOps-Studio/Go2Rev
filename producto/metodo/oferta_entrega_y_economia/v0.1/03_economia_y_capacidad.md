@@ -2,11 +2,28 @@
 
 Versión 0.1 · Productor de K12
 
-Empezar con la [primera pasada de N12](../../operacion_conversacional/v0.2/10_primera_pasada.md#n12) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.2/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N12](../../operacion_conversacional/v0.3/10_primera_pasada.md#n12) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+
+
+<!-- procedimiento:inicio -->
+## Procedimiento de primera pasada
+
+Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+
+1. Recuperar una combinación identificada K08–K11. Delimitar perímetro, unidades, periodos, cohortes y fundamento de cada entrada; abrir partidas y caja antes de construir el cálculo.
+2. Aplicar fórmulas y dominio de la extensión; conciliar costes, recursos y eventos. Si se utiliza el libro, abrir su guía y respetar las relaciones adicionales de la variante que queden fuera de su automatización.
+3. Calcular los bloques suficientemente fundamentados y localizar restricciones de capacidad, margen y caja. Abrir comparación/umbrales para contrastar alternativas y dependencias bajo variaciones defendibles.
+4. Entregar K12 con cálculo editable, supuestos, no calculable y límites cuando proceda. Precisar qué elección admite y qué cambio de combinación o premisa obliga a revisar.
+
+**Bloques de salida:** K12.T05.B01. Su condición y momento gobiernan la exigibilidad; las piezas auxiliares se abren según la tarea.
+<!-- procedimiento:fin -->
+
+## Referencia sustantiva y condiciones de ampliación
+
 
 ## Pregunta y perímetro
 
-Determinar qué puede sostenerse bajo una combinación explícita, qué impide comprometerla y qué cambio merece consideración. Separar economía de la iniciativa, economía de prestar Go2Rev y desarrollo del producto.
+Determinar qué puede sostenerse bajo una combinación explícita, qué impide comprometerla y qué cambio merece consideración. Separar economía de la iniciativa y economía de prestar Go2Rev.
 
 Recibir K08 unidad/condiciones, K09 actividad y coste de toda la cohorte, K10 esfuerzo comercial y tiempos, K11 trabajo/cobro/pago y K02 recursos. E no exige K06 final. Si falta acceso o compra, calcular las partes sustentadas y declarar adquisición/venta incompletas; no emitir una conclusión integral de sostenibilidad con esa ausencia.
 

@@ -1,0 +1,649 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Representación documental opcional de K01",
+  "$comment": "Valida únicamente estructura de una exportación textual. No valida suficiencia, exigibilidad condicional, verdad, permisos ni aceptación. Las colecciones permiten bloques repetibles. No obliga a operar Go2Rev en JSON.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cabecera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "versión": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ámbito y K01": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor y fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ubicación": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado documental": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "receptor y uso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bloques": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "K01.T01.B01": {
+          "type": "array",
+          "description": "Identidad y vigencia. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K01.T01.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Identificación de la prestación",
+                "description": "Identificador que agrupa sus archivos; consultor; EVAL"
+              },
+              "K01.T01.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "ID y revisión de K01",
+                "description": "Identidad lógica y contenido vigente; consultor; EVAL"
+              },
+              "K01.T01.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Fecha y autor de elaboración",
+                "description": "Fecha y responsable de redacción; EVAL"
+              },
+              "K01.T01.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Versión del método utilizada",
+                "description": "Referencia a la versión fundacional empleada; EVAL"
+              },
+              "K01.T01.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Estado de edición y revisión documental",
+                "description": "Borrador/revisado/sustituido; revisor, fecha y alcance; distinto de aceptación; EVAL"
+              },
+              "K01.T01.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Ubicación y versión sustituida",
+                "description": "Localizador actual y anterior, cuando exista; EVAL"
+              }
+            }
+          }
+        },
+        "K01.T01.B02": {
+          "type": "array",
+          "description": "Mandato y unidad de encargo. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K01.T01.B02.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Mandato original",
+                "description": "Enunciado del patrocinador, autor, fecha y fuente/localizador; EVAL"
+              },
+              "K01.T01.B02.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Objetivo empresarial",
+                "description": "Resultado deseado y horizonte; patrocinador; diferenciarlo del compromiso del servicio; EVAL"
+              },
+              "K01.T01.B02.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Pregunta de evaluación",
+                "description": "Decisión que Diagnostic debe informar, incertidumbre y qué cambiaría la elección; consultor; EVAL"
+              },
+              "K01.T01.B02.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Iniciativa",
+                "description": "Unidad de trabajo concreta y frontera con otras iniciativas; consultor propone/patrocinador decide; EVAL"
+              },
+              "K01.T01.B02.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recorrido",
+                "description": "A o B y motivo; definición del Producto; EVAL"
+              },
+              "K01.T01.B02.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Representación de oferta",
+                "description": "Unidad, destinatario supuesto, mecanismo, contenido entregable, forma de entrega/cobro y capacidades necesarias; producto/operación; EVAL"
+              },
+              "K01.T01.B02.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Situación de compra",
+                "description": "Circunstancia que justifica investigar y naturaleza de lo conocido; consultor a partir de fuentes; EVAL"
+              },
+              "K01.T01.B02.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Origen",
+                "description": "Ámbito previo y qué se pretende transferir; A"
+              },
+              "K01.T01.B02.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Destino",
+                "description": "Contexto nuevo y diferencias conocidas o desconocidas; A"
+              },
+              "K01.T01.B02.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Intención y estado de habilitación",
+                "description": "Separación entre propósito, representación y capacidad; B"
+              },
+              "K01.T01.B02.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Mercado y segmento",
+                "description": "Ámbito acordado o conjunto acotado por decidir en Diagnostic; patrocinador/consultor; EVAL"
+              },
+              "K01.T01.B02.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Alternativas admitidas",
+                "description": "Criterios de inclusión/exclusión y regla de elección del foco; consultor propone; EVAL"
+              },
+              "K01.T01.B02.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Variantes relevantes",
+                "description": "Forma de venta, roles de compra/uso/pago, tipo de entrega y recurrencia; desconocidos explícitos; EVAL"
+              },
+              "K01.T01.B02.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Restricciones",
+                "description": "Límites de recursos, tiempo, alcance y condiciones especializadas; productor y fundamento por límite; EVAL"
+              },
+              "K01.T01.B02.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Hechos, interpretaciones y pendientes",
+                "description": "Referencias a FUE/AF/HUE o localizadores iniciales; cada campo material conserva su naturaleza; EVAL"
+              }
+            }
+          }
+        },
+        "K01.T01.B03": {
+          "type": "array",
+          "description": "Entrega y acompañamiento · Bloque repetible por entrega comprometida. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K01.T01.B03.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Identificador y conjunto de entrega",
+                "description": "Evaluación, diseño, economía editable, kit inicial o despliegue/transferencia; consultor; CONTR"
+              },
+              "K01.T01.B03.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Finalidad y destinatario",
+                "description": "Decisión o tarea que permite y quién lo recibe; CONTR"
+              },
+              "K01.T01.B03.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contenido controlable",
+                "description": "Componentes, profundidad y formato editable; consultor; CONTR"
+              },
+              "K01.T01.B03.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Dependencias y aportaciones",
+                "description": "Materiales, decisiones y medios, con responsable y momento necesario; CONTR"
+              },
+              "K01.T01.B03.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Criterio de recepción",
+                "description": "Contenido y estado que se comprobarán durante la prestación; distinguirlo de resultado comercial; CONTR"
+              },
+              "K01.T01.B03.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Exclusiones y límites",
+                "description": "Trabajo fuera del compromiso y capacidades por habilitar; CONTR"
+              },
+              "K01.T01.B03.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Actuaciones de acompañamiento",
+                "description": "Acción, responsable, insumo, salida y revisión incluida; CONTR cuando se ofrezca acompañamiento"
+              },
+              "K01.T01.B03.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Finalización del acompañamiento",
+                "description": "Evento, duración o límite acordado y atención posterior prevista; CONTR cuando se ofrezca"
+              },
+              "K01.T01.B03.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Derechos y condiciones de entrega",
+                "description": "Uso de editables, custodia, transferencia y restricciones acordadas; CONTR"
+              },
+              "K01.T01.B03.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cobertura contractual",
+                "description": "Documento/localizador que recoge la obligación y DEC pertinente; CONTR"
+              }
+            }
+          }
+        },
+        "K01.T01.B04": {
+          "type": "array",
+          "description": "Evaluación recibible aunque no continúe la construcción. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K01.T01.B04.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Alcance propio de Diagnostic",
+                "description": "Preguntas, alternativas y límites de investigación; consultor; CONTR"
+              },
+              "K01.T01.B04.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contenido de evaluación",
+                "description": "Fuentes, análisis, restricciones, economía exploratoria, recomendación y condiciones de revisión; CONTR"
+              },
+              "K01.T01.B04.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Destinatario y recepción",
+                "description": "Quién recibe, qué se entrega y cómo se constata la recepción; CONTR"
+              },
+              "K01.T01.B04.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Conexión con N06 y N17",
+                "description": "Campos de recomendación y cierre que deben producir; sin anticipar su resultado; CONTR"
+              }
+            }
+          }
+        },
+        "K01.T01.B05": {
+          "type": "array",
+          "description": "Consecuencias previstas · Todas las salidas admisibles antes de contratar. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "Salida admisible": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Trabajo que sigue o termina": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Condición, responsable y autoridad": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Tratamiento económico y referencia": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "Recepción, continuidad y reapertura": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        },
+        "K01.T01.B06": {
+          "type": "array",
+          "description": "Condiciones económicas · CONTR en todos los campos aplicables. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K01.T01.B06.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Honorarios de evaluación o regla de determinación",
+                "description": "Debe permitir identificar la contraprestación si no continúa el servicio; consultor propone y partes acuerdan"
+              },
+              "K01.T01.B06.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Devengo y recepción",
+                "description": "Hitos, contenido exigible y relación con aceptación; condiciones acordadas"
+              },
+              "K01.T01.B06.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Relación con honorarios totales",
+                "description": "Asignación o mecanismo que distingue trabajo realizado y trabajo futuro; no exige vender fases separadas"
+              },
+              "K01.T01.B06.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Importes abonados y saldo",
+                "description": "Regla de imputación, devolución o pago según salida; no presumir un tratamiento"
+              },
+              "K01.T01.B06.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Gastos externos",
+                "description": "Qué se autoriza, límite y tratamiento si no se continúa; distinguir de honorarios"
+              },
+              "K01.T01.B06.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Trabajo posterior no ejecutado",
+                "description": "Obligaciones económicas que se liberan o mantienen y fundamento acordado"
+              },
+              "K01.T01.B06.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Evidencia adicional",
+                "description": "Cobertura incluida, límite o procedimiento de cotización y autorización previa"
+              },
+              "K01.T01.B06.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Ajuste y reanudación",
+                "description": "Regla de revisión de precio, alcance y calendario"
+              },
+              "K01.T01.B06.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Moneda e impuestos",
+                "description": "Moneda y tratamiento aplicable según lo acordado; asignar cuestión especializada si procede"
+              },
+              "K01.T01.B06.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Liquidación",
+                "description": "Fecha/evento, responsable y documento de soporte"
+              },
+              "K01.T01.B06.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Rastro de acuerdo",
+                "description": "Original/localizador y autoridad de las partes; propuesta no equivale a acuerdo"
+              }
+            }
+          }
+        },
+        "K01.T01.B07": {
+          "type": "array",
+          "description": "Roles, recursos y permisos · Bloque repetible por dependencia material. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K01.T01.B07.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Función y responsable",
+                "description": "Consultor, patrocinador, operador o especialista; EVAL para autoridad de evaluación, USO para roles posteriores"
+              },
+              "K01.T01.B07.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Autoridad y rastro",
+                "description": "Compromisos que puede decidir y soporte; USO"
+              },
+              "K01.T01.B07.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recurso o capacidad",
+                "description": "Medio requerido, unidad y periodo; productor responsable de aportarlo; USO"
+              },
+              "K01.T01.B07.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Disponibilidad y fundamento",
+                "description": "Declarada, disponible con evidencia o por habilitar; AF/localizador; USO"
+              },
+              "K01.T01.B07.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Dependencia de entrega",
+                "description": "Entrega y compromiso que lo necesitan; USO"
+              },
+              "K01.T01.B07.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Permiso y alcance",
+                "description": "Lectura, preparación, comunicación, gasto, cambio de sistema o publicación; límite y vigencia; USO"
+              },
+              "K01.T01.B07.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Autorización",
+                "description": "DEC/original, autor y fecha; USO antes de ejecutar acción dependiente"
+              },
+              "K01.T01.B07.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Carencia y resolución",
+                "description": "HUE, responsable, evento límite, alternativa y trabajo detenido; cuando falte una condición"
+              }
+            }
+          }
+        },
+        "K01.T01.B08": {
+          "type": "array",
+          "description": "Entrega de K01 y revisión. Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K01.T01.B08.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Uso habilitado y límites",
+                "description": "Tarea concreta y condiciones vigentes; consultor según evidencia y autoridad"
+              },
+              "K01.T01.B08.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Decisiones de alcance",
+                "description": "Referencias DEC, estado y condiciones sin duplicar aceptación"
+              },
+              "K01.T01.B08.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consumidores y campos",
+                "description": "Relaciones de consumo de N02–N17 pertinentes"
+              },
+              "K01.T01.B08.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Disparadores de revisión",
+                "description": "Cambios de iniciativa, ámbito, oferta, recurso, autoridad o condiciones que afectarían el encargo"
+              },
+              "K01.T01.B08.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Pendientes y siguiente acción",
+                "description": "HUE/SOL, responsable y compromiso afectado"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cabecera",
+    "bloques"
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Representación documental opcional de K11",
+  "$comment": "Valida únicamente estructura de una exportación textual. No valida suficiencia, exigibilidad condicional, verdad, permisos ni aceptación. Las colecciones permiten bloques repetibles. No obliga a operar Go2Rev en JSON.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cabecera": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "identidad": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "versión": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ámbito y K01": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "autor y fecha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ubicación": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estado documental": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "receptor y uso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "bloques": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "K11.T02.B01": {
+          "type": "array",
+          "description": ". Aplicar la condición del título, contexto y regla de cada campo; conservar ausencia material y su efecto.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "K11.T02.B01.F01": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Cabecera",
+                "description": "K11, K01, revisión, ámbito, autor/fecha, estado y ubicación"
+              },
+              "K11.T02.B01.F02": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Uso y entradas",
+                "description": "E/O, combinación, K02/K03/K04/K08/K10/K12 y versiones"
+              },
+              "K11.T02.B01.F03": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Unidad y compromiso",
+                "description": "Entrega K08 y criterio de conformidad"
+              },
+              "K11.T02.B01.F04": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Tarea",
+                "description": "ID local estable, acción y salida observable"
+              },
+              "K11.T02.B01.F05": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Entrada y condición",
+                "description": "Insumos, permisos, fuente y condición de inicio"
+              },
+              "K11.T02.B01.F06": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Precedencia y calendario",
+                "description": "Dependencias, esfuerzo activo, espera, fecha/regla y concurrencia"
+              },
+              "K11.T02.B01.F07": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Naturaleza del trabajo",
+                "description": "Preparación común, lote, repetición, control, incidencia o continuidad"
+              },
+              "K11.T02.B01.F08": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recursos",
+                "description": "Rol/medio, unidad de consumo y disponibilidad con CAP/TRA"
+              },
+              "K11.T02.B01.F09": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Ejecutor y autoridad",
+                "description": "Quién realiza y quién decide excepción"
+              },
+              "K11.T02.B01.F10": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Receptor y evidencia",
+                "description": "Quién recibe, qué comprueba y rastro de finalización"
+              },
+              "K11.T02.B01.F11": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Proveedor",
+                "description": "Condiciones, acceso, plazo, alternativa y efecto de ausencia"
+              },
+              "K11.T02.B01.F12": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Partidas",
+                "description": "Relación con coste y momento de pago, sin duplicación"
+              },
+              "K11.T02.B01.F13": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Incidencia",
+                "description": "Disparador, contención, corrección, coste/plazo y autoridad"
+              },
+              "K11.T02.B01.F14": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Inicio y aceptación",
+                "description": "Diferencia entre acuerdo, inicio, entrega y conformidad"
+              },
+              "K11.T02.B01.F15": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Traspaso",
+                "description": "ID, emisor/receptor, oferta/revisión, cantidad/unidad y condiciones"
+              },
+              "K11.T02.B01.F16": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Contenido transferido",
+                "description": "Alcance/exclusiones, evidencias, insumos y pendientes"
+              },
+              "K11.T02.B01.F17": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Siguiente acción",
+                "description": "Responsable, condición y medio"
+              },
+              "K11.T02.B01.F18": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Recepción",
+                "description": "Evidencia y fecha solo cuando ocurra"
+              },
+              "K11.T02.B01.F19": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Facturación y cobro",
+                "description": "Evento/regla, obligación y referencia al bloque de caja"
+              },
+              "K11.T02.B01.F20": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Continuidad y cierre",
+                "description": "Soporte, garantía, renovación, cancelación y límite pertinentes"
+              },
+              "K11.T02.B01.F21": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Suficiencia",
+                "description": "Recursos o condiciones desconocidos y compromiso afectado"
+              },
+              "K11.T02.B01.F22": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "title": "Consumo y cambio",
+                "description": "Receptor/campo/revisión/uso, admisión/límite y CAM"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "cabecera",
+    "bloques"
+  ]
+}

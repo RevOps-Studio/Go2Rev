@@ -1,0 +1,115 @@
+{
+  "entrada": 509,
+  "comun": 1981,
+  "nodos": [
+    {
+      "nodo": "N01",
+      "nucleo": 2037,
+      "comun_mas_nodo": 4018,
+      "extension": 4108
+    },
+    {
+      "nodo": "N02",
+      "nucleo": 2099,
+      "comun_mas_nodo": 4080,
+      "extension": 8175
+    },
+    {
+      "nodo": "N03",
+      "nucleo": 1457,
+      "comun_mas_nodo": 3438,
+      "extension": 11800
+    },
+    {
+      "nodo": "N04",
+      "nucleo": 1321,
+      "comun_mas_nodo": 3302,
+      "extension": 9536
+    },
+    {
+      "nodo": "N05",
+      "nucleo": 1366,
+      "comun_mas_nodo": 3347,
+      "extension": 9376
+    },
+    {
+      "nodo": "N06",
+      "nucleo": 1658,
+      "comun_mas_nodo": 3639,
+      "extension": 10800
+    },
+    {
+      "nodo": "N07",
+      "nucleo": 1179,
+      "comun_mas_nodo": 3160,
+      "extension": 6019
+    },
+    {
+      "nodo": "N08",
+      "nucleo": 967,
+      "comun_mas_nodo": 2948,
+      "extension": 7336
+    },
+    {
+      "nodo": "N09",
+      "nucleo": 1252,
+      "comun_mas_nodo": 3233,
+      "extension": 6390
+    },
+    {
+      "nodo": "N10",
+      "nucleo": 1264,
+      "comun_mas_nodo": 3245,
+      "extension": 6120
+    },
+    {
+      "nodo": "N11",
+      "nucleo": 914,
+      "comun_mas_nodo": 2895,
+      "extension": 7101
+    },
+    {
+      "nodo": "N12",
+      "nucleo": 982,
+      "comun_mas_nodo": 2963,
+      "extension": 8321
+    },
+    {
+      "nodo": "N13",
+      "nucleo": 947,
+      "comun_mas_nodo": 2928,
+      "extension": 3099
+    },
+    {
+      "nodo": "N14",
+      "nucleo": 997,
+      "comun_mas_nodo": 2978,
+      "extension": 4148
+    },
+    {
+      "nodo": "N15",
+      "nucleo": 943,
+      "comun_mas_nodo": 2924,
+      "extension": 2555
+    },
+    {
+      "nodo": "N16",
+      "nucleo": 977,
+      "comun_mas_nodo": 2958,
+      "extension": 3339
+    },
+    {
+      "nodo": "N17",
+      "nucleo": 1002,
+      "comun_mas_nodo": 2983,
+      "extension": 2408
+    }
+  ],
+  "medida": "Palabras separadas por espacio, incluidos encabezados, tablas y localizadores; no mide tokens, tiempo ni calidad de aplicación.",
+  "limites": {
+    "entrada": 600,
+    "comun": 2000,
+    "nodo": 3000,
+    "comun_mas_nodo": 4999
+  }
+}
