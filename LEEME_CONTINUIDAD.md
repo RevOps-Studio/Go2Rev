@@ -6,9 +6,13 @@ Go2Rev v0.4 es la base estable integrada en main con autorización de Carlos del
 
 ## Tres documentos vivos
 
-- [Plan v0.52](Go2Rev_plan_de_trabajo_v0.52_2026-09-11.md): estado estable, tareas y límites pendientes.
-- [Producto v0.41](Go2Rev_producto_y_metodo_v0.41_2026-09-11.md): definición, arquitectura y operación actuales.
-- [Evidencias v0.48](Go2Rev_evidencias_y_pruebas_v0.48_2026-09-11.md): decisiones, fuentes y revisión documental.
+- [Plan v0.53](Go2Rev_plan_de_trabajo_v0.53_2026-09-11.md): estado estable, propuesta de intake y límites pendientes.
+- [Producto v0.42](Go2Rev_producto_y_metodo_v0.42_2026-09-11.md): definición vigente y propuesta separada de intake.
+- [Evidencias v0.49](Go2Rev_evidencias_y_pruebas_v0.49_2026-09-11.md): fuentes, propuesta y revisión documental.
+
+## Trabajo actual
+
+La rama `mejora/intake-diagnostic` parte de main `15d2cebd08cb53073a8b5a67f11ba065ef41bd4a`. Contiene una [propuesta de recogida de información v0.1](producto/propuestas/intake_diagnostic/v0.1/01_propuesta_de_intake.md) para revisar con Carlos: aportación inicial de material existente, catálogo interno por decisión, calidad/cobertura, bloqueos localizados y ampliaciones proporcionadas. Aún no está incorporada al método ni a la distribución. Continuar esta rama para desarrollar la mejora después de su valoración; no crear otra por cambio de sesión.
 
 ## Entrada del producto
 
