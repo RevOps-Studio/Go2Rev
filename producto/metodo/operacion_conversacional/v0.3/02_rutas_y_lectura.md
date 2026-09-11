@@ -34,6 +34,8 @@ Este mapa localiza la capacidad; las condiciones de suficiencia y variantes se l
 
 ## Lecturas compartidas según la pregunta
 
+Para iniciar o ampliar la recogida: [guía de intake](../../encargo_y_conocimiento/v0.1/04_intake_diagnostic.md), [catálogo por familia y cobertura](../../encargo_y_conocimiento/v0.1/05_catalogo_de_informacion.md) y [comunicación desde SOL](../../encargo_y_conocimiento/v0.1/plantillas/02_solicitudes.md#comunicacion-inicial). Recuperar los campos ya recibidos y localizar el uso afectado antes de solicitar más.
+
 | Necesidad que activa lectura adicional | Archivo actual |
 |---|---|
 | Naturaleza de datos, autoridad, referencias y recepción | [Diccionario encargo y conocimiento](../../encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md) |

@@ -23,6 +23,8 @@ La pertinencia se evalúa para el compromiso solicitado. Si una dimensión no se
 
 ## Criterios de recepción y devolución
 
+El [catálogo de intake](../../encargo_y_conocimiento/v0.1/05_catalogo_de_informacion.md) permite anticipar los originales internos que pueden necesitar estas interfaces. N08–N12 producen la representación y las derivaciones; el cliente aporta materiales existentes o aclaraciones exclusivas, sin completar por obligación las plantillas analíticas. La devolución conserva la prioridad y momento del campo, el compromiso que limita y el trabajo que puede continuar.
+
 | Entrada | Admitir para el uso indicado cuando… | Devolver o limitar cuando… |
 |---|---|---|
 | K03 | La población y el ámbito son claros; cada factor crítico tiene soporte o límite; se distingue universo, acceso, capacidad y ventas | Se mezclan unidades/periodos, se presupone acceso o se usa una magnitud sin cobertura para decidir |
@@ -104,4 +106,4 @@ Aplicar CAM al campo material y recorrer relaciones efectivas de consumo, no tod
 
 ## Cierre documental del componente
 
-El [paquete fundacional](../../../paquete_fundacional/v0.4/LEEME.md) localiza las instrucciones, contratos y formatos compatibles de las capacidades conectadas.
+El [paquete fundacional](../../../paquete_fundacional/v0.5/LEEME.md) localiza las instrucciones, contratos y formatos compatibles de las capacidades conectadas.

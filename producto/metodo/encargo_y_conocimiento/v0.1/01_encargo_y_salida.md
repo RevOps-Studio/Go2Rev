@@ -13,7 +13,7 @@ Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversac
 1. Leer el mandato y formular la decisión que debe informar Diagnostic. Delimitar iniciativa, alternativas, recorrido y representación de oferta; separar las condiciones de origen/destino A o intención/capacidad B.
 2. Proponer entregas por destinatario, contenido controlable, recursos y criterio de recepción. Definir acciones y finalización del acompañamiento cuando forme parte del alcance.
 3. Preparar todas las salidas admisibles: continuar, condicionar, obtener evidencia, ajustar, aplazar o cerrar. Conectar cada una con trabajo, autoridad, recepción y tratamiento económico antes de contratar.
-4. Resolver con la autoridad las condiciones CONTR; completar EVAL antes de evaluar y USO antes de la acción dependiente. Entregar K01 y localizar DEC, pendientes y consumidores; conservar la propuesta como tal hasta su acuerdo.
+4. Resolver con la autoridad las condiciones CONTR; completar EVAL antes de evaluar y USO antes de la acción dependiente. Recuperar lo ya acordado y abrir la [guía de intake](04_intake_diagnostic.md) al preparar la recogida. Entregar K01 y localizar DEC, pendientes y consumidores; conservar la propuesta como tal hasta su acuerdo.
 
 **Bloques de salida:** K01.T01.B01, K01.T01.B02, K01.T01.B03, K01.T01.B04, K01.T01.B05, K01.T01.B06, K01.T01.B07, K01.T01.B08. Su condición y momento gobiernan la exigibilidad; las piezas auxiliares se abren según la tarea.
 <!-- procedimiento:fin -->
