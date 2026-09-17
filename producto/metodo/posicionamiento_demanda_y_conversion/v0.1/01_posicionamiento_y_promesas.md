@@ -2,13 +2,13 @@
 
 Versión 0.1 · Productor de K07
 
-Empezar con la [primera pasada de N07](../../operacion_conversacional/v0.3/10_primera_pasada.md#n07) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N07](../../operacion_conversacional/v0.4/10_primera_pasada.md#n07) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.4/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
 
 
 <!-- procedimiento:inicio -->
 ## Procedimiento de primera pasada
 
-Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+Trabajar con la entrada común y aplicar [INV-01–21](../../operacion_conversacional/v0.4/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
 
 1. Recuperar situación K04, alternativas K05, capacidades K02 y oferta K08. Identificar diferencias defendibles y el mecanismo por el que producen valor para el comprador.
 2. Comparar quién obtiene ese valor y bajo qué situación; examinar marcos de categoría y coste de comprender o adoptar la propuesta. Devolver un cambio de foco a N04/N06.

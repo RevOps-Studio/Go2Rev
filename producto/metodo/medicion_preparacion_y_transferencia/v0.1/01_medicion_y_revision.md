@@ -2,13 +2,13 @@
 
 Versión 0.1 · Productor de K13
 
-Empezar con la [primera pasada de N13](../../operacion_conversacional/v0.3/10_primera_pasada.md#n13) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N13](../../operacion_conversacional/v0.4/10_primera_pasada.md#n13) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.4/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
 
 
 <!-- procedimiento:inicio -->
 ## Procedimiento de primera pasada
 
-Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+Trabajar con la entrada común y aplicar [INV-01–21](../../operacion_conversacional/v0.4/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
 
 1. Partir de una decisión que necesita información y de los eventos K09–K12. Precisar objeto, identidad, fecha y unidad de análisis.
 2. Definir captura, fuente, responsable, cálculo y corte de cada medida. Abrir relaciones y excepciones si hay agregación, duplicados, faltantes o transición entre sistemas.

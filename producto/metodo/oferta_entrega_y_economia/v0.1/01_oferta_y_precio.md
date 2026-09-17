@@ -2,13 +2,13 @@
 
 Versión 0.1 · Productor de K08
 
-Empezar con la [primera pasada de N08](../../operacion_conversacional/v0.3/10_primera_pasada.md#n08) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N08](../../operacion_conversacional/v0.4/10_primera_pasada.md#n08) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.4/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
 
 
 <!-- procedimiento:inicio -->
 ## Procedimiento de primera pasada
 
-Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+Trabajar con la entrada común y aplicar [INV-01–21](../../operacion_conversacional/v0.4/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
 
 1. Recuperar comprador, alternativas y capacidades de entrega. Definir unidad ofrecida, destinatario, contenido, exclusiones y conformidad; distinguir quién compra, usa y paga.
 2. Comparar configuración, métrica de precio y mecanismo de cobro. Triangular costes, alternativas comparables y valor, abriendo variantes y fórmulas cuando cambien la unidad o condición.

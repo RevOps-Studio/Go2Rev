@@ -76,7 +76,7 @@ SOL conserva productor, contenido residual, cobertura admisible, prioridad, even
 
 | Eje | Valores o distinciones | Regla de transición |
 |---|---|---|
-| Edición de artefacto | Borrador, revisado, sustituido | Revisado identifica autor y alcance de revisión; sustituido conserva ubicación del contenido anterior |
+| Edición de artefacto | Borrador, revisado, sustituido, retirado | Revisado identifica autor y alcance; sustituido conserva una versión anterior válida; retirado identifica causa, alcance y consumidores que deben dejar de usar contenido incompatible |
 | Decisión | Propuesta, aceptada, condicionada, rechazada | Solo la autoridad identificada cambia su disposición. Condicionada especifica parte habilitada y parte detenida |
 | Naturaleza del conocimiento | Observación, declaración, inferencia, hipótesis; decisión en DEC | Cambia solo al cambiar el fundamento, conservando la revisión previa; no por aprobar un documento |
 | Procedencia | Interna, externa, derivada | Se establece por el origen del conocimiento; una derivación cita sus premisas internas/externas |

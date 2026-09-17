@@ -2,13 +2,13 @@
 
 Versión 0.1 · Instrucciones para una prestación
 
-Empezar con la [primera pasada de N01](../../operacion_conversacional/v0.3/10_primera_pasada.md#n01) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N01](../../operacion_conversacional/v0.4/10_primera_pasada.md#n01) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.4/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
 
 
 <!-- procedimiento:inicio -->
 ## Procedimiento de primera pasada
 
-Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+Trabajar con la entrada común y aplicar [INV-01–21](../../operacion_conversacional/v0.4/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
 
 1. Leer el mandato y formular la decisión que debe informar Diagnostic. Delimitar iniciativa, alternativas, recorrido y representación de oferta; separar las condiciones de origen/destino A o intención/capacidad B.
 2. Proponer entregas por destinatario, contenido controlable, recursos y criterio de recepción. Definir acciones y finalización del acompañamiento cuando forme parte del alcance.

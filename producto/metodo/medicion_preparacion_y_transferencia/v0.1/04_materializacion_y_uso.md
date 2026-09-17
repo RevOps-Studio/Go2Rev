@@ -2,13 +2,13 @@
 
 Versión 0.1 · Productor de K15
 
-Empezar con la [primera pasada de N15](../../operacion_conversacional/v0.3/10_primera_pasada.md#n15) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N15](../../operacion_conversacional/v0.4/10_primera_pasada.md#n15) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.4/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
 
 
 <!-- procedimiento:inicio -->
 ## Procedimiento de primera pasada
 
-Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+Trabajar con la entrada común y aplicar [INV-01–21](../../operacion_conversacional/v0.4/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
 
 1. Recuperar diseño pertinente y K14. Identificar tarea del operador, entrada, acción/contenido, excepción, salida y siguiente receptor.
 2. Producir la pieza útil en su fuente editable y preparar la vista apropiada. Abrir las pautas por tipo de material cuando cambien estructura, medio o condiciones de uso.

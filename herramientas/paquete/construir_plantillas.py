@@ -6,7 +6,7 @@ import os
 import re
 
 ROOT = Path(__file__).resolve().parents[2]
-OP = ROOT / 'producto/metodo/operacion_conversacional/v0.3'
+OP = ROOT / 'producto/metodo/operacion_conversacional/v0.4'
 SOURCE = ROOT / 'producto/metodo/esquema/v0.1/plantillas.json'
 
 

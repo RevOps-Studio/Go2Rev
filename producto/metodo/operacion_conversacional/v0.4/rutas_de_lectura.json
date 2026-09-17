@@ -1,0 +1,893 @@
+{
+  "version": "0.4",
+  "funcion": "Localizadores, interfaces y condiciones de lectura. Pasos sustantivos en Markdown; campos y reglas de plantillas en esquema/v0.1/plantillas.json.",
+  "nodos": [
+    {
+      "nodo": "N01",
+      "titulo": "Delimitar encargo y salida",
+      "contrato": "K01",
+      "destino": "00 Sistema",
+      "instruccion": "producto/metodo/encargo_y_conocimiento/v0.1/01_encargo_y_salida.md",
+      "contrato_archivo": "producto/metodo/encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md",
+      "plantillas": [
+        "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/01_encargo.md"
+      ],
+      "entrada": "Mandato y decisión que debe informar Diagnostic.",
+      "resultado_inicial": "Delimitar iniciativa, recorrido, alternativas, entregas, autoridad y economía de la salida antes de contratar.",
+      "cierre": "Durante la redacción conservar pendientes; antes de contratar completar CONTR y antes de evaluar completar EVAL.",
+      "plantilla_principal": "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/01_encargo.md",
+      "consumidores": [
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06",
+        "N07",
+        "N08",
+        "N09",
+        "N10",
+        "N11",
+        "N12",
+        "N13",
+        "N14",
+        "N15",
+        "N16",
+        "N17"
+      ],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/01_encargo_y_salida.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K01 y relación de consumo afectada"
+        },
+        {
+          "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/04_intake_diagnostic.md",
+          "cuando": "Antes de preparar la recogida o una ampliación al cliente.",
+          "seccion": "Procedimiento; clasificación, arranque, bloqueo y comunicación pertinentes"
+        }
+      ]
+    },
+    {
+      "nodo": "N02",
+      "titulo": "Convertir originales en conocimiento",
+      "contrato": "K02",
+      "destino": "00 Sistema y 02 Anexos",
+      "instruccion": "producto/metodo/encargo_y_conocimiento/v0.1/02_conocimiento_y_solicitud.md",
+      "contrato_archivo": "producto/metodo/encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md",
+      "plantillas": [
+        "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/02_solicitudes.md",
+        "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/03_conocimiento.md",
+        "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/04_transferencia_A.md",
+        "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/05_capacidades_B.md",
+        "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/06_decisiones_y_cambios.md"
+      ],
+      "entrada": "K01 y originales disponibles.",
+      "resultado_inicial": "Leer por pregunta, identificar fuentes, extraer afirmaciones, reconciliar discrepancias y asignar huecos a investigación o aportación exclusiva.",
+      "cierre": "Entradas suficientes para el uso; HUE/SOL localizados por prioridad y momento, con parte bloqueada y trabajo independiente visibles.",
+      "plantilla_principal": "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/03_conocimiento.md",
+      "consumidores": [
+        "N03",
+        "N04",
+        "N05",
+        "N06",
+        "N07",
+        "N08",
+        "N09",
+        "N10",
+        "N11",
+        "N12",
+        "N13",
+        "N14",
+        "N15",
+        "N16",
+        "N17"
+      ],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/02_conocimiento_y_solicitud.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/03_contratos_y_diccionario.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K02 y relación de consumo afectada"
+        },
+        {
+          "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/02_solicitudes.md",
+          "cuando": "Cuando una aportación exclusiva deba solicitarse; registrar propósito, receptor y resolución.",
+          "seccion": "Bloques aplicables de la plantilla"
+        },
+        {
+          "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/04_transferencia_A.md",
+          "cuando": "En recorrido A, antes de transferir conocimiento de origen al destino.",
+          "seccion": "Bloques aplicables de la plantilla"
+        },
+        {
+          "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/05_capacidades_B.md",
+          "cuando": "En recorrido B, para distinguir intención, representación y capacidad habilitada.",
+          "seccion": "Bloques aplicables de la plantilla"
+        },
+        {
+          "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/plantillas/06_decisiones_y_cambios.md",
+          "cuando": "Cuando exista decisión, consumo de un campo o cambio material.",
+          "seccion": "Bloques aplicables de la plantilla"
+        },
+        {
+          "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/04_intake_diagnostic.md",
+          "cuando": "Antes de preparar la recogida o una ampliación al cliente.",
+          "seccion": "Procedimiento; clasificación, arranque, bloqueo y comunicación pertinentes"
+        },
+        {
+          "ruta": "producto/metodo/encargo_y_conocimiento/v0.1/05_catalogo_de_informacion.md",
+          "cuando": "Al anticipar necesidades o precisar cantidad y calidad de una solicitud.",
+          "seccion": "Familias aplicables y reglas de cobertura/recepción"
+        }
+      ]
+    },
+    {
+      "nodo": "N03",
+      "titulo": "Delimitar mercado y acceso",
+      "contrato": "K03",
+      "destino": "01 Entregables/Diagnostic",
+      "instruccion": "producto/metodo/investigacion_y_diagnostic/v0.2/02_mercado_y_acceso.md",
+      "contrato_archivo": "producto/metodo/investigacion_y_diagnostic/v0.2/06_contratos_y_economia_exploratoria.md",
+      "plantillas": [
+        "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/01_preguntas_y_cobertura.md",
+        "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/02_mercado_y_acceso.md",
+        "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/07_contraste_externo_interno.md"
+      ],
+      "entrada": "Pregunta K01, representación K02 y fuentes externas.",
+      "resultado_inicial": "Delimitar población de compra, mapear acceso, examinar barreras y dimensionar desde unidades comparables. Contrastar agregados sin confundir capacidad propia con demanda.",
+      "cierre": "Añadir detalle geográfico o sectorial cuando cambie acceso, entrega, economía o selección; detener la búsqueda por el criterio registrado.",
+      "plantilla_principal": "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/02_mercado_y_acceso.md",
+      "consumidores": [
+        "N04",
+        "N05",
+        "N06",
+        "N09",
+        "N11",
+        "N12"
+      ],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/02_mercado_y_acceso.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/06_contratos_y_economia_exploratoria.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K03 y relación de consumo afectada"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/01_preguntas_y_cobertura.md",
+          "cuando": "Antes de investigar una pregunta: fijar decisión, evidencia discriminante, esfuerzo y parada.",
+          "seccion": "Bloques aplicables de la plantilla"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/07_contraste_externo_interno.md",
+          "cuando": "Al cruzar fuentes internas/externas y antes de emitir una conclusión de Diagnostic.",
+          "seccion": "Bloques aplicables de la plantilla"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/01_investigacion_y_suficiencia.md",
+          "cuando": "Antes de obtener evidencia nueva o generalizar una conclusión; seleccionar el procedimiento por pregunta.",
+          "seccion": "Capacidad y pregunta pertinentes"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/08_investigacion_externa_y_contraste.md",
+          "cuando": "Al comparar mercado, competidores, producto o tendencias con información del cliente; leer el bloque de contraste pertinente.",
+          "seccion": "Capacidad y pregunta pertinentes"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/09_rutina_de_fuentes_y_acceso.md",
+          "cuando": "Cuando el pool no cubra una pregunta o sea necesario evaluar otra fuente, herramienta o conexión MCP.",
+          "seccion": "Capacidad y pregunta pertinentes"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/10_catalogo_inicial_de_fuentes.md",
+          "cuando": "Cuando se necesiten candidatas reales por capacidad o geografía; verificar su vigencia al usarlas.",
+          "seccion": "Capacidad y pregunta pertinentes"
+        }
+      ]
+    },
+    {
+      "nodo": "N04",
+      "titulo": "Entender comprador y compra",
+      "contrato": "K04",
+      "destino": "01 Entregables/Diagnostic",
+      "instruccion": "producto/metodo/investigacion_y_diagnostic/v0.2/03_comprador_y_compra.md",
+      "contrato_archivo": "producto/metodo/investigacion_y_diagnostic/v0.2/06_contratos_y_economia_exploratoria.md",
+      "plantillas": [
+        "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/03_comprador_y_compra.md"
+      ],
+      "entrada": "K02/K03 y evidencia de procesos y alternativas.",
+      "resultado_inicial": "Reconstruir desencadenante, trabajo, roles, alternativa, criterios y fricciones; comparar situaciones de compra y examinar voces contrarias.",
+      "cierre": "Una conversación exploratoria puede delimitar una hipótesis; la representatividad o conducta real requieren evidencia adicional pertinente.",
+      "plantilla_principal": "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/03_comprador_y_compra.md",
+      "consumidores": [
+        "N05",
+        "N06",
+        "N07",
+        "N08",
+        "N09",
+        "N10"
+      ],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/03_comprador_y_compra.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/06_contratos_y_economia_exploratoria.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K04 y relación de consumo afectada"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/01_investigacion_y_suficiencia.md",
+          "cuando": "Antes de obtener evidencia nueva o generalizar una conclusión; seleccionar el procedimiento por pregunta.",
+          "seccion": "Capacidad y pregunta pertinentes"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/08_investigacion_externa_y_contraste.md",
+          "cuando": "Al comparar mercado, competidores, producto o tendencias con información del cliente; leer el bloque de contraste pertinente.",
+          "seccion": "Capacidad y pregunta pertinentes"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/09_rutina_de_fuentes_y_acceso.md",
+          "cuando": "Cuando el pool no cubra una pregunta o sea necesario evaluar otra fuente, herramienta o conexión MCP.",
+          "seccion": "Capacidad y pregunta pertinentes"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/10_catalogo_inicial_de_fuentes.md",
+          "cuando": "Cuando se necesiten candidatas reales por capacidad o geografía; verificar su vigencia al usarlas.",
+          "seccion": "Capacidad y pregunta pertinentes"
+        }
+      ]
+    },
+    {
+      "nodo": "N05",
+      "titulo": "Comparar alternativas",
+      "contrato": "K05",
+      "destino": "01 Entregables/Diagnostic",
+      "instruccion": "producto/metodo/investigacion_y_diagnostic/v0.2/04_alternativas_y_diferenciacion.md",
+      "contrato_archivo": "producto/metodo/investigacion_y_diagnostic/v0.2/06_contratos_y_economia_exploratoria.md",
+      "plantillas": [
+        "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/04_alternativas_y_diferenciacion.md"
+      ],
+      "entrada": "Situación K04, mercado K03 y capacidades K02.",
+      "resultado_inicial": "Comparar alternativas externas, internas y continuidad; separar capacidad declarada, disponible, resultado documentado y elección del comprador.",
+      "cierre": "Cerrar con diferencias defendibles o ausencia de diferenciación bajo la cobertura; no inventar una ventaja para terminar.",
+      "plantilla_principal": "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/04_alternativas_y_diferenciacion.md",
+      "consumidores": [
+        "N06",
+        "N07",
+        "N08"
+      ],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/04_alternativas_y_diferenciacion.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/06_contratos_y_economia_exploratoria.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K05 y relación de consumo afectada"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/01_investigacion_y_suficiencia.md",
+          "cuando": "Antes de obtener evidencia nueva o generalizar una conclusión; seleccionar el procedimiento por pregunta.",
+          "seccion": "Capacidad y pregunta pertinentes"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/08_investigacion_externa_y_contraste.md",
+          "cuando": "Al comparar mercado, competidores, producto o tendencias con información del cliente; leer el bloque de contraste pertinente.",
+          "seccion": "Capacidad y pregunta pertinentes"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/09_rutina_de_fuentes_y_acceso.md",
+          "cuando": "Cuando el pool no cubra una pregunta o sea necesario evaluar otra fuente, herramienta o conexión MCP.",
+          "seccion": "Capacidad y pregunta pertinentes"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/10_catalogo_inicial_de_fuentes.md",
+          "cuando": "Cuando se necesiten candidatas reales por capacidad o geografía; verificar su vigencia al usarlas.",
+          "seccion": "Capacidad y pregunta pertinentes"
+        }
+      ]
+    },
+    {
+      "nodo": "N06",
+      "titulo": "Recomendar la salida de Diagnostic",
+      "contrato": "K06",
+      "destino": "01 Entregables/Diagnostic",
+      "instruccion": "producto/metodo/investigacion_y_diagnostic/v0.2/05_recomendacion_diagnostic.md",
+      "contrato_archivo": "producto/metodo/investigacion_y_diagnostic/v0.2/06_contratos_y_economia_exploratoria.md",
+      "plantillas": [
+        "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/05_recomendacion_diagnostic.md",
+        "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/06_intercambio_exploratorio.md"
+      ],
+      "entrada": "K01–K05 y combinación exploratoria K08–K12.",
+      "resultado_inicial": "Cruzar hallazgos con capacidades y economía, comparar opciones, exponer el argumento contrario y recomendar continuar, condicionar, ajustar, obtener evidencia, aplazar o cerrar.",
+      "cierre": "La autoridad resuelve el compromiso en DEC; una conclusión parcial se declara y una salida de evaluación puede ir directamente a N17.",
+      "plantilla_principal": "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/05_recomendacion_diagnostic.md",
+      "consumidores": [
+        "N07",
+        "N08",
+        "N09",
+        "N10",
+        "N11",
+        "N12",
+        "N13",
+        "N14",
+        "N17"
+      ],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/05_recomendacion_diagnostic.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/06_contratos_y_economia_exploratoria.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K06 y relación de consumo afectada"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/plantillas/06_intercambio_exploratorio.md",
+          "cuando": "Al pedir o recibir la combinación K08–K12 E para recomendar Diagnostic.",
+          "seccion": "Bloques aplicables de la plantilla"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/01_investigacion_y_suficiencia.md",
+          "cuando": "Antes de obtener evidencia nueva o generalizar una conclusión; seleccionar el procedimiento por pregunta.",
+          "seccion": "Capacidad y pregunta pertinentes"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/08_investigacion_externa_y_contraste.md",
+          "cuando": "Al comparar mercado, competidores, producto o tendencias con información del cliente; leer el bloque de contraste pertinente.",
+          "seccion": "Capacidad y pregunta pertinentes"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/09_rutina_de_fuentes_y_acceso.md",
+          "cuando": "Cuando el pool no cubra una pregunta o sea necesario evaluar otra fuente, herramienta o conexión MCP.",
+          "seccion": "Capacidad y pregunta pertinentes"
+        },
+        {
+          "ruta": "producto/metodo/investigacion_y_diagnostic/v0.2/10_catalogo_inicial_de_fuentes.md",
+          "cuando": "Cuando se necesiten candidatas reales por capacidad o geografía; verificar su vigencia al usarlas.",
+          "seccion": "Capacidad y pregunta pertinentes"
+        }
+      ]
+    },
+    {
+      "nodo": "N07",
+      "titulo": "Construir posición y mensaje",
+      "contrato": "K07",
+      "destino": "01 Entregables/Design",
+      "instruccion": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/01_posicionamiento_y_promesas.md",
+      "contrato_archivo": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/06_contratos_y_revision.md",
+      "plantillas": [
+        "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/01_posicionamiento.md",
+        "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/02_mensaje_y_fundamento.md"
+      ],
+      "entrada": "Compra K04, alternativas K05, capacidades y oferta.",
+      "resultado_inicial": "Agrupar diferencias por valor para el comprador, identificar quién obtiene ese valor y comparar marcos de categoría; redactar promesa y razones para creer.",
+      "cierre": "Volver a N04/N06 si el valor revela otro foco; incorporar DEC para el diseño adoptado y condicionar afirmaciones externas a su soporte.",
+      "plantilla_principal": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/01_posicionamiento.md",
+      "consumidores": [
+        "N08",
+        "N09",
+        "N10",
+        "N15"
+      ],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/01_posicionamiento_y_promesas.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/06_contratos_y_revision.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K07 y relación de consumo afectada"
+        },
+        {
+          "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/02_mensaje_y_fundamento.md",
+          "cuando": "Antes de producir un mensaje por destinatario o uso a partir de la posición.",
+          "seccion": "Bloques aplicables de la plantilla"
+        },
+        {
+          "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/04_costes_cohortes_y_capacidad.md",
+          "cuando": "Antes de estimar costes o rendimiento del mecanismo o recorrido.",
+          "seccion": "Variante pertinente"
+        },
+        {
+          "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/05_variantes_y_traspasos.md",
+          "cuando": "Cuando cambien canal, intermediación, forma de compra o traspaso.",
+          "seccion": "Variante pertinente"
+        }
+      ]
+    },
+    {
+      "nodo": "N08",
+      "titulo": "Definir oferta y precio",
+      "contrato": "K08",
+      "destino": "01 Entregables/Design",
+      "instruccion": "producto/metodo/oferta_entrega_y_economia/v0.1/01_oferta_y_precio.md",
+      "contrato_archivo": "producto/metodo/oferta_entrega_y_economia/v0.1/07_contratos_y_revision.md",
+      "plantillas": [
+        "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/01_oferta.md"
+      ],
+      "entrada": "K04/K05 y costes/capacidades de K11/K12.",
+      "resultado_inicial": "Definir unidades y alcance, comparar configuración y mecanismo de cobro, triangular coste, alternativas y valor, proponer importe o regla y condiciones.",
+      "cierre": "En exploración, guardar la representación en Diagnostic y mantener la economía en su fuente única; para uso concreto comprobar autoridad y preparación pertinentes.",
+      "plantilla_principal": "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/01_oferta.md",
+      "consumidores": [
+        "N06",
+        "N09",
+        "N10",
+        "N11",
+        "N12",
+        "N15"
+      ],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/01_oferta_y_precio.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/07_contratos_y_revision.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K08 y relación de consumo afectada"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/04_formulas_y_dominio.md",
+          "cuando": "Antes de calcular o interpretar una relación económica; abrir su fórmula, unidad y dominio.",
+          "seccion": "Relación o variante activada"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/05_variantes_de_oferta_y_operacion.md",
+          "cuando": "Cuando venta, entrega, intermediación o recurrencia cambien una relación material.",
+          "seccion": "Relación o variante activada"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/06_comparacion_y_umbrales.md",
+          "cuando": "Antes de comparar opciones, sensibilidad o umbrales.",
+          "seccion": "Relación o variante activada"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/08_guia_del_modelo.md",
+          "cuando": "Antes de utilizar o revisar el libro económico.",
+          "seccion": "Relación o variante activada"
+        }
+      ]
+    },
+    {
+      "nodo": "N09",
+      "titulo": "Elegir rutas de demanda",
+      "contrato": "K09",
+      "destino": "01 Entregables/Design",
+      "instruccion": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/02_acceso_y_demanda.md",
+      "contrato_archivo": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/06_contratos_y_revision.md",
+      "plantillas": [
+        "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/03_ruta_de_demanda.md",
+        "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/05_actividad_coste_y_cohorte.md"
+      ],
+      "entrada": "Acceso K03, comprador K04, oferta K08 y capacidad.",
+      "resultado_inicial": "Comparar mecanismos, diseñar señal y receptor, estimar trabajo completo, elegir secuencia y limitar la apuesta por recurso, aprendizaje y reversibilidad.",
+      "cierre": "Usar una primera ruta suficiente cuando cubra la pregunta y pueda atenderse; ampliar por brecha demostrada, no por cuota de canales.",
+      "plantilla_principal": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/03_ruta_de_demanda.md",
+      "consumidores": [
+        "N06",
+        "N10",
+        "N12",
+        "N13",
+        "N14",
+        "N15"
+      ],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/02_acceso_y_demanda.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/06_contratos_y_revision.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K09 y relación de consumo afectada"
+        },
+        {
+          "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/05_actividad_coste_y_cohorte.md",
+          "cuando": "Antes de estimar trabajo, coste o rendimiento de una ruta.",
+          "seccion": "Bloques aplicables de la plantilla"
+        },
+        {
+          "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/04_costes_cohortes_y_capacidad.md",
+          "cuando": "Antes de estimar costes o rendimiento del mecanismo o recorrido.",
+          "seccion": "Variante pertinente"
+        },
+        {
+          "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/05_variantes_y_traspasos.md",
+          "cuando": "Cuando cambien canal, intermediación, forma de compra o traspaso.",
+          "seccion": "Variante pertinente"
+        }
+      ]
+    },
+    {
+      "nodo": "N10",
+      "titulo": "Diseñar compra y traspasos",
+      "contrato": "K10",
+      "destino": "01 Entregables/Design",
+      "instruccion": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/03_conversion_y_compra.md",
+      "contrato_archivo": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/06_contratos_y_revision.md",
+      "plantillas": [
+        "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/04_recorrido_y_transicion.md",
+        "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/06_recepcion_y_seguimiento.md"
+      ],
+      "entrada": "K04, oferta, acceso y condiciones de entrega/caja.",
+      "resultado_inicial": "Reconstruir decisiones del comprador, separar pertinencia e intención, definir transiciones, retorno, excepciones y recepción.",
+      "cierre": "Ajustar cadencia a ventana de compra, permiso y capacidad; antes de automatizar comprobar sus eventos, excepciones y autoridad.",
+      "plantilla_principal": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/04_recorrido_y_transicion.md",
+      "consumidores": [
+        "N06",
+        "N11",
+        "N12",
+        "N13",
+        "N14",
+        "N15"
+      ],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/03_conversion_y_compra.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/06_contratos_y_revision.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K10 y relación de consumo afectada"
+        },
+        {
+          "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/plantillas/06_recepcion_y_seguimiento.md",
+          "cuando": "Al definir recepción, retorno y cadencia de seguimiento.",
+          "seccion": "Bloques aplicables de la plantilla"
+        },
+        {
+          "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/04_costes_cohortes_y_capacidad.md",
+          "cuando": "Antes de estimar costes o rendimiento del mecanismo o recorrido.",
+          "seccion": "Variante pertinente"
+        },
+        {
+          "ruta": "producto/metodo/posicionamiento_demanda_y_conversion/v0.1/05_variantes_y_traspasos.md",
+          "cuando": "Cuando cambien canal, intermediación, forma de compra o traspaso.",
+          "seccion": "Variante pertinente"
+        }
+      ]
+    },
+    {
+      "nodo": "N11",
+      "titulo": "Diseñar entrega y cobro",
+      "contrato": "K11",
+      "destino": "01 Entregables/Design",
+      "instruccion": "producto/metodo/oferta_entrega_y_economia/v0.1/02_entrega_y_cobro.md",
+      "contrato_archivo": "producto/metodo/oferta_entrega_y_economia/v0.1/07_contratos_y_revision.md",
+      "plantillas": [
+        "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/02_entrega_y_traspaso.md"
+      ],
+      "entrada": "Oferta, aceptación, recursos y restricciones.",
+      "resultado_inicial": "Descomponer cumplimiento, conformidad y cobro; asignar trabajo, insumos, receptor y tratamiento de incidencias; devolver costes a K12.",
+      "cierre": "Distinguir aceptación, entrega, reconocimiento y caja; completar variantes solo cuando cambien una obligación o relación material.",
+      "plantilla_principal": "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/02_entrega_y_traspaso.md",
+      "consumidores": [
+        "N06",
+        "N08",
+        "N10",
+        "N12",
+        "N13",
+        "N14",
+        "N15"
+      ],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/02_entrega_y_cobro.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/07_contratos_y_revision.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K11 y relación de consumo afectada"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/04_formulas_y_dominio.md",
+          "cuando": "Antes de calcular o interpretar una relación económica; abrir su fórmula, unidad y dominio.",
+          "seccion": "Relación o variante activada"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/05_variantes_de_oferta_y_operacion.md",
+          "cuando": "Cuando venta, entrega, intermediación o recurrencia cambien una relación material.",
+          "seccion": "Relación o variante activada"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/06_comparacion_y_umbrales.md",
+          "cuando": "Antes de comparar opciones, sensibilidad o umbrales.",
+          "seccion": "Relación o variante activada"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/08_guia_del_modelo.md",
+          "cuando": "Antes de utilizar o revisar el libro económico.",
+          "seccion": "Relación o variante activada"
+        }
+      ]
+    },
+    {
+      "nodo": "N12",
+      "titulo": "Analizar economía y capacidad",
+      "contrato": "K12",
+      "destino": "01 Entregables/Economia",
+      "instruccion": "producto/metodo/oferta_entrega_y_economia/v0.1/03_economia_y_capacidad.md",
+      "contrato_archivo": "producto/metodo/oferta_entrega_y_economia/v0.1/07_contratos_y_revision.md",
+      "plantillas": [
+        "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/03_partidas_y_recursos.md",
+        "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/04_eventos_de_caja.md",
+        "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/05_modelo_y_conclusion.md",
+        "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/06_comparacion.md"
+      ],
+      "entrada": "Combinación K08–K11 con unidades, periodos y fundamentos.",
+      "resultado_inicial": "Conciliar partidas y recursos, calcular relaciones con dominio, localizar restricciones y comparar alternativas o umbrales.",
+      "cierre": "Calcular cada bloque suficiente y mostrar lo ausente. Las relaciones adicionales de la variante deben quedar explícitas antes de concluir.",
+      "plantilla_principal": "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/05_modelo_y_conclusion.md",
+      "consumidores": [
+        "N06",
+        "N08",
+        "N09",
+        "N10",
+        "N11",
+        "N13",
+        "N14"
+      ],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/03_economia_y_capacidad.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/07_contratos_y_revision.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K12 y relación de consumo afectada"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/03_partidas_y_recursos.md",
+          "cuando": "Antes de construir costes y capacidad en K12.",
+          "seccion": "Bloques aplicables de la plantilla"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/04_eventos_de_caja.md",
+          "cuando": "Antes de concluir caja, financiación o calendario económico.",
+          "seccion": "Bloques aplicables de la plantilla"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/plantillas/06_comparacion.md",
+          "cuando": "Al comparar combinaciones o buscar el umbral que cambia una decisión.",
+          "seccion": "Bloques aplicables de la plantilla"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/04_formulas_y_dominio.md",
+          "cuando": "Antes de calcular o interpretar una relación económica; abrir su fórmula, unidad y dominio.",
+          "seccion": "Relación o variante activada"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/05_variantes_de_oferta_y_operacion.md",
+          "cuando": "Cuando venta, entrega, intermediación o recurrencia cambien una relación material.",
+          "seccion": "Relación o variante activada"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/06_comparacion_y_umbrales.md",
+          "cuando": "Antes de comparar opciones, sensibilidad o umbrales.",
+          "seccion": "Relación o variante activada"
+        },
+        {
+          "ruta": "producto/metodo/oferta_entrega_y_economia/v0.1/08_guia_del_modelo.md",
+          "cuando": "Antes de utilizar o revisar el libro económico.",
+          "seccion": "Relación o variante activada"
+        }
+      ]
+    },
+    {
+      "nodo": "N13",
+      "titulo": "Instrumentar para decidir",
+      "contrato": "K13",
+      "destino": "01 Entregables/Design",
+      "instruccion": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/01_medicion_y_revision.md",
+      "contrato_archivo": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/07_contratos_y_revision.md",
+      "plantillas": [
+        "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/01_evento_y_medida.md",
+        "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/02_revision_y_decision.md"
+      ],
+      "entrada": "Decisión, eventos, unidades y fuentes.",
+      "resultado_inicial": "Definir evento, identidad, campo, cálculo, corte, responsable y acción; transmitir a N15 la captura y a N16 su criterio.",
+      "cierre": "Instrumentar las decisiones necesarias; incorporar métricas estándar solo con definición y fundamento compatibles.",
+      "plantilla_principal": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/01_evento_y_medida.md",
+      "consumidores": [
+        "N14",
+        "N15",
+        "N16",
+        "N17"
+      ],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/01_medicion_y_revision.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/07_contratos_y_revision.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K13 y relación de consumo afectada"
+        },
+        {
+          "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/02_revision_y_decision.md",
+          "cuando": "Al vincular una medida con una revisión y acción de autoridad.",
+          "seccion": "Bloques aplicables de la plantilla"
+        }
+      ]
+    },
+    {
+      "nodo": "N14",
+      "titulo": "Preparar obligaciones y evidencia",
+      "contrato": "K14",
+      "destino": "01 Entregables/Despliegue y 03 QA",
+      "instruccion": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/02_preparacion_y_secuencia.md",
+      "contrato_archivo": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/07_contratos_y_revision.md",
+      "plantillas": [
+        "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/03_preparacion_y_secuencia.md",
+        "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/04_protocolo_previo.md"
+      ],
+      "entrada": "Obligación K01 o pregunta abierta con alcance.",
+      "resultado_inicial": "Precisar capacidad recibible, piezas y recursos; fijar criterio previo y ordenar preparación, observación y decisión.",
+      "cierre": "Para obtención ligera conservar solo los campos aplicables. Fijar los criterios del alcance autorizado antes de producir y comprobar sus piezas.",
+      "plantilla_principal": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/03_preparacion_y_secuencia.md",
+      "consumidores": [
+        "N15",
+        "N16",
+        "N17"
+      ],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/02_preparacion_y_secuencia.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/07_contratos_y_revision.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K14 y relación de consumo afectada"
+        },
+        {
+          "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/04_protocolo_previo.md",
+          "cuando": "Antes de la obtención directa o comprobación: fijar el protocolo pertinente.",
+          "seccion": "Bloques aplicables de la plantilla"
+        },
+        {
+          "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/03_protocolos_de_evidencia.md",
+          "cuando": "Antes de preparar una obtención de evidencia directa; seleccionar y adaptar el procedimiento.",
+          "seccion": "Protocolo pertinente"
+        }
+      ]
+    },
+    {
+      "nodo": "N15",
+      "titulo": "Producir piezas y configurar medios",
+      "contrato": "K15",
+      "destino": "05 Operacion",
+      "instruccion": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/04_materializacion_y_uso.md",
+      "contrato_archivo": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/07_contratos_y_revision.md",
+      "plantillas": [
+        "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/05_pieza_y_configuracion.md"
+      ],
+      "entrada": "Diseño pertinente, inventario y criterios K14.",
+      "resultado_inicial": "Redactar contenido útil, preparar fuentes/vistas y aplicar configuraciones autorizadas; comprobar guardado y dependencias antes de entregar a observación.",
+      "cierre": "Una descripción no acredita configuración. Mantener una sola fuente editable y referenciarla desde la entrega de despliegue.",
+      "plantilla_principal": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/05_pieza_y_configuracion.md",
+      "consumidores": [
+        "N16",
+        "N17"
+      ],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/04_materializacion_y_uso.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/07_contratos_y_revision.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K15 y relación de consumo afectada"
+        }
+      ]
+    },
+    {
+      "nodo": "N16",
+      "titulo": "Comprobar preparación delimitada",
+      "contrato": "K16",
+      "destino": "03 QA",
+      "instruccion": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/05_comprobacion_de_preparacion.md",
+      "contrato_archivo": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/07_contratos_y_revision.md",
+      "plantillas": [
+        "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/06_observacion_y_correccion.md",
+        "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/07_cobertura_y_preparacion.md"
+      ],
+      "entrada": "Criterio K14, piezas K15 y medios/operador.",
+      "resultado_inicial": "Aplicar el procedimiento pertinente, conservar observación, ayuda y límites; corregir el productor causal y revisar la cobertura afectada.",
+      "cierre": "Cumplido, incumplido, inconcluyente o no ejecutado por criterio. La revisión documental no sustituye uso observado cuando este se requiere.",
+      "plantilla_principal": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/06_observacion_y_correccion.md",
+      "consumidores": [
+        "N14",
+        "N15",
+        "N17"
+      ],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/05_comprobacion_de_preparacion.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/07_contratos_y_revision.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K16 y relación de consumo afectada"
+        },
+        {
+          "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/07_cobertura_y_preparacion.md",
+          "cuando": "Antes de declarar preparación: reconciliar observaciones y límites por criterio.",
+          "seccion": "Bloques aplicables de la plantilla"
+        }
+      ]
+    },
+    {
+      "nodo": "N17",
+      "titulo": "Transferir y cerrar el alcance",
+      "contrato": "K17",
+      "destino": "01 Entregables/Despliegue y 00 Sistema",
+      "instruccion": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/06_transferencia_y_cierre.md",
+      "contrato_archivo": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/07_contratos_y_revision.md",
+      "plantillas": [
+        "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/08_transferencia_y_soporte.md"
+      ],
+      "entrada": "K01, decisión Diagnostic, archivos y cobertura aplicables.",
+      "resultado_inicial": "Reconciliar obligaciones y entregas, preparar acceso y guía por receptor, disponer pendientes y cerrar el acompañamiento pactado.",
+      "cierre": "Una salida Diagnostic recibe solo lo pertinente; conservar la diferencia entre evaluación, diseño, preparación y actuación observada.",
+      "plantilla_principal": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/plantillas/08_transferencia_y_soporte.md",
+      "consumidores": [],
+      "extensiones": [
+        {
+          "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/06_transferencia_y_cierre.md",
+          "cuando": "Al desarrollar una decisión, variante o excepción que los pasos breves no resuelven; antes de usar una fórmula o procedimiento especializado.",
+          "seccion": "Referencia sustantiva pertinente a la pregunta"
+        },
+        {
+          "ruta": "producto/metodo/medicion_preparacion_y_transferencia/v0.1/07_contratos_y_revision.md",
+          "cuando": "Antes de emitir el resultado a su consumidor; al cambiar entradas, ámbito o uso E/O.",
+          "seccion": "Contrato K17 y relación de consumo afectada"
+        }
+      ]
+    }
+  ],
+  "presupuesto_palabras": {
+    "entrada": 600,
+    "comun": 2500,
+    "nodo": 3000,
+    "comun_mas_nodo": 4999
+  }
+}

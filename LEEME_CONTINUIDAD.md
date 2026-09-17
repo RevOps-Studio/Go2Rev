@@ -1,25 +1,25 @@
 # Continuidad de Go2Rev
 
-11 de septiembre de 2026 · Índice, no maestro
+17 de septiembre de 2026 · Índice, no maestro
 
-Carlos autoriza integrar en main el intake y la propuesta de clasificación el 11 de septiembre de 2026. Este corte reúne Go2Rev v0.5 con intake operativo y el análisis de entregables, consumo y proceso. Las [solicitudes 4](https://github.com/RevOps-Studio/Go2Rev/pull/4) y [5](https://github.com/RevOps-Studio/Go2Rev/pull/5) conservan la integración y su orden. El método sigue teórico, sin clientes ni pruebas de aplicación; ramas, etiquetas y distribuciones anteriores se preservan.
+La rama `mejora/enrutado-metodologico` construye Go2Rev v0.6 después de que un intento real de arranque revelara una interferencia de método antes de ejecutar Go2Rev. El hallazgo valida la necesidad de controlar la activación; no es una prueba sustantiva de los diecisiete nodos. La integración en `main` queda pendiente de revisión y autorización de Carlos.
 
 ## Tres documentos vivos
 
-- [Plan v0.56](Go2Rev_plan_de_trabajo_v0.56_2026-09-11.md): corte integrado y siguiente desarrollo de clasificación/formatos.
-- [Producto v0.45](Go2Rev_producto_y_metodo_v0.45_2026-09-11.md): definición operativa v0.5 y análisis para el siguiente trabajo.
-- [Evidencias v0.52](Go2Rev_evidencias_y_pruebas_v0.52_2026-09-11.md): autorización, procedencia y revisión de integración.
+- [Plan v0.57](Go2Rev_plan_de_trabajo_v0.57_2026-09-17.md): alcance de la mejora y siguiente trabajo.
+- [Producto v0.46](Go2Rev_producto_y_metodo_v0.46_2026-09-17.md): definición vigente, paquete v0.6 e identidad operativa.
+- [Evidencias v0.53](Go2Rev_evidencias_y_pruebas_v0.53_2026-09-17.md): autoridad, hallazgo, construcción y revisión documental.
 
 ## Trabajo actual
 
-La [clasificación](producto/propuestas/entregables_y_consumo/v0.1/01_clasificacion_y_criterios.md) distingue interno de proceso, interno de consumo y externo entregable, con circulación separada y checkpoints como momentos de decisión. El [anexo de 37 plantillas](producto/propuestas/entregables_y_consumo/v0.1/02_correspondencia_de_plantillas.md) localiza la correspondencia sin cambiar contratos.
+La [operación conversacional v0.4](producto/metodo/operacion_conversacional/v0.4/LEEME.md) incorpora instrucciones persistentes de proyecto, recibo de ruta, bloqueo por precondición crítica, retirada de artefactos incompatibles y separación entre objetivo y evidencia. RevOS y GTM Planner permanecen como fuentes históricas de construcción; no gobiernan el encargo.
 
-La propuesta se incorpora como base documental; todavía hay que trasladar el criterio a instrucciones operativas y construir formatos por lector y tarea. La siguiente mejora partirá de main actualizado en una rama propia. La guía, catálogo y comunicación del intake, así como todos los componentes de v0.5, conservan su revisión. Los maestros previos a esta integración se guardan en [procedencia](procedencia/maestros_preintegracion_v0.5/LEEME.md).
+El [paquete fundacional v0.6](producto/paquete_fundacional/v0.6/LEEME.md) contiene 37 plantillas, 17 cargas de nodo, estructura vacía, guía Word y manifiesto regenerados. La [distribución v0.6](entregables/Go2Rev_fundacional_v0.6.zip) es el candidato revisable de esta rama.
 
-## Entrada del producto
+La clasificación de contenidos continúa como siguiente desarrollo: trasladar interno de proceso, interno de consumo y externo entregable a instrucciones, metadatos, índice y formatos por lector y tarea.
 
-[Paquete fundacional v0.5](producto/paquete_fundacional/v0.5/LEEME.md), [guía Word](producto/paquete_fundacional/v0.5/Go2Rev_guia_de_implementacion_v0.5.docx) y [distribución](entregables/Go2Rev_fundacional_v0.5.zip). El paquete contiene las fuentes, plantillas, modelo y derivados. La operación usa su entrada propia, sin cargar maestros ni archivo de procedencia.
+## Continuidad y procedencia
 
-[Arquitectura](producto/arquitectura/v0.2/01_arquitectura_metodologica.md) mantiene diecisiete nodos y correspondencia con once pasos; [operación conversacional](producto/metodo/operacion_conversacional/v0.3/LEEME.md) abre carpetas, entorno, primera pasada y continuidad.
+Los maestros v0.56, v0.45 y v0.52 se conservan exactamente en [procedencia](procedencia/maestros_pre_enrutado_v0.6/LEEME.md). La fuente detallada del incidente real permanece fuera del repositorio; solo se incorporan reglas generales y no se añaden datos del encargo a los archivos de producto.
 
-[Procedencia del diseño](procedencia/LEEME.md) conserva las correspondencias de originales pertinentes y los maestros sustituidos. Back to the plan permanece congelado y fuera de las búsquedas rutinarias. No repetir recuperación ni PORT-01 por una nueva sesión.
+[Arquitectura](producto/arquitectura/v0.2/01_arquitectura_metodologica.md) mantiene diecisiete nodos y correspondencia con once pasos. Back to the plan permanece congelado y fuera de las búsquedas rutinarias. No repetir recuperación ni PORT-01 por una nueva sesión.
