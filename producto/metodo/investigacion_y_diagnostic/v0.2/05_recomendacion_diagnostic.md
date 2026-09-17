@@ -2,13 +2,13 @@
 
 Versión 0.2 · Procedimiento de futura prestación
 
-Empezar con la [primera pasada de N06](../../operacion_conversacional/v0.3/10_primera_pasada.md#n06) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N06](../../operacion_conversacional/v0.4/10_primera_pasada.md#n06) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.4/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
 
 
 <!-- procedimiento:inicio -->
 ## Procedimiento de primera pasada
 
-Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+Trabajar con la entrada común y aplicar [INV-01–21](../../operacion_conversacional/v0.4/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
 
 1. Recuperar pregunta y salidas K01, K02–K05 y una combinación explícita K08–K12 en E. Abrir la interfaz exploratoria de la extensión antes de comparar su economía; solicitar los campos que falten a sus productores.
 2. Contrastar evidencia externa con representación, recursos y restricciones internas. Separar incompatibilidades, condiciones habilitables e incertidumbres; comparar opciones con costes, capacidad, caja y límites de cobertura.
@@ -17,7 +17,7 @@ Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversac
 
 **Bloques de salida:** K06.T05.B01, K06.T05.B02, K06.T05.B03, K06.T05.B04, K06.T05.B05. Su condición y momento gobiernan la exigibilidad; las piezas auxiliares se abren según la tarea.
 
-**Régimen de evidencia:** [hipótesis sustentada](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md#hipotesis) · [conversación exploratoria breve](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md#conversacion).
+**Régimen de evidencia:** [hipótesis sustentada](../../operacion_conversacional/v0.4/12_nucleo_y_suficiencia.md#hipotesis) · [conversación exploratoria breve](../../operacion_conversacional/v0.4/12_nucleo_y_suficiencia.md#conversacion).
 <!-- procedimiento:fin -->
 
 ## Referencia sustantiva y condiciones de ampliación

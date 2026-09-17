@@ -2,13 +2,13 @@
 
 Versión 0.1 · Productor de K16 · Protocolos de futura prestación
 
-Empezar con la [primera pasada de N16](../../operacion_conversacional/v0.3/10_primera_pasada.md#n16) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N16](../../operacion_conversacional/v0.4/10_primera_pasada.md#n16) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.4/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
 
 
 <!-- procedimiento:inicio -->
 ## Procedimiento de primera pasada
 
-Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+Trabajar con la entrada común y aplicar [INV-01–21](../../operacion_conversacional/v0.4/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
 
 1. Recuperar criterio K14, versiones K15 y medios/operador pertinentes. Seleccionar y abrir el procedimiento completo de comprobación requerido por la tarea.
 2. Conservar entrada, ejecutor, ayuda, resultado y rastro original durante la actuación autorizada. Comparar con el criterio previo y declarar cumplido, incumplido, inconcluyente o no ejecutado.

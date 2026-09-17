@@ -106,4 +106,4 @@ Aplicar CAM al campo material y recorrer relaciones efectivas de consumo, no tod
 
 ## Cierre documental del componente
 
-El [paquete fundacional](../../../paquete_fundacional/v0.5/LEEME.md) localiza las instrucciones, contratos y formatos compatibles de las capacidades conectadas.
+El [paquete fundacional](../../../paquete_fundacional/v0.6/LEEME.md) localiza las instrucciones, contratos y formatos compatibles de las capacidades conectadas.

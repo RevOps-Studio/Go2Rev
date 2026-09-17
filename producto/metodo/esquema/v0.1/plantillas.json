@@ -5,6 +5,7 @@
     "id": "comun_por_artefacto",
     "campos": [
       "identidad",
+      "método y versión del paquete",
       "versión",
       "ámbito y K01",
       "autor y fecha",
@@ -12,7 +13,7 @@
       "estado documental",
       "receptor y uso"
     ],
-    "regla": "Registrar una vez por artefacto; los bloques remiten a ella. FUE, AF y otros registros con identidad propia conservan sus metadatos. La aceptación se localiza en DEC."
+    "regla": "Registrar una vez por artefacto; los bloques remiten a ella. Las fuentes de trabajo identifican Go2Rev y la versión del paquete. FUE, AF y otros registros con identidad propia conservan sus metadatos. La aceptación se localiza en DEC."
   },
   "regla_de_nucleo": "La estrella identifica campos de la plantilla principal del resultado; su exigibilidad depende de la condición y momento del bloque/campo. Las piezas auxiliares se activan por la tarea y pueden ser indispensables. Núcleo no significa rellenar todo al abrir la sesión.",
   "documentos": [
@@ -962,7 +963,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K01, completar el núcleo de [N01 Delimitar encargo y salida](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K01, completar el núcleo de [N01 Delimitar encargo y salida](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -1292,7 +1293,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K02, completar el núcleo de [N02 Convertir originales en conocimiento](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K02, completar el núcleo de [N02 Convertir originales en conocimiento](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -2122,7 +2123,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K02, completar el núcleo de [N02 Convertir originales en conocimiento](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K02, completar el núcleo de [N02 Convertir originales en conocimiento](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -2439,7 +2440,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K02, completar el núcleo de [N02 Convertir originales en conocimiento](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K02, completar el núcleo de [N02 Convertir originales en conocimiento](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -2767,7 +2768,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K02, completar el núcleo de [N02 Convertir originales en conocimiento](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K02, completar el núcleo de [N02 Convertir originales en conocimiento](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -3380,7 +3381,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K02, completar el núcleo de [N02 Convertir originales en conocimiento](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K02, completar el núcleo de [N02 Convertir originales en conocimiento](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -3855,7 +3856,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K03, completar el núcleo de [N03 Delimitar mercado y acceso](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K03, completar el núcleo de [N03 Delimitar mercado y acceso](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -4299,7 +4300,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K03, completar el núcleo de [N03 Delimitar mercado y acceso](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K03, completar el núcleo de [N03 Delimitar mercado y acceso](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -4708,7 +4709,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K03, completar el núcleo de [N03 Delimitar mercado y acceso](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K03, completar el núcleo de [N03 Delimitar mercado y acceso](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -5125,7 +5126,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K04, completar el núcleo de [N04 Entender comprador y compra](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K04, completar el núcleo de [N04 Entender comprador y compra](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -5548,7 +5549,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K05, completar el núcleo de [N05 Comparar alternativas](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K05, completar el núcleo de [N05 Comparar alternativas](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -6079,7 +6080,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K06, completar el núcleo de [N06 Recomendar la salida de Diagnostic](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K06, completar el núcleo de [N06 Recomendar la salida de Diagnostic](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -6399,7 +6400,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K06, completar el núcleo de [N06 Recomendar la salida de Diagnostic](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K06, completar el núcleo de [N06 Recomendar la salida de Diagnostic](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -6768,7 +6769,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K07, completar el núcleo de [N07 Construir posición y mensaje](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K07, completar el núcleo de [N07 Construir posición y mensaje](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -7025,7 +7026,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K07, completar el núcleo de [N07 Construir posición y mensaje](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K07, completar el núcleo de [N07 Construir posición y mensaje](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -7309,7 +7310,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K08, completar el núcleo de [N08 Definir oferta y precio](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K08, completar el núcleo de [N08 Definir oferta y precio](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -7707,7 +7708,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K09, completar el núcleo de [N09 Elegir rutas de demanda](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K09, completar el núcleo de [N09 Elegir rutas de demanda](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -8124,7 +8125,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K09, completar el núcleo de [N09 Elegir rutas de demanda](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K09, completar el núcleo de [N09 Elegir rutas de demanda](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -8531,7 +8532,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K10, completar el núcleo de [N10 Diseñar compra y traspasos](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K10, completar el núcleo de [N10 Diseñar compra y traspasos](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -8799,7 +8800,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K10, completar el núcleo de [N10 Diseñar compra y traspasos](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K10, completar el núcleo de [N10 Diseñar compra y traspasos](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -9057,7 +9058,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K11, completar el núcleo de [N11 Diseñar entrega y cobro](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K11, completar el núcleo de [N11 Diseñar entrega y cobro](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -9288,7 +9289,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K12, completar el núcleo de [N12 Analizar economía y capacidad](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K12, completar el núcleo de [N12 Analizar economía y capacidad](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -9492,7 +9493,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K12, completar el núcleo de [N12 Analizar economía y capacidad](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K12, completar el núcleo de [N12 Analizar economía y capacidad](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -9748,7 +9749,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K12, completar el núcleo de [N12 Analizar economía y capacidad](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K12, completar el núcleo de [N12 Analizar economía y capacidad](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -9952,7 +9953,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K12, completar el núcleo de [N12 Analizar economía y capacidad](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K12, completar el núcleo de [N12 Analizar economía y capacidad](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -10218,7 +10219,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K13, completar el núcleo de [N13 Instrumentar para decidir](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K13, completar el núcleo de [N13 Instrumentar para decidir](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -10430,7 +10431,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K13, completar el núcleo de [N13 Instrumentar para decidir](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K13, completar el núcleo de [N13 Instrumentar para decidir](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -10695,7 +10696,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K14, completar el núcleo de [N14 Preparar obligaciones y evidencia](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K14, completar el núcleo de [N14 Preparar obligaciones y evidencia](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -10978,7 +10979,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K14, completar el núcleo de [N14 Preparar obligaciones y evidencia](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K14, completar el núcleo de [N14 Preparar obligaciones y evidencia](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -11233,7 +11234,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K15, completar el núcleo de [N15 Producir piezas y configurar medios](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K15, completar el núcleo de [N15 Producir piezas y configurar medios](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -11489,7 +11490,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K16, completar el núcleo de [N16 Comprobar preparación delimitada](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K16, completar el núcleo de [N16 Comprobar preparación delimitada](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -11709,7 +11710,7 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K16, completar el núcleo de [N16 Comprobar preparación delimitada](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K16, completar el núcleo de [N16 Comprobar preparación delimitada](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
@@ -12000,14 +12001,14 @@
             "",
             "## Aplicabilidad de los bloques",
             "",
-            "Antes de emitir K17, completar el núcleo de [N17 Transferir y cerrar el alcance](../../../operacion_conversacional/v0.3/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
+            "Antes de emitir K17, completar el núcleo de [N17 Transferir y cerrar el alcance](../../../operacion_conversacional/v0.4/10_primera_pasada.md). Las reglas CONTR, EVAL, USO y de variante de esta plantilla mantienen su momento de exigibilidad. Un bloque condicional se completa cuando afecte al resultado; documentar la condición que lo hace aplicable o su exclusión. Una ausencia material queda localizada y limita el uso dependiente. La cabecera común se registra una vez por artefacto."
           ]
         }
       ]
     },
     {
       "id": "OP.T01",
-      "ruta": "producto/metodo/operacion_conversacional/v0.3/plantillas/01_capacidad_del_entorno.md",
+      "ruta": "producto/metodo/operacion_conversacional/v0.4/plantillas/01_capacidad_del_entorno.md",
       "productor": "capa_comun",
       "contrato": "sin_contrato_adicional",
       "consumidores": [
@@ -12208,7 +12209,7 @@
     },
     {
       "id": "OP.T02",
-      "ruta": "producto/metodo/operacion_conversacional/v0.3/plantillas/02_continuidad_de_tarea.md",
+      "ruta": "producto/metodo/operacion_conversacional/v0.4/plantillas/02_continuidad_de_tarea.md",
       "productor": "capa_comun",
       "contrato": "sin_contrato_adicional",
       "consumidores": [
@@ -12381,6 +12382,15 @@
               "momento_explicito": [],
               "exigibilidad": "regla_y_contexto",
               "nucleo": false
+            },
+            {
+              "id": "OP.T02.B01.F16",
+              "etiqueta": "Recibo de enrutado",
+              "tipo": "texto_o_referencia",
+              "regla": "Versión Go2Rev, encargo, nodo/tarea, archivos leídos o ausentes y estado conforme, limitado o detenido",
+              "momento_explicito": [],
+              "exigibilidad": "regla_y_contexto",
+              "nucleo": false
             }
           ]
         },
@@ -12400,7 +12410,7 @@
     },
     {
       "id": "OP.T03",
-      "ruta": "producto/metodo/operacion_conversacional/v0.3/plantillas/03_traspaso_de_contexto.md",
+      "ruta": "producto/metodo/operacion_conversacional/v0.4/plantillas/03_traspaso_de_contexto.md",
       "productor": "capa_comun",
       "contrato": "sin_contrato_adicional",
       "consumidores": [
@@ -12601,7 +12611,7 @@
     },
     {
       "id": "OP.T04",
-      "ruta": "producto/metodo/operacion_conversacional/v0.3/plantillas/04_indice_del_encargo.md",
+      "ruta": "producto/metodo/operacion_conversacional/v0.4/plantillas/04_indice_del_encargo.md",
       "productor": "capa_comun",
       "contrato": "sin_contrato_adicional",
       "consumidores": [
@@ -12642,6 +12652,14 @@
             ],
             [
               "Versión del paquete Go2Rev y ubicación",
+              ""
+            ],
+            [
+              "Nodo, tarea y salida actuales",
+              ""
+            ],
+            [
+              "Último enrutado: estado, archivos leídos y ausencias",
               ""
             ],
             [

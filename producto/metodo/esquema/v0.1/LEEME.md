@@ -14,10 +14,10 @@ La cabecera común se registra una vez por artefacto. Los campos de identidad pr
 
 | Contenido | Lugar de edición |
 |---|---|
-| Reglas transversales | [Invariantes](../../operacion_conversacional/v0.3/13_invariantes.md) |
+| Reglas transversales | [Invariantes](../../operacion_conversacional/v0.4/13_invariantes.md) |
 | Pasos, fundamento, fórmulas y variantes | Instrucciones Markdown de la capacidad |
 | Campos y condiciones de plantillas | plantillas.json; las tablas de contratos describen interfaces, no redefinen campos |
-| Entrada, salida, consumidor, cierre y condición de lectura | [Rutas](../../operacion_conversacional/v0.3/rutas_de_lectura.json) |
+| Entrada, salida, consumidor, cierre y condición de lectura | [Rutas](../../operacion_conversacional/v0.4/rutas_de_lectura.json) |
 | Vistas de plantilla, primera pasada, cargas y JSON Schema | Generadores; se regeneran después de corregir las fuentes |
 
 ## Intercambio opcional

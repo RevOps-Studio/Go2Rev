@@ -2,13 +2,13 @@
 
 Versión 0.1 · Instrucciones para una prestación
 
-Empezar con la [primera pasada de N02](../../operacion_conversacional/v0.3/10_primera_pasada.md#n02) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.3/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
+Empezar con la [primera pasada de N02](../../operacion_conversacional/v0.4/10_primera_pasada.md#n02) y aplicar [núcleo y suficiencia](../../operacion_conversacional/v0.4/12_nucleo_y_suficiencia.md). El procedimiento y contrato siguientes gobiernan el análisis completo.
 
 
 <!-- procedimiento:inicio -->
 ## Procedimiento de primera pasada
 
-Trabajar con la entrada común y aplicar [INV-01–20](../../operacion_conversacional/v0.3/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
+Trabajar con la entrada común y aplicar [INV-01–21](../../operacion_conversacional/v0.4/13_invariantes.md). Los identificadores de campos y bloques se localizan en la plantilla generada; la referencia posterior conserva el razonamiento y sus casos de aplicabilidad.
 
 1. Recuperar K01 y materiales pertinentes a sus preguntas. Aplicar la [guía de intake](04_intake_diagnostic.md) y consultar las familias pertinentes del [catálogo](05_catalogo_de_informacion.md) antes de preparar la recogida. Inventariar disponibilidad y leer las secciones necesarias; identificar original, localizador y cobertura en FUE.
 2. Extraer proposiciones materiales en AF y separar lo declarado de lo observado o derivado. Explicitar premisas, transformación y refutación en las inferencias e hipótesis.
